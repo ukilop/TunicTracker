@@ -71,6 +71,12 @@
                 "max_width": 80,
                 "margin": "5,5,5,5",
                 "item": "show_hints"
+              },
+							{
+                "type": "item",
+                "max_width": 80,
+                "margin": "5,5,5,5",
+                "item": "entrance_rando"
               }
             ]
           }

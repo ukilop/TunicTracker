@@ -1,10 +1,12 @@
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/map_switching.lua")
+ScriptHost:LoadScript("scripts/autotracking/entrance_mapping.lua")
 
 CUR_INDEX = -1
 SLOT_DATA = nil
 HOSTED = {captain=1,gknight=2,engine=3,librarian=4,scavboss=5,gauntlet=6,heir=7,ding=8,dong=9,dynamite=10,firebomb=11,icebomb=12}
+er_table = {}
 
 hexprayer = 0
 hexcross = 0
@@ -26,7 +28,13 @@ data_storage_table = {
 }
 
 function onSetReply(key, value, _)
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print(string.format("called onSetReply: %s, %s, %s", key, value, _))
+    end
+    
     local slot_player = "Slot:" .. Archipelago.PlayerNumber
+    local key2 = string.sub(key, string.len(slot_player) + 2, -1) --substrings the actual key name from `key`
+    
     if key == slot_player .. ":Current Map" then
         if Tracker:FindObjectForCode("auto_tab").CurrentStage == 1 then
             if TABS_MAPPING[value] then
@@ -37,9 +45,18 @@ function onSetReply(key, value, _)
             Tracker:UiHint("ActivateTab", CURRENT_ROOM)
         end
     end
-    for long_name, short_name in pairs(data_storage_table) do
-        if key == slot_player .. ":" .. long_name then
-            Tracker:FindObjectForCode(short_name, ITEMS).Active = value
+    
+    if data_storage_table[key2] then
+        Tracker:FindObjectForCode(data_storage_table[key2], ITEMS).Active = value
+    end
+    
+    if value == true then --if entrance is discovered, populate ENTRANCE_MAPPING with it's pairing
+        if ENTRANCE_MAPPING[key2] then
+            ENTRANCE_MAPPING[key2][2] = er_table[key2]
+            if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                print(string.format("entrance updated: %s = %s", key2, ENTRANCE_MAPPING[key2][2]))
+            end
+            Tracker:FindObjectForCode(ENTRANCE_MAPPING[key2][1]).Active = value
         end
     end
 end
@@ -47,6 +64,9 @@ end
 function retrieved(key, value)
     for long_name, short_name in pairs(data_storage_table) do
         if key == "Slot:" .. Archipelago.PlayerNumber .. ":" .. long_name then
+            if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+              print(string.format("called retrieved: %s, %s", key, value))
+            end
             Tracker:FindObjectForCode(short_name, ITEMS).Active = value
         end
     end
@@ -124,7 +144,7 @@ function onClear(slot_data)
 
     --print("slot_data.sword_progression: " .. slot_data.sword_progression)
     Tracker:FindObjectForCode("progswordSetting").CurrentStage = slot_data.sword_progression
-    Tracker:FindObjectForCode("progswordSetting").CurrentStage = slot_data.sword_progression
+    Tracker:FindObjectForCode("progswordSetting").CurrentStage = slot_data.sword_progression --why is this duplicated?
 
     if slot_data.start_with_sword ~= 0 then
         --print("slot_data.start_with_sword: " .. slot_data.start_with_sword)
@@ -142,6 +162,9 @@ function onClear(slot_data)
 
     if slot_data.entrance_rando ~= 0 then
         --print("slot_data['entrance_rando']: " .. slot_data['entrance_rando'])
+        if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("called onClear, randoData:\n%s", dump_table(SLOT_DATA['Entrance Rando'])))
+        end
         local obj = Tracker:FindObjectForCode("er_off")
         if slot_data.entrance_rando == 0 then
             obj.CurrentStage = 0
@@ -158,22 +181,20 @@ function onClear(slot_data)
 
     Tracker:FindObjectForCode("auto_tab").CurrentStage = 1
     local slot_player = "Slot:" .. Archipelago.PlayerNumber
-    local data_storage_list = ({slot_player .. ":Current Map",
-                           slot_player .. ":Defeated Guard Captain",
-                           slot_player .. ":Defeated Garden Knight",
-                           slot_player .. ":Defeated Siege Engine",
-                           slot_player .. ":Defeated Librarian",
-                           slot_player .. ":Defeated Boss Scavenger",
-                           slot_player .. ":Cleared Cathedral Gauntlet",
-                           slot_player .. ":Reached an Ending",
-                           slot_player .. ":Rang East Bell",
-                           slot_player .. ":Rang West Bell",
-                           slot_player .. ":Granted Firecracker",
-                           slot_player .. ":Granted Firebomb",
-                           slot_player .. ":Granted Icebomb"})
-
+    local data_storage_list = {}
+    for _,list in pairs({ENTRANCE_MAPPING, data_storage_table}) do
+      for k, _ in pairs(list) do
+        table.insert(data_storage_list, slot_player .. ":" .. k)
+      end
+    end
     Archipelago:SetNotify(data_storage_list)
     Archipelago:Get(data_storage_list)
+    
+    
+    for k, v in pairs(SLOT_DATA['Entrance Rando']) do
+        er_table[k] = v
+        er_table[v] = k
+    end
 end
 
 -- called when an item gets collected
@@ -252,7 +273,7 @@ function onLocation(location_id, location_name)
     end
 end
 
--- called when a locations is scouted
+-- called when a location is scouted
 function onScout(location_id, location_name, item_id, item_name, item_player)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onScout: %s, %s, %s, %s, %s", location_id, location_name, item_id, item_name,

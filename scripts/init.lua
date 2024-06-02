@@ -19,6 +19,7 @@ end
 if PopVersion then
   Tracker:AddItems("items/common_pop.json")
   Tracker:AddItems("items/common_pop_modified.json")
+  Tracker:AddItems("items/entrances.json")
   Tracker:AddLayouts("layouts/itemspop.json")
   Tracker:AddLayouts("layouts/trackerpop.json")
   Tracker:AddLayouts("layouts/standard_broadcastpop.json")

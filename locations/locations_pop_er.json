@@ -5177,7 +5177,7 @@
       {
         "name": "Library Lab",
         "access_rules": [
-          "@Library Lab Lower,dash,ladders_in_library",
+          "@Library Lab Lower,ladders_in_library,dash",
           "@Library Lab Lower,ladders_in_library,orb",
           "@Library Lab to Librarian,ladders_in_library",
           "@Library Portal,dash",
@@ -5366,10 +5366,33 @@
       {
         "name": "Library Lab to Librarian",
         "access_rules": [
-          "@Library Arena",
-          "@Library Lab,ladders_in_library"
+      "{Library Lab to Librarian, @Library Lab, ladders_in_library}"
         ],
-        "children": []
+        "children": [
+          {
+            "name": "Library Lab to Librarian",
+            "map_locations": [
+              {
+                "map": "library",
+                "x": 620,
+                "y": 320,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "access_rules": [],
+                "hosted_item": "Library Lab to Librarian"
+              },
+              {
+                "name": "Done",
+                "access_rules": [],
+                "item_count": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Library Arena",
