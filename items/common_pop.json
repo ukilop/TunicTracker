@@ -1,4 +1,12 @@
 [
+  {
+		"name": "Entrance Visibility",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Entrance_visibility"
+	},
+
 	//Gear
 	{
 		"name": "Shield",

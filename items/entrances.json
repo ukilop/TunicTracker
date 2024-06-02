@@ -1,10 +1,1507 @@
 [
   {
-		"name": "Library Lab to Librarian",
+		"name": "Stick House Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Stick House Entrance"
+	},
+	{
+		"name": "Windmill Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Windmill Entrance"
+	},
+	{
+		"name": "Well Ladder Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Well Ladder Entrance"
+	},
+	{
+		"name": "Entrance to Well from Well Rail",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Entrance to Well from Well Rail"
+	},
+	{
+		"name": "Old House Door Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Old House Door Entrance"
+	},
+	{
+		"name": "Old House Waterfall Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Old House Waterfall Entrance"
+	},
+	{
+		"name": "Entrance to Furnace from Well Rail",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Entrance to Furnace from Well Rail"
+	},
+	{
+		"name": "Entrance to Furnace under Windmill",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Entrance to Furnace under Windmill"
+	},
+	{
+		"name": "Entrance to Furnace near West Garden",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Entrance to Furnace near West Garden"
+	},
+	{
+		"name": "Entrance to Furnace from Beach",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Entrance to Furnace from Beach"
+	},
+	{
+		"name": "Caustic Light Cave Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Caustic Light Cave Entrance"
+	},
+	{
+		"name": "Swamp Upper Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Swamp Upper Entrance"
+	},
+	{
+		"name": "Swamp Lower Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Swamp Lower Entrance"
+	},
+	{
+		"name": "Ruined Passage Not-Door Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Ruined Passage Not-Door Entrance"
+	},
+	{
+		"name": "Ruined Passage Door Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Ruined Passage Door Entrance"
+	},
+	{
+		"name": "Atoll Upper Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Atoll Upper Entrance"
+	},
+	{
+		"name": "Atoll Lower Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Atoll Lower Entrance"
+	},
+	{
+		"name": "Special Shop Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Special Shop Entrance"
+	},
+	{
+		"name": "Maze Cave Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Maze Cave Entrance"
+	},
+	{
+		"name": "West Garden Entrance near Belltower",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "West Garden Entrance near Belltower"
+	},
+	{
+		"name": "West Garden Entrance from Furnace",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "West Garden Entrance from Furnace"
+	},
+	{
+		"name": "West Garden Laurels Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "West Garden Laurels Entrance"
+	},
+	{
+		"name": "Temple Door Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Temple Door Entrance"
+	},
+	{
+		"name": "Temple Rafters Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Temple Rafters Entrance"
+	},
+	{
+		"name": "Ruined Shop Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Ruined Shop Entrance"
+	},
+	{
+		"name": "Patrol Cave Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Patrol Cave Entrance"
+	},
+	{
+		"name": "Hourglass Cave Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Hourglass Cave Entrance"
+	},
+	{
+		"name": "Changing Room Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Changing Room Entrance"
+	},
+	{
+		"name": "Cube Cave Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Cube Cave Entrance"
+	},
+	{
+		"name": "Stairs from Overworld to Mountain",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Stairs from Overworld to Mountain"
+	},
+	{
+		"name": "Overworld to Fortress",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Overworld to Fortress"
+	},
+	{
+		"name": "Fountain HC Door Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Fountain HC Door Entrance"
+	},
+	{
+		"name": "Southeast HC Door Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Southeast HC Door Entrance"
+	},
+	{
+		"name": "Overworld to Quarry Connector",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Overworld to Quarry Connector"
+	},
+	{
+		"name": "Dark Tomb Main Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Dark Tomb Main Entrance"
+	},
+	{
+		"name": "Overworld to Forest Belltower",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Overworld to Forest Belltower"
+	},
+	{
+		"name": "Town to Far Shore",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Town to Far Shore"
+	},
+	{
+		"name": "Spawn to Far Shore",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Spawn to Far Shore"
+	},
+	{
+		"name": "Secret Gathering Place Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Secret Gathering Place Entrance"
+	},
+	{
+		"name": "Secret Gathering Place Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Secret Gathering Place Exit"
+	},
+	{
+		"name": "Windmill Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Windmill Exit"
+	},
+	{
+		"name": "Windmill Shop",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Windmill Shop"
+	},
+	{
+		"name": "Old House Door Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Old House Door Exit"
+	},
+	{
+		"name": "Old House to Glyph Tower",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Old House to Glyph Tower"
+	},
+	{
+		"name": "Old House Waterfall Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Old House Waterfall Exit"
+	},
+	{
+		"name": "Glyph Tower Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Glyph Tower Exit"
+	},
+	{
+		"name": "Changing Room Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Changing Room Exit"
+	},
+	{
+		"name": "Fountain HC Room Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Fountain HC Room Exit"
+	},
+	{
+		"name": "Cube Cave Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Cube Cave Exit"
+	},
+	{
+		"name": "Guard Patrol Cave Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Guard Patrol Cave Exit"
+	},
+	{
+		"name": "Ruined Shop Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Ruined Shop Exit"
+	},
+	{
+		"name": "Furnace Exit towards Well",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Furnace Exit towards Well"
+	},
+	{
+		"name": "Furnace Exit to Dark Tomb",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Furnace Exit to Dark Tomb"
+	},
+	{
+		"name": "Furnace Exit towards West Garden",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Furnace Exit towards West Garden"
+	},
+	{
+		"name": "Furnace Exit to Beach",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Furnace Exit to Beach"
+	},
+	{
+		"name": "Furnace Exit under Windmill",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Furnace Exit under Windmill"
+	},
+	{
+		"name": "Stick House Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Stick House Exit"
+	},
+	{
+		"name": "Ruined Passage Not-Door Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Ruined Passage Not-Door Exit"
+	},
+	{
+		"name": "Ruined Passage Door Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Ruined Passage Door Exit"
+	},
+	{
+		"name": "Southeast HC Room Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Southeast HC Room Exit"
+	},
+	{
+		"name": "Caustic Light Cave Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Caustic Light Cave Exit"
+	},
+	{
+		"name": "Maze Cave Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Maze Cave Exit"
+	},
+	{
+		"name": "Hourglass Cave Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Hourglass Cave Exit"
+	},
+	{
+		"name": "Special Shop Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Special Shop Exit"
+	},
+	{
+		"name": "Temple Rafters Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Temple Rafters Exit"
+	},
+	{
+		"name": "Temple Door Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Temple Door Exit"
+	},
+	{
+		"name": "Well Ladder Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Well Ladder Exit"
+	},
+	{
+		"name": "Well to Well Boss",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Well to Well Boss"
+	},
+	{
+		"name": "Well Exit towards Furnace",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Well Exit towards Furnace"
+	},
+	{
+		"name": "Well Boss to Well",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Well Boss to Well"
+	},
+	{
+		"name": "Checkpoint to Dark Tomb",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Checkpoint to Dark Tomb"
+	},
+	{
+		"name": "Dark Tomb to Overworld",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Dark Tomb to Overworld"
+	},
+	{
+		"name": "Dark Tomb to Furnace",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Dark Tomb to Furnace"
+	},
+	{
+		"name": "Dark Tomb to Checkpoint",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Dark Tomb to Checkpoint"
+	},
+	{
+		"name": "West Garden Exit near Hero's Grave",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "West Garden Exit near Hero's Grave"
+	},
+	{
+		"name": "West Garden to Magic Dagger House",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "West Garden to Magic Dagger House"
+	},
+	{
+		"name": "West Garden Exit after Boss",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "West Garden Exit after Boss"
+	},
+	{
+		"name": "West Garden Shop",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "West Garden Shop"
+	},
+	{
+		"name": "West Garden Laurels Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "West Garden Laurels Exit"
+	},
+	{
+		"name": "West Garden Hero's Grave",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "West Garden Hero's Grave"
+	},
+	{
+		"name": "West Garden to Far Shore",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "West Garden to Far Shore"
+	},
+	{
+		"name": "Magic Dagger House Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Magic Dagger House Exit"
+	},
+	{
+		"name": "Atoll Upper Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Atoll Upper Exit"
+	},
+	{
+		"name": "Atoll Lower Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Atoll Lower Exit"
+	},
+	{
+		"name": "Atoll Shop",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Atoll Shop"
+	},
+	{
+		"name": "Atoll to Far Shore",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Atoll to Far Shore"
+	},
+	{
+		"name": "Atoll Statue Teleporter",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Atoll Statue Teleporter"
+	},
+	{
+		"name": "Frog Stairs Eye Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Frog Stairs Eye Entrance"
+	},
+	{
+		"name": "Frog Stairs Mouth Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Frog Stairs Mouth Entrance"
+	},
+	{
+		"name": "Frog Stairs Eye Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Frog Stairs Eye Exit"
+	},
+	{
+		"name": "Frog Stairs Mouth Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Frog Stairs Mouth Exit"
+	},
+	{
+		"name": "Frog Stairs to Frog's Domain's Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Frog Stairs to Frog's Domain's Entrance"
+	},
+	{
+		"name": "Frog Stairs to Frog's Domain's Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Frog Stairs to Frog's Domain's Exit"
+	},
+	{
+		"name": "Frog's Domain Ladder Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Frog's Domain Ladder Exit"
+	},
+	{
+		"name": "Frog's Domain Orb Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Frog's Domain Orb Exit"
+	},
+	{
+		"name": "Library Exterior Tree",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Library Exterior Tree"
+	},
+	{
+		"name": "Library Exterior Ladder",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Library Exterior Ladder"
+	},
+	{
+		"name": "Library Hall Bookshelf Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Library Hall Bookshelf Exit"
+	},
+	{
+		"name": "Library Hero's Grave",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Library Hero's Grave"
+	},
+	{
+		"name": "Library Hall to Rotunda",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Library Hall to Rotunda"
+	},
+	{
+		"name": "Library Rotunda Lower Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Library Rotunda Lower Exit"
+	},
+	{
+		"name": "Library Rotunda Upper Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Library Rotunda Upper Exit"
+	},
+	{
+		"name": "Library Lab to Rotunda",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Library Lab to Rotunda"
+	},
+	{
+		"name": "Library to Far Shore",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Library to Far Shore"
+	},
+	{
+		"name": "Library Lab to Librarian Arena",
 		"type": "toggle",
 		"loop": true,
 		"img":"images/red_arrow.png",
 		"codes": "Library Lab to Librarian Arena"
 	},
-
+	{
+		"name": "Librarian Arena Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Librarian Arena Exit"
+	},
+	{
+		"name": "Forest to Belltower",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Forest to Belltower"
+	},
+	{
+		"name": "Forest Guard House 1 Lower Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Forest Guard House 1 Lower Entrance"
+	},
+	{
+		"name": "Forest Guard House 1 Gate Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Forest Guard House 1 Gate Entrance"
+	},
+	{
+		"name": "Forest Dance Fox Outside Doorway",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Forest Dance Fox Outside Doorway"
+	},
+	{
+		"name": "Forest to Far Shore",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Forest to Far Shore"
+	},
+	{
+		"name": "Forest Guard House 2 Lower Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Forest Guard House 2 Lower Entrance"
+	},
+	{
+		"name": "Forest Guard House 2 Upper Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Forest Guard House 2 Upper Entrance"
+	},
+	{
+		"name": "Forest Grave Path Lower Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Forest Grave Path Lower Entrance"
+	},
+	{
+		"name": "Forest Grave Path Upper Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Forest Grave Path Upper Entrance"
+	},
+	{
+		"name": "Guard House 1 Dance Fox Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Guard House 1 Dance Fox Exit"
+	},
+	{
+		"name": "Guard House 1 Lower Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Guard House 1 Lower Exit"
+	},
+	{
+		"name": "Guard House 1 Upper Forest Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Guard House 1 Upper Forest Exit"
+	},
+	{
+		"name": "Guard House 1 to Guard Captain Room",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Guard House 1 to Guard Captain Room"
+	},
+	{
+		"name": "Forest Grave Path Upper Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Forest Grave Path Upper Exit"
+	},
+	{
+		"name": "Forest Grave Path Lower Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Forest Grave Path Lower Exit"
+	},
+	{
+		"name": "East Forest Hero's Grave",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "East Forest Hero's Grave"
+	},
+	{
+		"name": "Guard House 2 Lower Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Guard House 2 Lower Exit"
+	},
+	{
+		"name": "Guard House 2 Upper Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Guard House 2 Upper Exit"
+	},
+	{
+		"name": "Guard Captain Room Non-Gate Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Guard Captain Room Non-Gate Exit"
+	},
+	{
+		"name": "Guard Captain Room Gate Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Guard Captain Room Gate Exit"
+	},
+	{
+		"name": "Forest Belltower to Fortress",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Forest Belltower to Fortress"
+	},
+	{
+		"name": "Forest Belltower to Forest",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Forest Belltower to Forest"
+	},
+	{
+		"name": "Forest Belltower to Overworld",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Forest Belltower to Overworld"
+	},
+	{
+		"name": "Forest Belltower to Guard Captain Room",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Forest Belltower to Guard Captain Room"
+	},
+	{
+		"name": "Fortress Courtyard to Fortress Grave Path Lower",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Fortress Courtyard to Fortress Grave Path Lower"
+	},
+	{
+		"name": "Fortress Courtyard to Fortress Grave Path Upper",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Fortress Courtyard to Fortress Grave Path Upper"
+	},
+	{
+		"name": "Fortress Courtyard to Fortress Interior",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Fortress Courtyard to Fortress Interior"
+	},
+	{
+		"name": "Fortress Courtyard to East Fortress",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Fortress Courtyard to East Fortress"
+	},
+	{
+		"name": "Fortress Courtyard to Beneath the Vault",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Fortress Courtyard to Beneath the Vault"
+	},
+	{
+		"name": "Fortress Courtyard to Forest Belltower",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Fortress Courtyard to Forest Belltower"
+	},
+	{
+		"name": "Fortress Courtyard to Overworld",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Fortress Courtyard to Overworld"
+	},
+	{
+		"name": "Fortress Courtyard Shop",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Fortress Courtyard Shop"
+	},
+	{
+		"name": "Beneath the Vault to Fortress Interior",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Beneath the Vault to Fortress Interior"
+	},
+	{
+		"name": "Beneath the Vault to Fortress Courtyard",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Beneath the Vault to Fortress Courtyard"
+	},
+	{
+		"name": "Fortress Interior Main Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Fortress Interior Main Exit"
+	},
+	{
+		"name": "Fortress Interior to Beneath the Earth",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Fortress Interior to Beneath the Earth"
+	},
+	{
+		"name": "Fortress Interior to Siege Engine Arena",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Fortress Interior to Siege Engine Arena"
+	},
+	{
+		"name": "Fortress Interior Shop",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Fortress Interior Shop"
+	},
+	{
+		"name": "Fortress Interior to East Fortress Upper",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Fortress Interior to East Fortress Upper"
+	},
+	{
+		"name": "Fortress Interior to East Fortress Lower",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Fortress Interior to East Fortress Lower"
+	},
+	{
+		"name": "East Fortress to Interior Lower",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "East Fortress to Interior Lower"
+	},
+	{
+		"name": "East Fortress to Courtyard",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "East Fortress to Courtyard"
+	},
+	{
+		"name": "East Fortress to Interior Upper",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "East Fortress to Interior Upper"
+	},
+	{
+		"name": "Fortress Grave Path Lower Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Fortress Grave Path Lower Exit"
+	},
+	{
+		"name": "Fortress Hero's Grave",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Fortress Hero's Grave"
+	},
+	{
+		"name": "Fortress Grave Path Upper Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Fortress Grave Path Upper Exit"
+	},
+	{
+		"name": "Fortress Grave Path Dusty Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Fortress Grave Path Dusty Entrance"
+	},
+	{
+		"name": "Dusty Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Dusty Exit"
+	},
+	{
+		"name": "Siege Engine Arena to Fortress",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Siege Engine Arena to Fortress"
+	},
+	{
+		"name": "Fortress to Far Shore",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Fortress to Far Shore"
+	},
+	{
+		"name": "Stairs to Top of the Mountain",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Stairs to Top of the Mountain"
+	},
+	{
+		"name": "Mountain to Quarry",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Mountain to Quarry"
+	},
+	{
+		"name": "Mountain to Overworld",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Mountain to Overworld"
+	},
+	{
+		"name": "Top of the Mountain Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Top of the Mountain Exit"
+	},
+	{
+		"name": "Quarry Connector to Overworld",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Quarry Connector to Overworld"
+	},
+	{
+		"name": "Quarry Connector to Quarry",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Quarry Connector to Quarry"
+	},
+	{
+		"name": "Quarry to Overworld Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Quarry to Overworld Exit"
+	},
+	{
+		"name": "Quarry Shop",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Quarry Shop"
+	},
+	{
+		"name": "Quarry to Monastery Front",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Quarry to Monastery Front"
+	},
+	{
+		"name": "Quarry to Monastery Back",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Quarry to Monastery Back"
+	},
+	{
+		"name": "Quarry to Mountain",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Quarry to Mountain"
+	},
+	{
+		"name": "Quarry to Ziggurat",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Quarry to Ziggurat"
+	},
+	{
+		"name": "Quarry to Far Shore",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Quarry to Far Shore"
+	},
+	{
+		"name": "Monastery Rear Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Monastery Rear Exit"
+	},
+	{
+		"name": "Monastery Front Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Monastery Front Exit"
+	},
+	{
+		"name": "Monastery Hero's Grave",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Monastery Hero's Grave"
+	},
+	{
+		"name": "Ziggurat Entry Hallway to Ziggurat Upper",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Ziggurat Entry Hallway to Ziggurat Upper"
+	},
+	{
+		"name": "Ziggurat Entry Hallway to Quarry",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Ziggurat Entry Hallway to Quarry"
+	},
+	{
+		"name": "Ziggurat Upper to Ziggurat Entry Hallway",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Ziggurat Upper to Ziggurat Entry Hallway"
+	},
+	{
+		"name": "Ziggurat Upper to Ziggurat Tower",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Ziggurat Upper to Ziggurat Tower"
+	},
+	{
+		"name": "Ziggurat Tower to Ziggurat Upper",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Ziggurat Tower to Ziggurat Upper"
+	},
+	{
+		"name": "Ziggurat Tower to Ziggurat Lower",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Ziggurat Tower to Ziggurat Lower"
+	},
+	{
+		"name": "Ziggurat Lower to Ziggurat Tower",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Ziggurat Lower to Ziggurat Tower"
+	},
+	{
+		"name": "Ziggurat Portal Room Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Ziggurat Portal Room Entrance"
+	},
+	{
+		"name": "Ziggurat Lower Falling Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Ziggurat Lower Falling Entrance"
+	},
+	{
+		"name": "Ziggurat Portal Room Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Ziggurat Portal Room Exit"
+	},
+	{
+		"name": "Ziggurat to Far Shore",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Ziggurat to Far Shore"
+	},
+	{
+		"name": "Swamp Lower Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Swamp Lower Exit"
+	},
+	{
+		"name": "Swamp to Cathedral Main Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Swamp to Cathedral Main Entrance"
+	},
+	{
+		"name": "Swamp to Cathedral Secret Legend Room Entrance",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Swamp to Cathedral Secret Legend Room Entrance"
+	},
+	{
+		"name": "Swamp to Gauntlet",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Swamp to Gauntlet"
+	},
+	{
+		"name": "Swamp Shop",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Swamp Shop"
+	},
+	{
+		"name": "Swamp Upper Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Swamp Upper Exit"
+	},
+	{
+		"name": "Swamp Hero's Grave",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Swamp Hero's Grave"
+	},
+	{
+		"name": "Cathedral Main Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Cathedral Main Exit"
+	},
+	{
+		"name": "Cathedral Elevator",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Cathedral Elevator"
+	},
+	{
+		"name": "Cathedral Secret Legend Room Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Cathedral Secret Legend Room Exit"
+	},
+	{
+		"name": "Gauntlet to Swamp",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Gauntlet to Swamp"
+	},
+	{
+		"name": "Gauntlet Elevator",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Gauntlet Elevator"
+	},
+	{
+		"name": "Gauntlet Shop",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Gauntlet Shop"
+	},
+	{
+		"name": "Hero's Grave to Fortress",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Hero's Grave to Fortress"
+	},
+	{
+		"name": "Hero's Grave to Monastery",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Hero's Grave to Monastery"
+	},
+	{
+		"name": "Hero's Grave to West Garden",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Hero's Grave to West Garden"
+	},
+	{
+		"name": "Hero's Grave to East Forest",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Hero's Grave to East Forest"
+	},
+	{
+		"name": "Hero's Grave to Library",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Hero's Grave to Library"
+	},
+	{
+		"name": "Hero's Grave to Swamp",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Hero's Grave to Swamp"
+	},
+	{
+		"name": "Far Shore to West Garden",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Far Shore to West Garden"
+	},
+	{
+		"name": "Far Shore to Library",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Far Shore to Library"
+	},
+	{
+		"name": "Far Shore to Quarry",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Far Shore to Quarry"
+	},
+	{
+		"name": "Far Shore to East Forest",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Far Shore to East Forest"
+	},
+	{
+		"name": "Far Shore to Fortress",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Far Shore to Fortress"
+	},
+	{
+		"name": "Far Shore to Atoll",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Far Shore to Atoll"
+	},
+	{
+		"name": "Far Shore to Ziggurat",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Far Shore to Ziggurat"
+	},
+	{
+		"name": "Far Shore to Heir",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Far Shore to Heir"
+	},
+	{
+		"name": "Far Shore to Town",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Far Shore to Town"
+	},
+	{
+		"name": "Far Shore to Spawn",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Far Shore to Spawn"
+	},
+	{
+		"name": "Heir Arena Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Heir Arena Exit"
+	},
+	{
+		"name": "Purgatory Bottom Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Purgatory Bottom Exit"
+	},
+	{
+		"name": "Purgatory Top Exit",
+		"type": "toggle",
+		"loop": true,
+		"img":"images/red_arrow.png",
+		"codes": "Purgatory Top Exit"
+	},
 ]

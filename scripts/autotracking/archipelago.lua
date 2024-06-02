@@ -62,6 +62,8 @@ function onSetReply(key, value, _)
 end
 
 function retrieved(key, value)
+    local key2 = string.sub(key, string.len(Archipelago.PlayerNumber) + 7, -1) --substrings the actual key name from `key`
+    
     for long_name, short_name in pairs(data_storage_table) do
         if key == "Slot:" .. Archipelago.PlayerNumber .. ":" .. long_name then
             if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -69,6 +71,9 @@ function retrieved(key, value)
             end
             Tracker:FindObjectForCode(short_name, ITEMS).Active = value
         end
+    end
+    if ENTRANCE_MAPPING[key2] then 
+        Tracker:FindObjectForCode(ENTRANCE_MAPPING[key2][1], ITEMS).Active = value
     end
 end
 
@@ -165,11 +170,17 @@ function onClear(slot_data)
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("called onClear, randoData:\n%s", dump_table(SLOT_DATA['Entrance Rando'])))
         end
+        Tracker:FindObjectForCode("Entrance_visibility").Active = true
         local obj = Tracker:FindObjectForCode("er_off")
         if slot_data.entrance_rando == 0 then
             obj.CurrentStage = 0
         else
             obj.CurrentStage = 1
+        end
+        
+        for k, v in pairs(SLOT_DATA['Entrance Rando']) do
+            er_table[k] = v
+            er_table[v] = k
         end
     end
 
@@ -183,18 +194,12 @@ function onClear(slot_data)
     local slot_player = "Slot:" .. Archipelago.PlayerNumber
     local data_storage_list = {}
     for _,list in pairs({ENTRANCE_MAPPING, data_storage_table}) do
-      for k, _ in pairs(list) do
-        table.insert(data_storage_list, slot_player .. ":" .. k)
-      end
+        for k, _ in pairs(list) do
+            table.insert(data_storage_list, slot_player .. ":" .. k)
+        end
     end
     Archipelago:SetNotify(data_storage_list)
     Archipelago:Get(data_storage_list)
-    
-    
-    for k, v in pairs(SLOT_DATA['Entrance Rando']) do
-        er_table[k] = v
-        er_table[v] = k
-    end
 end
 
 -- called when an item gets collected

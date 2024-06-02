@@ -7,7 +7,8 @@ print(Tracker.ActiveVariantUID)
 
 if not (string.find(Tracker.ActiveVariantUID, "var_itemsonly")) then
   if PopVersion then
-    Tracker:AddMaps("maps/maps_pop.json")
+    --Tracker:AddMaps("maps/maps_pop.json")
+    Tracker:AddMaps("maps/maps_pop_er.json")
     Tracker:AddLocations("locations/locations_pop_er.json")
     -- Tracker:AddLocations("locations/locations_pop.json")
   else
@@ -19,7 +20,7 @@ end
 if PopVersion then
   Tracker:AddItems("items/common_pop.json")
   Tracker:AddItems("items/common_pop_modified.json")
-  Tracker:AddItems("items/entrances.json")
+  Tracker:AddItems("items/entrances.json") --generated with https://regex101.com/r/c25YAJ/1 using "scripts/autotracking/entrance_mapping.lua"
   Tracker:AddLayouts("layouts/itemspop.json")
   Tracker:AddLayouts("layouts/trackerpop.json")
   Tracker:AddLayouts("layouts/standard_broadcastpop.json")

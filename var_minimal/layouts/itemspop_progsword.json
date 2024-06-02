@@ -11,7 +11,7 @@
         "item_size": 40,
         "rows": [
           ["progsword", "dagger", "staff", "orb", "gun", "dash", "light"],
-          ["mask", "pray", "cross", "icerod", "soul", "wishes", "hexquest"],
+          ["mask", "pray", "cross", "icerod", "soul", "wishes", "hexquest","Entrance_visibility"],
           ["key", "oldkey", "vaultkey", "red", "green", "blue", "ding", "dong"]
         ]
       }
