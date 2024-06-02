@@ -5366,11 +5366,12 @@
       {
         "name": "Library Lab to Librarian",
         "access_rules": [
-      "{Library Lab to Librarian, @Library Lab, ladders_in_library}"
+            "{@Library Lab, ladders_in_library}",
+            "Library Lab to Librarian Arena"
         ],
         "children": [
           {
-            "name": "Library Lab to Librarian",
+            "name": "Library Lab to Librarian Arena",
             "map_locations": [
               {
                 "map": "library",
@@ -5383,7 +5384,7 @@
               {
                 "name": "Traversed",
                 "access_rules": [],
-                "hosted_item": "Library Lab to Librarian"
+                "hosted_item": "Library Lab to Librarian Arena"
               },
               {
                 "name": "Done",
