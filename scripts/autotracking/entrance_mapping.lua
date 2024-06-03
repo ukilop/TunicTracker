@@ -40,23 +40,27 @@ ENTRANCE_MAPPING = {
 	["Overworld Redux, Transit_teleporter_town"] = {"Town to Far Shore", nil},
 	["Overworld Redux, Transit_teleporter_starting island"] = {"Spawn to Far Shore", nil},
 	["Overworld Redux, Waterfall_"] = {"Secret Gathering Place Entrance", nil},
+	
 	["Waterfall, Overworld Redux_"] = {"Secret Gathering Place Exit", nil},
 	["Windmill, Overworld Redux_"] = {"Windmill Exit", nil},
 	["Windmill, Shop_"] = {"Windmill Shop", nil},
 	["Overworld Interiors, Overworld Redux_house"] = {"Old House Door Exit", nil},
 	["Overworld Interiors, g_elements_"] = {"Old House to Glyph Tower", nil},
 	["Overworld Interiors, Overworld Redux_under_checkpoint"] = {"Old House Waterfall Exit", nil},
+	
 	["g_elements, Overworld Interiors_"] = {"Glyph Tower Exit", nil},
 	["Changing Room, Overworld Redux_"] = {"Changing Room Exit", nil},
 	["Town_FiligreeRoom, Overworld Redux_"] = {"Fountain HC Room Exit", nil},
 	["CubeRoom, Overworld Redux_"] = {"Cube Cave Exit", nil},
 	["PatrolCave, Overworld Redux_"] = {"Guard Patrol Cave Exit", nil},
 	["Ruined Shop, Overworld Redux_"] = {"Ruined Shop Exit", nil},
+	
 	["Furnace, Overworld Redux_gyro_upper_north"] = {"Furnace Exit towards Well", nil},
 	["Furnace, Crypt Redux_"] = {"Furnace Exit to Dark Tomb", nil},
 	["Furnace, Overworld Redux_gyro_west"] = {"Furnace Exit towards West Garden", nil},
 	["Furnace, Overworld Redux_gyro_lower"] = {"Furnace Exit to Beach", nil},
 	["Furnace, Overworld Redux_gyro_upper_east"] = {"Furnace Exit under Windmill", nil},
+	
 	["Sword Cave, Overworld Redux_"] = {"Stick House Exit", nil},
 	["Ruins Passage, Overworld Redux_east"] = {"Ruined Passage Not-Door Exit", nil},
 	["Ruins Passage, Overworld Redux_west"] = {"Ruined Passage Door Exit", nil},
@@ -72,9 +76,11 @@ ENTRANCE_MAPPING = {
 	["Sewer, Overworld Redux_west_aqueduct"] = {"Well Exit towards Furnace", nil},
 	["Sewer_Boss, Sewer_"] = {"Well Boss to Well", nil},
 	["Sewer_Boss, Crypt Redux_"] = {"Checkpoint to Dark Tomb", nil},
+	
 	["Crypt Redux, Overworld Redux_"] = {"Dark Tomb to Overworld", nil},
 	["Crypt Redux, Furnace_"] = {"Dark Tomb to Furnace", nil},
 	["Crypt Redux, Sewer_Boss_"] = {"Dark Tomb to Checkpoint", nil},
+	
 	["Archipelagos Redux, Overworld Redux_lower"] = {"West Garden Exit near Hero's Grave", nil},
 	["Archipelagos Redux, archipelagos_house_"] = {"West Garden to Magic Dagger House", nil},
 	["Archipelagos Redux, Overworld Redux_upper"] = {"West Garden Exit after Boss", nil},
@@ -83,6 +89,7 @@ ENTRANCE_MAPPING = {
 	["Archipelagos Redux, RelicVoid_teleporter_relic plinth"] = {"West Garden Hero's Grave", nil},
 	["Archipelagos Redux, Transit_teleporter_archipelagos_teleporter"] = {"West Garden to Far Shore", nil},
 	["archipelagos_house, Archipelagos Redux_"] = {"Magic Dagger House Exit", nil},
+	
 	["Atoll Redux, Overworld Redux_upper"] = {"Atoll Upper Exit", nil},
 	["Atoll Redux, Overworld Redux_lower"] = {"Atoll Lower Exit", nil},
 	["Atoll Redux, Shop_"] = {"Atoll Shop", nil},
@@ -90,12 +97,14 @@ ENTRANCE_MAPPING = {
 	["Atoll Redux, Library Exterior_"] = {"Atoll Statue Teleporter", nil},
 	["Atoll Redux, Frog Stairs_eye"] = {"Frog Stairs Eye Entrance", nil},
 	["Atoll Redux, Frog Stairs_mouth"] = {"Frog Stairs Mouth Entrance", nil},
+	
 	["Frog Stairs, Atoll Redux_eye"] = {"Frog Stairs Eye Exit", nil},
 	["Frog Stairs, Atoll Redux_mouth"] = {"Frog Stairs Mouth Exit", nil},
 	["Frog Stairs, frog cave main_Entrance"] = {"Frog Stairs to Frog's Domain's Entrance", nil},
 	["Frog Stairs, frog cave main_Exit"] = {"Frog Stairs to Frog's Domain's Exit", nil},
 	["frog cave main, Frog Stairs_Entrance"] = {"Frog's Domain Ladder Exit", nil},
 	["frog cave main, Frog Stairs_Exit"] = {"Frog's Domain Orb Exit", nil},
+	
 	["Library Exterior, Atoll Redux_"] = {"Library Exterior Tree", nil},
 	["Library Exterior, Library Hall_"] = {"Library Exterior Ladder", nil},
 	["Library Hall, Library Exterior_"] = {"Library Hall Bookshelf Exit", nil},
@@ -107,6 +116,7 @@ ENTRANCE_MAPPING = {
 	["Library Lab, Transit_teleporter_library teleporter"] = {"Library to Far Shore", nil},
 	["Library Lab, Library Arena_"] = {"Library Lab to Librarian Arena", nil},
 	["Library Arena, Library Lab_"] = {"Librarian Arena Exit", nil},
+	
 	["East Forest Redux, Forest Belltower_"] = {"Forest to Belltower", nil},
 	["East Forest Redux, East Forest Redux Laddercave_lower"] = {"Forest Guard House 1 Lower Entrance", nil},
 	["East Forest Redux, East Forest Redux Laddercave_gate"] = {"Forest Guard House 1 Gate Entrance", nil},
@@ -116,21 +126,26 @@ ENTRANCE_MAPPING = {
 	["East Forest Redux, East Forest Redux Interior_upper"] = {"Forest Guard House 2 Upper Entrance", nil},
 	["East Forest Redux, Sword Access_lower"] = {"Forest Grave Path Lower Entrance", nil},
 	["East Forest Redux, Sword Access_upper"] = {"Forest Grave Path Upper Entrance", nil},
+	
 	["East Forest Redux Laddercave, East Forest Redux_upper"] = {"Guard House 1 Dance Fox Exit", nil},
 	["East Forest Redux Laddercave, East Forest Redux_lower"] = {"Guard House 1 Lower Exit", nil},
 	["East Forest Redux Laddercave, East Forest Redux_gate"] = {"Guard House 1 Upper Forest Exit", nil},
 	["East Forest Redux Laddercave, Forest Boss Room_"] = {"Guard House 1 to Guard Captain Room", nil},
+	
 	["Sword Access, East Forest Redux_upper"] = {"Forest Grave Path Upper Exit", nil},
 	["Sword Access, East Forest Redux_lower"] = {"Forest Grave Path Lower Exit", nil},
 	["Sword Access, RelicVoid_teleporter_relic plinth"] = {"East Forest Hero's Grave", nil},
+	
 	["East Forest Redux Interior, East Forest Redux_lower"] = {"Guard House 2 Lower Exit", nil},
 	["East Forest Redux Interior, East Forest Redux_upper"] = {"Guard House 2 Upper Exit", nil},
 	["Forest Boss Room, East Forest Redux Laddercave_"] = {"Guard Captain Room Non-Gate Exit", nil},
 	["Forest Boss Room, Forest Belltower_"] = {"Guard Captain Room Gate Exit", nil},
+	
 	["Forest Belltower, Fortress Courtyard_"] = {"Forest Belltower to Fortress", nil},
 	["Forest Belltower, East Forest Redux_"] = {"Forest Belltower to Forest", nil},
 	["Forest Belltower, Overworld Redux_"] = {"Forest Belltower to Overworld", nil},
 	["Forest Belltower, Forest Boss Room_"] = {"Forest Belltower to Guard Captain Room", nil},
+	
 	["Fortress Courtyard, Fortress Reliquary_Lower"] = {"Fortress Courtyard to Fortress Grave Path Lower", nil},
 	["Fortress Courtyard, Fortress Reliquary_Upper"] = {"Fortress Courtyard to Fortress Grave Path Upper", nil},
 	["Fortress Courtyard, Fortress Main_Big Door"] = {"Fortress Courtyard to Fortress Interior", nil},
@@ -139,17 +154,21 @@ ENTRANCE_MAPPING = {
 	["Fortress Courtyard, Forest Belltower_"] = {"Fortress Courtyard to Forest Belltower", nil},
 	["Fortress Courtyard, Overworld Redux_"] = {"Fortress Courtyard to Overworld", nil},
 	["Fortress Courtyard, Shop_"] = {"Fortress Courtyard Shop", nil},
+	
 	["Fortress Basement, Fortress Main_"] = {"Beneath the Vault to Fortress Interior", nil},
 	["Fortress Basement, Fortress Courtyard_"] = {"Beneath the Vault to Fortress Courtyard", nil},
+	
 	["Fortress Main, Fortress Courtyard_Big Door"] = {"Fortress Interior Main Exit", nil},
 	["Fortress Main, Fortress Basement_"] = {"Fortress Interior to Beneath the Earth", nil},
 	["Fortress Main, Fortress Arena_"] = {"Fortress Interior to Siege Engine Arena", nil},
 	["Fortress Main, Shop_"] = {"Fortress Interior Shop", nil},
 	["Fortress Main, Fortress East_upper"] = {"Fortress Interior to East Fortress Upper", nil},
 	["Fortress Main, Fortress East_lower"] = {"Fortress Interior to East Fortress Lower", nil},
+	
 	["Fortress East, Fortress Main_lower"] = {"East Fortress to Interior Lower", nil},
 	["Fortress East, Fortress Courtyard_"] = {"East Fortress to Courtyard", nil},
 	["Fortress East, Fortress Main_upper"] = {"East Fortress to Interior Upper", nil},
+	
 	["Fortress Reliquary, Fortress Courtyard_Lower"] = {"Fortress Grave Path Lower Exit", nil},
 	["Fortress Reliquary, RelicVoid_teleporter_relic plinth"] = {"Fortress Hero's Grave", nil},
 	["Fortress Reliquary, Fortress Courtyard_Upper"] = {"Fortress Grave Path Upper Exit", nil},
@@ -157,12 +176,15 @@ ENTRANCE_MAPPING = {
 	["Dusty, Fortress Reliquary_"] = {"Dusty Exit", nil},
 	["Fortress Arena, Fortress Main_"] = {"Siege Engine Arena to Fortress", nil},
 	["Fortress Arena, Transit_teleporter_spidertank"] = {"Fortress to Far Shore", nil},
+	
 	["Mountain, Mountaintop_"] = {"Stairs to Top of the Mountain", nil},
 	["Mountain, Quarry Redux_"] = {"Mountain to Quarry", nil},
 	["Mountain, Overworld Redux_"] = {"Mountain to Overworld", nil},
 	["Mountaintop, Mountain_"] = {"Top of the Mountain Exit", nil},
+	
 	["Darkwoods Tunnel, Overworld Redux_"] = {"Quarry Connector to Overworld", nil},
 	["Darkwoods Tunnel, Quarry Redux_"] = {"Quarry Connector to Quarry", nil},
+	
 	["Quarry Redux, Darkwoods Tunnel_"] = {"Quarry to Overworld Exit", nil},
 	["Quarry Redux, Shop_"] = {"Quarry Shop", nil},
 	["Quarry Redux, Monastery_front"] = {"Quarry to Monastery Front", nil},
@@ -170,9 +192,11 @@ ENTRANCE_MAPPING = {
 	["Quarry Redux, Mountain_"] = {"Quarry to Mountain", nil},
 	["Quarry Redux, ziggurat2020_0_"] = {"Quarry to Ziggurat", nil},
 	["Quarry Redux, Transit_teleporter_quarry teleporter"] = {"Quarry to Far Shore", nil},
+	
 	["Monastery, Quarry Redux_back"] = {"Monastery Rear Exit", nil},
 	["Monastery, Quarry Redux_front"] = {"Monastery Front Exit", nil},
 	["Monastery, RelicVoid_teleporter_relic plinth"] = {"Monastery Hero's Grave", nil},
+	
 	["ziggurat2020_0, ziggurat2020_1_"] = {"Ziggurat Entry Hallway to Ziggurat Upper", nil},
 	["ziggurat2020_0, Quarry Redux_"] = {"Ziggurat Entry Hallway to Quarry", nil},
 	["ziggurat2020_1, ziggurat2020_0_"] = {"Ziggurat Upper to Ziggurat Entry Hallway", nil},
@@ -184,6 +208,7 @@ ENTRANCE_MAPPING = {
 	["ziggurat2020_3, ziggurat2020_1_zig2_skip"] = {"Ziggurat Lower Falling Entrance", nil},
 	["ziggurat2020_FTRoom, ziggurat2020_3_"] = {"Ziggurat Portal Room Exit", nil},
 	["ziggurat2020_FTRoom, Transit_teleporter_ziggurat teleporter"] = {"Ziggurat to Far Shore", nil},
+	
 	["Swamp Redux 2, Overworld Redux_conduit"] = {"Swamp Lower Exit", nil},
 	["Swamp Redux 2, Cathedral Redux_main"] = {"Swamp to Cathedral Main Entrance", nil},
 	["Swamp Redux 2, Cathedral Redux_secret"] = {"Swamp to Cathedral Secret Legend Room Entrance", nil},
@@ -191,18 +216,17 @@ ENTRANCE_MAPPING = {
 	["Swamp Redux 2, Shop_"] = {"Swamp Shop", nil},
 	["Swamp Redux 2, Overworld Redux_wall"] = {"Swamp Upper Exit", nil},
 	["Swamp Redux 2, RelicVoid_teleporter_relic plinth"] = {"Swamp Hero's Grave", nil},
+	
 	["Cathedral Redux, Swamp Redux 2_main"] = {"Cathedral Main Exit", nil},
 	["Cathedral Redux, Cathedral Arena_"] = {"Cathedral Elevator", nil},
 	["Cathedral Redux, Swamp Redux 2_secret"] = {"Cathedral Secret Legend Room Exit", nil},
 	["Cathedral Arena, Swamp Redux 2_"] = {"Gauntlet to Swamp", nil},
 	["Cathedral Arena, Cathedral Redux_"] = {"Gauntlet Elevator", nil},
 	["Cathedral Arena, Shop_"] = {"Gauntlet Shop", nil},
-	["RelicVoid, Fortress Reliquary_teleporter_relic plinth"] = {"Hero's Grave to Fortress", nil},
-	["RelicVoid, Monastery_teleporter_relic plinth"] = {"Hero's Grave to Monastery", nil},
-	["RelicVoid, Archipelagos Redux_teleporter_relic plinth"] = {"Hero's Grave to West Garden", nil},
-	["RelicVoid, Sword Access_teleporter_relic plinth"] = {"Hero's Grave to East Forest", nil},
-	["RelicVoid, Library Hall_teleporter_relic plinth"] = {"Hero's Grave to Library", nil},
-	["RelicVoid, Swamp Redux 2_teleporter_relic plinth"] = {"Hero's Grave to Swamp", nil},
+	
+	["Purgatory, Purgatory_top"] = {"Purgatory Top Exit", nil},
+	["Purgatory, Purgatory_bottom"] = {"Purgatory Bottom Exit", nil},
+	
 	["Transit, Archipelagos Redux_teleporter_archipelagos_teleporter"] = {"Far Shore to West Garden", nil},
 	["Transit, Library Lab_teleporter_library teleporter"] = {"Far Shore to Library", nil},
 	["Transit, Quarry Redux_teleporter_quarry teleporter"] = {"Far Shore to Quarry", nil},
@@ -210,10 +234,16 @@ ENTRANCE_MAPPING = {
 	["Transit, Fortress Arena_teleporter_spidertank"] = {"Far Shore to Fortress", nil},
 	["Transit, Atoll Redux_teleporter_atoll"] = {"Far Shore to Atoll", nil},
 	["Transit, ziggurat2020_FTRoom_teleporter_ziggurat teleporter"] = {"Far Shore to Ziggurat", nil},
-	["Transit, Spirit Arena_teleporter_spirit arena"] = {"Far Shore to Heir", nil},
 	["Transit, Overworld Redux_teleporter_town"] = {"Far Shore to Town", nil},
 	["Transit, Overworld Redux_teleporter_starting island"] = {"Far Shore to Spawn", nil},
+	["Transit, Spirit Arena_teleporter_spirit arena"] = {"Far Shore to Heir", nil},
+	
 	["Spirit Arena, Transit_teleporter_spirit arena"] = {"Heir Arena Exit", nil},
-	["Purgatory, Purgatory_bottom"] = {"Purgatory Bottom Exit", nil},
-	["Purgatory, Purgatory_top"] = {"Purgatory Top Exit", nil}
+	
+	["RelicVoid, Swamp Redux 2_teleporter_relic plinth"] = {"Hero's Grave to Swamp", nil}
+	["RelicVoid, Library Hall_teleporter_relic plinth"] = {"Hero's Grave to Library", nil},
+	["RelicVoid, Archipelagos Redux_teleporter_relic plinth"] = {"Hero's Grave to West Garden", nil},
+	["RelicVoid, Monastery_teleporter_relic plinth"] = {"Hero's Grave to Monastery", nil},
+	["RelicVoid, Fortress Reliquary_teleporter_relic plinth"] = {"Hero's Grave to Fortress", nil},
+	["RelicVoid, Sword Access_teleporter_relic plinth"] = {"Hero's Grave to East Forest", nil},
 }

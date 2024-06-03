@@ -5,6 +5,7 @@
 LOCATION_MAPPING = {
     [509342578] = {"@Full World/Overworld Holy Cross/[South] Starting Platform Holy Cross/Back to Work"},
     [509342559] = {"@Full World/Stick House/Stick House/Stick Chest"},
+		
     [509342520] = {"@Full World/Overworld/[Northwest] Shadowy Corner Chest/Dark Ramps Chest"},
     [509342542] = {"@Full World/Overworld/[West] Key Pickup/Hero's Path Key"},
     [509342548] = {"@Full World/Overworld/[Northwest] Page By Well/If you seek to increase your power..."},
@@ -16,9 +17,11 @@ LOCATION_MAPPING = {
     [509342568] = {"@Full World/Secret Gathering Place/Secret Gathering Place/20 Fairy Reward"},
     [509342581] = {"@Full World/Cube Cave/Cube Cave/Holy Cross Chest"},
     [509342513] = {"@Full World/Overworld/[Central] Bombable Wall/Let the flowers guide you"},
+		
     [509342584] = {"@Full World/Southeast Cross Room/Southeast Cross Door/Chest 1"},
     [509342583] = {"@Full World/Southeast Cross Room/Southeast Cross Door/Chest 2"},
     [509342582] = {"@Full World/Southeast Cross Room/Southeast Cross Door/Chest 3"},
+		
     [509342524] = {"@Full World/Overworld Swamp Lower Entry/[Southeast] Chest Near Swamp/Under the Bridge"},
     [509342586] = {"@Full World/Caustic Light Cave/Caustic Light Cave/Holy Cross Chest"},
     [509342537] = {"@Full World/Above Ruined Passage/[East] Chest In Trees/Above Locked House"},
@@ -29,9 +32,11 @@ LOCATION_MAPPING = {
     [509342577] = {"@Full World/Overworld Holy Cross/[West] Windchimes Holy Cross/Power Up!"},
     [509342510] = {"@Full World/Overworld/[West] Obscured Behind Windmill/Behind the Trees"},
     [509342575] = {"@Full World/Overworld Holy Cross/[West] Windmill Holy Cross/Sacred Geometry"},
+		
     [509342550] = {"@Full World/Ruined Shop/Ruined Shop/Chest 1"},
     [509342551] = {"@Full World/Ruined Shop/Ruined Shop/Chest 2"},
     [509342552] = {"@Full World/Ruined Shop/Ruined Shop/Chest 3"},
+		
     [509342592] = {"@Full World/Fountain Cross Room/Fountain Cross Door/Page Pickup"},
     [509342541] = {"@Full World/Overworld/[Southwest] Key Pickup/Old House Key"},
     [509342517] = {"@Full World/Overworld/[Southwest] South Chest Near Guard/End of the Bridge"},
@@ -48,6 +53,7 @@ LOCATION_MAPPING = {
     [509342533] = {"@Full World/Upper Overworld/[Northeast] Chest Above Patrol Cave/Behind Blue Rudelings"},
     [509342560] = {"@Full World/Sealed Temple/Sealed Temple/Page Pickup"},
     [509342591] = {"@Full World/Sealed Temple/Sealed Temple/Holy Cross Chest"},
+		
     [509342526] = {"@Full World/Overworld above Patrol Cave/[East] Grapple Chest/Grapple Across"},
     [509342530] = {"@Full World/Overworld Belltower/[West] Chest After Bell/Post-Dong!"},
     [509342570] = {"@Full World/Overworld Holy Cross/[West] Moss Wall Holy Cross/Use the Holy Cross"},
@@ -63,6 +69,7 @@ LOCATION_MAPPING = {
     [509342576] = {"@Full World/Overworld Beach/Sand Hook/[Southwest] Haiku Holy Cross"},
     [509342539] = {"@Full World/Overworld Beach/[South] Beach Page/Page"},
     [509342511] = {"@Full World/Overworld Beach/[South] Beach Chest/Beside the Bridge"},
+		
     [509342507] = {"@Full World/Maze Cave/Maze Cave/Maze Room Chest"},
     [509342585] = {"@Full World/Maze Cave/Maze Cave/Maze Room Holy Cross"},
     [509342540] = {"@Full World/Overworld/[Southeast] Page on Pillar by Swamp/Dash Across"},
@@ -74,6 +81,7 @@ LOCATION_MAPPING = {
     [509342521] = {"@Full World/Overworld/[Southwest] Obscured In Tunnel To Beach/Deep in the Wall"},
     [509342525] = {"@Full World/Overworld Beach/[Southwest] From West Garden/Dash Across"},
     [509342529] = {"@Full World/Overworld/[Southwest] Bombable Wall Near Fountain/Let the flowers guide you"},
+		
     [509342554] = {"@Full World/Shop/Shop/Potion 1"},
     [509342555] = {"@Full World/Shop/Shop/Potion 2"},
     [509342556] = {"@Full World/Shop/Shop/Coin 1"},
@@ -82,11 +90,13 @@ LOCATION_MAPPING = {
     [509342567] = {"@Full World/Overworld/Coins in the Well/6 Coins"},
     [509342564] = {"@Full World/Overworld/Coins in the Well/10 Coins"},
     [509342565] = {"@Full World/Overworld/Coins in the Well/15 Coins"},
+		
     [509342451] = {"@Full World/Forest Belltower Upper/East Bell/Forest Belltower - Obscured Near Bell Top Floor"},
     [509342460] = {"@Full World/Fortress Exterior from East Forest/Fortress Courtyard - From West Belltower/Crack in the Wall"},
     [509342453] = {"@Full World/Forest Belltower Main/Forest Belltower Page/Page Pickup"},
     [509342452] = {"@Full World/Forest Belltower Main/Forest Belltower Obscured/Obscured Beneath Bell Bottom Floor"},
     [509342449] = {"@Full World/Forest Belltower Lower/Forest Belltower Save Point/Near Save Point"},
+		
     [509342443] = {"@Full World/East Forest/Near Telescope/Up on the Wall"},
     [509342440] = {"@Full World/East Forest Dance Fox Spot/Guardhouse 1 Ledge/From Guardhouse 1 Chest"},
     [509342435] = {"@Full World/East Forest Dance Fox Spot/Guardhouse 1 Ledge HC/Dancing Fox Spirit Holy Cross"},
@@ -94,22 +104,26 @@ LOCATION_MAPPING = {
     [509342448] = {"@Full World/East Forest/Page On Teleporter/Page"},
     [509342438] = {"@Full World/East Forest/Above Save Point/Chest"},
     [509342439] = {"@Full World/East Forest/Above Save Point Obscured/Hidden Path"},
+		
     [509342444] = {"@Full World/Lower Forest/Ambushed by Spiders/Spider Chest"},
     [509342442] = {"@Full World/Lower Forest/Ambushed by Spiders/Beneath Spider Chest"},
     [509342446] = {"@Full World/Lower Forest/Lower Grapple Chest/Grapple Across"},
     [509342445] = {"@Full World/Lower Forest/Lower Dash Chest/Dash Across"},
     [509342436] = {"@Full World/Lower Forest/Golden Obelisk Holy Cross/Use the Holy Cross"},
     [509342437] = {"@Full World/East Forest/Ice Rod Grapple Chest/Freeze the Blob and ascend With Orb"},
+		
     [509342432] = {"@Full World/Guard House 2 Lower/Guardhouse 2 - Bottom Floor Secret/Hidden Hallway"},
     [509342431] = {"@Full World/Guard House 2 Upper/Guardhouse 2 - Upper Floor/In the Mound"},
     [509342434] = {"@Full World/Guard House 1 East/Guardhouse 1/Upper Floor"},
     [509342433] = {"@Full World/Guard House 1 East/Guardhouse 1 Obscured/Upper Floor Obscured"},
+		
     [509342450] = {"@Full World/Forest Belltower Upper/Forest Belltower - After Guard Captain/Chest"},
     [509342457] = {"@Full World/Forest Grave Path Upper/Forest Grave Path - Upper Walkway/From the top of the Guardhouse"},
     [509342455] = {"@Full World/Forest Grave Path Main/Forest Grave Path - Above Gate/Chest"},
     [509342456] = {"@Full World/Forest Grave Path Main/Forest Grave Path - Obscured Chest/Behind the Trees"},
     [509342447] = {"@Full World/East Forest/Bombable Wall/Follow the Flowers"},
     [509342454] = {"@Full World/Forest Grave Path by Grave/Forest Grave Path - Holy Cross Code by Grave/Single Money Chest"},
+		
     [509342401] = {"@Full World/Beneath the Well Main/[Entryway] Chest/Mind the Slorms"},
     [509342404] = {"@Full World/Beneath the Well Main/[Entryway] Obscured Behind Waterfall/You can just go in there"},
     [509342413] = {"@Full World/Beneath the Well Main/[Second Room] Page/Ruined Atoll Map"},
@@ -124,6 +138,7 @@ LOCATION_MAPPING = {
     [509342406] = {"@Full World/Beneath the Well Back/[Save Room] Upper Floor Chest 2/Above the Fox Shrine"},
     [509342412] = {"@Full World/Beneath the Well Back/[Side Room] Chest By Phrends/So Many Phrends!"},
     [509342400] = {"@Full World/Beneath the Well Back/[Powered Secret Room] Chest/Follow the Purple Energy Road"},
+		
     [509342414] = {"@Full World/Dark Tomb Checkpoint/[Passage To Dark Tomb] Page Pickup/Siege Engine"},
     [509342428] = {"@Full World/Dark Tomb Upper/Skulls Chest/Move the Grave"},
     [509342427] = {"@Full World/Dark Tomb Main/Spike Maze Upper Walkway/Just walk right!"},
@@ -132,7 +147,7 @@ LOCATION_MAPPING = {
     [509342430] = {"@Full World/Dark Tomb Main/1st Laser Room Obscured/Follow the red laser of death"},
     [509342426] = {"@Full World/Dark Tomb Main/1st Laser Room/Use a bomb?"},
     [509342425] = {"@Full World/Dark Tomb Main/2nd Laser Room/Can you roll?"},
-    [509342701] = {"@Full World/Hero Relic - West Garden/Hero's Grave/Effigy Relic"},
+		
     [509342691] = {"@Full World/West Garden/[North] Obscured Beneath Hero's Memorial/Take the Long Way Around"},
     [509342684] = {"@Full World/West Garden/[North] Behind Holy Cross Door/Extra Sword!"},
     [509342687] = {"@Full World/West Garden/[North] Across From Page Pickup/I Love Fish!"},
@@ -154,15 +169,18 @@ LOCATION_MAPPING = {
     [509342685] = {"@Full World/West Garden/[Central Highlands] Top of Ladder Before Boss/Try to be This Strong"},
     [509342688] = {"@Full World/West Garden/[Central Lowlands] Below Left Walkway/Dash Across"},
     [509342696] = {"@Full World/West Garden after Boss/[Central Highlands] After Garden Knight/Did Not Kill You"},
+		
     [509342504] = {"@Full World/Fortress Exterior from Overworld/Fortress Courtyard - Below Walkway/Under the Stairs"},
     [509342503] = {"@Full World/Fortress Exterior from Overworld/Fortress Courtyard - Near Fuse/Pray"},
     [509342502] = {"@Full World/Fortress Exterior near cave/Fortress Courtyard - Chest Near Cave/Next to the Obelisk"},
     [509342505] = {"@Full World/Fortress Exterior near cave/Fortress Courtyard - Page Near Cave/Heir-To-The-Heir"},
+		
     [509342476] = {"@Full World/Beneath the Vault Front/Obscured Behind Waterfall/Muffling Bell"},
     [509342474] = {"@Full World/Beneath the Vault Back/Bridge/Chest"},
     [509342475] = {"@Full World/Beneath the Vault Back/Cell Chest 1/Drop the Shortcut Rope"},
     [509342478] = {"@Full World/Beneath the Vault Back/Cell Chest 2/Mind the Custodian"},
     [509342477] = {"@Full World/Beneath the Vault Back/Back Room Chest/Lose the Lure or take 2 Damage"},
+		
     [509342466] = {"@Full World/Eastern Vault Fortress/Westmost Upper Room/[West Wing] Dark Room Chest 1"},
     [509342467] = {"@Full World/Eastern Vault Fortress/Westmost Upper Room/[West Wing] Dark Room Chest 2"},
     [509342469] = {"@Full World/Eastern Vault Fortress/[West Wing] Page Pickup/He will never visit the Far Shore"},
@@ -173,6 +191,7 @@ LOCATION_MAPPING = {
     [509342468] = {"@Full World/Eastern Vault Fortress/[East Wing] Bombable Wall/Bomb the Wall"},
     [509342463] = {"@Full World/Fortress Arena/Fortress Arena/Siege Engine|Vault Key Pickup"},
     [509342462] = {"@Full World/Fortress Arena/Fortress Arena/Hexagon Red"},
+		
     [509342648] = {"@Full World/Ruined Atoll Lower Entry Area/[North] From Lower Overworld Entrance/Come from the Overworld"},
     [509342639] = {"@Full World/Ruined Atoll/[North] Guarded By Bird/Skraw!"},
     [509342642] = {"@Full World/Ruined Atoll/[North] Obscured Beneath Bridge/In the shallow water"},
@@ -190,6 +209,7 @@ LOCATION_MAPPING = {
     [509342645] = {"@Full World/Ruined Atoll/[Northwest] Behind Envoy/Mind the Fairies"},
     [509342641] = {"@Full World/Ruined Atoll/[Northwest] Bombable Wall/Flowers Guide Thee"},
     [509342636] = {"@Full World/Ruined Atoll/[West] Near Kevin Block/Phonomath"},
+		
     [509342481] = {"@Full World/Frog's Domain Back/Escape Chest/Don't Kick Fimbleton!"},
     [509342482] = {"@Full World/Frog's Domain/Grapple Above Hot Tub/Look Up"},
     [509342487] = {"@Full World/Frog's Domain/Side Room Chest/Oh No! Our Frogs! They're Dead!"},
@@ -201,8 +221,8 @@ LOCATION_MAPPING = {
     [509342479] = {"@Full World/Frog's Domain/Near Vault/Already Stolen"},
     [509342480] = {"@Full World/Frog's Domain/Slorm Room/Tobias was Trapped Here Once..."},
     [509342489] = {"@Full World/Frog's Domain/Magic Orb Pickup/Frult Meeting"},
+		
     [509342491] = {"@Full World/Library Hall/Library Hall/Holy Cross Chest"},
-    [509342499] = {"@Full World/Hero Relic - Library/Hero's Grave/Mushroom Relic"},
     [509342497] = {"@Full World/Library Lab/Library Lab Page 1/Page"},
     [509342498] = {"@Full World/Library Lab/Library Lab Page 2/Page"},
     [509342496] = {"@Full World/Library Lab/Library Lab Page 3/Page"},
@@ -211,6 +231,7 @@ LOCATION_MAPPING = {
     [509342494] = {"@Full World/Library Lab/Library Lab Chest by Shrine 3/Chest"},
     [509342495] = {"@Full World/Library Lab/Library Lab by Fuse/Behind Chalkboard"},
     [509342490] = {"@Full World/Library Arena/The Librarian/Hexagon Green"},
+		
     [509342596] = {"@Full World/Quarry Back/[Back Entrance] Bushes Holy Cross/Use the Holy Cross"},
     [509342597] = {"@Full World/Quarry Back/[Back Entrance] Chest/Peaceful Chest"},
     [509342605] = {"@Full World/Quarry Back/[Back Entrance] Obscured Behind Wall/Happy Water!"},
@@ -229,6 +250,7 @@ LOCATION_MAPPING = {
     [509342609] = {"@Full World/Quarry Monastery Entry/[Central] Above Ladder/Climb Ladder"},
     [509342611] = {"@Full World/Quarry Monastery Entry/[Central] Above Ladder Dash Chest/Dash Across"},
     [509342610] = {"@Full World/Quarry/[Central] Obscured Behind Staircase/At the Bottom"},
+		
     [509342619] = {"@Full World/Lower Quarry/[West] Upper Area Near Waterfall/Yummy Polygons"},
     [509342617] = {"@Full World/Lower Quarry/[West] Below Shooting Range/Clever little sneak!"},
     [509342615] = {"@Full World/Lower Quarry/[West] Shooting Range Secret Path/Obscured Path"},
@@ -239,6 +261,7 @@ LOCATION_MAPPING = {
     [509342620] = {"@Full World/Even Lower Quarry/[Lowlands] Upper Walkway/Hate them Snipers"},
     [509342618] = {"@Full World/Even Lower Quarry/[Lowlands] Below Broken Ladder/Miasma Pits"},
     [509342623] = {"@Full World/Even Lower Quarry/[Lowlands] Near Elevator/End of the Tracks"},
+		
     [509342625] = {"@Full World/Rooted Ziggurat Upper Front/Upper - Near Bridge Switch/You can shoot it"},
     [509342626] = {"@Full World/Rooted Ziggurat Upper Back/Upper - Beneath Bridge To Administrator/End of the First Floor"},
     [509342627] = {"@Full World/Rooted Ziggurat Middle Top/Tower - Inside Tower/I'm Scared"},
@@ -251,6 +274,7 @@ LOCATION_MAPPING = {
     [509342631] = {"@Full World/Rooted Ziggurat Lower Front/Lower - After Guarded Fuse/Defeat those Mechs"},
     [509342635] = {"@Full World/Rooted Ziggurat Lower Back/Lower - Hexagon Blue/Scavenger Queen"},
     [509342661] = {"@Full World/Back of Swamp Laurels Area/[Entrance] Above Entryway/Dash Across"},
+		
     [509342667] = {"@Full World/Swamp Front/[Entrance] Obscured Inside Watchtower/Go Inside"},
     [509342671] = {"@Full World/Swamp Front/[Entrance] North Small Island/Mildly Hidden"},
     [509342668] = {"@Full World/Swamp Front/[Entrance] South Near Fence/DAGGER STRAP!!!!!"},
@@ -261,6 +285,7 @@ LOCATION_MAPPING = {
     [509342670] = {"@Full World/Swamp Front/[South Graveyard] Chest Near Graves/The Rest of Our Entire Life is Death"},
     [509342656] = {"@Full World/Swamp Front/[South Graveyard] 4 Orange Skulls/DJ Khaled - Let's go Golfing!"},
     [509342664] = {"@Full World/Swamp Front/[South Graveyard] Guarded By Tentacles/Isolated Island"},
+		
     [509342674] = {"@Full World/Swamp Mid/[South Graveyard] Upper Walkway Dash Chest/Around the Hill"},
     [509342659] = {"@Full World/Swamp Mid/[South Graveyard] Obscured Behind Ridge/Through the hidden passage"},
     [509342662] = {"@Full World/Swamp Mid/[Central] South Secret Passage/Wall Man Approves these Vibes"},
@@ -272,6 +297,7 @@ LOCATION_MAPPING = {
     [509342666] = {"@Full World/Swamp Ledge under Cathedral Door/[Outside Cathedral] Near Moonlight Bridge Door/Down the Hidden Ladder"},
     [509342673] = {"@Full World/Swamp Mid/[Central] Obscured Behind Northern Mountain/Hug the Wall"},
     [509342654] = {"@Full World/Cathedral Secret Legend Room/Secret Legend Trophy Chest/You can use the Holy Cross from the outside"},
+		
     [509342419] = {"@Full World/Cathedral/[1F] Library/By the Books"},
     [509342423] = {"@Full World/Cathedral/[1F] Library Secret/Pray to the Wallman"},
     [509342415] = {"@Full World/Cathedral/[1F] Guarded By Lasers/Beside 3 Miasma Seekers"},
@@ -281,9 +307,8 @@ LOCATION_MAPPING = {
     [509342418] = {"@Full World/Cathedral/[2F] Entryway Upper Walkway/Overlooking Miasma"},
     [509342420] = {"@Full World/Cathedral/[2F] Library/Behind the Ladder"},
     [509342421] = {"@Full World/Cathedral/[2F] Guarded By Lasers/Before the big reveal..."},
+		
     [509342653] = {"@Full World/Cathedral Gauntlet/Cathedral Gauntlet/Gauntlet Reward"},
-    [509342563] = {"@Full World/Far Shore to Spawn Region/Page Pickup/A Long, Long Time Ago..."},
-    [509342562] = {"@Full World/Far Shore/Secret Chest/Dash Across"},
     [509342508] = {"@Full World/Inside the Old House/Normal Chest"},
     [509342587] = {"@Full World/Inside the Old House/Holy Cross Chest"},
     [509342509] = {"@Full World/Inside the Old House/Shield Pickup"},
@@ -297,12 +322,18 @@ LOCATION_MAPPING = {
     [509342561] = {"@Full World/Inside Hourglass Cave/Hourglass Chest"},
     [509342590] = {"@Full World/Inside Hourglass Cave/Holy Cross Chest"},
     [509342458] = {"@Full World/The Hero's Sword/Forest Grave Path - Sword Pickup"},
-    [509342459] = {"@Full World/The Hero's Sword/Hero's Grave - Tooth Relic"},
     [509342472] = {"@Full World/Vault Hero's Grave/Fortress Grave Path - Obscured Chest Left of Grave"},
     [509342471] = {"@Full World/Vault Hero's Grave/Fortress Grave Path - Chest Right of Grave"},
-    [509342473] = {"@Full World/Vault Hero's Grave/Hero's Grave - Flowers Relic"},
     [509342595] = {"@Full World/Monastery/Monastery Chest"},
-    [509342614] = {"@Full World/Monastery/Hero's Grave - Ash Relic"},
     [509342672] = {"@Full World/First Hero's Grave/[Outside Cathedral] Obscured Behind Memorial"},
-    [509342677] = {"@Full World/First Hero's Grave/Hero's Grave - Feathers Relic"},
+		
+    [509342562] = {"@Full World/Far Shore/Secret Chest/Dash Across"},
+    [509342563] = {"@Full World/Far Shore/Page Pickup/A Long, Long Time Ago..."},
+		
+    [509342677] = {"@Full World/Hero Relics/Swamp Hero's Grave/Feather Relic"},
+    [509342499] = {"@Full World/Hero Relics/Library Hero's Grave/Mushroom Relic"},
+    [509342701] = {"@Full World/Hero Relics/West Garden Hero's Grave/Effigy Relic"},
+    [509342614] = {"@Full World/Hero Relics/Monastery Hero's Grave/Ash Relic"},
+    [509342473] = {"@Full World/Hero Relics/Fortress Hero's Grave/Flowers Relic"},
+    [509342459] = {"@Full World/Hero Relics/East Forest Hero's Grave/Tooth Relic"},
 }

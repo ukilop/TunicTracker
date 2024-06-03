@@ -2705,7 +2705,7 @@
           "@East Forest",
           "@East Forest Dance Fox Spot",
           "@Guard House 1 East"
-        ],
+        ]
       },
       {
         "name": "Guard House 2 Upper",
@@ -2930,8 +2930,7 @@
       {
         "name": "Forest Hero's Grave",
         "access_rules": [
-          "@Forest Grave Path by Grave,pray",
-          "@Hero Relic - East Forest"
+          "@Forest Grave Path by Grave,pray"
         ]
       },
       {
@@ -4112,7 +4111,6 @@
       {
         "name": "West Garden Hero's Grave Region",
         "access_rules": [
-          "@Hero Relic - West Garden",
           "@West Garden,pray"
         ]
       },
@@ -4931,44 +4929,13 @@
           }
         ]
       },
-      {
-        "name": "Library Hall Bookshelf",
-        "access_rules": [
-          "Library Hall Bookshelf Exit",
-          "{@Library Hall,ladders_in_library}"
-        ],
-        "visibility_rules": ["Entrance_visibility"],
-        "children": [
-          {
-            "name": "Library Hall Bookshelf Exit",
-            "map_locations": [
-              {
-                "map": "library",
-                "x": 1225,
-                "y": 1153,
-                "size": 22
-              }
-            ],
-            "sections": [
-              {
-                "name": "Traversed",
-                "hosted_item": "Library Hall Bookshelf Exit"
-              },
-              {
-                "name": "Done",
-                "item_count": 1
-              }
-            ]
-          }
-        ]
-      },
+      
       {
         "name": "Library Hall",
         "access_rules": [
           "@Library Hall Bookshelf,ladders_in_library",
           "@Library Hall to Rotunda,ladders_in_library",
-          "@Library Hall to Hero's Grave,ladders_in_library",
-          "Library to Far Shore"
+          "@Library Hall to Hero's Grave"
         ],
         "children": [
           {
@@ -6044,16 +6011,11 @@
       },
       {
         "name": "Fortress Hero's Grave Region",
-        "access_rules": [
-          "@Fortress Grave Path,pray",
-          "@Hero Relic - Fortress"
-        ]
+        "access_rules": ["@Fortress Grave Path,pray"]
       },
       {
         "name": "Fortress Leaf Piles",
-        "access_rules": [
-          "@Fortress Grave Path Dusty Entrance Region"
-        ],
+        "access_rules": ["@Fortress Grave Path Dusty Entrance Region"],
         "children": [
           {
             "name": "Fortress Leaf Piles - Secret Chest",
@@ -6641,7 +6603,6 @@
       {
         "name": "Monastery Hero's Grave Region",
         "access_rules": [
-          "@Hero Relic - Quarry",
           "@Monastery Back,pray"
         ]
       },
@@ -7739,10 +7700,7 @@
       },
       {
         "name": "Swamp Hero's Grave Region",
-        "access_rules": [
-          "@Back of Swamp,pray",
-          "@Hero Relic - Swamp"
-        ]
+        "access_rules": ["@Back of Swamp,pray"]
       },
       {
         "name": "Back of Swamp Laurels Area",
@@ -8011,10 +7969,7 @@
       },
       {
         "name": "Cathedral Gauntlet Checkpoint",
-        "access_rules": [
-          "@Cathedral"
-        ],
-        "children": []
+        "access_rules": ["@Cathedral"],
       },
       {
         "name": "Cathedral Gauntlet",
@@ -8052,225 +8007,12 @@
       {
         "name": "Cathedral Gauntlet Exit",
         "access_rules": [
-          "@Back of Swamp",
           "@Cathedral Gauntlet,dash",
           "@Swamp Mid,glitches,ladders_in_swamp,stick",
           "@Swamp Mid,glitches,ladders_in_swamp,sword"
         ]
       },
-      {
-        "name": "Far Shore",
-        "access_rules": [
-          "@Far Shore to East Forest Region,dash",
-          "@Far Shore to Fortress Region",
-          "@Far Shore to Library Region",
-          "@Far Shore to Quarry Region",
-          "@Far Shore to Spawn Region,dash",
-          "@Far Shore to West Garden Region",
-          "@Overworld Town Portal",
-          "@Rooted Ziggurat Portal",
-          "@Ruined Atoll Portal",
-          "@Spirit Arena"
-        ],
-        "children": [
-          {
-            "name": "Secret Chest",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 4237,
-                "y": 945
-              },
-              {
-                "map": "far_shore",
-                "x": 575,
-                "y": 1155,
-                "size": 45
-              }
-            ],
-            "sections": [
-              {
-                "name": "Dash Across",
-                "access_rules": ["dash"],
-                "item_count": 1
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Far Shore to Spawn Region",
-        "access_rules": [
-          "@Far Shore,dash",
-          "@Overworld Spawn Portal"
-        ],
-        "children": [
-          {
-            "name": "Page Pickup",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3005,
-                "y": 2995
-              },
-              {
-                "map": "fullmap",
-                "x": 4482,
-                "y": 1020
-              },
-              {
-                "map": "far_shore",
-                "x": 825,
-                "y": 1220,
-                "size": 45
-              },
-              {
-                "map": "overworld",
-                "x": 1330,
-                "y": 1245,
-                "size": 45
-              }
-            ],
-            "sections": [
-              {
-                "name": "A Long, Long Time Ago...",
-                "item_count": 1
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Far Shore to East Forest Region",
-        "access_rules": [
-          "@East Forest Portal",
-          "@Far Shore,dash"
-        ]
-      },
-      {
-        "name": "Far Shore to Quarry Region",
-        "access_rules": [
-          "@Far Shore,@Quarry Connector,orb,pray",
-          "@Quarry Portal"
-        ]
-      },
-      {
-        "name": "Far Shore to Fortress Region",
-        "access_rules": [
-          "@Fortress Arena Portal"
-        ]
-      },
-      {
-        "name": "Far Shore to Library Region",
-        "access_rules": [
-          "@Far Shore,impossible_2",
-          "@Library Portal"
-        ]
-      },
-      {
-        "name": "Far Shore to West Garden Region",
-        "access_rules": [
-          "@Far Shore,@West Garden,pray",
-          "@West Garden Portal"
-        ]
-      },
-      {
-        "name": "Hero Relic - Fortress",
-        "access_rules": [
-          "@Fortress Hero's Grave Region"
-        ]
-      },
-      {
-        "name": "Hero Relic - Quarry",
-        "access_rules": [
-          "@Monastery Hero's Grave Region"
-        ]
-      },
-      {
-        "name": "Hero Relic - West Garden",
-        "access_rules": [
-          "@West Garden Hero's Grave Region"
-        ],
-        "children": [
-          {
-            "name": "Hero's Grave",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 1325,
-                "y": 2570
-              },
-              {
-                "map": "fullmap",
-                "x": 460,
-                "y": 4450
-              },
-              {
-                "map": "west_gardens",
-                "x": 1085,
-                "y": 150,
-                "size": 45
-              },
-              {
-                "map": "far_shore",
-                "x": 1175,
-                "y": 270,
-                "size": 45
-              }
-            ],
-            "sections": [
-              {
-                "name": "Effigy Relic",
-                "access_rules": ["dash"],
-                "item_count": 1
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Hero Relic - East Forest",
-        "access_rules": [
-          "@Forest Hero's Grave"
-        ]
-      },
-      {
-        "name": "Hero Relic - Library",
-        "access_rules": [
-          "@Library Hero's Grave Region"
-        ],
-        "children": [
-          {
-            "name": "Hero's Grave",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 600,
-                "y": 4705
-              },
-              {
-                "map": "far_shore",
-                "x": 1259,
-                "y": 335,
-                "size": 45
-              }
-            ],
-            "sections": [
-              {
-                "name": "Mushroom Relic",
-                "access_rules": ["dash"],
-                "item_count": 1
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Hero Relic - Swamp",
-        "access_rules": [
-          "@Swamp Hero's Grave Region"
-        ]
-      },
+      
       {
         "name": "Purgatory",
         "access_rules": [
@@ -8279,22 +8021,6 @@
       },
       {
         "name": "Shop",
-        "access_rules": [
-          "@Back of Swamp,glitches,stick",
-          "@Back of Swamp,glitches,sword",
-          "@Cathedral Gauntlet Checkpoint",
-          "@Eastern Vault Fortress",
-          "@Fortress Exterior from East Forest,glitches,stick",
-          "@Fortress Exterior from East Forest,glitches,sword",
-          "@Fortress Exterior from Overworld,glitches,stick",
-          "@Fortress Exterior from Overworld,glitches,sword",
-          "@Fortress Exterior near cave",
-          "@Quarry Entry",
-          "@Ruined Atoll",
-          "@Swamp Front",
-          "@West Garden",
-          "@Windmill"
-        ],
         "children": [
           {
             "name": "Shop",
@@ -8412,42 +8138,6 @@
               {
                 "name": "Coin 2",
                 "item_count": 1
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Spirit Arena",
-        "access_rules": [
-          "@Far Shore"
-        ]
-      },
-      {
-        "name": "Spirit Arena Victory",
-        "access_rules": [
-          "@Spirit Arena,blue,green,red"
-        ],
-        "children": [
-          {
-            "name": "Complete the Game",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 4485,
-                "y": 731
-              },
-              {
-                "map": "far_shore",
-                "x": 825,
-                "y": 930,
-                "size": 60
-              }
-            ],
-            "sections": [
-              {
-                "name": "What ending did you get?",
-                "hosted_item": "heir"
               }
             ]
           }
@@ -8704,28 +8394,12 @@
             "x": 2272,
             "y": 704,
             "size": 35
-          },
-          {
-            "map": "fullmap",
-            "x": 1070,
-            "y": 4450
-          },
-          {
-            "map": "far_shore",
-            "x": 1435,
-            "y": 270,
-            "size": 45
           }
         ],
         "sections": [
           {
             "name": "Forest Grave Path - Sword Pickup",
             "access_rules": ["@Forest Grave Path by Grave"],
-            "item_count": 1
-          },
-          {
-            "name": "Hero's Grave - Tooth Relic",
-            "access_rules": ["@Hero Relic - East Forest,dash"],
             "item_count": 1
           }
         ]
@@ -8743,17 +8417,6 @@
             "x": 1660,
             "y": 650,
             "size": 45
-          },
-          {
-            "map": "fullmap",
-            "x": 920,
-            "y": 4185
-          },
-          {
-            "map": "far_shore",
-            "x": 1370,
-            "y": 165,
-            "size": 45
           }
         ],
         "sections": [
@@ -8765,13 +8428,6 @@
           {
             "name": "Fortress Grave Path - Chest Right of Grave",
             "access_rules": ["@Fortress Grave Path"],
-            "item_count": 1
-          },
-          {
-            "name": "Hero's Grave - Flowers Relic",
-            "access_rules": [
-              "@Hero Relic - Fortress,dash"
-            ],
             "item_count": 1
           }
         ]
@@ -8789,28 +8445,12 @@
             "x": 385,
             "y": 220,
             "size": 45
-          },
-          {
-            "map": "fullmap",
-            "x": 610,
-            "y": 4180
-          },
-          {
-            "map": "far_shore",
-            "x": 1240,
-            "y": 160,
-            "size": 45
           }
         ],
         "sections": [
           {
             "name": "Monastery Chest",
             "access_rules": ["@Monastery Back"],
-            "item_count": 1
-          },
-          {
-            "name": "Hero's Grave - Ash Relic",
-            "access_rules": ["@Hero Relic - Quarry,dash"],
             "item_count": 1
           }
         ]
@@ -8825,19 +8465,8 @@
           },
           {
             "map": "graveyard",
-            "x": 825,
-            "y": 345,
-            "size": 45
-          },
-          {
-            "map": "fullmap",
-            "x": 920,
-            "y": 4710
-          },
-          {
-            "map": "far_shore",
-            "x": 1370,
-            "y": 385,
+            "x": 862,
+            "y": 297,
             "size": 45
           }
         ],
@@ -8846,14 +8475,618 @@
             "name": "[Outside Cathedral] Obscured Behind Memorial",
             "access_rules": ["@Back of Swamp"],
             "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Far Shore",
+        "access_rules": [
+          "@Far Shore to Spawn,dash",
+          "@Far Shore to East Forest,dash",
+          "@Far Shore to Fortress",
+          "@Far Shore to Library",
+          "@Far Shore to Quarry",
+          "@Far Shore to West Garden",
+          "@Far Shore to Town",
+          "@Far Shore to Ziggurat",
+          "@Far Shore to Heir",
+          "@Far Shore to Atoll"
+        ],
+        "children": [
+          {
+            "name": "Secret Chest",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4237,
+                "y": 945
+              },
+              {
+                "map": "far_shore",
+                "x": 575,
+                "y": 1155,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Dash Across",
+                "access_rules": ["dash"],
+                "item_count": 1
+              }
+            ]
           },
           {
-            "name": "Hero's Grave - Feathers Relic",
-            "access_rules": ["@Hero Relic - Swamp,dash"],
-            "item_count": 1
+            "name": "Page Pickup",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4482,
+                "y": 1020
+              },
+              {
+                "map": "far_shore",
+                "x": 825,
+                "y": 1220,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "A Long, Long Time Ago...",
+                "access_rules": [
+                  "@Far Shore,dash",
+                  "@Far Shore to Spawn"
+                ],
+                "item_count": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Far Shore Entrances",
+        "visibility_rules": ["Entrance_visibility"],
+        "children": [
+          {
+            "name": "Far Shore to West Garden",
+            "access_rules": [
+              "{@Far Shore,@West Garden,pray}",
+              "Far Shore to West Garden"
+            ],
+            "map_locations": [
+              {
+                "map": "far_shore",
+                "x": 616,
+                "y": 927,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Far Shore to West Garden"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Far Shore to East Forest",
+            "access_rules": [
+              "{@Far Shore,dash}",
+              "Far Shore to East Forest"
+            ],
+            "map_locations": [
+              {
+                "map": "far_shore",
+                "x": 1151,
+                "y": 1134,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Far Shore to East Forest"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Far Shore to Town",
+            "access_rules": [
+              "{@Far Shore}",
+              "Far Shore to Town"
+            ],
+            "map_locations": [
+              {
+                "map": "far_shore",
+                "x": 1028,
+                "y": 925,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Far Shore to Town"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Far Shore to Ziggurat",
+            "access_rules": [
+              "{@Far Shore}",
+              "Far Shore to Ziggurat"
+            ],
+            "map_locations": [
+              {
+                "map": "far_shore",
+                "x": 821,
+                "y": 703,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Far Shore to Ziggurat"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Far Shore to Heir",
+            "access_rules": [
+              "{@Far Shore}",
+              "Far Shore to Heir"
+            ],
+            "map_locations": [
+              {
+                "map": "far_shore",
+                "x": 821,
+                "y": 927,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Far Shore to Heir"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Far Shore to Atoll",
+            "access_rules": [
+              "{@Far Shore}",
+              "Far Shore to Atoll"
+            ],
+            "map_locations": [
+              {
+                "map": "far_shore",
+                "x": 720,
+                "y": 1058,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Far Shore to Atoll"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Far Shore to Quarry",
+            "access_rules": [
+              "{@Far Shore,@Quarry,@Quarry Connector,orb,pray}",
+              "Far Shore to Quarry"
+            ],
+            "map_locations": [
+              {
+                "map": "far_shore",
+                "x": 717,
+                "y": 796,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Far Shore to Quarry"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Far Shore to Fortress",
+            "access_rules": [
+              "{@Far Shore,pray,@Fortress Exterior from Overworld,@Fortress Courtyard,@Beneath the Vault Back}",
+              "Far Shore to Fortress"
+            ],
+            "map_locations": [
+              {
+                "map": "far_shore",
+                "x": 925,
+                "y": 796,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Far Shore to Library"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Far Shore to Library",
+            "access_rules": [
+              "{@Far Shore,impossible_2}",
+              "Far Shore to Library"
+            ],
+            "map_locations": [
+              {
+                "map": "far_shore",
+                "x": 925,
+                "y": 1058,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Far Shore to Library"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Far Shore to Spawn",
+            "access_rules": [
+              "{@Far Shore,dash}",
+              "Far Shore to Spawn"
+            ],
+            "map_locations": [
+              {
+                "map": "far_shore",
+                "x": 825,
+                "y": 1355,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Far Shore to Spawn"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Spirit Arena Victory",
+        "access_rules": ["blue,green,red,Heir Arena Exit"],
+        "children": [
+          {
+            "name": "Complete the Game",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3842,
+                "y": 1039
+              },
+              {
+                "map": "far_shore",
+                "x": 189,
+                "y": 1256,
+                "size": 60
+              }
+            ],
+            "sections": [
+              {
+                "name": "What ending did you get?",
+                "hosted_item": "heir"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hero Relics",
+        "access_rules": ["dash"],
+        "children":[
+          {
+            "name": "Swamp Hero's Grave",
+            "map_locations":[
+              {
+                "map": "fullmap",
+                "x": 920,
+                "y": 4710
+              },
+              {
+                "map": "far_shore",
+                "x": 1342,
+                "y": 346,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Feather Relic",
+                "access_rules": ["Hero's Grave to Swamp"],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Library Hero's Grave",
+            "map_locations":[
+              {
+                "map": "fullmap",
+                "x": 610,
+                "y": 4710
+              },
+              {
+                "map": "far_shore",
+                "x": 1261,
+                "y": 346,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Mushroom Relic",
+                "access_rules": ["Hero's Grave to Library"],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "West Garden Hero's Grave",
+            "map_locations":[
+              {
+                "map": "fullmap",
+                "x": 460,
+                "y": 4450
+              },
+              {
+                "map": "far_shore",
+                "x": 1225,
+                "y": 272,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Effigy Relic",
+                "access_rules": ["Hero's Grave to West Garden"],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Monastery Hero's Grave",
+            "map_locations":[
+              {
+                "map": "fullmap",
+                "x": 610,
+                "y": 4180
+              },
+              {
+                "map": "far_shore",
+                "x": 1263,
+                "y": 200,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Ash Relic",
+                "access_rules": ["Hero's Grave to Monastery"],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Fortress Hero's Grave",
+            "map_locations":[
+              {
+                "map": "fullmap",
+                "x": 920,
+                "y": 4180
+              },
+              {
+                "map": "far_shore",
+                "x": 1344,
+                "y": 200,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Flowers Relic",
+                "access_rules": ["Hero's Grave to Fortress"],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "East Forest Hero's Grave",
+            "map_locations":[
+              {
+                "map": "fullmap",
+                "x": 1070,
+                "y": 4450
+              },
+              {
+                "map": "far_shore",
+                "x": 1383,
+                "y": 273,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Tooth Relic",
+                "access_rules": ["Hero's Grave to East Forest"],
+                "item_count": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hero Relic Entrances",
+        "visibility_rules":["Entrance_visibility"],
+        "children":[
+          {
+            "name": "Hero's Grave to Swamp",
+            "map_locations": [
+              {
+                "map": "far_shore",
+                "x": 1431,
+                "y": 495,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "access_rules": ["Hero's Grave to Swamp"],
+                "hosted_item": "Hero's Grave to Swamp"
+              }
+            ]
+          },
+          {
+            "name": "Hero's Grave to Library",
+            "map_locations": [
+              {
+                "map": "far_shore",
+                "x": 1172,
+                "y": 495,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "access_rules": ["Hero's Grave to Library"],
+                "hosted_item": "Hero's Grave to Library"
+              }
+            ]
+          },
+          {
+            "name": "Hero's Grave to West Garden",
+            "map_locations": [
+              {
+                "map": "far_shore",
+                "x": 1045,
+                "y": 270,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "access_rules": ["Hero's Grave to West Garden"],
+                "hosted_item": "Hero's Grave to West Garden"
+              }
+            ]
+          },
+          {
+            "name": "Hero's Grave to Monastery",
+            "map_locations": [
+              {
+                "map": "far_shore",
+                "x": 1170,
+                "y": 51,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "access_rules": ["Hero's Grave to Monastery"],
+                "hosted_item": "Hero's Grave to Monastery"
+              }
+            ]
+          },
+          {
+            "name": "Hero's Grave to Fortress",
+            "map_locations": [
+              {
+                "map": "far_shore",
+                "x": 1433,
+                "y": 51,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "access_rules": ["Hero's Grave to Fortress"],
+                "hosted_item": "Hero's Grave to Fortress"
+              }
+            ]
+          },
+          {
+            "name": "Hero's Grave to East Forest",
+            "map_locations": [
+              {
+                "map": "far_shore",
+                "x": 1563,
+                "y": 273,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "access_rules": ["Hero's Grave to East Forest"],
+                "hosted_item": "Hero's Grave to East Forest"
+              }
+            ]
           }
         ]
       }
+      
     ]
   }
 ]
