@@ -8797,6 +8797,24 @@
                 "item_count": 1
               }
             ]
+          },
+          {
+            "name": "Heir Arena Exit",
+             "access_rules": ["Heir Arena Exit"],
+             "map_locations": [
+              {
+                "map": "far_shore",
+                "x": 385,
+                "y": 1228,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Heir Arena Exit"
+              }
+            ]
           }
         ]
       },
