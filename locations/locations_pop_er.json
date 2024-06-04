@@ -1535,8 +1535,7 @@
       {
         "name": "Overworld Spawn Portal",
         "access_rules": [
-          "pray",
-          "@Far Shore to Spawn Region"
+          "pray"
         ],
         "children": []
       },
@@ -2545,8 +2544,7 @@
       {
         "name": "East Forest Portal",
         "access_rules": [
-          "@East Forest,pray",
-          "@Far Shore to East Forest Region"
+          "@East Forest,pray"
         ],
         "children": []
       },
@@ -3987,7 +3985,6 @@
       {
         "name": "West Garden Portal",
         "access_rules": [
-          "@Far Shore to West Garden Region",
           "@West Garden Portal Item,dash,pray"
         ]
       },
@@ -6084,7 +6081,6 @@
       {
         "name": "Fortress Arena Portal",
         "access_rules": [
-          "@Far Shore to Fortress Region",
           "@Fortress Arena,pray"
         ]
       },
@@ -6418,7 +6414,6 @@
       {
         "name": "Quarry Portal",
         "access_rules": [
-          "@Far Shore to Quarry Region",
           "@Quarry Connector,orb,pray,@Quarry Entry"
         ]
       },
@@ -6852,8 +6847,8 @@
       {
         "name": "Lower Quarry Zig Door",
         "access_rules": [
-          "@Even Lower Quarry,@Quarry Connector,orb,pray",
-          "@Quarry,impossible",
+          "@Quarry Connector,orb,pray,@Quarry",
+          "@Quarry Connector,orb,pray,@Even Lower Quarry",
           "@Rooted Ziggurat Entry"
         ]
       },
@@ -7200,9 +7195,454 @@
         ]
       },
       {
+        "name": "Purgatory",
+        "access_rules": [
+          "@Purgatory"
+        ]
+      },
+      {
+        "name": "Shop",
+        "children": [
+          {
+            "name": "Shop",
+            "access_rules": "{}",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 2575,
+                "y": 2265,
+                "size": 35
+              },
+              {
+                "map": "overworld",
+                "x": 900,
+                "y": 515,
+                "size": 25
+              },
+              {
+                "map": "west_gardens",
+                "x": 630,
+                "y": 10,
+                "size": 25
+              },
+              {
+                "map": "fullmap",
+                "x": 870,
+                "y": 2430,
+                "size": 35
+              },
+              {
+                "map": "eastern_vault",
+                "x": 330,
+                "y": 640,
+                "size": 25
+              },
+              {
+                "map": "fullmap",
+                "x": 3915,
+                "y": 1820,
+                "size": 35
+              },
+              {
+                "map": "eastern_vault",
+                "x": 390,
+                "y": 290,
+                "size": 25
+              },
+              {
+                "map": "fullmap",
+                "x": 3975,
+                "y": 1470,
+                "size": 35
+              },
+              {
+                "map": "ruined_atoll",
+                "x": 1035,
+                "y": 240,
+                "size": 25
+              },
+              {
+                "map": "fullmap",
+                "x": 2680,
+                "y": 3350,
+                "size": 35
+              },
+              {
+                "map": "quarry",
+                "x": 1000,
+                "y": 1120,
+                "size": 25
+              },
+              {
+                "map": "fullmap",
+                "x": 1625,
+                "y": 2145,
+                "size": 35
+              }
+            ],
+            "sections": [
+              {
+                "name": "Potion 1",
+                "item_count": 1
+              },
+              {
+                "name": "Potion 2",
+                "item_count": 1
+              },
+              {
+                "name": "Coin 1",
+                "item_count": 1
+              },
+              {
+                "name": "Coin 2",
+                "item_count": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Free Bombs",
+        "map_locations": [
+          {
+            "map": "fullmap",
+            "x": 3000,
+            "y": 3200
+          },
+          {
+            "map": "overworld",
+            "x": 1335,
+            "y": 1450,
+            "size": 45
+          },
+          {
+            "map": "secrets",
+            "x": 890,
+            "y": 470
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ice Bomb",
+            "hosted_item": "icebomb"
+          },
+          {
+            "name": "Fire Bomb",
+            "hosted_item": "firebomb"
+          },
+          {
+            "name": "Dynamite",
+            "hosted_item": "dynamite"
+          }
+        ]
+      },
+      {
+        "name": "Inside the Old House",
+        "map_locations": [
+          {
+            "map": "fullmap",
+            "x": 2730,
+            "y": 2415
+          },
+          {
+            "map": "fullmap",
+            "x": 2920,
+            "y": 2205
+          },
+          {
+            "map": "overworld",
+            "x": 1055,
+            "y": 665,
+            "size": 45
+          },
+          {
+            "map": "overworld",
+            "x": 1245,
+            "y": 455,
+            "size": 45
+          },
+          {
+            "map": "secrets",
+            "x": -20,
+            "y": 515
+          }
+        ],
+        "sections": [
+          {
+            "name": "Normal Chest",
+            "access_rules": ["@Old House Front"],
+            "item_count": 1
+          },
+          {
+            "name": "Holy Cross Chest",
+            "access_rules": ["@Old House Front,cross"],
+            "item_count": 1
+          },
+          {
+            "name": "Shield Pickup",
+            "access_rules": ["@Old House Front"],
+            "item_count": 1
+          },
+          {
+            "name": "Holy Cross Door Page",
+            "access_rules": ["@Old House Back,cross"],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Fountain",
+        "map_locations": [
+          {
+            "map": "fullmap",
+            "x": 2430,
+            "y": 2660
+          },
+          {
+            "map": "overworld",
+            "x": 755,
+            "y": 910,
+            "size": 45
+          },
+          {
+            "map": "secrets",
+            "x": -20,
+            "y": 655
+          }
+        ],
+        "sections": [
+          {
+            "name": "[Southwest] Fountain Page",
+            "access_rules": ["@Overworld,dash"],
+            "item_count": 1
+          },
+          {
+            "name": "[Southwest] Fountain Holy Cross",
+            "access_rules": ["@Overworld Holy Cross"],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Mountain Door",
+        "map_locations": [
+          {
+            "map": "fullmap",
+            "x": 3010,
+            "y": 1810
+          },
+          {
+            "map": "overworld",
+            "x": 1335,
+            "y": 60,
+            "size": 45
+          },
+          {
+            "map": "secrets",
+            "x": 850,
+            "y": 580
+          }
+        ],
+        "sections": [
+          {
+            "name": "Lower Mountain - Page Before Door",
+            "access_rules": [
+              "@Lower Mountain"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Top of the Mountain - Page At The Peak",
+            "access_rules": [
+              "@Top of the Mountain"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "West Furnace",
+        "map_locations": [
+          {
+            "map": "fullmap",
+            "x": 2100,
+            "y": 2550
+          },
+          {
+            "map": "overworld",
+            "x": 425,
+            "y": 800,
+            "size": 45
+          },
+          {
+            "map": "fullmap",
+            "x": 2950,
+            "y": 1595
+          },
+          {
+            "map": "well",
+            "x": 280,
+            "y": 1245,
+            "size": 45
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "access_rules": ["@Furnace Walking Path"],
+            "item_count": 1
+          },
+          {
+            "name": "Lantern Pickup",
+            "access_rules": ["@Furnace Fuse"],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Inside Hourglass Cave",
+        "map_locations": [
+          {
+            "map": "fullmap",
+            "x": 2510,
+            "y": 2850
+          },
+          {
+            "map": "overworld",
+            "x": 760,
+            "y": 1100,
+            "size": 45
+          },
+          {
+            "map": "secrets",
+            "x": 960,
+            "y": 295
+          },
+          {
+            "map": "secrets",
+            "x": -20,
+            "y": 445
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hourglass Chest",
+            "access_rules": ["@Hourglass Cave"],
+            "item_count": 1
+          },
+          {
+            "name": "Holy Cross Chest",
+            "access_rules": [
+              "@Hourglass Cave Tower,cross"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "The Hero's Sword",
+        "map_locations": [
+          {
+            "map": "fullmap",
+            "x": 4155,
+            "y": 2725
+          },
+          {
+            "map": "east_forest",
+            "x": 2272,
+            "y": 704,
+            "size": 35
+          }
+        ],
+        "sections": [
+          {
+            "name": "Forest Grave Path - Sword Pickup",
+            "access_rules": ["@Forest Grave Path by Grave"],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Vault Hero's Grave",
+        "map_locations": [
+          {
+            "map": "fullmap",
+            "x": 5245,
+            "y": 1830
+          },
+          {
+            "map": "eastern_vault",
+            "x": 1660,
+            "y": 650,
+            "size": 45
+          }
+        ],
+        "sections": [
+          {
+            "name": "Fortress Grave Path - Obscured Chest Left of Grave",
+            "access_rules": ["@Fortress Grave Path"],
+            "item_count": 1
+          },
+          {
+            "name": "Fortress Grave Path - Chest Right of Grave",
+            "access_rules": ["@Fortress Grave Path"],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Monastery",
+        "map_locations": [
+          {
+            "map": "fullmap",
+            "x": 1010,
+            "y": 1245
+          },
+          {
+            "map": "quarry",
+            "x": 385,
+            "y": 220,
+            "size": 45
+          }
+        ],
+        "sections": [
+          {
+            "name": "Monastery Chest",
+            "access_rules": ["@Monastery Back"],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "First Hero's Grave",
+        "map_locations": [
+          {
+            "map": "fullmap",
+            "x": 4315,
+            "y": 3205
+          },
+          {
+            "map": "graveyard",
+            "x": 862,
+            "y": 297,
+            "size": 45
+          }
+        ],
+        "sections": [
+          {
+            "name": "[Outside Cathedral] Obscured Behind Memorial",
+            "access_rules": ["@Back of Swamp"],
+            "item_count": 1
+          }
+        ]
+      },
+
+
+      {
         "name": "Swamp Front",
         "access_rules": [
-          "@Overworld Swamp Lower Entry",
+          "@Swamp Lower Exit",
+          "@Swamp Shop",
           "@Swamp Mid,[glitches],dagger,orb",
           "@Swamp Mid,dash",
           "@Swamp Mid,ladders_in_swamp"
@@ -7648,7 +8088,7 @@
         "name": "Swamp Ledge under Cathedral Door",
         "access_rules": [
           "@Swamp Mid,ladders_in_swamp",
-          "@Swamp to Cathedral Treasure Room"
+          "@Swamp to Cathedral Secret Legend Room Entrance"
         ],
         "children": [
           {
@@ -7661,7 +8101,7 @@
               },
               {
                 "map": "graveyard",
-                "x": 750,
+                "x": 740,
                 "y": 0,
                 "size": 45
               }
@@ -7676,37 +8116,18 @@
         ]
       },
       {
-        "name": "Swamp to Cathedral Treasure Room",
-        "access_rules": [
-          "@Cathedral Secret Legend Room",
-          "@Swamp Ledge under Cathedral Door,cross"
-        ]
-      },
-      {
-        "name": "Swamp to Cathedral Main Entrance Region",
-        "access_rules": [
-          "@Cathedral",
-          "@Swamp Mid,[glitches],dagger,orb",
-          "@Swamp Mid,dash,pray"
-        ]
-      },
-      {
         "name": "Back of Swamp",
         "access_rules": [
           "@Back of Swamp Laurels Area,dash",
-          "@Cathedral Gauntlet Exit",
-          "@Swamp Hero's Grave Region"
+          "@Swamp Hero's Grave",
+          "@Swamp to Gauntlet"
         ]
-      },
-      {
-        "name": "Swamp Hero's Grave Region",
-        "access_rules": ["@Back of Swamp,pray"]
       },
       {
         "name": "Back of Swamp Laurels Area",
         "access_rules": [
           "@Back of Swamp,dash",
-          "@Overworld Swamp Upper Entry"
+          "@Swamp Upper Exit"
         ],
         "children": [
           {
@@ -7735,10 +8156,196 @@
         ]
       },
       {
+        "name":"Swamp Entrances",
+        "visibility_rules":["Entrance_visibility"],
+        "children":[
+          {
+            "name": "Swamp Hero's Grave",
+            "access_rules": [
+              "{@Back of Swamp,pray}",
+              "Swamp Hero's Grave"
+            ],
+            "map_locations": [
+              {
+                "map": "graveyard",
+                "x": 825,
+                "y": 333,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Swamp Hero's Grave"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Swamp to Cathedral Main Entrance",
+            "access_rules": [
+              "Swamp to Cathedral Main Entrance",
+              "{@Swamp Mid,[glitches],dagger,orb}",
+              "{@Swamp Mid,dash,pray}"
+            ],
+            "map_locations": [
+              {
+                "map": "graveyard",
+                "x": 824,
+                "y": 55,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Swamp to Cathedral Main Entrance"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Swamp to Cathedral Secret Legend Room Entrance",
+            "access_rules": [
+              "{@Swamp Ledge under Cathedral Door,cross}",
+              "{@Back of Swamp,cross,glitches,stick}",
+              "{@Back of Swamp,cross,glitches,sword}",
+              "Swamp to Cathedral Secret Legend Room Entrance"
+            ],
+            "map_locations": [
+              {
+                "map": "graveyard",
+                "x": 785,
+                "y": 18,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Swamp to Cathedral Secret Legend Room Entrance"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Swamp to Gauntlet",
+            "access_rules": [
+              "{@Swamp Mid,glitches,ladders_in_swamp,stick}",
+              "{@Swamp Mid,glitches,ladders_in_swamp,sword}",
+              "{@Back of Swamp}",
+              "Swamp to Gauntlet"
+            ],
+            "map_locations": [
+              {
+                "map": "graveyard",
+                "x": 817,
+                "y": 110,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Swamp to Gauntlet"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Swamp Shop",
+            "access_rules": [
+              "{@Swamp Front}",
+              "Swamp Shop"
+            ],
+            "map_locations": [
+              {
+                "map": "graveyard",
+                "x": 505,
+                "y": 514,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Swamp Shop"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Swamp Lower Exit",
+            "access_rules": [
+              "{@Swamp Front}",
+              "Swamp Lower Exit"
+            ],
+            "map_locations": [
+              {
+                "map": "graveyard",
+                "x": 53,
+                "y": 320,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Swamp Lower Exit"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Swamp Upper Exit",
+            "access_rules": [
+              "{@Back of Swamp Laurels Area}",
+              "Swamp Upper Exit"
+            ],
+            "map_locations": [
+              {
+                "map": "graveyard",
+                "x": 86,
+                "y": 288,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Swamp Upper Exit"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
         "name": "Cathedral",
         "access_rules": [
-          "@Cathedral Gauntlet Checkpoint",
-          "@Swamp to Cathedral Main Entrance Region"
+          "@Cathedral Main Exit",
+          "@Cathedral Elevator"
         ],
         "children": [
           {
@@ -7926,9 +8533,8 @@
       {
         "name": "Cathedral Secret Legend Room",
         "access_rules": [
-          "@Back of Swamp,cross,glitches,stick",
-          "@Back of Swamp,cross,glitches,sword",
-          "@Swamp to Cathedral Treasure Room"
+          "@Cathedral Secret Legend Room Exit",
+          "cross"
         ],
         "children": [
           {
@@ -7946,12 +8552,6 @@
                 "size": 35
               },
               {
-                "map": "graveyard",
-                "x": 815,
-                "y": 0,
-                "size": 45
-              },
-              {
                 "map": "secrets",
                 "x": 1000,
                 "y": 260
@@ -7960,7 +8560,6 @@
             "sections": [
               {
                 "name": "You can use the Holy Cross from the outside",
-                "access_rules": ["cross"],
                 "item_count": 1
               }
             ]
@@ -7969,13 +8568,16 @@
       },
       {
         "name": "Cathedral Gauntlet Checkpoint",
-        "access_rules": ["@Cathedral"],
+        "access_rules": [
+          "@Gauntlet Elevator",
+          "@Gauntlet Shop"
+        ]
       },
       {
         "name": "Cathedral Gauntlet",
         "access_rules": [
           "@Cathedral Gauntlet Checkpoint",
-          "@Cathedral Gauntlet Exit,dash"
+          "@Gauntlet to Swamp,dash"
         ],
         "children": [
           {
@@ -7990,7 +8592,7 @@
                 "map": "cathedral",
                 "x": 530,
                 "y": 790,
-                "size": 35
+                "size": 33
               }
             ],
             "sections": [
@@ -8005,476 +8607,151 @@
         ]
       },
       {
-        "name": "Cathedral Gauntlet Exit",
-        "access_rules": [
-          "@Cathedral Gauntlet,dash",
-          "@Swamp Mid,glitches,ladders_in_swamp,stick",
-          "@Swamp Mid,glitches,ladders_in_swamp,sword"
-        ]
-      },
-      
-      {
-        "name": "Purgatory",
-        "access_rules": [
-          "@Purgatory"
-        ]
-      },
-      {
-        "name": "Shop",
-        "children": [
+        "name":"Cathedral Entrances",
+        "visibility_rules":["Entrance_visibility"],
+        "children":[
           {
-            "name": "Shop",
+            "name": "Cathedral Main Exit",
+            "access_rules": [
+              "{@Cathedral}",
+              "Cathedral Main Exit"
+            ],
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2575,
-                "y": 2265,
-                "size": 35
-              },
-              {
-                "map": "overworld",
-                "x": 900,
-                "y": 515,
-                "size": 25
-              },
-              {
-                "map": "west_gardens",
-                "x": 630,
-                "y": 10,
-                "size": 25
-              },
-              {
-                "map": "fullmap",
-                "x": 870,
-                "y": 2430,
-                "size": 35
-              },
-              {
-                "map": "eastern_vault",
-                "x": 330,
-                "y": 640,
-                "size": 25
-              },
-              {
-                "map": "fullmap",
-                "x": 3915,
-                "y": 1820,
-                "size": 35
-              },
-              {
-                "map": "eastern_vault",
-                "x": 390,
-                "y": 290,
-                "size": 25
-              },
-              {
-                "map": "fullmap",
-                "x": 3975,
-                "y": 1470,
-                "size": 35
-              },
-              {
-                "map": "ruined_atoll",
-                "x": 1035,
-                "y": 240,
-                "size": 25
-              },
-              {
-                "map": "fullmap",
-                "x": 2680,
-                "y": 3350,
-                "size": 35
-              },
-              {
-                "map": "graveyard",
-                "x": 505,
-                "y": 500,
-                "size": 25
-              },
-              {
-                "map": "fullmap",
-                "x": 3995,
-                "y": 3360,
-                "size": 35
-              },
-              {
                 "map": "cathedral",
-                "x": 465,
-                "y": 485,
-                "size": 25
-              },
-              {
-                "map": "fullmap",
-                "x": 4895,
-                "y": 3260,
-                "size": 35
-              },
-              {
-                "map": "quarry",
-                "x": 1000,
-                "y": 1120,
-                "size": 25
-              },
-              {
-                "map": "fullmap",
-                "x": 1625,
-                "y": 2145,
-                "size": 35
+                "x": 630,
+                "y": 168,
+                "size": 16
               }
             ],
             "sections": [
               {
-                "name": "Potion 1",
-                "item_count": 1
+                "name": "Traversed",
+                "hosted_item": "Cathedral Main Exit"
               },
               {
-                "name": "Potion 2",
-                "item_count": 1
-              },
-              {
-                "name": "Coin 1",
-                "item_count": 1
-              },
-              {
-                "name": "Coin 2",
+                "name": "Done",
                 "item_count": 1
               }
             ]
-          }
-        ]
-      },
-      {
-        "name": "Free Bombs",
-        "map_locations": [
-          {
-            "map": "fullmap",
-            "x": 3000,
-            "y": 3200
           },
           {
-            "map": "overworld",
-            "x": 1335,
-            "y": 1450,
-            "size": 45
-          },
-          {
-            "map": "secrets",
-            "x": 890,
-            "y": 470
-          }
-        ],
-        "sections": [
-          {
-            "name": "Ice Bomb",
-            "hosted_item": "icebomb"
-          },
-          {
-            "name": "Fire Bomb",
-            "hosted_item": "firebomb"
-          },
-          {
-            "name": "Dynamite",
-            "hosted_item": "dynamite"
-          }
-        ]
-      },
-      {
-        "name": "Inside the Old House",
-        "map_locations": [
-          {
-            "map": "fullmap",
-            "x": 2730,
-            "y": 2415
-          },
-          {
-            "map": "fullmap",
-            "x": 2920,
-            "y": 2205
-          },
-          {
-            "map": "overworld",
-            "x": 1055,
-            "y": 665,
-            "size": 45
-          },
-          {
-            "map": "overworld",
-            "x": 1245,
-            "y": 455,
-            "size": 45
-          },
-          {
-            "map": "secrets",
-            "x": -20,
-            "y": 515
-          }
-        ],
-        "sections": [
-          {
-            "name": "Normal Chest",
-            "access_rules": ["@Old House Front"],
-            "item_count": 1
-          },
-          {
-            "name": "Holy Cross Chest",
-            "access_rules": ["@Old House Front,cross"],
-            "item_count": 1
-          },
-          {
-            "name": "Shield Pickup",
-            "access_rules": ["@Old House Front"],
-            "item_count": 1
-          },
-          {
-            "name": "Holy Cross Door Page",
-            "access_rules": ["@Old House Back,cross"],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Fountain",
-        "map_locations": [
-          {
-            "map": "fullmap",
-            "x": 2430,
-            "y": 2660
-          },
-          {
-            "map": "overworld",
-            "x": 755,
-            "y": 910,
-            "size": 45
-          },
-          {
-            "map": "secrets",
-            "x": -20,
-            "y": 655
-          }
-        ],
-        "sections": [
-          {
-            "name": "[Southwest] Fountain Page",
-            "access_rules": ["@Overworld,dash"],
-            "item_count": 1
-          },
-          {
-            "name": "[Southwest] Fountain Holy Cross",
-            "access_rules": ["@Overworld Holy Cross"],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Mountain Door",
-        "map_locations": [
-          {
-            "map": "fullmap",
-            "x": 3010,
-            "y": 1810
-          },
-          {
-            "map": "overworld",
-            "x": 1335,
-            "y": 60,
-            "size": 45
-          },
-          {
-            "map": "secrets",
-            "x": 850,
-            "y": 580
-          }
-        ],
-        "sections": [
-          {
-            "name": "Lower Mountain - Page Before Door",
+            "name": "Cathedral Elevator",
             "access_rules": [
-              "@Lower Mountain"
+              "{@Cathedral}",
+              "Cathedral Elevator"
             ],
-            "item_count": 1
+            "map_locations": [
+              {
+                "map": "cathedral",
+                "x": 353,
+                "y": 237,
+                "size": 16
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Cathedral Elevator"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
           },
           {
-            "name": "Top of the Mountain - Page At The Peak",
+            "name": "Cathedral Secret Legend Room Exit",
+            "access_rules": ["Cathedral Secret Legend Room Exit"],
+            "map_locations": [
+              {
+                "map": "cathedral",
+                "x": 91,
+                "y": 230,
+                "size": 16
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Cathedral Secret Legend Room Exit"
+              }
+            ]
+          },
+          {
+            "name": "Gauntlet to Swamp",
             "access_rules": [
-              "@Top of the Mountain"
+              "{@Cathedral Gauntlet,dash}",
+              "Gauntlet to Swamp"
             ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "West Furnace",
-        "map_locations": [
-          {
-            "map": "fullmap",
-            "x": 2100,
-            "y": 2550
+            "map_locations": [
+              {
+                "map": "cathedral",
+                "x": 869,
+                "y": 870,
+                "size": 16
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Gauntlet to Swamp"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
           },
           {
-            "map": "overworld",
-            "x": 425,
-            "y": 800,
-            "size": 45
-          },
-          {
-            "map": "fullmap",
-            "x": 2950,
-            "y": 1595
-          },
-          {
-            "map": "well",
-            "x": 280,
-            "y": 1245,
-            "size": 45
-          }
-        ],
-        "sections": [
-          {
-            "name": "Chest",
-            "access_rules": ["@Furnace Walking Path"],
-            "item_count": 1
-          },
-          {
-            "name": "Lantern Pickup",
-            "access_rules": ["@Furnace Fuse"],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Inside Hourglass Cave",
-        "map_locations": [
-          {
-            "map": "fullmap",
-            "x": 2510,
-            "y": 2850
-          },
-          {
-            "map": "overworld",
-            "x": 760,
-            "y": 1100,
-            "size": 45
-          },
-          {
-            "map": "secrets",
-            "x": 960,
-            "y": 295
-          },
-          {
-            "map": "secrets",
-            "x": -20,
-            "y": 445
-          }
-        ],
-        "sections": [
-          {
-            "name": "Hourglass Chest",
-            "access_rules": ["@Hourglass Cave"],
-            "item_count": 1
-          },
-          {
-            "name": "Holy Cross Chest",
+            "name": "Gauntlet Elevator",
             "access_rules": [
-              "@Hourglass Cave Tower,cross"
+              "{@Cathedral Gauntlet Checkpoint}",
+              "Gauntlet Elevator"
             ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "The Hero's Sword",
-        "map_locations": [
-          {
-            "map": "fullmap",
-            "x": 4155,
-            "y": 2725
+            "map_locations": [
+              {
+                "map": "cathedral",
+                "x": 351,
+                "y": 472,
+                "size": 16
+              }
+            ], 
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Gauntlet Elevator"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
           },
           {
-            "map": "east_forest",
-            "x": 2272,
-            "y": 704,
-            "size": 35
-          }
-        ],
-        "sections": [
-          {
-            "name": "Forest Grave Path - Sword Pickup",
-            "access_rules": ["@Forest Grave Path by Grave"],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Vault Hero's Grave",
-        "map_locations": [
-          {
-            "map": "fullmap",
-            "x": 5245,
-            "y": 1830
-          },
-          {
-            "map": "eastern_vault",
-            "x": 1660,
-            "y": 650,
-            "size": 45
-          }
-        ],
-        "sections": [
-          {
-            "name": "Fortress Grave Path - Obscured Chest Left of Grave",
-            "access_rules": ["@Fortress Grave Path"],
-            "item_count": 1
-          },
-          {
-            "name": "Fortress Grave Path - Chest Right of Grave",
-            "access_rules": ["@Fortress Grave Path"],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Monastery",
-        "map_locations": [
-          {
-            "map": "fullmap",
-            "x": 1010,
-            "y": 1245
-          },
-          {
-            "map": "quarry",
-            "x": 385,
-            "y": 220,
-            "size": 45
-          }
-        ],
-        "sections": [
-          {
-            "name": "Monastery Chest",
-            "access_rules": ["@Monastery Back"],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "First Hero's Grave",
-        "map_locations": [
-          {
-            "map": "fullmap",
-            "x": 4315,
-            "y": 3205
-          },
-          {
-            "map": "graveyard",
-            "x": 862,
-            "y": 297,
-            "size": 45
-          }
-        ],
-        "sections": [
-          {
-            "name": "[Outside Cathedral] Obscured Behind Memorial",
-            "access_rules": ["@Back of Swamp"],
-            "item_count": 1
+            "name": "Gauntlet Shop",
+            "access_rules": [
+              "{@Cathedral Gauntlet Checkpoint}",
+              "Gauntlet Shop"
+            ],
+            "map_locations": [
+              {
+                "map": "cathedral",
+                "x": 467,
+                "y": 496,
+                "size": 16
+              }
+            ], 
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Gauntlet Shop"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
           }
         ]
       },
@@ -8751,7 +9028,7 @@
           {
             "name": "Far Shore to Library",
             "access_rules": [
-              "{@Far Shore,impossible_2}",
+              "{@Far Shore,@Library Lab,pray,ladders_in_library}",
               "Far Shore to Library"
             ],
             "map_locations": [

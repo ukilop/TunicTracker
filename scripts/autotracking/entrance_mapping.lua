@@ -71,12 +71,16 @@ ENTRANCE_MAPPING = {
 	["ShopSpecial, Overworld Redux_"] = {"Special Shop Exit", nil},
 	["Temple, Overworld Redux_rafters"] = {"Temple Rafters Exit", nil},
 	["Temple, Overworld Redux_main"] = {"Temple Door Exit", nil},
+	
+	["Purgatory, Purgatory_top"] = {"Purgatory Top Exit", nil},
+	["Purgatory, Purgatory_bottom"] = {"Purgatory Bottom Exit", nil},
+
 	["Sewer, Overworld Redux_entrance"] = {"Well Ladder Exit", nil},
 	["Sewer, Sewer_Boss_"] = {"Well to Well Boss", nil},
 	["Sewer, Overworld Redux_west_aqueduct"] = {"Well Exit towards Furnace", nil},
 	["Sewer_Boss, Sewer_"] = {"Well Boss to Well", nil},
 	["Sewer_Boss, Crypt Redux_"] = {"Checkpoint to Dark Tomb", nil},
-	
+
 	["Crypt Redux, Overworld Redux_"] = {"Dark Tomb to Overworld", nil},
 	["Crypt Redux, Furnace_"] = {"Dark Tomb to Furnace", nil},
 	["Crypt Redux, Sewer_Boss_"] = {"Dark Tomb to Checkpoint", nil},
@@ -224,9 +228,6 @@ ENTRANCE_MAPPING = {
 	["Cathedral Arena, Cathedral Redux_"] = {"Gauntlet Elevator", nil},
 	["Cathedral Arena, Shop_"] = {"Gauntlet Shop", nil},
 	
-	["Purgatory, Purgatory_top"] = {"Purgatory Top Exit", nil},
-	["Purgatory, Purgatory_bottom"] = {"Purgatory Bottom Exit", nil},
-	
 	["Transit, Archipelagos Redux_teleporter_archipelagos_teleporter"] = {"Far Shore to West Garden", nil},
 	["Transit, Library Lab_teleporter_library teleporter"] = {"Far Shore to Library", nil},
 	["Transit, Quarry Redux_teleporter_quarry teleporter"] = {"Far Shore to Quarry", nil},
@@ -240,10 +241,10 @@ ENTRANCE_MAPPING = {
 	
 	["Spirit Arena, Transit_teleporter_spirit arena"] = {"Heir Arena Exit", nil},
 	
-	["RelicVoid, Swamp Redux 2_teleporter_relic plinth"] = {"Hero's Grave to Swamp", nil}
+	["RelicVoid, Swamp Redux 2_teleporter_relic plinth"] = {"Hero's Grave to Swamp", nil},
 	["RelicVoid, Library Hall_teleporter_relic plinth"] = {"Hero's Grave to Library", nil},
 	["RelicVoid, Archipelagos Redux_teleporter_relic plinth"] = {"Hero's Grave to West Garden", nil},
 	["RelicVoid, Monastery_teleporter_relic plinth"] = {"Hero's Grave to Monastery", nil},
 	["RelicVoid, Fortress Reliquary_teleporter_relic plinth"] = {"Hero's Grave to Fortress", nil},
-	["RelicVoid, Sword Access_teleporter_relic plinth"] = {"Hero's Grave to East Forest", nil},
+	["RelicVoid, Sword Access_teleporter_relic plinth"] = {"Hero's Grave to East Forest", nil}
 }

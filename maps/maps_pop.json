@@ -19,7 +19,7 @@
   },
   {
     "name": "cathedral",
-    "location_size": 26,
+    "location_size": 15,
     "location_border_thickness": 6,
     "img": "maps/cathedral.png"
   },
