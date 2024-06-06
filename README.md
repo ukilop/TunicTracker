@@ -1,4 +1,4 @@
-# Tunic Randomizer Tracker by SapphireSapphic, ScoutJD, and Br00ty
+# Tunic Randomizer Tracker by SapphireSapphic, ScoutJD, Br00ty And Ukilop
 
 To install, simply navigate to the package manager in EmoTracker, and search "Tunic", then hit download!
 If you encounter any issues, please contact SapphireSapphic#8218 on discord.
@@ -23,6 +23,11 @@ As of version 1.5, this package is now also compatible with Poptracker, for use 
 As of version 1.6, this package supports auto-tabbing (compatible with Poptracker only), and auto-layout switching for when the player is connected to the AP server and has the setting `Progressive Sword` on.
 
 As of version 1.7, this package supports Ladder Shuffle (compatible with Poptracker only) and this packs logic has been fully updated, all thanks to @patrickwhite256 . 1.7 also features new maps of East Forest and Rooted Ziggurat, thanks to FletchIsAFurry. 
+
+As of Version 1.8, Entrance Randomizer! (Poptracker only) Thanks to @Ukilop with help of various discord helpers. Use the "Entrance Visibility" item to toggle visibility of all entrances.
+Entrances have a "Traveresed" item that is automatically given when that entrance is entered (or exited), and connected to an AP server.
+Entrances are Blue (Scoutable) if reachable but unchecked, 
+Green (Reachable) or Grey (Checked) if checked. Most entrances have a "Done" check to manually toggle them between Green/Gray as a means of manually marking "Dead end" entrances or "Compleated" paths.
 
 Note: The "Hints" section of the tracker is only intended for generalized hints (ie. "The Laurels are in The Quarry" or "East Forest is on the path of the hero"). For specific location hints, you can click on the corresponding check and mark the item directly (ie. 15 coins in the well hoards the Shield).
 

@@ -957,7 +957,7 @@
       {
         "name": "Upper Overworld",
         "access_rules": [
-          "@Lower Mountain",
+          "@Stairs from Overworld to Mountain",
           "@Overworld above Patrol Cave,[glitches],dagger,icerod,orb,staff",
           "@Overworld above Patrol Cave,ladders_near_patrol_cave",
           "@Overworld above Quarry Entrance,dash",
@@ -1065,8 +1065,7 @@
           "[glitches],dagger,orb",
           "@Overworld after Envoy,ladder_to_quarry",
           "@Quarry Connector"
-        ],
-        "children": []
+        ]
       },
       {
         "name": "Overworld after Envoy",
@@ -1207,8 +1206,7 @@
         "access_rules": [
           "ladders_in_well",
           "@Beneath the Well Ladder Exit"
-        ],
-        "children": []
+        ]
       },
       {
         "name": "Overworld Beach",
@@ -1468,8 +1466,7 @@
           "dash",
           "@Overworld Beach,ladder_to_ruined_atoll",
           "@Ruined Atoll"
-        ],
-        "children": []
+        ]
       },
       {
         "name": "Overworld Well to Furnace Rail",
@@ -1478,8 +1475,7 @@
           "@Furnace Fuse",
           "@Furnace Ladder Area,glitches,stick",
           "@Furnace Ladder Area,glitches,sword"
-        ],
-        "children": []
+        ]
       },
       {
         "name": "Overworld Ruined Passage Door",
@@ -1487,8 +1483,7 @@
           "[glitches],dash",
           "key:2",
           "@Ruined Passage"
-        ],
-        "children": []
+        ]
       },
       {
         "name": "Overworld Old House Door",
@@ -1496,24 +1491,21 @@
           "[glitches],dagger,orb",
           "oldkey",
           "@Old House Front"
-        ],
-        "children": []
+        ]
       },
       {
         "name": "Overworld Southeast Cross Door",
         "access_rules": [
           "cross",
           "@Southeast Cross Room"
-        ],
-        "children": []
+        ]
       },
       {
         "name": "Overworld Fountain Cross Door",
         "access_rules": [
           "cross",
           "@Fountain Cross Room"
-        ],
-        "children": []
+        ]
       },
       {
         "name": "Overworld Temple Door",
@@ -1521,23 +1513,436 @@
           "[glitches],dagger,orb",
           "ding,dong",
           "@Sealed Temple"
-        ],
-        "children": []
+        ]
       },
       {
         "name": "Overworld Town Portal",
         "access_rules": [
           "pray",
           "@Far Shore"
-        ],
-        "children": []
+        ]
       },
       {
         "name": "Overworld Spawn Portal",
         "access_rules": [
           "pray"
+        ]
+      },
+      {
+        "name": "Purgatory",
+        "access_rules": [
+          "@Purgatory"
+        ]
+      },
+      
+      {
+        "name": "Shop",
+        "children": [
+          {
+            "name": "Shop",
+            "access_rules": "{}",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 2575,
+                "y": 2265,
+                "size": 35
+              },
+              {
+                "map": "overworld",
+                "x": 900,
+                "y": 515,
+                "size": 25
+              },
+              {
+                "map": "west_gardens",
+                "x": 630,
+                "y": 10,
+                "size": 25
+              },
+              {
+                "map": "fullmap",
+                "x": 870,
+                "y": 2430,
+                "size": 35
+              },
+              {
+                "map": "eastern_vault",
+                "x": 330,
+                "y": 640,
+                "size": 25
+              },
+              {
+                "map": "fullmap",
+                "x": 3915,
+                "y": 1820,
+                "size": 35
+              },
+              {
+                "map": "eastern_vault",
+                "x": 390,
+                "y": 290,
+                "size": 25
+              },
+              {
+                "map": "fullmap",
+                "x": 3975,
+                "y": 1470,
+                "size": 35
+              },
+              {
+                "map": "ruined_atoll",
+                "x": 1035,
+                "y": 240,
+                "size": 25
+              },
+              {
+                "map": "fullmap",
+                "x": 2680,
+                "y": 3350,
+                "size": 35
+              }
+            ],
+            "sections": [
+              {
+                "name": "Potion 1",
+                "item_count": 1
+              },
+              {
+                "name": "Potion 2",
+                "item_count": 1
+              },
+              {
+                "name": "Coin 1",
+                "item_count": 1
+              },
+              {
+                "name": "Coin 2",
+                "item_count": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Free Bombs",
+        "map_locations": [
+          {
+            "map": "fullmap",
+            "x": 3000,
+            "y": 3200
+          },
+          {
+            "map": "overworld",
+            "x": 1335,
+            "y": 1450,
+            "size": 45
+          },
+          {
+            "map": "secrets",
+            "x": 890,
+            "y": 470
+          }
         ],
-        "children": []
+        "sections": [
+          {
+            "name": "Ice Bomb",
+            "hosted_item": "icebomb"
+          },
+          {
+            "name": "Fire Bomb",
+            "hosted_item": "firebomb"
+          },
+          {
+            "name": "Dynamite",
+            "hosted_item": "dynamite"
+          }
+        ]
+      },
+      {
+        "name": "Inside the Old House",
+        "map_locations": [
+          {
+            "map": "fullmap",
+            "x": 2730,
+            "y": 2415
+          },
+          {
+            "map": "fullmap",
+            "x": 2920,
+            "y": 2205
+          },
+          {
+            "map": "overworld",
+            "x": 1055,
+            "y": 665,
+            "size": 45
+          },
+          {
+            "map": "overworld",
+            "x": 1245,
+            "y": 455,
+            "size": 45
+          },
+          {
+            "map": "secrets",
+            "x": -20,
+            "y": 515
+          }
+        ],
+        "sections": [
+          {
+            "name": "Normal Chest",
+            "access_rules": ["@Old House Front"],
+            "item_count": 1
+          },
+          {
+            "name": "Holy Cross Chest",
+            "access_rules": ["@Old House Front,cross"],
+            "item_count": 1
+          },
+          {
+            "name": "Shield Pickup",
+            "access_rules": ["@Old House Front"],
+            "item_count": 1
+          },
+          {
+            "name": "Holy Cross Door Page",
+            "access_rules": ["@Old House Back,cross"],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Fountain",
+        "map_locations": [
+          {
+            "map": "fullmap",
+            "x": 2430,
+            "y": 2660
+          },
+          {
+            "map": "overworld",
+            "x": 755,
+            "y": 910,
+            "size": 45
+          },
+          {
+            "map": "secrets",
+            "x": -20,
+            "y": 655
+          }
+        ],
+        "sections": [
+          {
+            "name": "[Southwest] Fountain Page",
+            "access_rules": ["@Overworld,dash"],
+            "item_count": 1
+          },
+          {
+            "name": "[Southwest] Fountain Holy Cross",
+            "access_rules": ["@Overworld Holy Cross"],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "West Furnace",
+        "map_locations": [
+          {
+            "map": "fullmap",
+            "x": 2100,
+            "y": 2550
+          },
+          {
+            "map": "overworld",
+            "x": 425,
+            "y": 800,
+            "size": 45
+          },
+          {
+            "map": "fullmap",
+            "x": 2950,
+            "y": 1595
+          },
+          {
+            "map": "well",
+            "x": 280,
+            "y": 1245,
+            "size": 45
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "access_rules": ["@Furnace Walking Path"],
+            "item_count": 1
+          },
+          {
+            "name": "Lantern Pickup",
+            "access_rules": ["@Furnace Fuse"],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Inside Hourglass Cave",
+        "map_locations": [
+          {
+            "map": "fullmap",
+            "x": 2510,
+            "y": 2850
+          },
+          {
+            "map": "overworld",
+            "x": 760,
+            "y": 1100,
+            "size": 45
+          },
+          {
+            "map": "secrets",
+            "x": 960,
+            "y": 295
+          },
+          {
+            "map": "secrets",
+            "x": -20,
+            "y": 445
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hourglass Chest",
+            "access_rules": ["@Hourglass Cave"],
+            "item_count": 1
+          },
+          {
+            "name": "Holy Cross Chest",
+            "access_rules": [
+              "@Hourglass Cave Tower,cross"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Overworld to Quarry Connector",
+        "access_rules": [
+          "{glitches,ladder_to_swamp,stick}",
+          "{glitches,ladder_to_swamp,sword}",
+          "{glitches,ladders_in_overworld_town,stick}",
+          "{glitches,ladders_in_overworld_town,sword}",
+          "{glitches,ladders_in_well,stick}",
+          "{glitches,ladders_in_well,sword}",
+          "{glitches,ladders_near_weathervane,stick}",
+          "{glitches,ladders_near_weathervane,sword}",
+          "{@Overworld Beach,glitches,ladder_to_ruined_atoll,stick}",
+          "{@Overworld Beach,glitches,ladder_to_ruined_atoll,sword}",
+          "{@Overworld Quarry Entry}",
+          "{@Overworld to West Garden Upper,glitches,ladders_to_west_bell,stick}",
+          "{@Overworld to West Garden Upper,glitches,ladders_to_west_bell,sword}",
+          "Overworld to Quarry Connector"
+        ]
+      },
+      {
+        "name": "Stairs from Overworld to Mountain", 
+        "access_rules": [
+          "Stairs from Overworld to Mountain",
+          "{@Overworld above Quarry Entrance,glitches,ladders_near_dark_tomb,stick}",
+          "{@Overworld above Quarry Entrance,glitches,ladders_near_dark_tomb,sword}",
+          "{@Upper Overworld}"
+        ]
+      },
+      {
+        "name": "The Hero's Sword",
+        "map_locations": [
+          {
+            "map": "fullmap",
+            "x": 4155,
+            "y": 2725
+          },
+          {
+            "map": "east_forest",
+            "x": 2272,
+            "y": 704,
+            "size": 35
+          }
+        ],
+        "sections": [
+          {
+            "name": "Forest Grave Path - Sword Pickup",
+            "access_rules": ["@Forest Grave Path by Grave"],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Vault Hero's Grave",
+        "map_locations": [
+          {
+            "map": "fullmap",
+            "x": 5245,
+            "y": 1830
+          },
+          {
+            "map": "eastern_vault",
+            "x": 1660,
+            "y": 650,
+            "size": 45
+          }
+        ],
+        "sections": [
+          {
+            "name": "Fortress Grave Path - Obscured Chest Left of Grave",
+            "access_rules": ["@Fortress Grave Path"],
+            "item_count": 1
+          },
+          {
+            "name": "Fortress Grave Path - Chest Right of Grave",
+            "access_rules": ["@Fortress Grave Path"],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Monastery",
+        "map_locations": [
+          {
+            "map": "fullmap",
+            "x": 1010,
+            "y": 1245
+          },
+          {
+            "map": "quarry",
+            "x": 1709,
+            "y": 210,
+            "size": 45
+          }
+        ],
+        "sections": [
+          {
+            "name": "Monastery Chest",
+            "access_rules": ["@Monastery Back"],
+            "item_count": 1
+          }
+        ],
+        "children": [
+          {
+            "name": "Monastery Front",
+            "access_rules": [
+              "@Monastery Back,[glitches],dash",
+              "@Monastery Front Exit"
+            ]
+          },
+          {
+            "name": "Monastery Back",
+            "access_rules": [
+              "@Monastery Front",
+              "@Monastery Hero's Grave",
+              "@Monastery Rear Exit"
+            ]
+          }
+        ]
       },
       {
         "name": "Stick House",
@@ -4579,6 +4984,10 @@
         ]
       },
       {
+        "name": "Frog's Domain Entry",
+        "access_rules": "@Frog Stairs to Frog's Domain"
+      },
+      {
         "name": "Frog Stairs to Frog's Domain",
         "access_rules": [
           "@Frog Stairs Lower,ladders_to_frogs_domain",
@@ -4586,276 +4995,268 @@
         ]
       },
       {
-        "name": "Frog's Domain Entry",
-        "access_rules": [
-          "@Frog Stairs to Frog's Domain"
-        ]
-      },
-      {
-        "name": "Frog's Domain",
-        "access_rules": [
-          "@Frog's Domain Entry,ladders_to_frogs_domain"
-        ],
+        "name": "Frog's Domain", 
+        "access_rules": ["@Frog's Domain Entry,ladders_to_frogs_domain"],
         "children": [
           {
-            "name": "Grapple Above Hot Tub",
+            "name": "Grapple Above Hot Tub", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3255,
+                "map": "fullmap", 
+                "x": 3255, 
                 "y": 4325
-              },
+              }, 
               {
-                "map": "frogs_domain",
-                "x": 820,
-                "y": 465,
+                "map": "frogs_domain", 
+                "x": 820, 
+                "y": 752, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "Look Up",
+                "name": "Look Up", 
                 "access_rules": [
-                  "dash",
+                  "dash", 
                   "orb"
-                ],
+                ], 
                 "item_count": 1
               }
             ]
-          },
+          }, 
           {
-            "name": "Side Room Chest",
+            "name": "Side Room Chest", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3560,
+                "map": "fullmap", 
+                "x": 3560, 
                 "y": 4065
-              },
+              }, 
               {
-                "map": "frogs_domain",
-                "x": 1125,
-                "y": 205,
+                "map": "frogs_domain", 
+                "x": 1125, 
+                "y": 492, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "Oh No! Our Frogs! They're Dead!",
+                "name": "Oh No! Our Frogs! They're Dead!", 
                 "item_count": 1
               }
             ]
-          },
+          }, 
           {
-            "name": "Side Room Secret Passage",
+            "name": "Side Room Secret Passage", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3685,
+                "map": "fullmap", 
+                "x": 3685, 
                 "y": 4055
-              },
+              }, 
               {
-                "map": "frogs_domain",
-                "x": 1250,
-                "y": 195,
+                "map": "frogs_domain", 
+                "x": 1250, 
+                "y": 482, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "Upper Right Corner",
+                "name": "Upper Right Corner", 
                 "item_count": 1
               }
             ]
-          },
+          }, 
           {
-            "name": "Side Room Grapple Secret",
+            "name": "Side Room Grapple Secret", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3330,
+                "map": "fullmap", 
+                "x": 3330, 
                 "y": 4130
-              },
+              }, 
               {
-                "map": "frogs_domain",
-                "x": 895,
-                "y": 270,
+                "map": "frogs_domain", 
+                "x": 895, 
+                "y": 557, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "Grapple on Over",
+                "name": "Grapple on Over", 
                 "access_rules": [
-                  "dash",
+                  "dash", 
                   "orb"
-                ],
+                ], 
                 "item_count": 1
               }
             ]
-          },
+          }, 
           {
-            "name": "Above Vault",
+            "name": "Above Vault", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3155,
+                "map": "fullmap", 
+                "x": 3155, 
                 "y": 4460
-              },
+              }, 
               {
-                "map": "frogs_domain",
-                "x": 720,
-                "y": 600,
+                "map": "frogs_domain", 
+                "x": 720, 
+                "y": 887, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "Obscured Doorway Ledge",
+                "name": "Obscured Doorway Ledge", 
                 "item_count": 1
               }
             ]
-          },
+          }, 
           {
-            "name": "Main Room Top Floor",
+            "name": "Main Room Top Floor", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2500,
+                "map": "fullmap", 
+                "x": 2500, 
                 "y": 4735
-              },
+              }, 
               {
-                "map": "frogs_domain",
-                "x": 65,
-                "y": 875,
+                "map": "frogs_domain", 
+                "x": 65, 
+                "y": 1162, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "Mind the Adult Frog",
+                "name": "Mind the Adult Frog", 
                 "item_count": 1
               }
             ]
-          },
+          }, 
           {
-            "name": "Main Room Bottom Floor",
+            "name": "Main Room Bottom Floor", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2910,
+                "map": "fullmap", 
+                "x": 2910, 
                 "y": 4835
-              },
+              }, 
               {
-                "map": "frogs_domain",
-                "x": 475,
-                "y": 975,
+                "map": "frogs_domain", 
+                "x": 475, 
+                "y": 1262, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "Altar Chest",
+                "name": "Altar Chest", 
                 "item_count": 1
               }
             ]
-          },
+          }, 
           {
-            "name": "Near Vault",
+            "name": "Near Vault", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3435,
+                "map": "fullmap", 
+                "x": 3435, 
                 "y": 4675
-              },
+              }, 
               {
-                "map": "frogs_domain",
-                "x": 1000,
-                "y": 815,
+                "map": "frogs_domain", 
+                "x": 1000, 
+                "y": 1102, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "Already Stolen",
+                "name": "Already Stolen", 
                 "item_count": 1
               }
             ]
-          },
+          }, 
           {
-            "name": "Slorm Room",
+            "name": "Slorm Room", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3755,
+                "map": "fullmap", 
+                "x": 3755, 
                 "y": 4775
-              },
+              }, 
               {
-                "map": "frogs_domain",
-                "x": 1320,
-                "y": 915,
+                "map": "frogs_domain", 
+                "x": 1320, 
+                "y": 1202, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "Tobias was Trapped Here Once...",
+                "name": "Tobias was Trapped Here Once...", 
                 "item_count": 1
               }
             ]
-          },
+          }, 
           {
-            "name": "Magic Orb Pickup",
+            "name": "Magic Orb Pickup", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 3600,
-                "y": 4265
-              },
+                "map": "fullmap", 
+                "x": 3600, 
+                "y": 4552
+              }, 
               {
-                "map": "frogs_domain",
-                "x": 1165,
-                "y": 405,
+                "map": "frogs_domain", 
+                "x": 1165, 
+                "y": 405, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "Frult Meeting",
+                "name": "Frult Meeting", 
                 "item_count": 1
               }
             ]
           }
         ]
-      },
+      }, 
       {
-        "name": "Frog's Domain Back",
+        "name": "Frog's Domain Back", 
         "access_rules": [
-          "@Frog Stairs Lower",
+          "@Frog Stairs Lower", 
           "@Frog's Domain,orb"
-        ],
+        ], 
         "children": [
           {
-            "name": "Escape Chest",
+            "name": "Escape Chest", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 4060,
+                "map": "fullmap", 
+                "x": 4060, 
                 "y": 4055
-              },
+              }, 
               {
-                "map": "frogs_domain",
-                "x": 1625,
-                "y": 195,
+                "map": "frogs_domain", 
+                "x": 1625, 
+                "y": 482, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "Don't Kick Fimbleton!",
+                "name": "Don't Kick Fimbleton!", 
                 "access_rules": [
-                  "dash",
+                  "dash", 
                   "orb"
-                ],
+                ], 
                 "item_count": 1
               }
             ]
@@ -6085,326 +6486,458 @@
         ]
       },
       {
-        "name": "Lower Mountain",
-        "access_rules": [
-          "@Lower Mountain Stairs,cross",
-          "@Overworld above Quarry Entrance,glitches,ladders_near_dark_tomb,stick",
-          "@Overworld above Quarry Entrance,glitches,ladders_near_dark_tomb,sword",
-          "@Quarry Back",
-          "@Upper Overworld"
-        ]
-      },
-      {
-        "name": "Lower Mountain Stairs",
-        "access_rules": [
-          "@Lower Mountain,cross",
-          "@Top of the Mountain"
-        ]
-      },
-      {
-        "name": "Top of the Mountain",
-        "access_rules": [
-          "@Lower Mountain Stairs"
+        "name": "Mountain",
+        "children": [
+          {
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3020,
+                "y": 1810
+              },
+              {
+                "map": "quarry",
+                "x": 239,
+                "y": 597,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Lower Mountain - Page Before Door",
+                "access_rules": "@Lower Mountain",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "map_locations": [
+              {
+                "map": "quarry",
+                "x": 323,
+                "y": 242,
+                "size": 45
+              },
+              {
+                "map": "fullmap",
+                "x": 3000,
+                "y": 1810
+              },
+              {
+                "map": "secrets",
+                "x": 850,
+                "y": 580
+              }
+            ],
+            "sections": [
+              {
+                "name": "Top of the Mountain - Page At The Peak",
+                "access_rules": "@Top of the Mountain",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Lower Mountain",
+            "access_rules": [
+              "@Stairs to Top of the Mountain,cross",
+              "@Overworld above Quarry Entrance,glitches,ladders_near_dark_tomb,stick",
+              "@Overworld above Quarry Entrance,glitches,ladders_near_dark_tomb,sword",
+              "@Mountain to Quarry",
+              "@Mountain to Overworld"
+            ]
+          },
+          {
+            "name": "Top of the Mountain",
+            "access_rules": "@Top of the Mountain Exit"
+          },
+          {
+            "name": "Entrances",
+            "visibility_rules": "Entrance_visibility",
+            "children":[              
+              {
+                "name": "Stairs to Top of the Mountain",
+                "access_rules": [
+                  "Stairs to Top of the Mountain",
+                  "{@Lower Mountain,cross}"
+                ],
+                "map_locations": [
+                  {
+                    "map": "quarry",
+                    "x": 107,
+                    "y": 457,
+                    "size": 25
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Traversed",
+                    "hosted_item": "Stairs to Top of the Mountain"
+                  },
+                  {
+                    "name": "Done",
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name": "Mountain to Quarry",
+                "access_rules": [
+                  "Mountain to Quarry",
+                  "{@Lower Mountain}"
+                ],
+                "map_locations": [
+                  {
+                    "map": "quarry",
+                    "x": 307,
+                    "y": 577,
+                    "size": 25
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Traversed",
+                    "hosted_item": "Mountain to Quarry"
+                  },
+                  {
+                    "name": "Done",
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name": "Mountain to Overworld",
+                "access_rules": [
+                  "Mountain to Overworld",
+                  "{@Lower Mountain}"
+                ],
+                "map_locations": [
+                  {
+                    "map": "quarry",
+                    "x": 166,
+                    "y": 731,
+                    "size": 25
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Traversed",
+                    "hosted_item": "Mountain to Overworld"
+                  },
+                  {
+                    "name": "Done",
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name": "Top of the Mountain Exit",
+                "access_rules": "Top of the Mountain Exit",
+                "map_locations": [
+                  {
+                    "map": "quarry",
+                    "x": 587,
+                    "y": 588,
+                    "size": 25
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Traversed",
+                    "hosted_item": "Mountain to Quarry"
+                  }
+                ]
+              }
+            ]
+          }
         ]
       },
       {
         "name": "Quarry Connector",
         "access_rules": [
-          "glitches,ladder_to_swamp,stick",
-          "glitches,ladder_to_swamp,sword",
-          "glitches,ladders_in_overworld_town,stick",
-          "glitches,ladders_in_overworld_town,sword",
-          "glitches,ladders_in_well,stick",
-          "glitches,ladders_in_well,sword",
-          "glitches,ladders_near_weathervane,stick",
-          "glitches,ladders_near_weathervane,sword",
-          "@Overworld Beach,glitches,ladder_to_ruined_atoll,stick",
-          "@Overworld Beach,glitches,ladder_to_ruined_atoll,sword",
-          "@Overworld Quarry Entry",
-          "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,stick",
-          "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,sword",
-          "@Quarry Entry"
+          "@Quarry Connector to Overworld",
+          "@Quarry Connector to Quarry"
         ]
       },
       {
         "name": "Quarry Entry",
         "access_rules": [
           "@Quarry",
-          "@Quarry Connector",
-          "@Quarry Portal"
+          "@Quarry to Overworld Exit",
+          "@Quarry to Far Shore"
         ]
       },
       {
-        "name": "Quarry",
+        "name": "Quarry", 
         "access_rules": [
-          "@Quarry Back,[staff]",
-          "@Quarry Back,[sword]",
-          "@Quarry Entry,[staff]",
-          "@Quarry Entry,[sword]",
-          "@Quarry Monastery Entry,[staff]",
+          "@Quarry Back,[staff]", 
+          "@Quarry Back,[sword]", 
+          "@Quarry Entry,[staff]", 
+          "@Quarry Entry,[sword]", 
+          "@Quarry Monastery Entry,[staff]", 
           "@Quarry Monastery Entry,[sword]"
-        ],
+        ], 
         "children": [
           {
-            "name": "[Central] Obscured Below Entry Walkway",
+            "name": "[Central] Obscured Below Entry Walkway", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1345,
+                "map": "fullmap", 
+                "x": 1845, 
                 "y": 1840
-              },
+              }, 
               {
-                "map": "quarry",
-                "x": 720,
-                "y": 815,
+                "map": "quarry", 
+                "x": 1220, 
+                "y": 815, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "Down the Stairs",
+                "name": "Down the Stairs", 
                 "item_count": 1
               }
             ]
-          },
+          }, 
           {
-            "name": "[Central] Below Entry Walkway",
+            "name": "[Central] Below Entry Walkway", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1390,
+                "map": "fullmap", 
+                "x": 1890, 
                 "y": 2045
-              },
+              }, 
               {
-                "map": "quarry",
-                "x": 765,
-                "y": 1020,
+                "map": "quarry", 
+                "x": 1265, 
+                "y": 1020, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "Even more Stairs!",
+                "name": "Even more Stairs!", 
                 "item_count": 1
               }
             ]
-          },
+          }, 
           {
-            "name": "[East] Near Bridge",
+            "name": "[East] Near Bridge", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1405,
+                "map": "fullmap", 
+                "x": 1905, 
                 "y": 1710
-              },
+              }, 
               {
-                "map": "quarry",
-                "x": 780,
-                "y": 685,
+                "map": "quarry", 
+                "x": 1280, 
+                "y": 685, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "Drop that Bridge!",
+                "name": "Drop that Bridge!", 
                 "item_count": 1
               }
             ]
-          },
+          }, 
           {
-            "name": "[East] Bombable Wall",
+            "name": "[East] Bombable Wall", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1510,
+                "map": "fullmap", 
+                "x": 2010, 
                 "y": 1645
-              },
+              }, 
               {
-                "map": "quarry",
-                "x": 885,
-                "y": 620,
+                "map": "quarry", 
+                "x": 1385, 
+                "y": 620, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "Flowers Guide Thee",
+                "name": "Flowers Guide Thee", 
                 "item_count": 1
               }
             ]
-          },
+          }, 
           {
-            "name": "[Central] Near Shortcut Ladder",
+            "name": "[Central] Near Shortcut Ladder", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1095,
+                "map": "fullmap", 
+                "x": 1595, 
                 "y": 1765
-              },
+              }, 
               {
-                "map": "quarry",
-                "x": 470,
-                "y": 740,
+                "map": "quarry", 
+                "x": 970, 
+                "y": 740, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "By the Boxes",
+                "name": "By the Boxes", 
                 "item_count": 1
               }
             ]
-          },
+          }, 
           {
-            "name": "[East] Obscured Near Telescope",
+            "name": "[East] Obscured Near Telescope", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1630,
+                "map": "fullmap", 
+                "x": 2130, 
                 "y": 1470
-              },
+              }, 
               {
-                "map": "quarry",
-                "x": 1005,
-                "y": 445,
+                "map": "quarry", 
+                "x": 1505, 
+                "y": 445, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "Weird path?",
+                "name": "Weird path?", 
                 "item_count": 1
               }
             ]
-          },
+          }, 
           {
-            "name": "[East] Near Telescope",
+            "name": "[East] Near Telescope", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1840,
+                "map": "fullmap", 
+                "x": 2340, 
                 "y": 1385
-              },
+              }, 
               {
-                "map": "quarry",
-                "x": 1215,
-                "y": 360,
+                "map": "quarry", 
+                "x": 1715, 
+                "y": 360, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "Spoopy",
+                "name": "Spoopy", 
                 "item_count": 1
               }
             ]
-          },
+          }, 
           {
-            "name": "[East] Obscured Near Winding Staircase",
+            "name": "[East] Obscured Near Winding Staircase", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1525,
+                "map": "fullmap", 
+                "x": 2025, 
                 "y": 1545
-              },
+              }, 
               {
-                "map": "quarry",
-                "x": 900,
-                "y": 520,
+                "map": "quarry", 
+                "x": 1400, 
+                "y": 520, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "At the Bottom",
+                "name": "At the Bottom", 
                 "item_count": 1
               }
             ]
-          },
+          }, 
           {
-            "name": "[Central] Top Floor Overhang",
+            "name": "[Central] Top Floor Overhang", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1315,
+                "map": "fullmap", 
+                "x": 1815, 
                 "y": 1650
-              },
+              }, 
               {
-                "map": "quarry",
-                "x": 690,
-                "y": 625,
+                "map": "quarry", 
+                "x": 1190, 
+                "y": 625, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "End of the ruined bridge",
+                "name": "End of the ruined bridge", 
                 "item_count": 1
               }
             ]
-          },
+          }, 
           {
-            "name": "[East] Upper Floor",
+            "name": "[East] Upper Floor", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1575,
+                "map": "fullmap", 
+                "x": 2075, 
                 "y": 1260
-              },
+              }, 
               {
-                "map": "quarry",
-                "x": 950,
-                "y": 235,
+                "map": "quarry", 
+                "x": 1450, 
+                "y": 235, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "Reminds me of Blighttown",
+                "name": "Reminds me of Blighttown", 
                 "item_count": 1
               }
             ]
-          },
+          }, 
           {
-            "name": "[East] Obscured Beneath Scaffolding",
+            "name": "[East] Obscured Beneath Scaffolding", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1360,
+                "map": "fullmap", 
+                "x": 1860, 
                 "y": 1465
-              },
+              }, 
               {
-                "map": "quarry",
-                "x": 735,
-                "y": 440,
+                "map": "quarry", 
+                "x": 1235, 
+                "y": 440, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "In the Miasma Mound",
+                "name": "In the Miasma Mound", 
                 "item_count": 1
               }
             ]
-          },
+          }, 
           {
-            "name": "[Central] Obscured Behind Staircase",
+            "name": "[Central] Obscured Behind Staircase", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1145,
+                "map": "fullmap", 
+                "x": 1645, 
                 "y": 1685
-              },
+              }, 
               {
-                "map": "quarry",
-                "x": 520,
-                "y": 660,
+                "map": "quarry", 
+                "x": 1020, 
+                "y": 660, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "At the Bottom",
+                "name": "At the Bottom", 
                 "item_count": 1
               }
             ]
@@ -6412,883 +6945,643 @@
         ]
       },
       {
-        "name": "Quarry Portal",
+        "name": "Quarry Monastery Entry", 
         "access_rules": [
-          "@Quarry Connector,orb,pray,@Quarry Entry"
+          "@Quarry", 
+          "@Quarry to Monastery Front",
+          "@Quarry Back,dash"
+        ], 
+        "children": [
+          {
+            "name": "[Central] Above Ladder", 
+            "map_locations": [
+              {
+                "map": "fullmap", 
+                "x": 1710, 
+                "y": 1245
+              }, 
+              {
+                "map": "quarry", 
+                "x": 1085, 
+                "y": 220, 
+                "size": 45
+              }
+            ], 
+            "sections": [
+              {
+                "name": "Climb Ladder", 
+                "item_count": 1
+              }
+            ]
+          }, 
+          {
+            "name": "[Central] Above Ladder Dash Chest", 
+            "map_locations": [
+              {
+                "map": "fullmap", 
+                "x": 1660, 
+                "y": 1180
+              }, 
+              {
+                "map": "quarry", 
+                "x": 1035, 
+                "y": 155, 
+                "size": 45
+              }
+            ], 
+            "sections": [
+              {
+                "name": "Dash Across", 
+                "access_rules": "dash", 
+                "item_count": 1
+              }
+            ]
+          }
         ]
-      },
+      }, 
       {
         "name": "Quarry Back",
         "access_rules": [
-          "@Lower Mountain",
-          "@Monastery Rope",
           "@Quarry",
+          "@Quarry to Mountain",
+          "@Quarry to Monastery Back",
           "@Quarry Monastery Entry,dash"
-        ],
+          
+        ], 
         "children": [
           {
-            "name": "[Back Entrance] Bushes Holy Cross",
+            "name": "[Back Entrance] Bushes Holy Cross", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 980,
+                "map": "fullmap", 
+                "x": 1480, 
                 "y": 1130
-              },
+              }, 
               {
-                "map": "quarry",
-                "x": 355,
-                "y": 105,
+                "map": "quarry", 
+                "x": 855, 
+                "y": 105, 
                 "size": 45
-              },
+              }, 
               {
-                "map": "secrets",
-                "x": -20,
+                "map": "secrets", 
+                "x": 480, 
                 "y": 340
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "Use the Holy Cross",
-                "access_rules": ["cross"],
+                "name": "Use the Holy Cross", 
+                "access_rules": [
+                  "cross"
+                ], 
                 "item_count": 1
               }
             ]
-          },
+          }, 
           {
-            "name": "[Back Entrance] Chest",
+            "name": "[Back Entrance] Chest", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 825,
+                "map": "fullmap", 
+                "x": 1325, 
                 "y": 1590
-              },
+              }, 
               {
-                "map": "quarry",
-                "x": 200,
-                "y": 565,
+                "map": "quarry", 
+                "x": 700, 
+                "y": 565, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "Peaceful Chest",
+                "name": "Peaceful Chest", 
                 "item_count": 1
               }
             ]
-          },
+          }, 
           {
-            "name": "[Back Entrance] Obscured Behind Wall",
+            "name": "[Back Entrance] Obscured Behind Wall", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 805,
+                "map": "fullmap", 
+                "x": 1305, 
                 "y": 1715
-              },
+              }, 
               {
-                "map": "quarry",
-                "x": 180,
-                "y": 690,
+                "map": "quarry", 
+                "x": 680, 
+                "y": 690, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "Happy Water!",
+                "name": "Happy Water!", 
                 "item_count": 1
               }
             ]
-          },
+          }, 
           {
-            "name": "[West] Upper Area Bombable Wall",
+            "name": "[West] Upper Area Bombable Wall", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 955,
+                "map": "fullmap", 
+                "x": 1455, 
                 "y": 1840
-              },
+              }, 
               {
-                "map": "quarry",
-                "x": 330,
-                "y": 815,
+                "map": "quarry", 
+                "x": 830, 
+                "y": 815, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "Boomy",
-                "access_rules": ["[mask]"],
+                "name": "Boomy", 
                 "item_count": 1
               }
             ]
           }
         ]
-      },
-      {
-        "name": "Quarry Monastery Entry",
-        "access_rules": [
-          "@Monastery Front",
-          "@Quarry",
-          "@Quarry Back,dash"
-        ],
-        "children": [
-          {
-            "name": "[Central] Above Ladder",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 1210,
-                "y": 1245
-              },
-              {
-                "map": "quarry",
-                "x": 585,
-                "y": 220,
-                "size": 45
-              }
-            ],
-            "sections": [
-              {
-                "name": "Climb Ladder",
-                "item_count": 1
-              }
-            ]
-          },
-          {
-            "name": "[Central] Above Ladder Dash Chest",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 1160,
-                "y": 1180
-              },
-              {
-                "map": "quarry",
-                "x": 535,
-                "y": 155,
-                "size": 45
-              }
-            ],
-            "sections": [
-              {
-                "name": "Dash Across",
-                "access_rules": ["dash"],
-                "item_count": 1
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Monastery Hero's Grave Region",
-        "access_rules": [
-          "@Monastery Back,pray"
-        ]
-      },
-      {
-        "name": "Monastery Rope",
-        "access_rules": [
-          "@Monastery Back"
-        ]
-      },
+      }, 
       {
         "name": "Lower Quarry",
-        "access_rules": [
-          "@Quarry,[mask]"
-        ],
+        "access_rules": ["@Quarry,[mask]"], 
         "children": [
           {
-            "name": "[West] Upper Area Near Waterfall",
+            "name": "[West] Upper Area Near Waterfall", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 780,
+                "map": "fullmap", 
+                "x": 1280, 
                 "y": 1830
-              },
+              }, 
               {
-                "map": "quarry",
-                "x": 155,
-                "y": 805,
+                "map": "quarry", 
+                "x": 655, 
+                "y": 805, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "Yummy Polygons",
+                "name": "Yummy Polygons", 
                 "item_count": 1
               }
             ]
-          },
+          }, 
           {
-            "name": "[West] Below Shooting Range",
+            "name": "[West] Below Shooting Range", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 630,
+                "map": "fullmap", 
+                "x": 1130, 
                 "y": 2255
-              },
+              }, 
               {
-                "map": "quarry",
-                "x": 5,
-                "y": 1230,
+                "map": "quarry", 
+                "x": 454, 
+                "y": 1242, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "Clever little sneak!",
+                "name": "Clever little sneak!", 
                 "item_count": 1
               }
             ]
-          },
+          }, 
           {
-            "name": "[West] Shooting Range Secret Path",
+            "name": "[West] Shooting Range Secret Path", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 745,
+                "map": "fullmap", 
+                "x": 1245, 
                 "y": 1935
-              },
+              }, 
               {
-                "map": "quarry",
-                "x": 120,
-                "y": 910,
+                "map": "quarry", 
+                "x": 620, 
+                "y": 910, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "Obscured Path",
+                "name": "Obscured Path", 
                 "item_count": 1
               }
             ]
-          },
+          }, 
           {
-            "name": "[West] Near Shooting Range",
+            "name": "[West] Near Shooting Range", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 625,
+                "map": "fullmap", 
+                "x": 1125, 
                 "y": 2165
-              },
+              }, 
               {
-                "map": "quarry",
-                "x": 0,
-                "y": 1140,
+                "map": "quarry", 
+                "x": 335, 
+                "y": 1160, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "End of bridge",
+                "name": "End of bridge", 
                 "item_count": 1
               }
             ]
-          },
+          }, 
           {
-            "name": "[West] Lower Area Isolated Chest",
+            "name": "[West] Lower Area Isolated Chest", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1445,
+                "map": "fullmap", 
+                "x": 1945, 
                 "y": 2230
-              },
+              }, 
               {
-                "map": "quarry",
-                "x": 820,
-                "y": 1205,
+                "map": "quarry", 
+                "x": 1320, 
+                "y": 1205, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "Burn Pots",
+                "name": "Burn Pots", 
                 "item_count": 1
               }
             ]
-          },
+          }, 
           {
-            "name": "[West] Lower Area Below Bridge",
+            "name": "[West] Lower Area Below Bridge", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 970,
+                "map": "fullmap", 
+                "x": 1470, 
                 "y": 2355
-              },
+              }, 
               {
-                "map": "quarry",
-                "x": 345,
-                "y": 1330,
+                "map": "quarry", 
+                "x": 845, 
+                "y": 1330, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "Go Around",
+                "name": "Go Around", 
                 "item_count": 1
               }
             ]
-          },
+          }, 
           {
-            "name": "[West] Lower Area After Bridge",
+            "name": "[West] Lower Area After Bridge", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1035,
+                "map": "fullmap", 
+                "x": 1535, 
                 "y": 2380
-              },
+              }, 
               {
-                "map": "quarry",
-                "x": 410,
-                "y": 1355,
+                "map": "quarry", 
+                "x": 910, 
+                "y": 1355, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "Drop that Bridge!",
+                "name": "Drop that Bridge!", 
                 "item_count": 1
               }
             ]
           }
         ]
-      },
+      }, 
       {
-        "name": "Even Lower Quarry",
+        "name": "Even Lower Quarry", 
         "access_rules": [
-          "@Lower Quarry,[glitches],dagger,icerod,orb,staff",
-          "@Lower Quarry,ladders_in_lower_quarry"
-        ],
+          "@Lower Quarry,[glitches],dagger,icerod,orb,staff", 
+          "@Lower Quarry,ladders_in_lower_quarry",
+          "Quarry to Ziggurat,@Quarry Connector,orb,pray,@Quarry Entry"
+        ], 
         "children": [
           {
-            "name": "[Lowlands] Upper Walkway",
+            "name": "[Lowlands] Upper Walkway", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1160,
+                "map": "fullmap", 
+                "x": 1660, 
                 "y": 2380
-              },
+              }, 
               {
-                "map": "quarry",
-                "x": 535,
-                "y": 1355,
+                "map": "quarry", 
+                "x": 1035, 
+                "y": 1355, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "Hate them Snipers",
+                "name": "Hate them Snipers", 
                 "item_count": 1
               }
             ]
-          },
+          }, 
           {
-            "name": "[Lowlands] Below Broken Ladder",
+            "name": "[Lowlands] Below Broken Ladder", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 755,
+                "map": "fullmap", 
+                "x": 1255, 
                 "y": 2380
-              },
+              }, 
               {
-                "map": "quarry",
-                "x": 130,
-                "y": 1355,
+                "map": "quarry", 
+                "x": 630, 
+                "y": 1355, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "Miasma Pits",
+                "name": "Miasma Pits", 
                 "item_count": 1
               }
             ]
-          },
+          }, 
           {
-            "name": "[Lowlands] Near Elevator",
+            "name": "[Lowlands] Near Elevator", 
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 1505,
+                "map": "fullmap", 
+                "x": 2005, 
                 "y": 2325
-              },
+              }, 
               {
-                "map": "quarry",
-                "x": 880,
-                "y": 1300,
+                "map": "quarry", 
+                "x": 1380, 
+                "y": 1300, 
                 "size": 45
               }
-            ],
+            ], 
             "sections": [
               {
-                "name": "End of the Tracks",
+                "name": "End of the Tracks", 
                 "item_count": 1
               }
             ]
           }
         ]
       },
-    
       {
-        "name": "Purgatory",
-        "access_rules": [
-          "@Purgatory"
-        ]
-      },
-      {
-        "name": "Shop",
-        "children": [
+        "name": "Quarry Entrances",
+        "visibility_rules": "Entrance_visibility",
+        "children" :[
           {
-            "name": "Shop",
-            "access_rules": "{}",
+            "name": "Quarry to Overworld Exit",
+            "access_rules": [
+              "Quarry to Overworld Exit",
+              "{@Quarry Entry}"
+            ],
             "map_locations": [
               {
-                "map": "fullmap",
-                "x": 2575,
-                "y": 2265,
-                "size": 35
-              },
-              {
-                "map": "overworld",
-                "x": 900,
-                "y": 515,
-                "size": 25
-              },
-              {
-                "map": "west_gardens",
-                "x": 630,
-                "y": 10,
-                "size": 25
-              },
-              {
-                "map": "fullmap",
-                "x": 870,
-                "y": 2430,
-                "size": 35
-              },
-              {
-                "map": "eastern_vault",
-                "x": 330,
-                "y": 640,
-                "size": 25
-              },
-              {
-                "map": "fullmap",
-                "x": 3915,
-                "y": 1820,
-                "size": 35
-              },
-              {
-                "map": "eastern_vault",
-                "x": 390,
-                "y": 290,
-                "size": 25
-              },
-              {
-                "map": "fullmap",
-                "x": 3975,
-                "y": 1470,
-                "size": 35
-              },
-              {
-                "map": "ruined_atoll",
-                "x": 1035,
-                "y": 240,
-                "size": 25
-              },
-              {
-                "map": "fullmap",
-                "x": 2680,
-                "y": 3350,
-                "size": 35
-              },
-              {
                 "map": "quarry",
-                "x": 1000,
-                "y": 1120,
+                "x": 1789,
+                "y": 1207,
                 "size": 25
-              },
-              {
-                "map": "fullmap",
-                "x": 1625,
-                "y": 2145,
-                "size": 35
               }
             ],
             "sections": [
               {
-                "name": "Potion 1",
-                "item_count": 1
+                "name": "Traversed",
+                "hosted_item": "Quarry to Overworld Exit"
               },
               {
-                "name": "Potion 2",
-                "item_count": 1
-              },
-              {
-                "name": "Coin 1",
-                "item_count": 1
-              },
-              {
-                "name": "Coin 2",
+                "name": "Done",
                 "item_count": 1
               }
             ]
-          }
-        ]
-      },
-      {
-        "name": "Free Bombs",
-        "map_locations": [
-          {
-            "map": "fullmap",
-            "x": 3000,
-            "y": 3200
           },
           {
-            "map": "overworld",
-            "x": 1335,
-            "y": 1450,
-            "size": 45
-          },
-          {
-            "map": "secrets",
-            "x": 890,
-            "y": 470
-          }
-        ],
-        "sections": [
-          {
-            "name": "Ice Bomb",
-            "hosted_item": "icebomb"
-          },
-          {
-            "name": "Fire Bomb",
-            "hosted_item": "firebomb"
-          },
-          {
-            "name": "Dynamite",
-            "hosted_item": "dynamite"
-          }
-        ]
-      },
-      {
-        "name": "Inside the Old House",
-        "map_locations": [
-          {
-            "map": "fullmap",
-            "x": 2730,
-            "y": 2415
-          },
-          {
-            "map": "fullmap",
-            "x": 2920,
-            "y": 2205
-          },
-          {
-            "map": "overworld",
-            "x": 1055,
-            "y": 665,
-            "size": 45
-          },
-          {
-            "map": "overworld",
-            "x": 1245,
-            "y": 455,
-            "size": 45
-          },
-          {
-            "map": "secrets",
-            "x": -20,
-            "y": 515
-          }
-        ],
-        "sections": [
-          {
-            "name": "Normal Chest",
-            "access_rules": ["@Old House Front"],
-            "item_count": 1
-          },
-          {
-            "name": "Holy Cross Chest",
-            "access_rules": ["@Old House Front,cross"],
-            "item_count": 1
-          },
-          {
-            "name": "Shield Pickup",
-            "access_rules": ["@Old House Front"],
-            "item_count": 1
-          },
-          {
-            "name": "Holy Cross Door Page",
-            "access_rules": ["@Old House Back,cross"],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Fountain",
-        "map_locations": [
-          {
-            "map": "fullmap",
-            "x": 2430,
-            "y": 2660
-          },
-          {
-            "map": "overworld",
-            "x": 755,
-            "y": 910,
-            "size": 45
-          },
-          {
-            "map": "secrets",
-            "x": -20,
-            "y": 655
-          }
-        ],
-        "sections": [
-          {
-            "name": "[Southwest] Fountain Page",
-            "access_rules": ["@Overworld,dash"],
-            "item_count": 1
-          },
-          {
-            "name": "[Southwest] Fountain Holy Cross",
-            "access_rules": ["@Overworld Holy Cross"],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Mountain Door",
-        "map_locations": [
-          {
-            "map": "fullmap",
-            "x": 3010,
-            "y": 1810
-          },
-          {
-            "map": "overworld",
-            "x": 1335,
-            "y": 60,
-            "size": 45
-          },
-          {
-            "map": "secrets",
-            "x": 850,
-            "y": 580
-          }
-        ],
-        "sections": [
-          {
-            "name": "Lower Mountain - Page Before Door",
+            "name": "Quarry Shop",
             "access_rules": [
-              "@Lower Mountain"
+              "Quarry Shop",
+              "{@Quarry Entry}"
             ],
-            "item_count": 1
-          },
-          {
-            "name": "Top of the Mountain - Page At The Peak",
-            "access_rules": [
-              "@Top of the Mountain"
+            "map_locations": [
+              {
+                "map": "quarry",
+                "x": 1515,
+                "y": 1175,
+                "size": 25
+              }
             ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "West Furnace",
-        "map_locations": [
-          {
-            "map": "fullmap",
-            "x": 2100,
-            "y": 2550
-          },
-          {
-            "map": "overworld",
-            "x": 425,
-            "y": 800,
-            "size": 45
-          },
-          {
-            "map": "fullmap",
-            "x": 2950,
-            "y": 1595
-          },
-          {
-            "map": "well",
-            "x": 280,
-            "y": 1245,
-            "size": 45
-          }
-        ],
-        "sections": [
-          {
-            "name": "Chest",
-            "access_rules": ["@Furnace Walking Path"],
-            "item_count": 1
-          },
-          {
-            "name": "Lantern Pickup",
-            "access_rules": ["@Furnace Fuse"],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Inside Hourglass Cave",
-        "map_locations": [
-          {
-            "map": "fullmap",
-            "x": 2510,
-            "y": 2850
-          },
-          {
-            "map": "overworld",
-            "x": 760,
-            "y": 1100,
-            "size": 45
-          },
-          {
-            "map": "secrets",
-            "x": 960,
-            "y": 295
-          },
-          {
-            "map": "secrets",
-            "x": -20,
-            "y": 445
-          }
-        ],
-        "sections": [
-          {
-            "name": "Hourglass Chest",
-            "access_rules": ["@Hourglass Cave"],
-            "item_count": 1
-          },
-          {
-            "name": "Holy Cross Chest",
-            "access_rules": [
-              "@Hourglass Cave Tower,cross"
-            ],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "The Hero's Sword",
-        "map_locations": [
-          {
-            "map": "fullmap",
-            "x": 4155,
-            "y": 2725
-          },
-          {
-            "map": "east_forest",
-            "x": 2272,
-            "y": 704,
-            "size": 35
-          }
-        ],
-        "sections": [
-          {
-            "name": "Forest Grave Path - Sword Pickup",
-            "access_rules": ["@Forest Grave Path by Grave"],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Vault Hero's Grave",
-        "map_locations": [
-          {
-            "map": "fullmap",
-            "x": 5245,
-            "y": 1830
-          },
-          {
-            "map": "eastern_vault",
-            "x": 1660,
-            "y": 650,
-            "size": 45
-          }
-        ],
-        "sections": [
-          {
-            "name": "Fortress Grave Path - Obscured Chest Left of Grave",
-            "access_rules": ["@Fortress Grave Path"],
-            "item_count": 1
-          },
-          {
-            "name": "Fortress Grave Path - Chest Right of Grave",
-            "access_rules": ["@Fortress Grave Path"],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Lower Quarry Zig Door",
-        "access_rules": [
-          "@Quarry Connector,orb,pray,@Quarry",
-          "@Quarry Connector,orb,pray,@Even Lower Quarry",
-          "Quarry to Ziggurat"
-        ]
-      },
-      {
-        "name": "Monastery",
-        "map_locations": [
-          {
-            "map": "fullmap",
-            "x": 1010,
-            "y": 1245
-          },
-          {
-            "map": "quarry",
-            "x": 385,
-            "y": 220,
-            "size": 45
-          }
-        ],
-        "sections": [
-          {
-            "name": "Monastery Chest",
-            "access_rules": ["@Monastery Back"],
-            "item_count": 1
-          }
-        ],
-        "children": [
-          {
-            "name": "Monastery Front",
-            "access_rules": [
-              "@Monastery Back,[glitches],dash",
-              "@Quarry Monastery Entry"
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Quarry Shop"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
             ]
           },
           {
-            "name": "Monastery Back",
+            "name": "Quarry to Monastery Front", 
+            "access_rules":[
+              "Quarry to Monastery Front",
+              "{Quarry Monastery Entry}"
+            ],
+            "map_locations": [
+              {
+                "map": "quarry",
+                "x": 884,
+                "y": 228,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Quarry to Monastery Front"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          }, 
+          {
+            "name": "Quarry to Monastery Back", 
+            "access_rules":"Quarry to Monastery Back",
+            "map_locations": [
+              {
+                "map": "quarry",
+                "x": 727,
+                "y": 96,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Quarry to Monastery Back"
+              }
+            ]
+          }, 
+          {
+            "name": "Quarry to Far Shore", 
             "access_rules": [
-              "@Monastery Front",
-              "@Monastery Hero's Grave Region",
-              "@Monastery Rope",
-              "@Quarry Monastery Entry,glitches,stick",
-              "@Quarry Monastery Entry,glitches,sword"
+              "Quarry to Far Shore",
+              "{@Quarry Connector,orb,pray,@Quarry Entry}"
+            ],
+            "map_locations": [
+              {
+                "map": "quarry",
+                "x": 1532,
+                "y": 1309,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Quarry to Far Shore"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Quarry to Mountain", 
+            "access_rules": [
+              "Quarry to Mountain",
+              "{@Quarry Back}"
+            ],
+            "map_locations": [
+              {
+                "map": "quarry",
+                "x": 809,
+                "y": 19,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Quarry to Mountain"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          }, 
+          {
+            "name": "Quarry to Ziggurat",
+            "access_rules": [
+              "Quarry to Ziggurat,[mask]",
+              "{@Quarry Connector,orb,pray,@Quarry Entry,@Even Lower Quarry}"
+            ],
+            "map_locations": [
+              {
+                "map": "quarry",
+                "x": 1548,
+                "y": 975,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Quarry to Ziggurat"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Quarry Connector to Overworld",
+            "access_rules": [
+              "Quarry Connector to Overworld",
+              "{@Quarry Connector}"
+            ],
+            "map_locations": [
+              {
+                "map": "quarry",
+                "x": 2207,
+                "y": 887,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Quarry Connector to Overworld"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Quarry Connector to Quarry",
+            "access_rules": [
+              "Quarry Connector to Quarry",
+              "{@Quarry Connector}"
+            ],
+            "map_locations": [
+              {
+                "map": "quarry",
+                "x": 1752,
+                "y": 884,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Quarry Connector to Quarry"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
             ]
           }
         ]
       },
       {
         "name": "Monastery Entrances",
-        "visibility_rules": ["Entrance_visibility"],
+        "visibility_rules": "Entrance_visibility",
         "children" :[
           {
-            "name": "Ziggurat Portal Room Entrance",
+            "name": "Monastery Rear Exit",
             "access_rules": [
-              "{@Rooted Ziggurat Lower Back,pray}",
-              "Ziggurat Portal Room Entrance"
+              "Monastery Rear Exit",
+              "{@Monastery Back}"
             ],
             "map_locations": [
               {
-                "map": "ziggurat",
-                "x": 1639,
-                "y": 1379,
+                "map": "quarry",
+                "x": 1570,
+                "y": 191,
                 "size": 25
               }
             ],
@@ -7296,6 +7589,56 @@
               {
                 "name": "Traversed",
                 "hosted_item": "Ziggurat Portal Room Entrance"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Monastery Front Exit",
+            "access_rules": [
+              "Monastery Front Exit",
+              "{@Monastery Front}"
+            ],
+            "map_locations": [
+              {
+                "map": "quarry",
+                "x": 2096,
+                "y": 446,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Monastery Front Exit"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Monastery Hero's Grave",
+            "access_rules": [
+              "Monastery Hero's Grave",
+              "{@Monastery Back,pray}"
+            ],
+            "map_locations": [
+              {
+                "map": "quarry",
+                "x": 1675,
+                "y": 215,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Monastery Hero's Grave"
               },
               {
                 "name": "Done",
@@ -7616,7 +7959,7 @@
       },
       {
         "name": "Ziggurat Entrances",
-        "visibility_rules" :["Entrance_visibility"],
+        "visibility_rules" :"Entrance_visibility",
         "children": [
           {
             "name": "Ziggurat Portal Room Entrance",
@@ -8423,7 +8766,7 @@
       },
       {
         "name":"Swamp Entrances",
-        "visibility_rules":["Entrance_visibility"],
+        "visibility_rules":"Entrance_visibility",
         "children":[
           {
             "name": "Swamp Hero's Grave",
@@ -9244,7 +9587,7 @@
           {
             "name": "Far Shore to Quarry",
             "access_rules": [
-              "{@Far Shore,@Quarry,@Quarry Connector,orb,pray}",
+              "{@Far Shore,@Quarry Entry,@Quarry Connector,orb,pray}",
               "Far Shore to Quarry"
             ],
             "map_locations": [
@@ -9391,7 +9734,7 @@
       },
       {
         "name": "Hero Relics",
-        "access_rules": ["dash"],
+        "access_rules": "dash",
         "children":[
           {
             "name": "Swamp Hero's Grave",
@@ -9535,7 +9878,7 @@
       },
       {
         "name": "Hero Relic Entrances",
-        "visibility_rules":["Entrance_visibility"],
+        "visibility_rules":"Entrance_visibility",
         "children":[
           {
             "name": "Hero's Grave to Swamp",
