@@ -168,7 +168,7 @@ function onClear(slot_data)
     if slot_data.entrance_rando ~= 0 then
         --print("slot_data['entrance_rando']: " .. slot_data['entrance_rando'])
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-            print(string.format("called onClear, randoData:\n%s", dump_table(SLOT_DATA['Entrance Rando'])))
+            print(string.format("called onClear, randoData:\n%s", dump_table(slot_data['Entrance Rando'])))
         end
         Tracker:FindObjectForCode("Entrance_visibility").Active = true
         local obj = Tracker:FindObjectForCode("er_off")
@@ -178,7 +178,7 @@ function onClear(slot_data)
             obj.CurrentStage = 1
         end
         
-        for k, v in pairs(SLOT_DATA['Entrance Rando']) do
+        for k, v in pairs(slot_data['Entrance Rando']) do
             er_table[k] = v
             er_table[v] = k
         end
@@ -293,12 +293,23 @@ function onBounce(json)
     end
 end
 
+-- called once in locations rules, returns true if the Ziggurat Lower Ziggurat Lower Falling Entrance should be visible
+function shouldShowZigFall()
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print("fall entrance = ",er_table["ziggurat2020_3, ziggurat2020_1_zig2_skip"])
+    end
+    -- simply checks if the falling entrance is present in entrance data from APserver
+    if er_table["ziggurat2020_3, ziggurat2020_1_zig2_skip"] then
+        return true
+    end
+    return false
+end
+
 -- add AP callbacks
 -- un-/comment as needed
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
---Archipelago:AddSetReplyHandler("Current Map", onChangedRegion) -- OLD OLD OLD
 Archipelago:AddSetReplyHandler("set reply handler", onSetReply)
 -- Archipelago:AddScoutHandler("scout handler", onScout)
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)

@@ -15,7 +15,7 @@
     "name": "well",
     "location_size": 38,
     "location_border_thickness": 9,
-    "img": "maps/beneath_the_well.png"
+    "img": "maps/bottom_of_the_well_er.png"
   },
   {
     "name": "cathedral",
@@ -39,7 +39,7 @@
     "name": "frogs_domain",
     "location_size": 35,
     "location_border_thickness": 10,
-    "img": "maps/frogs_domain.png"
+    "img": "maps/frogs_er.png"
   },
   {
     "name": "graveyard",
@@ -54,10 +54,16 @@
     "img": "maps/overworldpop.png"
   },
   {
+    "name": "overworld_interiors",
+    "location_size": 35,
+    "location_border_thickness": 8,
+    "img": "maps/overworld_interiors.png"
+  },
+  {
     "name": "quarry",
     "location_size": 30,
     "location_border_thickness": 7,
-    "img": "maps/quarry_pop.png"
+    "img": "maps/quarry_er.png"
   },
   {
     "name": "ruined_atoll",
@@ -69,7 +75,7 @@
     "name": "west_gardens",
     "location_size": 28,
     "location_border_thickness": 7,
-    "img": "maps/west_gardens_pop.png"
+    "img": "maps/west_garden_er.png"
   },
   {
     "name": "library",

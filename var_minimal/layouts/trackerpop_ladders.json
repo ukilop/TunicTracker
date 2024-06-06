@@ -61,6 +61,15 @@
               }
             },
             {
+              "title": "Overworld Interiors",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "overworld_interiors"
+                ]
+              }
+            },
+            {
               "title": "East Forest",
               "content": {
                 "type": "map",
