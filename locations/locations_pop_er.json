@@ -534,6 +534,30 @@
           }
         ]
       },
+      
+      {
+        "name": "Overworld to Fortress",
+        "access_rules": [
+          "Overworld to Fortress",
+          "{glitches,ladder_to_quarry,stick}",
+          "{glitches,ladder_to_quarry,sword}",
+          "{glitches,ladder_to_swamp,stick}",
+          "{glitches,ladder_to_swamp,sword}",
+          "{glitches,ladders_in_overworld_town,stick}",
+          "{glitches,ladders_in_overworld_town,sword}",
+          "{glitches,ladders_in_well,stick}",
+          "{glitches,ladders_in_well,sword}",
+          "{glitches,ladders_near_dark_tomb,stick}",
+          "{glitches,ladders_near_dark_tomb,sword}",
+          "{glitches,ladders_near_patrol_cave,stick}",
+          "{glitches,ladders_near_patrol_cave,sword}",
+          "{glitches,ladders_near_weathervane,stick}",
+          "{glitches,ladders_near_weathervane,sword}",
+          "{@East Overworld}",
+          "{@Overworld to West Garden Upper,glitches,ladders_to_west_bell,stick}",
+          "{@Overworld to West Garden Upper,glitches,ladders_to_west_bell,sword}"
+        ]
+      },
       {
         "name": "Overworld Holy Cross",
         "access_rules": [
@@ -1553,54 +1577,6 @@
                 "x": 900,
                 "y": 515,
                 "size": 25
-              },
-              {
-                "map": "west_gardens",
-                "x": 630,
-                "y": 10,
-                "size": 25
-              },
-              {
-                "map": "fullmap",
-                "x": 870,
-                "y": 2430,
-                "size": 35
-              },
-              {
-                "map": "eastern_vault",
-                "x": 330,
-                "y": 640,
-                "size": 25
-              },
-              {
-                "map": "fullmap",
-                "x": 3915,
-                "y": 1820,
-                "size": 35
-              },
-              {
-                "map": "eastern_vault",
-                "x": 390,
-                "y": 290,
-                "size": 25
-              },
-              {
-                "map": "fullmap",
-                "x": 3975,
-                "y": 1470,
-                "size": 35
-              },
-              {
-                "map": "ruined_atoll",
-                "x": 1035,
-                "y": 240,
-                "size": 25
-              },
-              {
-                "map": "fullmap",
-                "x": 2680,
-                "y": 3350,
-                "size": 35
               }
             ],
             "sections": [
@@ -1872,34 +1848,6 @@
           {
             "name": "Forest Grave Path - Sword Pickup",
             "access_rules": ["@Forest Grave Path by Grave"],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Vault Hero's Grave",
-        "map_locations": [
-          {
-            "map": "fullmap",
-            "x": 5245,
-            "y": 1830
-          },
-          {
-            "map": "eastern_vault",
-            "x": 1660,
-            "y": 650,
-            "size": 45
-          }
-        ],
-        "sections": [
-          {
-            "name": "Fortress Grave Path - Obscured Chest Left of Grave",
-            "access_rules": ["@Fortress Grave Path"],
-            "item_count": 1
-          },
-          {
-            "name": "Fortress Grave Path - Chest Right of Grave",
-            "access_rules": ["@Fortress Grave Path"],
             "item_count": 1
           }
         ]
@@ -5842,205 +5790,17 @@
         ]
       },
       {
-        "name": "Fortress Exterior from East Forest",
-        "access_rules": [
-          "@Forest Belltower Main",
-          "@Fortress Exterior from Overworld,dash"
-        ],
-        "children": [
-          {
-            "name": "Fortress Courtyard - From West Belltower",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3945,
-                "y": 2345
-              },
-              {
-                "map": "eastern_vault",
-                "x": 560,
-                "y": 1165,
-                "size": 45
-              },
-              {
-                "map": "east_forest",
-
-                "x": 306,
-                "y": 474,
-                "size": 35
-              },
-              {
-                "map": "fullmap",
-                "x": 3750,
-                "y": 2475
-              }
-            ],
-            "sections": [
-              {
-                "name": "Crack in the Wall",
-                "item_count": 1
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Fortress Exterior from Overworld",
-        "access_rules": [
-          "glitches,ladder_to_quarry,stick",
-          "glitches,ladder_to_quarry,sword",
-          "glitches,ladder_to_swamp,stick",
-          "glitches,ladder_to_swamp,sword",
-          "glitches,ladders_in_overworld_town,stick",
-          "glitches,ladders_in_overworld_town,sword",
-          "glitches,ladders_in_well,stick",
-          "glitches,ladders_in_well,sword",
-          "glitches,ladders_near_dark_tomb,stick",
-          "glitches,ladders_near_dark_tomb,sword",
-          "glitches,ladders_near_patrol_cave,stick",
-          "glitches,ladders_near_patrol_cave,sword",
-          "glitches,ladders_near_weathervane,stick",
-          "glitches,ladders_near_weathervane,sword",
-          "@East Overworld",
-          "@Fortress Courtyard Upper",
-          "@Fortress Courtyard,dash",
-          "@Fortress Exterior from East Forest,dash",
-          "@Fortress Exterior from East Forest,orb",
-          "@Fortress Exterior near cave,dash",
-          "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,stick",
-          "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,sword"
-        ],
-        "children": [
-          {
-            "name": "Fortress Courtyard - Below Walkway",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3875,
-                "y": 2315
-              },
-              {
-                "map": "eastern_vault",
-                "x": 490,
-                "y": 1135,
-                "size": 45
-              }
-            ],
-            "sections": [
-              {
-                "name": "Under the Stairs",
-                "item_count": 1
-              }
-            ]
-          },
-          {
-            "name": "Fortress Courtyard - Near Fuse",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 4220,
-                "y": 2275
-              },
-              {
-                "map": "eastern_vault",
-                "x": 635,
-                "y": 1095,
-                "size": 45
-              }
-            ],
-            "sections": [
-              {
-                "name": "Pray",
-                "item_count": 1
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Fortress Exterior near cave",
-        "access_rules": [
-          "@Beneath the Vault Entry,ladder_to_beneath_the_vault",
-          "@Fortress Exterior from Overworld,dash",
-          "@Fortress Exterior from Overworld,pray"
-        ],
-        "children": [
-          {
-            "name": "Fortress Courtyard - Chest Near Cave",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3850,
-                "y": 1950
-              },
-              {
-                "map": "eastern_vault",
-                "x": 265,
-                "y": 770,
-                "size": 45
-              }
-            ],
-            "sections": [
-              {
-                "name": "Next to the Obelisk",
-                "item_count": 1
-              }
-            ]
-          },
-          {
-            "name": "Fortress Courtyard - Page Near Cave",
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3935,
-                "y": 1895
-              },
-              {
-                "map": "eastern_vault",
-                "x": 350,
-                "y": 715,
-                "size": 45
-              }
-            ],
-            "sections": [
-              {
-                "name": "Heir-To-The-Heir",
-                "item_count": 1
-              }
-            ]
-          }
-        ]
-      },
-      {
         "name": "Beneath the Vault Entry",
         "access_rules": [
-          "@Beneath the Vault Ladder Exit",
-          "@Fortress Exterior near cave,ladder_to_beneath_the_vault"
-        ]
-      },
-      {
-        "name": "Fortress Courtyard",
-        "access_rules": [
-          "@Eastern Vault Fortress",
-          "@Fortress Courtyard Upper",
-          "@Fortress Exterior from Overworld,[glitches],dagger,icerod,orb,staff",
-          "@Fortress Exterior from Overworld,dash",
-          "@Fortress Grave Path"
-        ]
-      },
-      {
-        "name": "Fortress Courtyard Upper",
-        "access_rules": [
-          "@Fortress Courtyard,[glitches],dagger,icerod,orb,staff",
-          "@Fortress East Shortcut Upper",
-          "@Fortress Grave Path Upper"
+          "ladder_to_beneath_the_vault,@Fortress Courtyard to Beneath the Vault",
+          "ladder_to_beneath_the_vault,@Fortress Exterior near cave"
         ]
       },
       {
         "name": "Beneath the Vault Ladder Exit",
         "access_rules": [
-          "@Beneath the Vault Entry",
-          "@Beneath the Vault Front,ladder_to_beneath_the_vault"
+          "ladder_to_beneath_the_vault,@Beneath the Vault to Fortress Courtyard",
+          "ladder_to_beneath_the_vault,@Beneath the Vault Front"
         ]
       },
       {
@@ -6081,7 +5841,7 @@
         "name": "Beneath the Vault Back",
         "access_rules": [
           "@Beneath the Vault Front,[light]",
-          "@Eastern Vault Fortress"
+          "@Beneath the Vault to Fortress Interior"
         ],
         "children": [
           {
@@ -6181,19 +5941,162 @@
         ]
       },
       {
+        "name": "Fortress Exterior from East Forest",
+        "access_rules": [
+          "@Fortress Courtyard to Forest Belltower",
+          "@Fortress Exterior from Overworld,dash"
+        ],
+        "children": [
+          {
+            "name": "Fortress Courtyard - From West Belltower",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3945,
+                "y": 2345
+              },
+              {
+                "map": "eastern_vault",
+                "x": 560,
+                "y": 1165,
+                "size": 45
+              },
+              {
+                "map": "fullmap",
+                "x": 3750,
+                "y": 2475
+              }
+            ],
+            "sections": [
+              {
+                "name": "Crack in the Wall",
+                "item_count": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fortress Exterior from Overworld",
+        "access_rules": [
+          "@Fortress Courtyard Upper",
+          "@Fortress Courtyard,dash",
+          "@Fortress Exterior from East Forest,dash",
+          "@Fortress Exterior from East Forest,orb",
+          "@Fortress Exterior near cave,dash",
+          "@Fortress Courtyard to Overworld"
+        ],
+        "children": [
+          {
+            "name": "Fortress Courtyard - Below Walkway",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3875,
+                "y": 2315
+              },
+              {
+                "map": "eastern_vault",
+                "x": 490,
+                "y": 1135,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Under the Stairs",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Fortress Courtyard - Near Fuse",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4220,
+                "y": 2275
+              },
+              {
+                "map": "eastern_vault",
+                "x": 635,
+                "y": 1095,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pray",
+                "item_count": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fortress Exterior near cave",
+        "access_rules": [
+          "@Beneath the Vault Entry,ladder_to_beneath_the_vault",
+          "@Fortress Exterior from Overworld,dash",
+          "@Fortress Exterior from Overworld,pray",
+          "@Fortress Courtyard Shop"
+        ],
+        "children": [
+          {
+            "name": "Fortress Courtyard - Chest Near Cave",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3850,
+                "y": 1950
+              },
+              {
+                "map": "eastern_vault",
+                "x": 265,
+                "y": 770,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Next to the Obelisk",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Fortress Courtyard - Page Near Cave",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 3935,
+                "y": 1895
+              },
+              {
+                "map": "eastern_vault",
+                "x": 350,
+                "y": 715,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Heir-To-The-Heir",
+                "item_count": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
         "name": "Eastern Vault Fortress",
         "access_rules": [
-          "@Beneath the Vault Back",
-          "@Eastern Vault Fortress Gold Door,[glitches],dagger,icerod,orb,staff",
-          "@Fortress Courtyard",
-          "@Fortress East Shortcut Lower",
-          "@Fortress East Shortcut Upper",
-          "@Fortress Exterior from East Forest,glitches,stick",
-          "@Fortress Exterior from East Forest,glitches,sword",
-          "@Fortress Exterior from Overworld,glitches,stick",
-          "@Fortress Exterior from Overworld,glitches,sword",
-          "@Fortress Exterior near cave,glitches,ladder_to_beneath_the_vault,stick",
-          "@Fortress Exterior near cave,glitches,ladder_to_beneath_the_vault,sword"
+          "@Fortress Interior Main Exit",
+          "@Fortress Interior to Beneath the Earth",
+          "@Fortress Interior Shop",
+          "@Fortress Interior to East Fortress Upper",
+          "@Fortress Interior to East Fortress Lower",
+          "[glitches],dagger,icerod,orb,staff,@Fortress Interior to Siege Engine Arena"
         ],
         "children": [
           {
@@ -6267,7 +6170,7 @@
             "sections": [
               {
                 "name": "Use the Holy Cross",
-                "access_rules": ["cross"],
+                "access_rules": "cross",
                 "item_count": 1
               }
             ]
@@ -6297,6 +6200,13 @@
         ]
       },
       {
+        "name": "Eastern Vault Fortress Upper",
+        "access_rules":[
+          "@Fortress East Shortcut Upper",
+          "[glitches],dagger,icerod,orb,staff,@Eastern Vault Fortress"
+        ]
+      },
+      {
         "name": "Eastern Vault Fortress Gold Door",
         "access_rules": [
           "@Eastern Vault Fortress,[glitches],dagger,orb",
@@ -6305,24 +6215,36 @@
         ]
       },
       {
+        "name": "Fortress Courtyard",
+        "access_rules": [
+          "@Fortress Courtyard Upper",
+          "@Fortress Exterior from Overworld,[glitches],dagger,icerod,orb,staff",
+          "@Fortress Exterior from Overworld,dash",
+          "@Fortress Courtyard to Fortress Grave Path Lower",
+          "@Fortress Courtyard to Fortress Interior"
+        ]
+      },
+      {
+        "name": "Fortress Courtyard Upper",
+        "access_rules": [
+          "@Fortress Courtyard to East Fortress",
+          "@Fortress Courtyard to Fortress Grave Path Upper",
+          "@Fortress Courtyard,[glitches],dagger,icerod,orb,staff"
+        ]
+      },
+      {
         "name": "Fortress East Shortcut Upper",
         "access_rules": [
-          "@Eastern Vault Fortress",
-          "@Fortress Courtyard Upper",
-          "@Fortress East Shortcut Lower,[glitches],dagger,icerod,orb,staff",
-          "@Fortress Exterior from East Forest,glitches,stick",
-          "@Fortress Exterior from East Forest,glitches,sword",
-          "@Fortress Exterior from Overworld,glitches,stick",
-          "@Fortress Exterior from Overworld,glitches,sword",
-          "@Fortress Exterior near cave,glitches,ladder_to_beneath_the_vault,stick",
-          "@Fortress Exterior near cave,glitches,ladder_to_beneath_the_vault,sword"
+          "@East Fortress to Interior Upper",
+          "@East Fortress to Courtyard",
+          "@Fortress East Shortcut Lower,[glitches],dagger,icerod,orb,staff"
         ]
       },
       {
         "name": "Fortress East Shortcut Lower",
         "access_rules": [
-          "@Eastern Vault Fortress",
-          "@Fortress East Shortcut Upper"
+          "@Fortress East Shortcut Upper",
+          "@East Fortress to Interior Lower"
         ],
         "children": [
           {
@@ -6350,31 +6272,52 @@
         ]
       },
       {
-        "name": "Fortress Grave Path",
+        "name": "Fortress Arena",
         "access_rules": [
-          "@Fortress Courtyard",
-          "@Fortress Exterior from East Forest,glitches,stick",
-          "@Fortress Exterior from East Forest,glitches,sword",
-          "@Fortress Exterior from Overworld,glitches,stick",
-          "@Fortress Exterior from Overworld,glitches,sword",
-          "@Fortress Exterior near cave,glitches,ladder_to_beneath_the_vault,stick",
-          "@Fortress Exterior near cave,glitches,ladder_to_beneath_the_vault,sword",
-          "@Fortress Grave Path Dusty Entrance Region,dash",
-          "@Fortress Grave Path Upper,[glitches],dagger,icerod,orb,staff",
-          "@Fortress Hero's Grave Region"
+          "@Siege Engine Arena to Fortress",
+          "@Fortress to Far Shore"
+        ],
+        "children": [
+          {
+            "name": "Fortress Arena",
+            "map_locations": [
+              {
+                "map": "fullmap",
+                "x": 4185,
+                "y": 1250
+              },
+              {
+                "map": "eastern_vault",
+                "x": 1165,
+                "y": 917,
+                "size": 45
+              }
+            ],
+            "sections": [
+              {
+                "name": "Siege Engine|Vault Key Pickup",
+                "access_rules": "sword",
+                "item_count": 1,
+                "hosted_item": "engine"
+              },
+              {
+                "name": "Hexagon Red",
+                "access_rules": "vaultkey",
+                "item_count": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fortress Arena Portal",
+        "access_rules": [
+          "@Fortress Arena,pray"
         ]
       },
       {
         "name": "Fortress Grave Path Upper",
-        "access_rules": [
-          "@Fortress Courtyard Upper",
-          "@Fortress Exterior from East Forest,glitches,stick",
-          "@Fortress Exterior from East Forest,glitches,sword",
-          "@Fortress Exterior from Overworld,glitches,stick",
-          "@Fortress Exterior from Overworld,glitches,sword",
-          "@Fortress Exterior near cave,glitches,ladder_to_beneath_the_vault,stick",
-          "@Fortress Exterior near cave,glitches,ladder_to_beneath_the_vault,sword"
-        ],
+        "access_rules": "@Fortress Grave Path Upper Exit",
         "children": [
           {
             "name": "Fortress Grave Path - Upper Walkway",
@@ -6401,19 +6344,8 @@
         ]
       },
       {
-        "name": "Fortress Grave Path Dusty Entrance Region",
-        "access_rules": [
-          "@Fortress Grave Path,dash",
-          "@Fortress Leaf Piles"
-        ]
-      },
-      {
-        "name": "Fortress Hero's Grave Region",
-        "access_rules": ["@Fortress Grave Path,pray"]
-      },
-      {
         "name": "Fortress Leaf Piles",
-        "access_rules": ["@Fortress Grave Path Dusty Entrance Region"],
+        "access_rules": "@Dusty Exit",
         "children": [
           {
             "name": "Fortress Leaf Piles - Secret Chest",
@@ -6425,8 +6357,8 @@
               },
               {
                 "map": "eastern_vault",
-                "x": 1590,
-                "y": 550,
+                "x": 1531,
+                "y": 214,
                 "size": 45
               }
             ],
@@ -6440,39 +6372,703 @@
         ]
       },
       {
-        "name": "Fortress Arena",
+        "name": "Fortress Grave Path",
         "access_rules": [
-          "@Eastern Vault Fortress Gold Door",
-          "@Fortress Arena Portal"
+          "@Fortress Grave Path Lower Exit",
+          "@Fortress Grave Path Dusty Entrance,dash",
+          "@Fortress Grave Path Upper Exit,[glitches],dagger,icerod,orb,staff",
+          "@Fortress Hero's Grave"
         ],
         "children": [
           {
-            "name": "Fortress Arena",
+            "name": "Vault Hero's Grave",
             "map_locations": [
               {
                 "map": "fullmap",
-                "x": 4185,
-                "y": 1250
+                "x": 5245,
+                "y": 1830
               },
               {
                 "map": "eastern_vault",
-                "x": 600,
-                "y": 70,
+                "x": 1700,
+                "y": 675,
                 "size": 45
               }
             ],
             "sections": [
               {
-                "name": "Siege Engine|Vault Key Pickup",
-                "access_rules": [
-                  "sword"
-                ],
-                "item_count": 1,
-                "hosted_item": "engine"
+                "name": "Fortress Grave Path - Obscured Chest Left of Grave",
+                "item_count": 1
               },
               {
-                "name": "Hexagon Red",
-                "access_rules": ["vaultkey"],
+                "name": "Fortress Grave Path - Chest Right of Grave",
+                "item_count": 1
+              }
+            ]
+          }
+        ]
+      },
+      {  
+        "name": "Fortress and Beneath Entrances",
+        "visibility_rules": "Entrance_visibility",
+        "children" :[
+          {
+            "name": "Fortress Courtyard to Fortress Grave Path Lower",
+            "access_rules": [
+              "Fortress Courtyard to Fortress Grave Path Lower",
+              "{@Fortress Courtyard}",
+              "{glitches,stick,@Fortress Exterior from East Forest}",
+              "{glitches,sword,@Fortress Exterior from East Forest}",
+              "{glitches,stick,@Fortress Exterior from Overworld}",
+              "{glitches,sword,@Fortress Exterior from Overworld}",
+              "{glitches,stick,@Fortress Exterior near cave,ladder_to_beneath_the_vault}",
+              "{glitches,sword,@Fortress Exterior near cave,ladder_to_beneath_the_vault}"
+            ],
+            "map_locations": [
+              {
+                "map": "eastern_vault",
+                "x": 924,
+                "y": 673,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Fortress Courtyard to Fortress Grave Path Lower"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Fortress Courtyard to Fortress Grave Path Upper",
+            "access_rules": [
+              "Fortress Courtyard to Fortress Grave Path Upper",
+              "{@Fortress Courtyard Upper}",
+              "{glitches,stick,@Fortress Exterior from East Forest}",
+              "{glitches,sword,@Fortress Exterior from East Forest}",
+              "{glitches,stick,@Fortress Exterior from Overworld}",
+              "{glitches,sword,@Fortress Exterior from Overworld}",
+              "{glitches,stick,@Fortress Exterior near cave,ladder_to_beneath_the_vault}",
+              "{glitches,sword,@Fortress Exterior near cave,ladder_to_beneath_the_vault}"
+            ],
+            "map_locations": [
+              {
+                "map": "eastern_vault",
+                "x": 924,
+                "y": 633,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Fortress Courtyard to Fortress Grave Path Upper"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Fortress Courtyard to Fortress Interior",
+            "access_rules": [
+              "Fortress Courtyard to Fortress Interior",
+              "{@Fortress Courtyard}",
+              "{glitches,stick,@Fortress Exterior from East Forest}",
+              "{glitches,sword,@Fortress Exterior from East Forest}",
+              "{glitches,stick,@Fortress Exterior from Overworld}",
+              "{glitches,sword,@Fortress Exterior from Overworld}",
+              "{glitches,stick,@Fortress Exterior near cave,ladder_to_beneath_the_vault}",
+              "{glitches,sword,@Fortress Exterior near cave,ladder_to_beneath_the_vault}"
+            ],
+            "map_locations": [
+              {
+                "map": "eastern_vault",
+                "x": 601,
+                "y": 554,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Fortress Courtyard to Fortress Interior"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Fortress Courtyard to East Fortress",
+            "access_rules": [
+              "Fortress Courtyard to East Fortress",
+              "{@Fortress Courtyard Upper}",
+              "{glitches,stick,@Fortress Exterior from East Forest}",
+              "{glitches,sword,@Fortress Exterior from East Forest}",
+              "{glitches,stick,@Fortress Exterior from Overworld}",
+              "{glitches,sword,@Fortress Exterior from Overworld}",
+              "{glitches,stick,@Fortress Exterior near cave,ladder_to_beneath_the_vault}",
+              "{glitches,sword,@Fortress Exterior near cave,ladder_to_beneath_the_vault}"
+            ],
+            "map_locations": [
+              {
+                "map": "eastern_vault",
+                "x": 1042,
+                "y": 519,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Fortress Courtyard to East Fortress"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Fortress Courtyard to Beneath the Vault",
+            "access_rules": [
+              "Fortress Courtyard to Beneath the Vault",
+              "{@Beneath the Vault Entry}"
+            ],
+            "map_locations": [
+              {
+                "map": "eastern_vault",
+                "x": 260,
+                "y": 729,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Fortress Courtyard to Beneath the Vault"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Fortress Courtyard to Forest Belltower",
+            "access_rules": [
+              "Fortress Courtyard to Forest Belltower",
+              "{@Fortress Exterior from East Forest}"
+            ],
+            "map_locations": [
+              {
+                "map": "eastern_vault",
+                "x": 548,
+                "y": 1201,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Fortress Courtyard to Forest Belltower"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Fortress Courtyard to Overworld",
+            "access_rules": [
+              "Fortress Courtyard to Overworld",
+              "{@Fortress Exterior from Overworld}"
+            ],
+            "map_locations": [
+              {
+                "map": "eastern_vault",
+                "x": 327,
+                "y": 1102,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Fortress Courtyard to Overworld"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Fortress Courtyard Shop",
+            "access_rules": [
+              "Fortress Courtyard Shop",
+              "{@Fortress Exterior near cave}"
+            ],
+            "map_locations": [
+              {
+                "map": "eastern_vault",
+                "x": 326,
+                "y": 671,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Fortress Courtyard Shop"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Beneath the Vault to Fortress Interior",
+            "access_rules": [
+              "Beneath the Vault to Fortress Interior",
+              "{@Beneath the Vault Back}"
+            ],
+            "map_locations": [
+              {
+                "map": "earth",
+                "x": 681,
+                "y": 21,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Beneath the Vault to Fortress Interior"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Beneath the Vault to Fortress Courtyard",
+            "access_rules": [
+              "Beneath the Vault to Fortress Courtyard",
+              "{@Beneath the Vault Ladder Exit}"
+            ],
+            "map_locations": [
+              {
+                "map": "earth",
+                "x": 704,
+                "y": 712,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Beneath the Vault to Fortress Courtyard"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Fortress Interior Main Exit",
+            "access_rules": [
+              "Fortress Interior Main Exit",
+              "{@Eastern Vault Fortress}"
+            ],
+            "map_locations": [
+              {
+                "map": "eastern_vault",
+                "x": 604,
+                "y": 432,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Fortress Interior Main Exit"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Fortress Interior to Beneath the Earth",
+            "access_rules": [
+              "Fortress Interior to Beneath the Earth",
+              "{@Eastern Vault Fortress}"
+            ],
+            "map_locations": [
+              {
+                "map": "eastern_vault",
+                "x": 187,
+                "y": 152,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Fortress Interior to Beneath the Earth"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Fortress Interior to Siege Engine Arena",
+            "access_rules": [
+              "Fortress Interior to Siege Engine Arena",
+              "{pray,@Eastern Vault Fortress,@Beneath the Vault Back,@Fortress Exterior from Overworld,@Fortress Courtyard}",
+              "{[glitches],dagger,orb,@Eastern Vault Fortress}"
+            ],
+            "map_locations": [
+              {
+                "map": "eastern_vault",
+                "x": 597,
+                "y": 97,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Fortress Interior to Siege Engine Arena"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Fortress Interior Shop",
+            "access_rules": [
+              "Fortress Interior Shop",
+              "{@Eastern Vault Fortress}"
+            ],
+            "map_locations": [
+              {
+                "map": "eastern_vault",
+                "x": 390,
+                "y": 307,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Fortress Interior Shop"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Fortress Interior to East Fortress Upper",
+            "access_rules": [
+              "Fortress Interior to East Fortress Upper",
+              "{@Eastern Vault Fortress}"
+            ],
+            "map_locations": [
+              {
+                "map": "eastern_vault",
+                "x": 836,
+                "y": 265,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Fortress Interior to East Fortress Upper"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Fortress Interior to East Fortress Lower",
+            "access_rules": [
+              "Fortress Interior to East Fortress Lower",
+              "{@Eastern Vault Fortress}"
+            ],
+            "map_locations": [
+              {
+                "map": "eastern_vault",
+                "x": 836,
+                "y": 407,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Fortress Interior to East Fortress Lower"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "East Fortress to Interior Lower",
+            "access_rules": [
+              "East Fortress to Interior Lower",
+              "{@Fortress East Shortcut Lower}"
+            ],
+            "map_locations": [
+              {
+                "map": "eastern_vault",
+                "x": 866,
+                "y": 407,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "East Fortress to Interior Lower"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "East Fortress to Interior Upper",
+            "access_rules": [
+              "East Fortress to Interior Upper",
+              "{@Fortress East Shortcut Upper}"
+            ],
+            "map_locations": [
+              {
+                "map": "eastern_vault",
+                "x": 866,
+                "y": 265,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "East Fortress to Interior Upper"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "East Fortress to Courtyard",
+            "access_rules": [
+              "East Fortress to Courtyard",
+              "{@Fortress East Shortcut Upper}"
+            ],
+            "map_locations": [
+              {
+                "map": "eastern_vault",
+                "x": 1053,
+                "y": 425,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "East Fortress to Courtyard"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Fortress Hero's Grave",
+            "access_rules": [
+              "Fortress Hero's Grave",
+              "{@Fortress Grave Path,pray}"
+            ],
+            "map_locations": [
+              {
+                "map": "eastern_vault",
+                "x": 1657,
+                "y": 641,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Fortress Hero's Grave"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Fortress Grave Path Lower Exit",
+            "access_rules": [
+              "Fortress Grave Path Lower Exit",
+              "{@Fortress Grave Path}"
+            ],
+            "map_locations": [
+              {
+                "map": "eastern_vault",
+                "x": 1027,
+                "y": 673,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Fortress Grave Path Lower Exit"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Fortress Grave Path Upper Exit",
+            "access_rules": "Fortress Grave Path Upper Exit",
+            "map_locations": [
+              {
+                "map": "eastern_vault",
+                "x": 1027,
+                "y": 632,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Fortress Grave Path Upper Exit"
+              }
+            ]
+          },
+          {
+            "name": "Fortress Grave Path Dusty Entrance",
+            "access_rules": [
+              "Fortress Grave Path Dusty Entrance",
+              "{@Fortress Grave Path,dash}"
+            ],
+            "map_locations": [
+              {
+                "map": "eastern_vault",
+                "x": 1589,
+                "y": 552,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Fortress Grave Path Dusty Entrance"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Dusty Exit",
+            "access_rules": "Dusty Exit",
+            "map_locations": [
+              {
+                "map": "eastern_vault",
+                "x": 1658,
+                "y": 261,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Dusty Exit"
+              }
+            ]
+          },
+          {
+            "name": "Siege Engine Arena to Fortress",
+            "access_rules": [
+              "Siege Engine Arena to Fortress",
+              "{@Fortress Arena}"
+            ],
+            "map_locations": [
+              {
+                "map": "eastern_vault",
+                "x": 1456,
+                "y": 1116,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Siege Engine Arena to Fortress"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Fortress to Far Shore",
+            "access_rules": [
+              "Fortress to Far Shore",
+              "{pray,@Fortress Arena,@Eastern Vault Fortress,@Beneath the Vault Back,@Fortress Exterior from Overworld}"
+            ],
+            "map_locations": [
+              {
+                "map": "eastern_vault",
+                "x": 1308,
+                "y": 1026,
+                "size": 25
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Fortress to Far Shore"
+              },
+              {
+                "name": "Done",
                 "item_count": 1
               }
             ]
@@ -6480,36 +7076,8 @@
         ]
       },
       {
-        "name": "Fortress Arena Portal",
-        "access_rules": [
-          "@Fortress Arena,pray"
-        ]
-      },
-      {
         "name": "Mountain",
         "children": [
-          {
-            "map_locations": [
-              {
-                "map": "fullmap",
-                "x": 3020,
-                "y": 1810
-              },
-              {
-                "map": "quarry",
-                "x": 239,
-                "y": 597,
-                "size": 45
-              }
-            ],
-            "sections": [
-              {
-                "name": "Lower Mountain - Page Before Door",
-                "access_rules": "@Lower Mountain",
-                "item_count": 1
-              }
-            ]
-          },
           {
             "map_locations": [
               {
@@ -6532,7 +7100,7 @@
             "sections": [
               {
                 "name": "Top of the Mountain - Page At The Peak",
-                "access_rules": "@Top of the Mountain",
+                "access_rules": "@Top of the Mountain Exit",
                 "item_count": 1
               }
             ]
@@ -6541,15 +7109,32 @@
             "name": "Lower Mountain",
             "access_rules": [
               "@Stairs to Top of the Mountain,cross",
-              "@Overworld above Quarry Entrance,glitches,ladders_near_dark_tomb,stick",
-              "@Overworld above Quarry Entrance,glitches,ladders_near_dark_tomb,sword",
               "@Mountain to Quarry",
               "@Mountain to Overworld"
+            ],
+            "children": [
+              {
+                "map_locations": [
+                  {
+                    "map": "fullmap",
+                    "x": 3020,
+                    "y": 1810
+                  },
+                  {
+                    "map": "quarry",
+                    "x": 239,
+                    "y": 597,
+                    "size": 45
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Lower Mountain - Page Before Door",
+                    "item_count": 1
+                  }
+                ]
+              }
             ]
-          },
-          {
-            "name": "Top of the Mountain",
-            "access_rules": "@Top of the Mountain Exit"
           },
           {
             "name": "Entrances",
@@ -6668,280 +7253,298 @@
         ]
       },
       {
-        "name": "Quarry", 
+        "name": "Quarry",
         "access_rules": [
-          "@Quarry Back,[staff]", 
-          "@Quarry Back,[sword]", 
-          "@Quarry Entry,[staff]", 
-          "@Quarry Entry,[sword]", 
-          "@Quarry Monastery Entry,[staff]", 
+          "@Quarry Back,[staff]",
+          "@Quarry Back,[sword]",
+          "@Quarry Entry,[staff]",
+          "@Quarry Entry,[sword]",
+          "@Quarry Monastery Entry,[staff]",
           "@Quarry Monastery Entry,[sword]"
-        ], 
+        ],
         "children": [
           {
-            "name": "[Central] Obscured Below Entry Walkway", 
+            "name": "[Central] Obscured Below Entry Walkway",
             "map_locations": [
               {
-                "map": "fullmap", 
-                "x": 1845, 
+                "map": "fullmap",
+                "x": 1345,
                 "y": 1840
-              }, 
+              },
               {
-                "map": "quarry", 
-                "x": 1220, 
-                "y": 815, 
+                "map": "quarry",
+                "x": 1220,
+                "y": 815,
                 "size": 45
               }
-            ], 
+            ],
             "sections": [
               {
-                "name": "Down the Stairs", 
+                "name": "Down the Stairs",
                 "item_count": 1
               }
             ]
-          }, 
+          },
           {
-            "name": "[Central] Below Entry Walkway", 
+            "name": "[Central] Below Entry Walkway",
             "map_locations": [
               {
-                "map": "fullmap", 
-                "x": 1890, 
+                "map": "fullmap",
+                "x": 1390,
                 "y": 2045
-              }, 
+              },
               {
-                "map": "quarry", 
-                "x": 1265, 
-                "y": 1020, 
+                "map": "quarry",
+                "x": 1265,
+                "y": 1020,
                 "size": 45
               }
-            ], 
+            ],
             "sections": [
               {
-                "name": "Even more Stairs!", 
+                "name": "Even more Stairs!",
                 "item_count": 1
               }
             ]
-          }, 
+          },
           {
-            "name": "[East] Near Bridge", 
+            "name": "[East] Near Bridge",
             "map_locations": [
               {
-                "map": "fullmap", 
-                "x": 1905, 
+                "map": "fullmap",
+                "x": 1405,
                 "y": 1710
-              }, 
+              },
               {
-                "map": "quarry", 
-                "x": 1280, 
-                "y": 685, 
+                "map": "quarry",
+                "x": 1280,
+                "y": 685,
                 "size": 45
               }
-            ], 
+            ],
             "sections": [
               {
-                "name": "Drop that Bridge!", 
+                "name": "Drop that Bridge!",
                 "item_count": 1
               }
             ]
-          }, 
+          },
           {
-            "name": "[East] Bombable Wall", 
+            "name": "[East] Bombable Wall",
             "map_locations": [
               {
-                "map": "fullmap", 
-                "x": 2010, 
+                "map": "fullmap",
+                "x": 1510,
                 "y": 1645
-              }, 
+              },
               {
-                "map": "quarry", 
-                "x": 1385, 
-                "y": 620, 
+                "map": "quarry",
+                "x": 1385,
+                "y": 620,
                 "size": 45
               }
-            ], 
+            ],
             "sections": [
               {
-                "name": "Flowers Guide Thee", 
+                "name": "Flowers Guide Thee",
                 "item_count": 1
               }
             ]
-          }, 
+          },
           {
-            "name": "[Central] Near Shortcut Ladder", 
+            "name": "[Central] Near Shortcut Ladder",
             "map_locations": [
               {
-                "map": "fullmap", 
-                "x": 1595, 
+                "map": "fullmap",
+                "x": 1095,
                 "y": 1765
-              }, 
+              },
               {
-                "map": "quarry", 
-                "x": 970, 
-                "y": 740, 
+                "map": "quarry",
+                "x": 970,
+                "y": 740,
                 "size": 45
               }
-            ], 
+            ],
             "sections": [
               {
-                "name": "By the Boxes", 
+                "name": "By the Boxes",
                 "item_count": 1
               }
             ]
-          }, 
+          },
           {
-            "name": "[East] Obscured Near Telescope", 
+            "name": "[East] Obscured Near Telescope",
             "map_locations": [
               {
-                "map": "fullmap", 
-                "x": 2130, 
+                "map": "fullmap",
+                "x": 1630,
                 "y": 1470
-              }, 
+              },
               {
-                "map": "quarry", 
-                "x": 1505, 
-                "y": 445, 
+                "map": "quarry",
+                "x": 1505,
+                "y": 445,
                 "size": 45
               }
-            ], 
+            ],
             "sections": [
               {
-                "name": "Weird path?", 
+                "name": "Weird path?",
                 "item_count": 1
               }
             ]
-          }, 
+          },
           {
-            "name": "[East] Near Telescope", 
+            "name": "[East] Near Telescope",
             "map_locations": [
               {
-                "map": "fullmap", 
-                "x": 2340, 
+                "map": "fullmap",
+                "x": 1840,
                 "y": 1385
-              }, 
+              },
               {
-                "map": "quarry", 
-                "x": 1715, 
-                "y": 360, 
+                "map": "quarry",
+                "x": 1715,
+                "y": 360,
                 "size": 45
               }
-            ], 
+            ],
             "sections": [
               {
-                "name": "Spoopy", 
+                "name": "Spoopy",
                 "item_count": 1
               }
             ]
-          }, 
+          },
           {
-            "name": "[East] Obscured Near Winding Staircase", 
+            "name": "[East] Obscured Near Winding Staircase",
             "map_locations": [
               {
-                "map": "fullmap", 
-                "x": 2025, 
+                "map": "fullmap",
+                "x": 1525,
                 "y": 1545
-              }, 
+              },
               {
-                "map": "quarry", 
-                "x": 1400, 
-                "y": 520, 
+                "map": "quarry",
+                "x": 1400,
+                "y": 520,
                 "size": 45
               }
-            ], 
+            ],
             "sections": [
               {
-                "name": "At the Bottom", 
+                "name": "At the Bottom",
                 "item_count": 1
               }
             ]
-          }, 
+          },
           {
-            "name": "[Central] Top Floor Overhang", 
+            "name": "[Central] Top Floor Overhang",
             "map_locations": [
               {
-                "map": "fullmap", 
-                "x": 1815, 
+                "map": "fullmap",
+                "x": 1315,
                 "y": 1650
-              }, 
+              },
               {
-                "map": "quarry", 
-                "x": 1190, 
-                "y": 625, 
+                "map": "quarry",
+                "x": 1190,
+                "y": 625,
                 "size": 45
               }
-            ], 
+            ],
             "sections": [
               {
-                "name": "End of the ruined bridge", 
+                "name": "End of the ruined bridge",
                 "item_count": 1
               }
             ]
-          }, 
+          },
           {
-            "name": "[East] Upper Floor", 
+            "name": "[East] Upper Floor",
             "map_locations": [
               {
-                "map": "fullmap", 
-                "x": 2075, 
+                "map": "fullmap",
+                "x": 1575,
                 "y": 1260
-              }, 
+              },
               {
-                "map": "quarry", 
-                "x": 1450, 
-                "y": 235, 
+                "map": "quarry",
+                "x": 1450,
+                "y": 235,
                 "size": 45
               }
-            ], 
+            ],
             "sections": [
               {
-                "name": "Reminds me of Blighttown", 
+                "name": "Reminds me of Blighttown",
                 "item_count": 1
               }
             ]
-          }, 
+          },
           {
-            "name": "[East] Obscured Beneath Scaffolding", 
+            "name": "[East] Obscured Beneath Scaffolding",
             "map_locations": [
               {
-                "map": "fullmap", 
-                "x": 1860, 
+                "map": "fullmap",
+                "x": 1360,
                 "y": 1465
-              }, 
+              },
               {
-                "map": "quarry", 
-                "x": 1235, 
-                "y": 440, 
+                "map": "quarry",
+                "x": 1235,
+                "y": 440,
                 "size": 45
               }
-            ], 
+            ],
             "sections": [
               {
-                "name": "In the Miasma Mound", 
+                "name": "In the Miasma Mound",
                 "item_count": 1
               }
             ]
-          }, 
+          },
           {
-            "name": "[Central] Obscured Behind Staircase", 
+            "name": "[Central] Obscured Behind Staircase",
             "map_locations": [
               {
-                "map": "fullmap", 
-                "x": 1645, 
+                "map": "fullmap",
+                "x": 1145,
                 "y": 1685
-              }, 
+              },
               {
-                "map": "quarry", 
-                "x": 1020, 
-                "y": 660, 
+                "map": "quarry",
+                "x": 1020,
+                "y": 660,
                 "size": 45
               }
-            ], 
+            ],
             "sections": [
               {
-                "name": "At the Bottom", 
+                "name": "At the Bottom",
                 "item_count": 1
               }
             ]
           }
+        ]
+      },
+      {
+        "name": "Quarry Portal",
+        "access_rules": [
+          "@Quarry Connector,orb,pray,@Quarry Entry"
+        ]
+      },
+      {
+        "name": "Monastery Hero's Grave Region",
+        "access_rules": [
+          "@Monastery Back,pray"
+        ]
+      },
+      {
+        "name": "Monastery Rope",
+        "access_rules": [
+          "@Monastery Back"
         ]
       },
       {
@@ -7088,7 +7691,7 @@
             "map_locations": [
               {
                 "map": "fullmap", 
-                "x": 1455, 
+                "x": 955, 
                 "y": 1840
               }, 
               {
@@ -9397,7 +10000,7 @@
             "sections": [
               {
                 "name": "Dash Across",
-                "access_rules": ["dash"],
+                "access_rules": "dash",
                 "item_count": 1
               }
             ]
@@ -9432,13 +10035,13 @@
       },
       {
         "name": "Far Shore Entrances",
-        "visibility_rules": ["Entrance_visibility"],
+        "visibility_rules": "Entrance_visibility",
         "children": [
           {
             "name": "Far Shore to West Garden",
             "access_rules": [
-              "{@Far Shore,@West Garden,pray}",
-              "Far Shore to West Garden"
+              "Far Shore to West Garden",
+              "{@Far Shore,@West Garden,pray}"
             ],
             "map_locations": [
               {
@@ -9587,8 +10190,8 @@
           {
             "name": "Far Shore to Quarry",
             "access_rules": [
-              "{@Far Shore,@Quarry Entry,@Quarry Connector,orb,pray}",
-              "Far Shore to Quarry"
+              "Far Shore to Quarry",
+              "{@Far Shore,@Quarry Entry,@Quarry Connector,orb,pray}"
             ],
             "map_locations": [
               {
@@ -9612,8 +10215,8 @@
           {
             "name": "Far Shore to Fortress",
             "access_rules": [
-              "{@Far Shore,pray,@Fortress Exterior from Overworld,@Fortress Courtyard,@Beneath the Vault Back}",
-              "Far Shore to Fortress"
+              "Far Shore to Fortress",
+              "{pray,@Far Shore,@Fortress Exterior from Overworld,@Fortress Courtyard,@Beneath the Vault Back}"
             ],
             "map_locations": [
               {
@@ -9637,8 +10240,8 @@
           {
             "name": "Far Shore to Library",
             "access_rules": [
-              "{@Far Shore,@Library Lab,pray,ladders_in_library}",
-              "Far Shore to Library"
+              "Far Shore to Library",
+              "{@Far Shore,@Library Lab,pray,ladders_in_library}"
             ],
             "map_locations": [
               {
@@ -9662,8 +10265,8 @@
           {
             "name": "Far Shore to Spawn",
             "access_rules": [
-              "{@Far Shore,dash}",
-              "Far Shore to Spawn"
+              "Far Shore to Spawn",
+              "{@Far Shore,dash}"
             ],
             "map_locations": [
               {
@@ -9686,7 +10289,7 @@
           },
           {
             "name": "Heir Arena Exit",
-             "access_rules": ["Heir Arena Exit"],
+             "access_rules": "Heir Arena Exit",
              "map_locations": [
               {
                 "map": "far_shore",
@@ -9754,7 +10357,7 @@
             "sections": [
               {
                 "name": "Feather Relic",
-                "access_rules": ["Hero's Grave to Swamp"],
+                "access_rules": "Hero's Grave to Swamp",
                 "item_count": 1
               }
             ]
@@ -9777,7 +10380,7 @@
             "sections": [
               {
                 "name": "Mushroom Relic",
-                "access_rules": ["Hero's Grave to Library"],
+                "access_rules": "Hero's Grave to Library",
                 "item_count": 1
               }
             ]
@@ -9800,7 +10403,7 @@
             "sections": [
               {
                 "name": "Effigy Relic",
-                "access_rules": ["Hero's Grave to West Garden"],
+                "access_rules": "Hero's Grave to West Garden",
                 "item_count": 1
               }
             ]
@@ -9823,13 +10426,13 @@
             "sections": [
               {
                 "name": "Ash Relic",
-                "access_rules": ["Hero's Grave to Monastery"],
+                "access_rules": "Hero's Grave to Monastery",
                 "item_count": 1
               }
             ]
           },
           {
-            "name": "Fortress Hero's Grave",
+            "name": "Fortress's Hero's Grave",
             "map_locations":[
               {
                 "map": "fullmap",
@@ -9846,7 +10449,7 @@
             "sections": [
               {
                 "name": "Flowers Relic",
-                "access_rules": ["Hero's Grave to Fortress"],
+                "access_rules": "Hero's Grave to Fortress",
                 "item_count": 1
               }
             ]
@@ -9869,7 +10472,7 @@
             "sections": [
               {
                 "name": "Tooth Relic",
-                "access_rules": ["Hero's Grave to East Forest"],
+                "access_rules": "Hero's Grave to East Forest",
                 "item_count": 1
               }
             ]
@@ -9893,7 +10496,7 @@
             "sections": [
               {
                 "name": "Traversed",
-                "access_rules": ["Hero's Grave to Swamp"],
+                "access_rules": "Hero's Grave to Swamp",
                 "hosted_item": "Hero's Grave to Swamp"
               }
             ]
@@ -9911,7 +10514,7 @@
             "sections": [
               {
                 "name": "Traversed",
-                "access_rules": ["Hero's Grave to Library"],
+                "access_rules": "Hero's Grave to Library",
                 "hosted_item": "Hero's Grave to Library"
               }
             ]
@@ -9929,7 +10532,7 @@
             "sections": [
               {
                 "name": "Traversed",
-                "access_rules": ["Hero's Grave to West Garden"],
+                "access_rules": "Hero's Grave to West Garden",
                 "hosted_item": "Hero's Grave to West Garden"
               }
             ]
@@ -9947,7 +10550,7 @@
             "sections": [
               {
                 "name": "Traversed",
-                "access_rules": ["Hero's Grave to Monastery"],
+                "access_rules": "Hero's Grave to Monastery",
                 "hosted_item": "Hero's Grave to Monastery"
               }
             ]
@@ -9965,7 +10568,7 @@
             "sections": [
               {
                 "name": "Traversed",
-                "access_rules": ["Hero's Grave to Fortress"],
+                "access_rules": "Hero's Grave to Fortress",
                 "hosted_item": "Hero's Grave to Fortress"
               }
             ]
@@ -9983,7 +10586,7 @@
             "sections": [
               {
                 "name": "Traversed",
-                "access_rules": ["Hero's Grave to East Forest"],
+                "access_rules": "Hero's Grave to East Forest",
                 "hosted_item": "Hero's Grave to East Forest"
               }
             ]

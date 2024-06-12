@@ -170,11 +170,11 @@ ENTRANCE_MAPPING = {
 	["Fortress Main, Fortress East_lower"] = {"Fortress Interior to East Fortress Lower", nil},
 	
 	["Fortress East, Fortress Main_lower"] = {"East Fortress to Interior Lower", nil},
-	["Fortress East, Fortress Courtyard_"] = {"East Fortress to Courtyard", nil},
 	["Fortress East, Fortress Main_upper"] = {"East Fortress to Interior Upper", nil},
+	["Fortress East, Fortress Courtyard_"] = {"East Fortress to Courtyard", nil},
 	
-	["Fortress Reliquary, Fortress Courtyard_Lower"] = {"Fortress Grave Path Lower Exit", nil},
 	["Fortress Reliquary, RelicVoid_teleporter_relic plinth"] = {"Fortress Hero's Grave", nil},
+	["Fortress Reliquary, Fortress Courtyard_Lower"] = {"Fortress Grave Path Lower Exit", nil},
 	["Fortress Reliquary, Fortress Courtyard_Upper"] = {"Fortress Grave Path Upper Exit", nil},
 	["Fortress Reliquary, Dusty_"] = {"Fortress Grave Path Dusty Entrance", nil},
 	["Dusty, Fortress Reliquary_"] = {"Dusty Exit", nil},

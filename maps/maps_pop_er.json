@@ -33,7 +33,7 @@
     "name": "eastern_vault",
     "location_size": 30,
     "location_border_thickness": 7,
-    "img": "maps/eastern_vault_pop.png"
+    "img": "maps/eastern_vault_er.png"
   },
   {
     "name": "frogs_domain",

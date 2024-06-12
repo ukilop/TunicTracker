@@ -5,7 +5,6 @@
 LOCATION_MAPPING = {
     [509342578] = {"@Full World/Overworld Holy Cross/[South] Starting Platform Holy Cross/Back to Work"},
     [509342559] = {"@Full World/Stick House/Stick House/Stick Chest"},
-		
     [509342520] = {"@Full World/Overworld/[Northwest] Shadowy Corner Chest/Dark Ramps Chest"},
     [509342542] = {"@Full World/Overworld/[West] Key Pickup/Hero's Path Key"},
     [509342548] = {"@Full World/Overworld/[Northwest] Page By Well/If you seek to increase your power..."},
@@ -121,7 +120,6 @@ LOCATION_MAPPING = {
     [509342430] = {"@Full World/Dark Tomb Main/1st Laser Room Obscured/Follow the red laser of death"},
     [509342426] = {"@Full World/Dark Tomb Main/1st Laser Room/Use a bomb?"},
     [509342425] = {"@Full World/Dark Tomb Main/2nd Laser Room/Can you roll?"},
-		
     
     [509342691] = {"@Full World/West Garden/[North] Obscured Beneath Hero's Memorial/Take the Long Way Around"},
     [509342684] = {"@Full World/West Garden/[North] Behind Holy Cross Door/Extra Sword!"},
@@ -223,7 +221,6 @@ LOCATION_MAPPING = {
     [509342452] = {"@Full World/Forest Belltower Main/Forest Belltower Obscured/Obscured Beneath Bell Bottom Floor"},
     [509342449] = {"@Full World/Forest Belltower Lower/Forest Belltower Save Point/Near Save Point"},
 	[509342451] = {"@Full World/Forest Belltower Upper/East Bell/Forest Belltower - Obscured Near Bell Top Floor"},
-	
 
     [509342460] = {"@Full World/Fortress Exterior from East Forest/Fortress Courtyard - From West Belltower/Crack in the Wall"},
     [509342504] = {"@Full World/Fortress Exterior from Overworld/Fortress Courtyard - Below Walkway/Under the Stairs"},
@@ -237,21 +234,20 @@ LOCATION_MAPPING = {
     [509342478] = {"@Full World/Beneath the Vault Back/Cell Chest 2/Mind the Custodian"},
     [509342477] = {"@Full World/Beneath the Vault Back/Back Room Chest/Lose the Lure or take 2 Damage"},
 
+    [509342461] = {"@Full World/Fortress Leaf Piles/Fortress Leaf Piles - Secret Chest/Dusty"},
+    [509342462] = {"@Full World/Fortress Arena/Fortress Arena/Hexagon Red"},
+    [509342463] = {"@Full World/Fortress Arena/Fortress Arena/Siege Engine|Vault Key Pickup"},
+    [509342464] = {"@Full World/Fortress East Shortcut Lower/Fortress East Shortcut - Chest Near Slimes/Mind the Custodians"},
+    [509342465] = {"@Full World/Eastern Vault Fortress/[West Wing] Candles Holy Cross/Use the Holy Cross"},
     [509342466] = {"@Full World/Eastern Vault Fortress/Westmost Upper Room/[West Wing] Dark Room Chest 1"},
     [509342467] = {"@Full World/Eastern Vault Fortress/Westmost Upper Room/[West Wing] Dark Room Chest 2"},
-    [509342469] = {"@Full World/Eastern Vault Fortress/[West Wing] Page Pickup/He will never visit the Far Shore"},
-    [509342465] = {"@Full World/Eastern Vault Fortress/[West Wing] Candles Holy Cross/Use the Holy Cross"},
-    [509342461] = {"@Full World/Fortress Leaf Piles/Fortress Leaf Piles - Secret Chest/Dusty"},
-    [509342464] = {"@Full World/Fortress East Shortcut Lower/Fortress East Shortcut - Chest Near Slimes/Mind the Custodians"},
-    [509342470] = {"@Full World/Fortress Grave Path Upper/Fortress Grave Path - Upper Walkway/Go Around the East Wing"},
     [509342468] = {"@Full World/Eastern Vault Fortress/[East Wing] Bombable Wall/Bomb the Wall"},
-    [509342463] = {"@Full World/Fortress Arena/Fortress Arena/Siege Engine|Vault Key Pickup"},
-    [509342462] = {"@Full World/Fortress Arena/Fortress Arena/Hexagon Red"},
+    [509342469] = {"@Full World/Eastern Vault Fortress/[West Wing] Page Pickup/He will never visit the Far Shore"},
+    [509342470] = {"@Full World/Fortress Grave Path Upper/Fortress Grave Path - Upper Walkway/Go Around the East Wing"},
+    [509342471] = {"@Full World/Fortress Grave Path/Vault Hero's Grave/Fortress Grave Path - Chest Right of Grave"},
+    [509342472] = {"@Full World/Fortress Grave Path/Vault Hero's Grave/Fortress Grave Path - Obscured Chest Left of Grave"},
 
-    [509342472] = {"@Full World/Vault Hero's Grave/Fortress Grave Path - Obscured Chest Left of Grave"},
-    [509342471] = {"@Full World/Vault Hero's Grave/Fortress Grave Path - Chest Right of Grave"},
-
-    [509342500] = {"@Full World/Mountain/Lower Mountain - Page Before Door"},
+    [509342500] = {"@Full World/Mountain/Lower Mountain/Lower Mountain - Page Before Door"},
     [509342594] = {"@Full World/Mountain/Top of the Mountain - Page At The Peak"},
 
     [509342596] = {"@Full World/Quarry Back/[Back Entrance] Bushes Holy Cross/Use the Holy Cross"},
@@ -341,6 +337,6 @@ LOCATION_MAPPING = {
     [509342499] = {"@Full World/Hero Relics/Library Hero's Grave/Mushroom Relic"},
     [509342701] = {"@Full World/Hero Relics/West Garden Hero's Grave/Effigy Relic"},
     [509342614] = {"@Full World/Hero Relics/Monastery Hero's Grave/Ash Relic"},
-    [509342473] = {"@Full World/Hero Relics/Fortress Hero's Grave/Flowers Relic"},
+    [509342473] = {"@Full World/Hero Relics/Fortress's Hero's Grave/Flowers Relic"},
     [509342459] = {"@Full World/Hero Relics/East Forest Hero's Grave/Tooth Relic"},
 }
