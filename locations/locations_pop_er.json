@@ -3285,9 +3285,6 @@
         ]
       },
       {
-        "name": "Dark Tomb Entry Point"
-      },
-      {
         "name": "Dark Tomb Upper",
         "access_rules": [
           "@Dark Tomb Entry Point,[light]",
@@ -3462,12 +3459,12 @@
       {
         "name": "Dark Tomb Dark Exit",
         "access_rules": [
-          "@Dark Tomb Main",
-          "@Furnace Ladder Area,glitches,ladder_in_dark_tomb,stick",
-          "@Furnace Ladder Area,glitches,ladder_in_dark_tomb,sword",
-          "@Furnace Ladder Area,glitches,ladders_to_west_bell,stick",
-          "@Furnace Ladder Area,glitches,ladders_to_west_bell,sword",
-          "@Furnace Walking Path"
+          "@Dark Tomb Main"
+          // "@Furnace Ladder Area,glitches,ladder_in_dark_tomb,stick",
+          // "@Furnace Ladder Area,glitches,ladder_in_dark_tomb,sword",
+          // "@Furnace Ladder Area,glitches,ladders_to_west_bell,stick",
+          // "@Furnace Ladder Area,glitches,ladders_to_west_bell,sword",
+          // "@Furnace Walking Path"
         ]
       },
       {
@@ -3738,21 +3735,21 @@
       {
         "name": "Beneath the Well Back",
         "access_rules": [
-          "glitches,ladder_to_quarry,stick",
-          "glitches,ladder_to_quarry,sword",
-          "glitches,ladder_to_swamp,stick",
-          "glitches,ladder_to_swamp,sword",
-          "glitches,ladders_in_overworld_town,stick",
-          "glitches,ladders_in_overworld_town,sword",
-          "glitches,ladders_near_weathervane,stick",
-          "glitches,ladders_near_weathervane,sword",
-          "@Beneath the Well Main,ladders_in_well",
-          "@Overworld Beach,glitches,ladder_to_ruined_atoll,stick",
-          "@Overworld Beach,glitches,ladder_to_ruined_atoll,sword",
-          "@Overworld Well to Furnace Rail",
-          "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,stick",
-          "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,sword",
-          "@Well Boss"
+          // "glitches,ladder_to_quarry,stick",
+          // "glitches,ladder_to_quarry,sword",
+          // "glitches,ladder_to_swamp,stick",
+          // "glitches,ladder_to_swamp,sword",
+          // "glitches,ladders_in_overworld_town,stick",
+          // "glitches,ladders_in_overworld_town,sword",
+          // "glitches,ladders_near_weathervane,stick",
+          // "glitches,ladders_near_weathervane,sword",
+          "@Beneath the Well Main,ladders_in_well"
+          // "@Overworld Beach,glitches,ladder_to_ruined_atoll,stick",
+          // "@Overworld Beach,glitches,ladder_to_ruined_atoll,sword",
+          // "@Overworld Well to Furnace Rail",
+          // "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,stick",
+          // "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,sword",
+          // "@Well Boss"
         ],
         "children": [
           {
@@ -3870,27 +3867,29 @@
           }
         ]
       },
+
       {
         "name": "West Garden",
         "access_rules": [
-          "@Magic Dagger House",
-          "@Overworld Beach,glitches,ladder_in_dark_tomb,ladder_to_ruined_atoll,stick",
-          "@Overworld Beach,glitches,ladder_in_dark_tomb,ladder_to_ruined_atoll,sword",
-          "@Overworld Beach,glitches,ladder_in_dark_tomb,ladders_in_overworld_town,stick",
-          "@Overworld Beach,glitches,ladder_in_dark_tomb,ladders_in_overworld_town,sword",
-          "@Overworld Beach,glitches,ladder_to_ruined_atoll,ladders_to_west_bell,stick",
-          "@Overworld Beach,glitches,ladder_to_ruined_atoll,ladders_to_west_bell,sword",
-          "@Overworld Beach,glitches,ladders_in_overworld_town,ladders_to_west_bell,stick",
-          "@Overworld Beach,glitches,ladders_in_overworld_town,ladders_to_west_bell,sword",
-          "@Overworld Swamp Lower Entry,glitches,ladder_in_dark_tomb,ladder_to_swamp,stick",
-          "@Overworld Swamp Lower Entry,glitches,ladder_in_dark_tomb,ladder_to_swamp,sword",
-          "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,ladders_to_west_bell,stick",
-          "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,ladders_to_west_bell,sword",
-          "@Overworld to West Garden from Furnace",
-          "@West Garden Hero's Grave Region",
-          "@West Garden Laurels Exit Region,dash",
-          "@West Garden Portal Item,[glitches],dagger,icerod,orb,staff",
-          "@West Garden after Boss,dash"
+          "@West Garden to Magic Dagger House",
+          // "@Overworld Beach,glitches,ladder_in_dark_tomb,ladder_to_ruined_atoll,stick",
+          // "@Overworld Beach,glitches,ladder_in_dark_tomb,ladder_to_ruined_atoll,sword",
+          // "@Overworld Beach,glitches,ladder_in_dark_tomb,ladders_in_overworld_town,stick",
+          // "@Overworld Beach,glitches,ladder_in_dark_tomb,ladders_in_overworld_town,sword",
+          // "@Overworld Beach,glitches,ladder_to_ruined_atoll,ladders_to_west_bell,stick",
+          // "@Overworld Beach,glitches,ladder_to_ruined_atoll,ladders_to_west_bell,sword",
+          // "@Overworld Beach,glitches,ladders_in_overworld_town,ladders_to_west_bell,stick",
+          // "@Overworld Beach,glitches,ladders_in_overworld_town,ladders_to_west_bell,sword",
+          // "@Overworld Swamp Lower Entry,glitches,ladder_in_dark_tomb,ladder_to_swamp,stick",
+          // "@Overworld Swamp Lower Entry,glitches,ladder_in_dark_tomb,ladder_to_swamp,sword",
+          // "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,ladders_to_west_bell,stick",
+          // "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,ladders_to_west_bell,sword",
+          "@West Garden Exit near Hero's Grave",
+          "@West Garden Hero's Grave",
+          "@West Garden Shop",
+          "dash,@West Garden Laurels Exit",
+          "dash,@West Garden after Boss",
+          "[glitches],dagger,icerod,orb,staff,@West Garden Portal Item"
         ],
         "children": [
           {
@@ -4309,7 +4308,7 @@
       },
       {
         "name": "Magic Dagger House",
-        "access_rules": ["@West Garden"],
+        "access_rules": "@Magic Dagger House Exit",
         "children": [
           {
             "name": "[Southeast Lowlands] Ice Dagger Pickup",
@@ -4321,8 +4320,8 @@
               },
               {
                 "map": "west_gardens",
-                "x": 880,
-                "y": 580,
+                "x": 1213,
+                "y": 664,
                 "size": 45
               }
             ],
@@ -4344,7 +4343,7 @@
       {
         "name": "West Garden Portal Item",
         "access_rules": [
-          "@West Garden Portal,dash",
+          "@West Garden to Far Shore,dash",
           "@West Garden,[glitches],dagger,icerod,orb,staff"
         ],
         "children": [
@@ -4366,7 +4365,7 @@
             "sections": [
               {
                 "name": "Come from the Far Shore",
-                "access_rules": ["dash"],
+                "access_rules": "dash",
                 "item_count": 1
               }
             ]
@@ -4376,36 +4375,37 @@
       {
         "name": "West Garden Laurels Exit Region",
         "access_rules": [
-          "@Overworld Beach,glitches,ladder_to_ruined_atoll,stick",
-          "@Overworld Beach,glitches,ladder_to_ruined_atoll,sword",
-          "@Overworld Beach,glitches,ladders_in_overworld_town,stick",
-          "@Overworld Beach,glitches,ladders_in_overworld_town,sword",
-          "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,stick",
-          "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,sword",
-          "@Overworld West Garden Laurels Entry",
+          // "@Overworld Beach,glitches,ladder_to_ruined_atoll,stick",
+          // "@Overworld Beach,glitches,ladder_to_ruined_atoll,sword",
+          // "@Overworld Beach,glitches,ladders_in_overworld_town,stick",
+          // "@Overworld Beach,glitches,ladders_in_overworld_town,sword",
+          // "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,stick",
+          // "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,sword",
+          // "@Overworld West Garden Laurels Entry",
           "@West Garden,dash"
         ]
       },
       {
         "name": "West Garden after Boss",
         "access_rules": [
-          "dash,glitches,ladder_to_swamp,stick",
-          "dash,glitches,ladder_to_swamp,sword",
-          "dash,glitches,ladders_in_overworld_town,stick",
-          "dash,glitches,ladders_in_overworld_town,sword",
-          "dash,glitches,ladders_near_weathervane,stick",
-          "dash,glitches,ladders_near_weathervane,sword",
-          "glitches,ladder_to_swamp,ladders_to_west_bell,stick",
-          "glitches,ladder_to_swamp,ladders_to_west_bell,sword",
-          "glitches,ladders_in_overworld_town,ladders_to_west_bell,stick",
-          "glitches,ladders_in_overworld_town,ladders_to_west_bell,sword",
-          "glitches,ladders_near_weathervane,ladders_to_west_bell,stick",
-          "glitches,ladders_near_weathervane,ladders_to_west_bell,sword",
-          "@Overworld Beach,dash,glitches,ladder_to_ruined_atoll,stick",
-          "@Overworld Beach,dash,glitches,ladder_to_ruined_atoll,sword",
-          "@Overworld Beach,glitches,ladder_to_ruined_atoll,ladders_to_west_bell,stick",
-          "@Overworld Beach,glitches,ladder_to_ruined_atoll,ladders_to_west_bell,sword",
-          "@Overworld to West Garden Upper",
+          "@West Garden Exit after Boss",
+          // "dash,glitches,ladder_to_swamp,stick",
+          // "dash,glitches,ladder_to_swamp,sword",
+          // "dash,glitches,ladders_in_overworld_town,stick",
+          // "dash,glitches,ladders_in_overworld_town,sword",
+          // "dash,glitches,ladders_near_weathervane,stick",
+          // "dash,glitches,ladders_near_weathervane,sword",
+          // "glitches,ladder_to_swamp,ladders_to_west_bell,stick",
+          // "glitches,ladder_to_swamp,ladders_to_west_bell,sword",
+          // "glitches,ladders_in_overworld_town,ladders_to_west_bell,stick",
+          // "glitches,ladders_in_overworld_town,ladders_to_west_bell,sword",
+          // "glitches,ladders_near_weathervane,ladders_to_west_bell,stick",
+          // "glitches,ladders_near_weathervane,ladders_to_west_bell,sword",
+          // "@Overworld Beach,dash,glitches,ladder_to_ruined_atoll,stick",
+          // "@Overworld Beach,dash,glitches,ladder_to_ruined_atoll,sword",
+          // "@Overworld Beach,glitches,ladder_to_ruined_atoll,ladders_to_west_bell,stick",
+          // "@Overworld Beach,glitches,ladder_to_ruined_atoll,ladders_to_west_bell,sword",
+          // "@Overworld to West Garden Upper",
           "@West Garden,dash",
           "@West Garden,sword"
         ],
@@ -4465,23 +4465,222 @@
         ]
       },
       {
+        "name": "West Garden Entrances",
+        "visibility_rules": "Entrance_visibility",
+        "children":[
+          {
+            "name": "West Garden Exit near Hero's Grave",
+            "access_rules": [
+              "West Garden Exit near Hero's Grave",
+              "{@West Garden}"
+            ],
+            "map_locations": [
+              {
+                "map": "west_gardens",
+                "x": 1374,
+                "y": 134,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "West Garden Exit near Hero's Grave"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "West Garden to Magic Dagger House",
+            "access_rules": [
+              "West Garden to Magic Dagger House",
+              "{@West Garden}"
+            ],
+            "map_locations": [
+              {
+                "map": "west_gardens",
+                "x": 873,
+                "y": 578,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "West Garden to Magic Dagger House"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "West Garden Exit after Boss",
+            "access_rules": [
+              "West Garden Exit after Boss",
+              "{@West Garden after Boss}"
+            ],
+            "map_locations": [
+              {
+                "map": "west_gardens",
+                "x": 1374,
+                "y": 51,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "West Garden Exit after Boss"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "West Garden Shop",
+            "access_rules": [
+              "West Garden Shop",
+              "{@West Garden}"
+            ],
+            "map_locations": [
+              {
+                "map": "west_gardens",
+                "x": 623,
+                "y": 39,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "West Garden Shop"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "West Garden Laurels Exit",
+            "access_rules": [
+              "West Garden Laurels Exit",
+              "{dash,@West Garden}"
+            ],
+            "map_locations": [
+              {
+                "map": "west_gardens",
+                "x": 1374,
+                "y": 442,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "West Garden Laurels Exit"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "West Garden Hero's Grave",
+            "access_rules": [
+              "West Garden Hero's Grave",
+              "{pray,@West Garden}"
+            ],
+            "map_locations": [
+              {
+                "map": "west_gardens",
+                "x": 1082,
+                "y": 147,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "West Garden Hero's Grave"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "West Garden to Far Shore",
+            "access_rules": [
+              "West Garden to Far Shore",
+              "{@West Garden Portal Item}"
+            ],
+            "map_locations": [
+              {
+                "map": "west_gardens",
+                "x": 862,
+                "y": 759,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "West Garden to Far Shore"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Magic Dagger House Exit",
+            "access_rules": "Magic Dagger House Exit",
+            "map_locations": [
+              {
+                "map": "west_gardens",
+                "x": 1078,
+                "y": 764,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Magic Dagger House Exit"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "name": "Ruined Atoll",
         "access_rules": [
-          "glitches,ladder_to_swamp,orb,stick",
-          "glitches,ladder_to_swamp,orb,sword",
-          "glitches,ladders_in_overworld_town,orb,stick",
-          "glitches,ladders_in_overworld_town,orb,sword",
-          "glitches,ladders_near_weathervane,orb,stick",
-          "glitches,ladders_near_weathervane,orb,sword",
-          "pray",
-          "@Overworld to Atoll Upper",
+          "@Atoll Upper Exit",
+          "@Atoll to Far Shore",
+          "@Atoll Shop",
+          "@Atoll Statue Teleporter",
+          // "glitches,ladder_to_swamp,orb,stick",
+          // "glitches,ladder_to_swamp,orb,sword",
+          // "glitches,ladders_in_overworld_town,orb,stick",
+          // "glitches,ladders_in_overworld_town,orb,sword",
+          // "glitches,ladders_near_weathervane,orb,stick",
+          // "glitches,ladders_near_weathervane,orb,sword",
           "@Ruined Atoll Frog Eye,ladders_to_frogs_domain",
           "@Ruined Atoll Frog Mouth,dash",
           "@Ruined Atoll Frog Mouth,orb",
           "@Ruined Atoll Lower Entry Area,dash",
-          "@Ruined Atoll Lower Entry Area,orb",
-          "@Ruined Atoll Portal",
-          "@Ruined Atoll Statue"
+          "@Ruined Atoll Lower Entry Area,orb"
         ],
         "children": [
           {
@@ -4756,9 +4955,7 @@
             "sections": [
               {
                 "name": "Phonomath",
-                "access_rules": [
-                  "dash"
-                ],
+                "access_rules": "dash",
                 "item_count": 1
               }
             ]
@@ -4768,11 +4965,11 @@
       {
         "name": "Ruined Atoll Lower Entry Area",
         "access_rules": [
-          "@Overworld Beach",
-          "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,ladders_in_overworld_town,stick",
-          "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,ladders_in_overworld_town,sword",
-          "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,orb,stick",
-          "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,orb,sword",
+          "@Atoll Lower Exit",
+          // "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,ladders_in_overworld_town,stick",
+          // "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,ladders_in_overworld_town,sword",
+          // "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,orb,stick",
+          // "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,orb,sword",
           "@Ruined Atoll,[glitches],dagger,icerod,orb,staff",
           "@Ruined Atoll,dash"
         ],
@@ -4878,57 +5075,233 @@
       {
         "name": "Ruined Atoll Frog Mouth",
         "access_rules": [
-          "@Frog Stairs Upper",
+          "@Frog Stairs Mouth Entrance",
           "@Ruined Atoll,dash",
-          "@Ruined Atoll,orb"
+          "@Ruined Atoll,orb",
+          "@Ruined Atoll,glitches,stick",
+          "@Ruined Atoll,glitches,sword"
         ]
       },
       {
         "name": "Ruined Atoll Frog Eye",
         "access_rules": [
-          "@Frog Stairs Eye Exit",
-          "@Ruined Atoll,ladders_to_frogs_domain"
+          "@Ruined Atoll,ladders_to_frogs_domain",
+          "@Frog Stairs Eye Entrance"
         ]
       },
       {
         "name": "Ruined Atoll Portal",
         "access_rules": [
-          "@Far Shore",
+          "@Atoll to Far Shore",
           "@Ruined Atoll,pray"
         ]
       },
       {
         "name": "Ruined Atoll Statue",
         "access_rules": [
-          "@Library Exterior Tree Region",
           "@Ruined Atoll,ladders_in_south_atoll,pray"
         ]
       },
       {
-        "name": "Frog Stairs Eye Exit",
-        "access_rules": [
-          "@Frog Stairs Upper,ladders_to_frogs_domain",
-          "@Ruined Atoll Frog Eye",
-          "@Ruined Atoll,glitches,stick",
-          "@Ruined Atoll,glitches,sword"
+        "name": "Atoll Entrances",
+        "visibility_rules": "Entrance_visibility",
+        "children":[
+          {
+            "name": "Atoll Upper Exit",
+            "access_rules": [
+              "Atoll Upper Exit",
+              "{@Ruined Atoll}"
+            ],
+            "map_locations": [
+              {
+                "map": "ruined_atoll",
+                "x": 788,
+                "y": 0,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Atoll Upper Exit"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Atoll Lower Exit",
+            "access_rules": [
+              "Atoll Lower Exit",
+              "{@Ruined Atoll,[glitches],dagger,icerod,orb,staff}",
+              "{@Ruined Atoll,dash}"
+            ],
+            "map_locations": [
+              {
+                "map": "ruined_atoll",
+                "x": 726,
+                "y": 0,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Atoll Lower Exit"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Atoll Shop",
+            "access_rules": [
+              "Atoll Shop",
+              "{@Ruined Atoll}"
+            ],
+            "map_locations": [
+              {
+                "map": "ruined_atoll",
+                "x": 1035,
+                "y": 259,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Atoll Shop"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Atoll to Far Shore",
+            "access_rules": [
+              "Atoll to Far Shore",
+              "{pray,@Ruined Atoll}"
+            ],
+            "map_locations": [
+              {
+                "map": "ruined_atoll",
+                "x": 788,
+                "y": 59,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Atoll to Far Shore"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Atoll Statue Teleporter",
+            "access_rules": [
+              "Atoll Statue Teleporter",
+              "{ladders_in_south_atoll,pray,@Ruined Atoll}"
+            ],
+            "map_locations": [
+              {
+                "map": "ruined_atoll",
+                "x": 788,
+                "y": 622,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Atoll Statue Teleporter"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Frog Stairs Eye Entrance",
+            "access_rules": [
+              "Frog Stairs Eye Entrance",
+              "{ladders_to_frogs_domain,@Ruined Atoll}"
+            ],
+            "map_locations": [
+              {
+                "map": "ruined_atoll",
+                "x": 1450,
+                "y": 262,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Frog Stairs Eye Entrance"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Frog Stairs Mouth Entrance",
+            "access_rules": [
+              "Frog Stairs Mouth Entrance",
+              "{@Ruined Atoll,dash}",
+              "{@Ruined Atoll,orb}",
+              "{@Ruined Atoll,glitches,stick}",
+              "{@Ruined Atoll,glitches,sword}"
+            ],
+            "map_locations": [
+              {
+                "map": "ruined_atoll",
+                "x": 1450,
+                "y": 319,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Frog Stairs Mouth Entrance"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          }
         ]
       },
+      
       {
         "name": "Frog Stairs Upper",
         "access_rules": [
           "@Frog Stairs Eye Exit,ladders_to_frogs_domain",
-          "@Frog Stairs Lower,ladders_to_frogs_domain",
-          "@Ruined Atoll Frog Mouth",
-          "@Ruined Atoll,glitches,stick",
-          "@Ruined Atoll,glitches,sword"
+          "@Frog Stairs Mouth Exit",
+          "@Frog Stairs Lower,ladders_to_frogs_domain"
         ]
       },
       {
         "name": "Frog Stairs Lower",
         "access_rules": [
           "@Frog Stairs Upper,ladders_to_frogs_domain",
-          "@Frog Stairs to Frog's Domain,ladders_to_frogs_domain",
-          "@Frog's Domain Back"
+          "@Frog Stairs to Frog's Domain's Entrance,ladders_to_frogs_domain",
+          "@Frog Stairs to Frog's Domain's Exit"
         ]
       },
       {
@@ -4944,7 +5317,7 @@
       },
       {
         "name": "Frog's Domain", 
-        "access_rules": ["@Frog's Domain Entry,ladders_to_frogs_domain"],
+        "access_rules": ["ladders_to_frogs_domain,@Frog's Domain Ladder Exit"],
         "children": [
           {
             "name": "Grapple Above Hot Tub", 
@@ -5179,7 +5552,7 @@
       {
         "name": "Frog's Domain Back", 
         "access_rules": [
-          "@Frog Stairs Lower", 
+          "@Frog's Domain Orb Exit", 
           "@Frog's Domain,orb"
         ], 
         "children": [
@@ -5205,6 +5578,157 @@
                   "dash", 
                   "orb"
                 ], 
+                "item_count": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Frog's Entrances",
+        "visibility_rules": "Entrance_visibility",
+        "children":[
+          {
+            "name": "Frog Stairs Eye Exit",
+            "access_rules": [
+              "Frog Stairs Eye Exit",
+              "{@Frog Stairs Upper,ladders_to_frogs_domain}"
+            ],
+            "map_locations": [
+              {
+                "map": "frogs_domain",
+                "x": 248,
+                "y": 1,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Frog Stairs Eye Exit"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Frog Stairs Mouth Exit",
+            "access_rules": [
+              "Frog Stairs Mouth Exit",
+              "{@Frog Stairs Upper}"
+            ],
+            "map_locations": [
+              {
+                "map": "frogs_domain",
+                "x": 65,
+                "y": 321,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Frog Stairs Mouth Exit"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Frog Stairs to Frog's Domain's Entrance",
+            "access_rules": [
+              "Frog Stairs to Frog's Domain's Entrance",
+              "{@Frog Stairs Lower,ladders_to_frogs_domain}"
+            ],
+            "map_locations": [
+              {
+                "map": "frogs_domain",
+                "x": 576,
+                "y": 738,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Frog Stairs to Frog's Domain's Entrance"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Frog Stairs to Frog's Domain's Exit",
+            "access_rules": [
+              "Frog Stairs to Frog's Domain's Exit",
+              "{@Frog Stairs Lower}"
+            ],
+            "map_locations": [
+              {
+                "map": "frogs_domain",
+                "x": 640,
+                "y": 222,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Frog Stairs to Frog's Domain's Exit"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Frog's Domain Ladder Exit",
+            "access_rules": [
+              "Frog's Domain Ladder Exit"
+            ],
+            "map_locations": [
+              {
+                "map": "frogs_domain",
+                "x": 1042,
+                "y": 616,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Frog's Domain Ladder Exit"
+              }
+            ]
+          },
+          {
+            "name": "Frog's Domain Orb Exit",
+            "access_rules": [
+              "Frog's Domain Orb Exit",
+              "{@Frog's Domain Back}"
+            ],
+            "map_locations": [
+              {
+                "map": "frogs_domain",
+                "x": 1546,
+                "y": 310,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Frog's Domain Orb Exit"
+              },
+              {
+                "name": "Done",
                 "item_count": 1
               }
             ]
@@ -5275,7 +5799,6 @@
           }
         ]
       },
-      
       {
         "name": "Library Hall",
         "access_rules": [
@@ -7560,7 +8083,7 @@
             "map_locations": [
               {
                 "map": "fullmap", 
-                "x": 1710, 
+                "x": 1210, 
                 "y": 1245
               }, 
               {
@@ -7582,7 +8105,7 @@
             "map_locations": [
               {
                 "map": "fullmap", 
-                "x": 1660, 
+                "x": 1160, 
                 "y": 1180
               }, 
               {
@@ -7617,7 +8140,7 @@
             "map_locations": [
               {
                 "map": "fullmap", 
-                "x": 1480, 
+                "x": 980, 
                 "y": 1130
               }, 
               {
@@ -7628,7 +8151,7 @@
               }, 
               {
                 "map": "secrets", 
-                "x": 480, 
+                "x": -20, 
                 "y": 340
               }
             ], 
@@ -7647,7 +8170,7 @@
             "map_locations": [
               {
                 "map": "fullmap", 
-                "x": 1325, 
+                "x": 825, 
                 "y": 1590
               }, 
               {
@@ -7669,7 +8192,7 @@
             "map_locations": [
               {
                 "map": "fullmap", 
-                "x": 1305, 
+                "x": 805, 
                 "y": 1715
               }, 
               {
@@ -7719,7 +8242,7 @@
             "map_locations": [
               {
                 "map": "fullmap", 
-                "x": 1280, 
+                "x": 780, 
                 "y": 1830
               }, 
               {
@@ -9745,8 +10268,7 @@
       {
         "name": "Cathedral Secret Legend Room",
         "access_rules": [
-          "@Cathedral Secret Legend Room Exit",
-          "cross"
+          "@Cathedral Secret Legend Room Exit,cross"
         ],
         "children": [
           {
