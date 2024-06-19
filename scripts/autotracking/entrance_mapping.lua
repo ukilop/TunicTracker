@@ -75,6 +75,35 @@ ENTRANCE_MAPPING = {
 	["Purgatory, Purgatory_top"] = {"Purgatory Top Exit", nil},
 	["Purgatory, Purgatory_bottom"] = {"Purgatory Bottom Exit", nil},
 
+	["East Forest Redux, Forest Belltower_"] = {"Forest to Belltower", nil},
+	["East Forest Redux, East Forest Redux Laddercave_lower"] = {"Forest Guard House 1 Lower Entrance", nil},
+	["East Forest Redux, East Forest Redux Laddercave_gate"] = {"Forest Guard House 1 Gate Entrance", nil},
+	["East Forest Redux, East Forest Redux Laddercave_upper"] = {"Forest Dance Fox Outside Doorway", nil},
+	["East Forest Redux, Transit_teleporter_forest teleporter"] = {"Forest to Far Shore", nil},
+	["East Forest Redux, East Forest Redux Interior_lower"] = {"Forest Guard House 2 Lower Entrance", nil},
+	["East Forest Redux, East Forest Redux Interior_upper"] = {"Forest Guard House 2 Upper Entrance", nil},
+	["East Forest Redux, Sword Access_lower"] = {"Forest Grave Path Lower Entrance", nil},
+	["East Forest Redux, Sword Access_upper"] = {"Forest Grave Path Upper Entrance", nil},
+	
+	["East Forest Redux Laddercave, East Forest Redux_upper"] = {"Guard House 1 Dance Fox Exit", nil},
+	["East Forest Redux Laddercave, East Forest Redux_lower"] = {"Guard House 1 Lower Exit", nil},
+	["East Forest Redux Laddercave, East Forest Redux_gate"] = {"Guard House 1 Upper Forest Exit", nil},
+	["East Forest Redux Laddercave, Forest Boss Room_"] = {"Guard House 1 to Guard Captain Room", nil},
+	
+	["Sword Access, East Forest Redux_upper"] = {"Forest Grave Path Upper Exit", nil},
+	["Sword Access, East Forest Redux_lower"] = {"Forest Grave Path Lower Exit", nil},
+	["Sword Access, RelicVoid_teleporter_relic plinth"] = {"East Forest Hero's Grave", nil},
+	
+	["East Forest Redux Interior, East Forest Redux_lower"] = {"Guard House 2 Lower Exit", nil},
+	["East Forest Redux Interior, East Forest Redux_upper"] = {"Guard House 2 Upper Exit", nil},
+	["Forest Boss Room, East Forest Redux Laddercave_"] = {"Guard Captain Room Non-Gate Exit", nil},
+	["Forest Boss Room, Forest Belltower_"] = {"Guard Captain Room Gate Exit", nil},
+	
+	["Forest Belltower, Fortress Courtyard_"] = {"Forest Belltower to Fortress", nil},
+	["Forest Belltower, East Forest Redux_"] = {"Forest Belltower to Forest", nil},
+	["Forest Belltower, Overworld Redux_"] = {"Forest Belltower to Overworld", nil},
+	["Forest Belltower, Forest Boss Room_"] = {"Forest Belltower to Guard Captain Room", nil},
+	
 	["Sewer, Overworld Redux_entrance"] = {"Well Ladder Exit", nil},
 	["Sewer, Sewer_Boss_"] = {"Well to Well Boss", nil},
 	["Sewer, Overworld Redux_west_aqueduct"] = {"Well Exit towards Furnace", nil},
@@ -120,35 +149,6 @@ ENTRANCE_MAPPING = {
 	["Library Lab, Transit_teleporter_library teleporter"] = {"Library to Far Shore", nil},
 	["Library Lab, Library Arena_"] = {"Library Lab to Librarian Arena", nil},
 	["Library Arena, Library Lab_"] = {"Librarian Arena Exit", nil},
-	
-	["East Forest Redux, Forest Belltower_"] = {"Forest to Belltower", nil},
-	["East Forest Redux, East Forest Redux Laddercave_lower"] = {"Forest Guard House 1 Lower Entrance", nil},
-	["East Forest Redux, East Forest Redux Laddercave_gate"] = {"Forest Guard House 1 Gate Entrance", nil},
-	["East Forest Redux, East Forest Redux Laddercave_upper"] = {"Forest Dance Fox Outside Doorway", nil},
-	["East Forest Redux, Transit_teleporter_forest teleporter"] = {"Forest to Far Shore", nil},
-	["East Forest Redux, East Forest Redux Interior_lower"] = {"Forest Guard House 2 Lower Entrance", nil},
-	["East Forest Redux, East Forest Redux Interior_upper"] = {"Forest Guard House 2 Upper Entrance", nil},
-	["East Forest Redux, Sword Access_lower"] = {"Forest Grave Path Lower Entrance", nil},
-	["East Forest Redux, Sword Access_upper"] = {"Forest Grave Path Upper Entrance", nil},
-	
-	["East Forest Redux Laddercave, East Forest Redux_upper"] = {"Guard House 1 Dance Fox Exit", nil},
-	["East Forest Redux Laddercave, East Forest Redux_lower"] = {"Guard House 1 Lower Exit", nil},
-	["East Forest Redux Laddercave, East Forest Redux_gate"] = {"Guard House 1 Upper Forest Exit", nil},
-	["East Forest Redux Laddercave, Forest Boss Room_"] = {"Guard House 1 to Guard Captain Room", nil},
-	
-	["Sword Access, East Forest Redux_upper"] = {"Forest Grave Path Upper Exit", nil},
-	["Sword Access, East Forest Redux_lower"] = {"Forest Grave Path Lower Exit", nil},
-	["Sword Access, RelicVoid_teleporter_relic plinth"] = {"East Forest Hero's Grave", nil},
-	
-	["East Forest Redux Interior, East Forest Redux_lower"] = {"Guard House 2 Lower Exit", nil},
-	["East Forest Redux Interior, East Forest Redux_upper"] = {"Guard House 2 Upper Exit", nil},
-	["Forest Boss Room, East Forest Redux Laddercave_"] = {"Guard Captain Room Non-Gate Exit", nil},
-	["Forest Boss Room, Forest Belltower_"] = {"Guard Captain Room Gate Exit", nil},
-	
-	["Forest Belltower, Fortress Courtyard_"] = {"Forest Belltower to Fortress", nil},
-	["Forest Belltower, East Forest Redux_"] = {"Forest Belltower to Forest", nil},
-	["Forest Belltower, Overworld Redux_"] = {"Forest Belltower to Overworld", nil},
-	["Forest Belltower, Forest Boss Room_"] = {"Forest Belltower to Guard Captain Room", nil},
 	
 	["Fortress Courtyard, Fortress Reliquary_Lower"] = {"Fortress Courtyard to Fortress Grave Path Lower", nil},
 	["Fortress Courtyard, Fortress Reliquary_Upper"] = {"Fortress Courtyard to Fortress Grave Path Upper", nil},

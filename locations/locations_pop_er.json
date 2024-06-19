@@ -1834,7 +1834,7 @@
           {
             "map": "east_forest",
             "x": 2272,
-            "y": 704,
+            "y": 684,
             "size": 35
           }
         ],
@@ -2514,13 +2514,12 @@
           "@Overworld to West Garden Upper,glitches,ladder_near_temple_rafters,ladders_to_west_bell,stick",
           "@Overworld to West Garden Upper,glitches,ladder_near_temple_rafters,ladders_to_west_bell,sword",
           "@Sealed Temple"
-        ],
-        "children": []
+        ]
       },
       {
         "name": "Forest Belltower Upper",
         "access_rules": [
-          "@Forest Boss Room"
+          "@Forest Belltower to Guard Captain Room"
         ],
         "children": [
           {
@@ -2581,25 +2580,26 @@
       {
         "name": "Forest Belltower Main",
         "access_rules": [
-          "glitches,ladder_to_quarry,stick",
-          "glitches,ladder_to_quarry,sword",
-          "glitches,ladder_to_swamp,stick",
-          "glitches,ladder_to_swamp,sword",
-          "glitches,ladders_in_overworld_town,stick",
-          "glitches,ladders_in_overworld_town,sword",
-          "glitches,ladders_in_well,stick",
-          "glitches,ladders_in_well,sword",
-          "glitches,ladders_near_dark_tomb,stick",
-          "glitches,ladders_near_dark_tomb,sword",
-          "glitches,ladders_near_patrol_cave,stick",
-          "glitches,ladders_near_patrol_cave,sword",
-          "glitches,ladders_near_weathervane,stick",
-          "glitches,ladders_near_weathervane,sword",
-          "@East Overworld",
+          // "glitches,ladder_to_quarry,stick",
+          // "glitches,ladder_to_quarry,sword",
+          // "glitches,ladder_to_swamp,stick",
+          // "glitches,ladder_to_swamp,sword",
+          // "glitches,ladders_in_overworld_town,stick",
+          // "glitches,ladders_in_overworld_town,sword",
+          // "glitches,ladders_in_well,stick",
+          // "glitches,ladders_in_well,sword",
+          // "glitches,ladders_near_dark_tomb,stick",
+          // "glitches,ladders_near_dark_tomb,sword",
+          // "glitches,ladders_near_patrol_cave,stick",
+          // "glitches,ladders_near_patrol_cave,sword",
+          // "glitches,ladders_near_weathervane,stick",
+          // "glitches,ladders_near_weathervane,sword",
+          // "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,stick",
+          // "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,sword"
+          // "@East Overworld",
           "@Forest Belltower Upper",
-          "@Fortress Exterior from East Forest",
-          "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,stick",
-          "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,sword"
+          "@Forest Belltower to Fortress",
+          "@Forest Belltower to Overworld"
         ],
         "children": [
           {
@@ -2641,7 +2641,7 @@
       {
         "name": "Forest Belltower Lower",
         "access_rules": [
-          "@East Forest",
+          "@Forest Belltower to Forest",
           "@Forest Belltower Main,ladder_to_east_forest"
         ],
         "children": [
@@ -2651,7 +2651,7 @@
               {
                 "map": "east_forest",
                 "x": 764,
-                "y": 642,
+                "y": 622,
                 "size": 35
               }
             ],
@@ -2669,14 +2669,14 @@
         "access_rules": [
           "@East Forest Dance Fox Spot,[glitches],dagger,icerod,orb,staff",
           "@East Forest Dance Fox Spot,dash",
-          "@East Forest Portal",
-          "@Forest Belltower Lower",
-          "@Forest Grave Path Main",
-          "@Forest Grave Path Upper",
-          "@Guard House 1 East",
-          "@Guard House 1 West",
-          "@Guard House 2 Upper",
-          "@Lower Forest,ladders_to_lower_forest"
+          "@Forest to Far Shore",
+          "@Lower Forest,ladders_to_lower_forest",
+          "@Forest to Belltower",
+          "@Forest Guard House 1 Lower Entrance",
+          "@Forest Guard House 1 Gate Entrance",
+          "@Forest Guard House 2 Upper Entrance",
+          "@Forest Grave Path Lower Entrance",
+          "@Forest Grave Path Upper Entrance"
         ],
         "children": [
           {
@@ -2734,7 +2734,7 @@
               {
                 "map": "east_forest",
                 "x": 1438,
-                "y": 1130,
+                "y": 1110,
                 "size": 35
               }
             ],
@@ -2843,7 +2843,7 @@
         "access_rules": [
           "@East Forest,[glitches],dagger,icerod,orb,staff",
           "@East Forest,dash",
-          "@Guard House 1 West"
+          "@Forest Dance Fox Outside Doorway"
         ],
         "children": [
           {
@@ -2881,7 +2881,7 @@
             "sections": [
               {
                 "name": "Dancing Fox Spirit Holy Cross",
-                "access_rules": ["cross"],
+                "access_rules": "cross",
                 "item_count": 1
               }
             ]
@@ -2892,15 +2892,14 @@
         "name": "East Forest Portal",
         "access_rules": [
           "@East Forest,pray"
-        ],
-        "children": []
+        ]
       },
       {
         "name": "Lower Forest",
         "access_rules": [
           "@East Forest,dagger,icerod,orb,staff",
           "@East Forest,ladders_to_lower_forest",
-          "@Guard House 2 Lower"
+          "@Forest Guard House 2 Lower Entrance"
         ],
         "children": [
           {
@@ -2942,7 +2941,7 @@
             "sections": [
               {
                 "name": "Grapple Across",
-                "access_rules": ["orb"],
+                "access_rules": "orb",
                 "item_count": 1
               }
             ]
@@ -2993,7 +2992,7 @@
             "sections": [
               {
                 "name": "Use the Holy Cross",
-                "access_rules": ["cross"],
+                "access_rules": "cross",
                 "item_count": 1
               }
             ]
@@ -3003,8 +3002,8 @@
       {
         "name": "Guard House 1 East",
         "access_rules": [
-          "@East Forest",
-          "@Forest Boss Room",
+          "@Guard House 1 Upper Forest Exit",
+          "@Guard House 1 to Guard Captain Room",
           "@Guard House 1 West,dash"
         ],
         "children": [
@@ -3047,15 +3046,15 @@
       {
         "name": "Guard House 1 West",
         "access_rules": [
-          "@East Forest",
-          "@East Forest Dance Fox Spot",
+          "@Guard House 1 Lower Exit",
+          "@Guard House 1 Dance Fox Exit",
           "@Guard House 1 East"
         ]
       },
       {
         "name": "Guard House 2 Upper",
         "access_rules": [
-          "@East Forest",
+          "@Guard House 2 Upper Exit",
           "@Guard House 2 Lower,ladders_to_lower_forest"
         ],
         "children": [
@@ -3087,7 +3086,7 @@
         "name": "Guard House 2 Lower",
         "access_rules": [
           "@Guard House 2 Upper,ladders_to_lower_forest",
-          "@Lower Forest"
+          "@Guard House 2 Lower Exit"
         ],
         "children": [
           {
@@ -3117,10 +3116,8 @@
       {
         "name": "Forest Boss Room",
         "access_rules": [
-          "@Forest Belltower Upper",
-          "@Guard House 1 East",
-          "@Guard House 1 West,glitches,stick",
-          "@Guard House 1 West,glitches,sword"
+          "@Guard Captain Room Gate Exit",
+          "@Guard Captain Room Non-Gate Exit"
         ],
         "children": [
           {
@@ -3151,7 +3148,7 @@
       {
         "name": "Forest Grave Path Main",
         "access_rules": [
-          "@East Forest",
+          "@Forest Grave Path Lower Exit",
           "@Forest Grave Path Upper,[glitches],dagger,icerod,orb,staff",
           "@Forest Grave Path Upper,dash",
           "@Forest Grave Path by Grave,[glitches],dagger,orb",
@@ -3207,7 +3204,7 @@
       {
         "name": "Forest Grave Path Upper",
         "access_rules": [
-          "@East Forest",
+          "@Forest Grave Path Upper Exit",
           "@Forest Grave Path Main,dash"
         ],
         "children": [
@@ -3239,7 +3236,7 @@
         "name": "Forest Grave Path by Grave",
         "access_rules": [
           "@Forest Grave Path Main",
-          "@Forest Hero's Grave"
+          "@East Forest Hero's Grave"
         ],
         "children": [
           {
@@ -3265,7 +3262,7 @@
             "sections": [
               {
                 "name": "Single Money Chest",
-                "access_rules": ["cross"],
+                "access_rules": "cross",
                 "item_count": 1
               }
             ]
@@ -3276,6 +3273,607 @@
         "name": "Forest Hero's Grave",
         "access_rules": [
           "@Forest Grave Path by Grave,pray"
+        ]
+      },
+      {
+        "name": "East Forest Entrances",
+        "visibility_rules": "Entrance_visibility",
+        "children":[
+          {
+            "name": "Forest to Belltower",
+            "access_rules": [
+              "Forest to Belltower",
+              "{@East Forest}"
+            ],
+            "map_locations": [
+              {
+                "map": "east_forest",
+                "x": 884,
+                "y": 978,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Forest to Belltower"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Forest Guard House 1 Lower Entrance",
+            "access_rules": [
+              "Forest Guard House 1 Lower Entrance",
+              "{@East Forest}"
+            ],
+            "map_locations": [
+              {
+                "map": "east_forest",
+                "x": 1193,
+                "y": 978,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Forest Guard House 1 Lower Entrance"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Forest Guard House 1 Gate Entrance",
+            "access_rules": [
+              "Forest Guard House 1 Gate Entrance",
+              "{@East Forest}"
+            ],
+            "map_locations": [
+              {
+                "map": "east_forest",
+                "x": 1260,
+                "y": 864,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Forest Guard House 1 Gate Entrance"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Forest Dance Fox Outside Doorway",
+            "access_rules": [
+              "Forest Dance Fox Outside Doorway",
+              "{@East Forest Dance Fox Spot}"
+            ],
+            "map_locations": [
+              {
+                "map": "east_forest",
+                "x": 1109,
+                "y": 909,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Forest Dance Fox Outside Doorway"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Forest to Far Shore",
+            "access_rules": [
+              "Forest to Far Shore",
+              "{pray,@East Forest}"
+            ],
+            "map_locations": [
+              {
+                "map": "east_forest",
+                "x": 1437,
+                "y": 1143,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Forest to Far Shore"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Forest Guard House 2 Lower Entrance",
+            "access_rules": [
+              "Forest Guard House 2 Lower Entrance",
+              "{@Lower Forest}"
+            ],
+            "map_locations": [
+              {
+                "map": "east_forest",
+                "x": 1560,
+                "y": 1245,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Forest Guard House 2 Lower Entrance"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Forest Guard House 2 Upper Entrance",
+            "access_rules": [
+              "Forest Guard House 2 Upper Entrance",
+              "{@East Forest}"
+            ],
+            "map_locations": [
+              {
+                "map": "east_forest",
+                "x": 1519,
+                "y": 1069,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Forest Guard House 2 Upper Entrance"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Forest Grave Path Lower Entrance",
+            "access_rules": [
+              "Forest Grave Path Lower Entrance",
+              "{@East Forest}"
+            ],
+            "map_locations": [
+              {
+                "map": "east_forest",
+                "x": 1656,
+                "y": 1054,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Forest Grave Path Lower Entrance"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Forest Grave Path Upper Entrance",
+            "access_rules": [
+              "Forest Grave Path Upper Entrance",
+              "{@East Forest}"
+            ],
+            "map_locations": [
+              {
+                "map": "east_forest",
+                "x": 1656,
+                "y": 1009,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Forest Grave Path Upper Entrance"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Guard House 1 Dance Fox Exit",
+            "access_rules": [
+              "Guard House 1 Dance Fox Exit",
+              "{@Guard House 1 West}"
+            ],
+            "map_locations": [
+              {
+                "map": "east_forest",
+                "x": 931,
+                "y": 319,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Guard House 1 Dance Fox Exit"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Guard House 1 Lower Exit",
+            "access_rules": [
+              "Guard House 1 Lower Exit",
+              "{@Guard House 1 West}"
+            ],
+            "map_locations": [
+              {
+                "map": "east_forest",
+                "x": 1111,
+                "y": 465,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Guard House 1 Lower Exit"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Guard House 1 Upper Forest Exit",
+            "access_rules": [
+              "Guard House 1 Upper Forest Exit",
+              "{@Guard House 1 East}"
+            ],
+            "map_locations": [
+              {
+                "map": "east_forest",
+                "x": 1249,
+                "y": 259,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Guard House 1 Upper Forest Exit"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Guard House 1 to Guard Captain Room",
+            "access_rules": [
+              "Guard House 1 to Guard Captain Room",
+              "{@Guard House 1 East}",
+              "{@Guard House 1 West,glitches,stick}",
+              "{@Guard House 1 West,glitches,sword}"
+            ],
+            "map_locations": [
+              {
+                "map": "east_forest",
+                "x": 1115,
+                "y": 47,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Guard House 1 to Guard Captain Room"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Forest Grave Path Upper Exit",
+            "access_rules": [
+              "Forest Grave Path Upper Exit",
+              "{@Forest Grave Path Upper}"
+            ],
+            "map_locations": [
+              {
+                "map": "east_forest",
+                "x": 1741,
+                "y": 957,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Forest Grave Path Upper Exit"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Forest Grave Path Lower Exit",
+            "access_rules": [
+              "Forest Grave Path Lower Exit",
+              "{@Forest Grave Path Main}"
+            ],
+            "map_locations": [
+              {
+                "map": "east_forest",
+                "x": 1739,
+                "y": 1005,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Forest Grave Path Lower Exit"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "East Forest Hero's Grave",
+            "access_rules": [
+              "East Forest Hero's Grave",
+              "{pray,@Forest Grave Path by Grave}"
+            ],
+            "map_locations": [
+              {
+                "map": "east_forest",
+                "x": 2273,
+                "y": 720,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "East Forest Hero's Grave"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Guard House 2 Lower Exit",
+            "access_rules": [
+              "Guard House 2 Lower Exit",
+              "{@Guard House 2 Lower}"
+            ],
+            "map_locations": [
+              {
+                "map": "east_forest",
+                "x": 1656,
+                "y": 650,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Guard House 2 Lower Exit"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Guard House 2 Upper Exit",
+            "access_rules": [
+              "Guard House 2 Upper Exit",
+              "{@Guard House 2 Upper}"
+            ],
+            "map_locations": [
+              {
+                "map": "east_forest",
+                "x": 1351,
+                "y": 290,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Guard House 2 Upper Exit"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Guard Captain Room Non-Gate Exit",
+            "access_rules": [
+              "Guard Captain Room Non-Gate Exit",
+              "{@Forest Boss Room}"
+            ],
+            "map_locations": [
+              {
+                "map": "east_forest",
+                "x": 2216,
+                "y": 362,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Guard Captain Room Non-Gate Exit"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Guard Captain Room Gate Exit",
+            "access_rules": [
+              "Guard Captain Room Gate Exit",
+              "{@Forest Boss Room}"
+            ],
+            "map_locations": [
+              {
+                "map": "east_forest",
+                "x": 1901,
+                "y": 160,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Guard Captain Room Gate Exit"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Forest Belltower to Fortress",
+            "access_rules": [
+              "Forest Belltower to Fortress",
+              "{@Forest Belltower Main}"
+            ],
+            "map_locations": [
+              {
+                "map": "east_forest",
+                "x": 299,
+                "y": 472,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Forest Belltower to Fortress"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Forest Belltower to Forest",
+            "access_rules": [
+              "Forest Belltower to Forest",
+              "{@Forest Belltower Lower}"
+            ],
+            "map_locations": [
+              {
+                "map": "east_forest",
+                "x": 761,
+                "y": 660,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Forest Belltower to Forest"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Forest Belltower to Overworld",
+            "access_rules": [
+              "Forest Belltower to Overworld",
+              "{@Forest Belltower Main}"
+            ],
+            "map_locations": [
+              {
+                "map": "east_forest",
+                "x": 244,
+                "y": 574,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Forest Belltower to Overworld"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Forest Belltower to Guard Captain Room",
+            "access_rules": "Forest Belltower to Guard Captain Room",
+            "map_locations": [
+              {
+                "map": "east_forest",
+                "x": 853,
+                "y": 451,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Forest Belltower to Guard Captain Room"
+              }
+            ]
+          }
         ]
       },
       {
