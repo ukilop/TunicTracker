@@ -1740,12 +1740,6 @@
             "map": "fullmap",
             "x": 2950,
             "y": 1595
-          },
-          {
-            "map": "well",
-            "x": 280,
-            "y": 1245,
-            "size": 45
           }
         ],
         "sections": [
@@ -3285,6 +3279,14 @@
         ]
       },
       {
+        "name": "Dark Tomb Entry Point",
+        "access_rules": [
+          "@Dark Tomb Upper",
+          "@Dark Tomb to Overworld",
+          "@Dark Tomb to Checkpoint"
+        ]
+      },
+      {
         "name": "Dark Tomb Upper",
         "access_rules": [
           "@Dark Tomb Entry Point,[light]",
@@ -3459,7 +3461,8 @@
       {
         "name": "Dark Tomb Dark Exit",
         "access_rules": [
-          "@Dark Tomb Main"
+          "@Dark Tomb Main",
+          "@Dark Tomb to Furnace"
           // "@Furnace Ladder Area,glitches,ladder_in_dark_tomb,stick",
           // "@Furnace Ladder Area,glitches,ladder_in_dark_tomb,sword",
           // "@Furnace Ladder Area,glitches,ladders_to_west_bell,stick",
@@ -3470,7 +3473,7 @@
       {
         "name": "Dark Tomb Checkpoint",
         "access_rules": [
-          "@Dark Tomb Entry Point",
+          "@Checkpoint to Dark Tomb",
           "@Well Boss"
         ],
         "children": [
@@ -3484,8 +3487,8 @@
               },
               {
                 "map": "well",
-                "x": 560,
-                "y": 1200,
+                "x": 1362,
+                "y": 930,
                 "size": 45
               }
             ],
@@ -3501,15 +3504,15 @@
       {
         "name": "Well Boss",
         "access_rules": [
-          "@Beneath the Well Back",
-          "@Dark Tomb Checkpoint,[glitches],dash"
+          "[glitches],dash,@Dark Tomb Checkpoint",
+          "@Well Boss to Well"
         ]
       },
       {
         "name": "Beneath the Well Ladder Exit",
         "access_rules": [
           "@Beneath the Well Front,ladders_in_well",
-          "@Overworld Well Ladder"
+          "@Well Ladder Exit"
         ]
       },
       {
@@ -3743,13 +3746,14 @@
           // "glitches,ladders_in_overworld_town,sword",
           // "glitches,ladders_near_weathervane,stick",
           // "glitches,ladders_near_weathervane,sword",
-          "@Beneath the Well Main,ladders_in_well"
+          "@Beneath the Well Main,ladders_in_well",
           // "@Overworld Beach,glitches,ladder_to_ruined_atoll,stick",
           // "@Overworld Beach,glitches,ladder_to_ruined_atoll,sword",
           // "@Overworld Well to Furnace Rail",
           // "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,stick",
           // "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,sword",
-          // "@Well Boss"
+          "@Well to Well Boss",
+          "@Well Exit towards Furnace"
         ],
         "children": [
           {
@@ -3867,7 +3871,212 @@
           }
         ]
       },
-
+      {
+        "name": "Dark Tomb/Well Entrances",
+        "visibility_rules": "Entrance_visibility",
+        "children":[
+          {
+            "name": "Well Ladder Exit",
+            "access_rules": [
+              "Well Ladder Exit",
+              "{@Beneath the Well Ladder Exit}"
+            ],
+            "map_locations": [
+              {
+                "map": "well",
+                "x": 840,
+                "y": 1380,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Well Ladder Exit"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Well to Well Boss",
+            "access_rules": [
+              "Well to Well Boss",
+              "{@Beneath the Well Back}"
+            ],
+            "map_locations": [
+              {
+                "map": "well",
+                "x": 362,
+                "y": 1202,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Well to Well Boss"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Well Exit towards Furnace",
+            "access_rules": [
+              "Well Exit towards Furnace",
+              "{@Beneath the Well Back}"
+            ],
+            "map_locations": [
+              {
+                "map": "well",
+                "x": 90,
+                "y": 1249,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Well Exit towards Furnace"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Well Boss to Well",
+            "access_rules": [
+              "Well Boss to Well",
+              "{@Well Boss}"
+            ],
+            "map_locations": [
+              {
+                "map": "well",
+                "x": 893,
+                "y": 1209,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Well Boss to Well"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Checkpoint to Dark Tomb",
+            "access_rules": [
+              "Checkpoint to Dark Tomb",
+              "{@Dark Tomb Checkpoint}"
+            ],
+            "map_locations": [
+              {
+                "map": "well",
+                "x": 1244,
+                "y": 616,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Checkpoint to Dark Tomb"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Dark Tomb to Overworld",
+            "access_rules": [
+              "Dark Tomb to Overworld",
+              "{@Dark Tomb Entry Point}"
+            ],
+            "map_locations": [
+              {
+                "map": "dark_tomb",
+                "x": 1623,
+                "y": 739,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Dark Tomb to Overworld"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Dark Tomb to Furnace",
+            "access_rules": [
+              "Dark Tomb to Furnace",
+              "{@Dark Tomb Dark Exit}"
+            ],
+            "map_locations": [
+              {
+                "map": "dark_tomb",
+                "x": 1001,
+                "y": 832,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Dark Tomb to Furnace"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Dark Tomb to Checkpoint",
+            "access_rules": [
+              "Dark Tomb to Checkpoint",
+              "{@Dark Tomb Entry Point}"
+            ],
+            "map_locations": [
+              {
+                "map": "dark_tomb",
+                "x": 1511,
+                "y": 781,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Dark Tomb to Checkpoint"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          }
+        ]
+      },
       {
         "name": "West Garden",
         "access_rules": [
