@@ -7,7 +7,6 @@
     "children": [
       {
         "name": "Overworld",
-        "access_rules": null,
         "children": [
           {
             "name": "[Northwest] Shadowy Corner Chest",
@@ -534,7 +533,6 @@
           }
         ]
       },
-      
       {
         "name": "Overworld to Fortress",
         "access_rules": [
@@ -560,9 +558,7 @@
       },
       {
         "name": "Overworld Holy Cross",
-        "access_rules": [
-          "cross"
-        ],
+        "access_rules": "cross",
         "children": [
           {
             "name": "[South] Starting Platform Holy Cross",
@@ -748,8 +744,7 @@
           "@Back of Swamp Laurels Area",
           "@Swamp Mid,glitches,ladders_in_swamp,stick",
           "@Swamp Mid,glitches,ladders_in_swamp,sword"
-        ],
-        "children": []
+        ]
       },
       {
         "name": "Overworld Swamp Lower Entry",
@@ -790,7 +785,7 @@
         "access_rules": [
           "[glitches],dagger,icerod,orb,staff",
           "ladders_near_weathervane",
-          "@Ruined Passage"
+          "@Ruined Passage Not-Door Entrance"
         ],
         "children": [
           {
@@ -974,9 +969,8 @@
         "name": "Overworld Special Shop Entry",
         "access_rules": [
           "@East Overworld,dash",
-          "@Special Shop"
-        ],
-        "children": []
+          "@Special Shop Entrance"
+        ]
       },
       {
         "name": "Upper Overworld",
@@ -1080,8 +1074,7 @@
         "access_rules": [
           "@Sealed Temple Rafters",
           "@Upper Overworld,ladder_near_temple_rafters"
-        ],
-        "children": []
+        ]
       },
       {
         "name": "Overworld Quarry Entry",
@@ -1131,8 +1124,7 @@
           "@East Overworld",
           "@Overworld above Patrol Cave,ladders_near_patrol_cave",
           "@Patrol Cave"
-        ],
-        "children": []
+        ]
       },
       {
         "name": "Overworld above Patrol Cave",
@@ -1161,9 +1153,7 @@
             "sections": [
               {
                 "name": "Grapple Across",
-                "access_rules": [
-                  "orb"
-                ],
+                "access_rules": "orb",
                 "item_count": 1
               }
             ]
@@ -1177,8 +1167,7 @@
           "@West Garden Laurels Exit Region",
           "@West Garden,glitches,stick",
           "@West Garden,glitches,sword"
-        ],
-        "children": []
+        ]
       },
       {
         "name": "Overworld to West Garden Upper",
@@ -1187,8 +1176,7 @@
           "@West Garden after Boss",
           "@West Garden,glitches,ladders_to_west_bell,stick",
           "@West Garden,glitches,ladders_to_west_bell,sword"
-        ],
-        "children": []
+        ]
       },
       {
         "name": "Overworld to West Garden from Furnace",
@@ -1238,12 +1226,12 @@
           "dash",
           "ladders_in_overworld_town",
           "orb",
-          "@Hourglass Cave",
+          "@Hourglass Cave Entrance",
           "@Maze Cave",
           "@Overworld to Atoll Upper,ladder_to_ruined_atoll",
-          "@Ruined Atoll Lower Entry Area",
-          "@Ruined Atoll,glitches,stick",
-          "@Ruined Atoll,glitches,sword"
+          "@Ruined Atoll Lower Entry Area"
+          // "@Ruined Atoll,glitches,stick",
+          // "@Ruined Atoll,glitches,sword"
         ],
         "children": [
           {
@@ -1456,7 +1444,7 @@
         "access_rules": [
           "[glitches],dagger,icerod,orb,staff",
           "dash",
-          "@Furnace Ladder Area",
+          "@Entrance to Furnace from Beach",
           "@Overworld Beach,ladders_in_overworld_town"
         ],
         "children": [
@@ -1489,46 +1477,42 @@
         "access_rules": [
           "dash",
           "@Overworld Beach,ladder_to_ruined_atoll",
-          "@Ruined Atoll"
+          "@Atoll Upper Entrance"
         ]
       },
       {
         "name": "Overworld Well to Furnace Rail",
         "access_rules": [
-          "@Beneath the Well Back",
-          "@Furnace Fuse",
-          "@Furnace Ladder Area,glitches,stick",
-          "@Furnace Ladder Area,glitches,sword"
+          "@Entrance to Well from Well Rail",
+          "@Entrance to Furnace from Well Rail"
         ]
       },
       {
         "name": "Overworld Ruined Passage Door",
         "access_rules": [
           "[glitches],dash",
-          "key:2",
-          "@Ruined Passage"
+          "key:2"
         ]
       },
       {
         "name": "Overworld Old House Door",
         "access_rules": [
           "[glitches],dagger,orb",
-          "oldkey",
-          "@Old House Front"
+          "oldkey"
         ]
       },
       {
         "name": "Overworld Southeast Cross Door",
         "access_rules": [
           "cross",
-          "@Southeast Cross Room"
+          "@Southeast HC Door Entrance"
         ]
       },
       {
         "name": "Overworld Fountain Cross Door",
         "access_rules": [
           "cross",
-          "@Fountain Cross Room"
+          "@Fountain HC Door Entrance"
         ]
       },
       {
@@ -1536,7 +1520,7 @@
         "access_rules": [
           "[glitches],dagger,orb",
           "ding,dong",
-          "@Sealed Temple"
+          "@Temple Door Entrance"
         ]
       },
       {
@@ -1555,16 +1539,17 @@
       {
         "name": "Purgatory",
         "access_rules": [
-          "@Purgatory"
+          "@Purgatory Top Exit",
+          "@Purgatory Bottom Exit"
         ]
       },
       
       {
         "name": "Shop",
+        "access_rules": "{}",
         "children": [
           {
             "name": "Shop",
-            "access_rules": "{}",
             "map_locations": [
               {
                 "map": "fullmap",
@@ -1575,7 +1560,7 @@
               {
                 "map": "overworld",
                 "x": 900,
-                "y": 515,
+                "y": 501,
                 "size": 25
               }
             ],
@@ -1637,55 +1622,79 @@
       },
       {
         "name": "Inside the Old House",
-        "map_locations": [
-          {
-            "map": "fullmap",
-            "x": 2730,
-            "y": 2415
-          },
-          {
-            "map": "fullmap",
-            "x": 2920,
-            "y": 2205
-          },
-          {
-            "map": "overworld",
-            "x": 1055,
-            "y": 665,
-            "size": 45
-          },
-          {
-            "map": "overworld",
-            "x": 1245,
-            "y": 455,
-            "size": 45
-          },
-          {
-            "map": "secrets",
-            "x": -20,
-            "y": 515
-          }
-        ],
-        "sections": [
+        "children": [
           {
             "name": "Normal Chest",
-            "access_rules": ["@Old House Front"],
-            "item_count": 1
+            "access_rules": "@Old House Front",  
+            "map_locations": [
+              {
+                "map": "overworld_interiors",
+                "x": 1315,
+                "y": 795
+              }
+            ],
+            "sections": [
+              {
+                "name": "Chest",
+                "item_count": 1
+              }
+            ]
           },
           {
             "name": "Holy Cross Chest",
             "access_rules": ["@Old House Front,cross"],
-            "item_count": 1
+            "map_locations": [
+              {
+                "map": "overworld_interiors",
+                "x": 1276,
+                "y": 822
+              }
+            ],
+            "sections": [
+              {
+                "name": "Chest",
+                "item_count": 1
+              }
+            ]
           },
           {
             "name": "Shield Pickup",
-            "access_rules": ["@Old House Front"],
-            "item_count": 1
+            "access_rules": "@Old House Front",
+            "map_locations": [
+              {
+                "map": "overworld_interiors",
+                "x": 1294,
+                "y": 672
+              }
+            ],
+            "sections": [
+              {
+                "name": "Item",
+                "item_count": 1
+              }
+            ]
           },
           {
             "name": "Holy Cross Door Page",
             "access_rules": ["@Old House Back,cross"],
-            "item_count": 1
+            "map_locations": [
+              {
+                "map": "overworld_interiors",
+                "x": 1144,
+                "y": 607
+              },
+              {
+                "map": "secrets",
+                "x": -20,
+                "y": 515
+              }
+            ],
+            "sections": [
+              {
+                "name": "Item",
+                "item_count": 1
+              }
+            ]
           }
         ]
       },
@@ -1712,45 +1721,12 @@
         "sections": [
           {
             "name": "[Southwest] Fountain Page",
-            "access_rules": ["@Overworld,dash"],
+            "access_rules": "dash",
             "item_count": 1
           },
           {
             "name": "[Southwest] Fountain Holy Cross",
-            "access_rules": ["@Overworld Holy Cross"],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "West Furnace",
-        "map_locations": [
-          {
-            "map": "fullmap",
-            "x": 2100,
-            "y": 2550
-          },
-          {
-            "map": "overworld",
-            "x": 425,
-            "y": 800,
-            "size": 45
-          },
-          {
-            "map": "fullmap",
-            "x": 2950,
-            "y": 1595
-          }
-        ],
-        "sections": [
-          {
-            "name": "Chest",
-            "access_rules": ["@Furnace Walking Path"],
-            "item_count": 1
-          },
-          {
-            "name": "Lantern Pickup",
-            "access_rules": ["@Furnace Fuse"],
+            "access_rules": "cross",
             "item_count": 1
           }
         ]
@@ -1764,9 +1740,9 @@
             "y": 2850
           },
           {
-            "map": "overworld",
-            "x": 760,
-            "y": 1100,
+            "map": "overworld_interiors",
+            "x": 757,
+            "y": 1068,
             "size": 45
           },
           {
@@ -1783,7 +1759,7 @@
         "sections": [
           {
             "name": "Hourglass Chest",
-            "access_rules": ["@Hourglass Cave"],
+            "access_rules": "@Hourglass Cave",
             "item_count": 1
           },
           {
@@ -1864,7 +1840,7 @@
         "sections": [
           {
             "name": "Monastery Chest",
-            "access_rules": ["@Monastery Back"],
+            "access_rules": "@Monastery Back",
             "item_count": 1
           }
         ],
@@ -1888,7 +1864,7 @@
       },
       {
         "name": "Stick House",
-        "access_rules": null,
+        "access_rules": "@Stick House Exit",
         "children": [
           {
             "name": "Stick House",
@@ -1899,9 +1875,9 @@
                 "y": 2785
               },
               {
-                "map": "overworld",
-                "x": 1245,
-                "y": 1035,
+                "map": "overworld_interiors",
+                "x": 1243,
+                "y": 990,
                 "size": 45
               }
             ],
@@ -1915,80 +1891,125 @@
         ]
       },
       {
-        "name": "Windmill"
+        "name": "Windmill",
+        "access_rules": [
+          "@Windmill Shop",
+          "@Windmill Exit"
+        ]
       },
       {
-        "name": "Old House Back"
+        "name": "Old House Back",
+        "access_rules": [
+          "@Old House Waterfall Exit",
+          "@Old House Front"
+        ]
       },
       {
         "name": "Old House Front",
         "access_rules": [
           "@Old House Back,[glitches],dash",
-          "@Overworld Old House Door",
-          "@Relic Tower"
+          "@Old House Door Exit",
+          "@Old House to Glyph Tower"
         ]
       },
       {
         "name": "Relic Tower",
-        "access_rules": [
-          "@Old House Front"
-        ]
+        "access_rules": "@Glyph Tower Exit"
       },
       {
         "name": "Furnace Fuse",
         "access_rules": [
-          "glitches,ladder_to_quarry,stick",
-          "glitches,ladder_to_quarry,sword",
-          "glitches,ladder_to_swamp,stick",
-          "glitches,ladder_to_swamp,sword",
-          "glitches,ladders_in_overworld_town,stick",
-          "glitches,ladders_in_overworld_town,sword",
-          "glitches,ladders_near_weathervane,stick",
-          "glitches,ladders_near_weathervane,sword",
+          // "glitches,ladder_to_quarry,stick",
+          // "glitches,ladder_to_quarry,sword",
+          // "glitches,ladder_to_swamp,stick",
+          // "glitches,ladder_to_swamp,sword",
+          // "glitches,ladders_in_overworld_town,stick",
+          // "glitches,ladders_in_overworld_town,sword",
+          // "glitches,ladders_near_weathervane,stick",
+          // "glitches,ladders_near_weathervane,sword",
           "@Furnace Ladder Area,dash",
           "@Furnace Walking Path,dash",
-          "@Overworld Beach,glitches,ladder_to_ruined_atoll,stick",
-          "@Overworld Beach,glitches,ladder_to_ruined_atoll,sword",
-          "@Overworld Well to Furnace Rail",
-          "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,stick",
-          "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,sword"
+          // "@Overworld Beach,glitches,ladder_to_ruined_atoll,stick",
+          // "@Overworld Beach,glitches,ladder_to_ruined_atoll,sword",
+          // "@Overworld Well to Furnace Rail",
+          // "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,stick",
+          // "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,sword"
+          "@Furnace Exit towards Well"
         ],
-        "children": []
+        "children": [
+          {
+            "name": "West Furnace",
+            "map_locations": [
+              {
+                "map": "overworld_interiors",
+                "x": 302,
+                "y": 342
+              }
+            ],
+            "sections": [
+              {
+                "name": "Lantern Pickup",
+                "item_count": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Furnace Ladder Area",
-        "access_rules": null,
-        "children": []
+        "access_rules": [
+          "@Furnace Exit to Beach",
+          "@Furnace Exit under Windmill",
+          "@Furnace Walking Path,dash",
+          "@Furnace Fuse,dash"
+        ]
       },
       {
         "name": "Furnace Walking Path",
         "access_rules": [
-          "glitches,ladder_in_dark_tomb,ladder_to_swamp,stick",
-          "glitches,ladder_in_dark_tomb,ladder_to_swamp,sword",
-          "glitches,ladder_in_dark_tomb,ladders_in_overworld_town,stick",
-          "glitches,ladder_in_dark_tomb,ladders_in_overworld_town,sword",
-          "glitches,ladder_in_dark_tomb,ladders_near_weathervane,stick",
-          "glitches,ladder_in_dark_tomb,ladders_near_weathervane,sword",
-          "glitches,ladder_to_swamp,ladders_to_west_bell,stick",
-          "glitches,ladder_to_swamp,ladders_to_west_bell,sword",
-          "glitches,ladders_in_overworld_town,ladders_to_west_bell,stick",
-          "glitches,ladders_in_overworld_town,ladders_to_west_bell,sword",
-          "glitches,ladders_near_weathervane,ladders_to_west_bell,stick",
-          "glitches,ladders_near_weathervane,ladders_to_west_bell,sword",
-          "@Dark Tomb Dark Exit",
+          // "glitches,ladder_in_dark_tomb,ladder_to_swamp,stick",
+          // "glitches,ladder_in_dark_tomb,ladder_to_swamp,sword",
+          // "glitches,ladder_in_dark_tomb,ladders_in_overworld_town,stick",
+          // "glitches,ladder_in_dark_tomb,ladders_in_overworld_town,sword",
+          // "glitches,ladder_in_dark_tomb,ladders_near_weathervane,stick",
+          // "glitches,ladder_in_dark_tomb,ladders_near_weathervane,sword",
+          // "glitches,ladder_to_swamp,ladders_to_west_bell,stick",
+          // "glitches,ladder_to_swamp,ladders_to_west_bell,sword",
+          // "glitches,ladders_in_overworld_town,ladders_to_west_bell,stick",
+          // "glitches,ladders_in_overworld_town,ladders_to_west_bell,sword",
+          // "glitches,ladders_near_weathervane,ladders_to_west_bell,stick",
+          // "glitches,ladders_near_weathervane,ladders_to_west_bell,sword",
+          "@Furnace Exit to Dark Tomb",
           "@Furnace Fuse,dash",
           "@Furnace Ladder Area,dash",
-          "@Overworld Beach,glitches,ladder_in_dark_tomb,ladder_to_ruined_atoll,stick",
-          "@Overworld Beach,glitches,ladder_in_dark_tomb,ladder_to_ruined_atoll,sword",
-          "@Overworld Beach,glitches,ladder_to_ruined_atoll,ladders_to_west_bell,stick",
-          "@Overworld Beach,glitches,ladder_to_ruined_atoll,ladders_to_west_bell,sword",
-          "@Overworld to West Garden from Furnace"
+          // "@Overworld Beach,glitches,ladder_in_dark_tomb,ladder_to_ruined_atoll,stick",
+          // "@Overworld Beach,glitches,ladder_in_dark_tomb,ladder_to_ruined_atoll,sword",
+          // "@Overworld Beach,glitches,ladder_to_ruined_atoll,ladders_to_west_bell,stick",
+          // "@Overworld Beach,glitches,ladder_to_ruined_atoll,ladders_to_west_bell,sword",
+          "@Furnace Exit towards West Garden"
         ],
-        "children": []
+        "children": [
+          {
+            "name": "West Furnace",
+            "map_locations": [
+              {
+                "map": "overworld_interiors",
+                "x": 222,
+                "y": 552
+              }
+            ],
+            "sections": [
+              {
+                "name": "Chest",
+                "item_count": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Secret Gathering Place",
-        "access_rules": null,
+        "access_rules": "@Secret Gathering Place Exit",
         "children": [
           {
             "name": "Secret Gathering Place",
@@ -1999,9 +2020,9 @@
                 "y": 2085
               },
               {
-                "map": "overworld",
-                "x": 865,
-                "y": 335,
+                "map": "overworld_interiors",
+                "x": 864,
+                "y": 272,
                 "size": 45
               },
               {
@@ -2013,23 +2034,17 @@
             "sections": [
               {
                 "name": "Holy Cross Chest",
-                "access_rules": [
-                  "cross"
-                ],
+                "access_rules": "cross",
                 "item_count": 1
               },
               {
                 "name": "10 Fairy Reward",
-                "access_rules": [
-                  "soul:10"
-                ],
+                "access_rules": "soul:10",
                 "item_count": 1
               },
               {
                 "name": "20 Fairy Reward",
-                "access_rules": [
-                  "soul:20"
-                ],
+                "access_rules": "soul:20",
                 "item_count": 1
               }
             ]
@@ -2038,7 +2053,7 @@
       },
       {
         "name": "Changing Room",
-        "access_rules": null,
+        "access_rules": "@Changing Room Exit",
         "children": [
           {
             "name": "Changing Room",
@@ -2049,9 +2064,9 @@
                 "y": 2680
               },
               {
-                "map": "overworld",
-                "x": 920,
-                "y": 930,
+                "map": "overworld_interiors",
+                "x": 915,
+                "y": 964,
                 "size": 45
               }
             ],
@@ -2066,25 +2081,23 @@
       },
       {
         "name": "Patrol Cave",
-        "access_rules": [
-          "glitches,ladder_to_quarry,stick",
-          "glitches,ladder_to_quarry,sword",
-          "glitches,ladder_to_swamp,stick",
-          "glitches,ladder_to_swamp,sword",
-          "glitches,ladders_in_overworld_town,stick",
-          "glitches,ladders_in_overworld_town,sword",
-          "glitches,ladders_in_well,stick",
-          "glitches,ladders_in_well,sword",
-          "glitches,ladders_near_dark_tomb,stick",
-          "glitches,ladders_near_dark_tomb,sword",
-          "glitches,ladders_near_overworld_checkpoint,stick",
-          "glitches,ladders_near_overworld_checkpoint,sword",
-          "glitches,ladders_near_weathervane,stick",
-          "glitches,ladders_near_weathervane,sword",
-          "@Overworld at Patrol Cave",
-          "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,stick",
-          "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,sword"
-        ],
+        "access_rules": "@Guard Patrol Cave Exit",
+          // "glitches,ladder_to_quarry,stick",
+          // "glitches,ladder_to_quarry,sword",
+          // "glitches,ladder_to_swamp,stick",
+          // "glitches,ladder_to_swamp,sword",
+          // "glitches,ladders_in_overworld_town,stick",
+          // "glitches,ladders_in_overworld_town,sword",
+          // "glitches,ladders_in_well,stick",
+          // "glitches,ladders_in_well,sword",
+          // "glitches,ladders_near_dark_tomb,stick",
+          // "glitches,ladders_near_dark_tomb,sword",
+          // "glitches,ladders_near_overworld_checkpoint,stick",
+          // "glitches,ladders_near_overworld_checkpoint,sword",
+          // "glitches,ladders_near_weathervane,stick",
+          // "glitches,ladders_near_weathervane,sword",
+          // "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,stick",
+          // "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,sword"
         "children": [
           {
             "name": "Patrol Cave",
@@ -2095,9 +2108,9 @@
                 "y": 2085
               },
               {
-                "map": "overworld",
-                "x": 1775,
-                "y": 335,
+                "map": "overworld_interiors",
+                "x": 1788,
+                "y": 293,
                 "size": 45
               },
               {
@@ -2113,7 +2126,7 @@
               },
               {
                 "name": "Holy Cross Chest",
-                "access_rules": ["cross"],
+                "access_rules": "cross",
                 "item_count": 1
               }
             ]
@@ -2122,6 +2135,7 @@
       },
       {
         "name": "Ruined Shop",
+        "access_rules": "@Ruined Shop Exit",
         "children": [
           {
             "name": "Ruined Shop",
@@ -2132,9 +2146,9 @@
                 "y": 2585
               },
               {
-                "map": "overworld",
-                "x": 610,
-                "y": 835,
+                "map": "overworld_interiors",
+                "x": 643,
+                "y": 832,
                 "size": 45
               }
             ],
@@ -2158,18 +2172,18 @@
       {
         "name": "Ruined Passage",
         "access_rules": [
-          "glitches,ladder_to_swamp,stick",
-          "glitches,ladder_to_swamp,sword",
-          "glitches,ladders_in_overworld_town,stick",
-          "glitches,ladders_in_overworld_town,sword",
-          "glitches,ladders_near_weathervane,stick",
-          "glitches,ladders_near_weathervane,sword",
-          "@After Ruined Passage",
-          "@Overworld Beach,glitches,ladder_to_ruined_atoll,stick",
-          "@Overworld Beach,glitches,ladder_to_ruined_atoll,sword",
-          "@Overworld Ruined Passage Door",
-          "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,stick",
-          "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,sword"
+          // "glitches,ladder_to_swamp,stick",
+          // "glitches,ladder_to_swamp,sword",
+          // "glitches,ladders_in_overworld_town,stick",
+          // "glitches,ladders_in_overworld_town,sword",
+          // "glitches,ladders_near_weathervane,stick",
+          // "glitches,ladders_near_weathervane,sword",
+          "@Ruined Passage Not-Door Exit",
+          // "@Overworld Beach,glitches,ladder_to_ruined_atoll,stick",
+          // "@Overworld Beach,glitches,ladder_to_ruined_atoll,sword",
+          "@Ruined Passage Door Exit"
+          // "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,stick",
+          // "@Overworld to West Garden Upper,glitches,ladders_to_west_bell,sword"
         ],
         "children": [
           {
@@ -2181,9 +2195,9 @@
                 "y": 2725
               },
               {
-                "map": "overworld",
-                "x": 1500,
-                "y": 975,
+                "map": "overworld_interiors",
+                "x": 1538,
+                "y": 974,
                 "size": 45
               }
             ],
@@ -2194,7 +2208,7 @@
               },
               {
                 "name": "Holy Cross Chest",
-                "access_rules": ["cross"],
+                "access_rules": "cross",
                 "item_count": 1
               }
             ]
@@ -2203,9 +2217,7 @@
       },
       {
         "name": "Special Shop",
-        "access_rules": [
-          "@Overworld Special Shop Entry"
-        ],
+        "access_rules": "@Special Shop Exit",
         "children": [
           {
             "name": "Special Shop",
@@ -2216,9 +2228,9 @@
                 "y": 2435
               },
               {
-                "map": "overworld",
-                "x": 1845,
-                "y": 685,
+                "map": "overworld_interiors",
+                "x": 1898,
+                "y": 683,
                 "size": 45
               }
             ],
@@ -2233,9 +2245,7 @@
       },
       {
         "name": "Caustic Light Cave",
-        "access_rules": [
-          "@Overworld Swamp Lower Entry"
-        ],
+        "access_rules": "@Caustic Light Cave Exit",
         "children": [
           {
             "name": "Caustic Light Cave",
@@ -2246,9 +2256,9 @@
                 "y": 2910
               },
               {
-                "map": "overworld",
+                "map": "overworld_interiors",
                 "x": 1885,
-                "y": 1155,
+                "y": 1123,
                 "size": 45
               },
               {
@@ -2260,9 +2270,7 @@
             "sections": [
               {
                 "name": "Holy Cross Chest",
-                "access_rules": [
-                  "cross"
-                ],
+                "access_rules": "cross",
                 "item_count": 1
               }
             ]
@@ -2271,11 +2279,9 @@
       },
       {
         "name": "Maze Cave",
-        "access_rules": [
-          "@Overworld Beach",
-          "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,stick",
-          "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,sword"
-        ],
+        "access_rules": "@Maze Cave Exit",
+          // "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,stick",
+          // "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,sword"
         "children": [
           {
             "name": "Maze Cave",
@@ -2286,9 +2292,9 @@
                 "y": 2850
               },
               {
-                "map": "overworld",
+                "map": "overworld_interiors",
                 "x": 1330,
-                "y": 1100,
+                "y": 1091,
                 "size": 45
               },
               {
@@ -2304,7 +2310,7 @@
               },
               {
                 "name": "Maze Room Holy Cross",
-                "access_rules": ["cross"],
+                "access_rules": "cross",
                 "item_count": 1
               }
             ]
@@ -2313,6 +2319,7 @@
       },
       {
         "name": "Cube Cave",
+        "access_rules": "@Cube Cave Exit",
         "children": [
           {
             "name": "Cube Cave",
@@ -2323,9 +2330,9 @@
                 "y": 2655
               },
               {
-                "map": "overworld",
+                "map": "overworld_interiors",
                 "x": 1155,
-                "y": 905,
+                "y": 863,
                 "size": 45
               },
               {
@@ -2337,7 +2344,7 @@
             "sections": [
               {
                 "name": "Holy Cross Chest",
-                "access_rules": ["cross"],
+                "access_rules": "cross",
                 "item_count": 1
               }
             ]
@@ -2346,9 +2353,7 @@
       },
       {
         "name": "Southeast Cross Room",
-        "access_rules": [
-          "@Overworld Southeast Cross Door"
-        ],
+        "access_rules": "@Southeast HC Room Exit",
         "children": [
           {
             "name": "Southeast Cross Door",
@@ -2359,9 +2364,9 @@
                 "y": 2815
               },
               {
-                "map": "overworld",
+                "map": "overworld_interiors",
                 "x": 1885,
-                "y": 1065,
+                "y": 1027,
                 "size": 45
               }
             ],
@@ -2384,9 +2389,7 @@
       },
       {
         "name": "Fountain Cross Room",
-        "access_rules": [
-          "@Overworld Fountain Cross Door"
-        ],
+        "access_rules": "@Fountain HC Room Exit",
         "children": [
           {
             "name": "Fountain Cross Door",
@@ -2397,9 +2400,9 @@
                 "y": 2590
               },
               {
-                "map": "overworld",
-                "x": 755,
-                "y": 840,
+                "map": "overworld_interiors",
+                "x": 756,
+                "y": 800,
                 "size": 45
               }
             ],
@@ -2415,23 +2418,21 @@
       {
         "name": "Hourglass Cave",
         "access_rules": [
-          "@Overworld Beach",
-          "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,stick",
-          "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,sword"
-        ],
-        "children": []
+          "@Hourglass Cave Exit"
+          // "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,stick",
+          // "@Overworld Swamp Lower Entry,glitches,ladder_to_swamp,sword"
+        ]
       },
       {
         "name": "Hourglass Cave Tower",
         "access_rules": [
           "@Hourglass Cave,ladders_in_hourglass_cave"
-        ],
-        "children": []
+        ]
       },
       {
         "name": "Sealed Temple",
         "access_rules": [
-          "@Overworld Temple Door",
+          "@Temple Door Exit",
           "@Sealed Temple Rafters,dash"
         ],
         "children": [
@@ -2444,9 +2445,9 @@
                 "y": 2110
               },
               {
-                "map": "overworld",
+                "map": "overworld_interiors",
                 "x": 1330,
-                "y": 360,
+                "y": 309,
                 "size": 45
               },
               {
@@ -2472,55 +2473,700 @@
       {
         "name": "Sealed Temple Rafters",
         "access_rules": [
-          "[glitches],dagger,dash,glitches,icerod,ladder_to_quarry,orb,staff,stick",
-          "[glitches],dagger,dash,glitches,icerod,ladder_to_quarry,orb,staff,sword",
-          "[glitches],dagger,dash,glitches,icerod,ladder_to_swamp,orb,staff,stick",
-          "[glitches],dagger,dash,glitches,icerod,ladder_to_swamp,orb,staff,sword",
-          "[glitches],dagger,dash,glitches,icerod,ladders_in_overworld_town,orb,staff,stick",
-          "[glitches],dagger,dash,glitches,icerod,ladders_in_overworld_town,orb,staff,sword",
-          "[glitches],dagger,dash,glitches,icerod,ladders_in_well,orb,staff,stick",
-          "[glitches],dagger,dash,glitches,icerod,ladders_in_well,orb,staff,sword",
-          "[glitches],dagger,dash,glitches,icerod,ladders_near_dark_tomb,orb,staff,stick",
-          "[glitches],dagger,dash,glitches,icerod,ladders_near_dark_tomb,orb,staff,sword",
-          "[glitches],dagger,dash,glitches,icerod,ladders_near_patrol_cave,orb,staff,stick",
-          "[glitches],dagger,dash,glitches,icerod,ladders_near_patrol_cave,orb,staff,sword",
-          "[glitches],dagger,dash,glitches,icerod,ladders_near_weathervane,orb,staff,stick",
-          "[glitches],dagger,dash,glitches,icerod,ladders_near_weathervane,orb,staff,sword",
-          "dash,glitches,ladder_to_quarry,ladders_near_patrol_cave,orb,staff,stick",
-          "dash,glitches,ladder_to_quarry,ladders_near_patrol_cave,orb,sword",
-          "dash,glitches,ladders_near_dark_tomb,ladders_near_patrol_cave,orb,stick",
-          "dash,glitches,ladders_near_dark_tomb,ladders_near_patrol_cave,orb,sword",
-          "dash,glitches,ladders_near_overworld_checkpoint,orb,stick",
-          "dash,glitches,ladders_near_overworld_checkpoint,orb,sword",
-          "glitches,ladder_near_temple_rafters,ladder_to_quarry,stick",
-          "glitches,ladder_near_temple_rafters,ladder_to_quarry,sword",
-          "glitches,ladder_near_temple_rafters,ladder_to_swamp,stick",
-          "glitches,ladder_near_temple_rafters,ladder_to_swamp,sword",
-          "glitches,ladder_near_temple_rafters,ladders_in_overworld_town,stick",
-          "glitches,ladder_near_temple_rafters,ladders_in_overworld_town,sword",
-          "glitches,ladder_near_temple_rafters,ladders_in_well,stick",
-          "glitches,ladder_near_temple_rafters,ladders_in_well,sword",
-          "glitches,ladder_near_temple_rafters,ladders_near_dark_tomb,stick",
-          "glitches,ladder_near_temple_rafters,ladders_near_dark_tomb,sword",
-          "glitches,ladder_near_temple_rafters,ladders_near_overworld_checkpoint,stick",
-          "glitches,ladder_near_temple_rafters,ladders_near_overworld_checkpoint,sword",
-          "glitches,ladder_near_temple_rafters,ladders_near_patrol_cave,stick",
-          "glitches,ladder_near_temple_rafters,ladders_near_patrol_cave,sword",
-          "glitches,ladder_near_temple_rafters,ladders_near_weathervane,stick",
-          "glitches,ladder_near_temple_rafters,ladders_near_weathervane,sword",
-          "@Overworld after Temple Rafters",
-          "@Overworld to West Garden Upper,[glitches],dagger,dash,glitches,icerod,ladders_to_west_bell,orb,staff,stick",
-          "@Overworld to West Garden Upper,[glitches],dagger,dash,glitches,icerod,ladders_to_west_bell,orb,staff,sword",
-          "@Overworld to West Garden Upper,glitches,ladder_near_temple_rafters,ladders_to_west_bell,stick",
-          "@Overworld to West Garden Upper,glitches,ladder_near_temple_rafters,ladders_to_west_bell,sword",
+          // "[glitches],dagger,dash,glitches,icerod,ladder_to_quarry,orb,staff,stick",
+          // "[glitches],dagger,dash,glitches,icerod,ladder_to_quarry,orb,staff,sword",
+          // "[glitches],dagger,dash,glitches,icerod,ladder_to_swamp,orb,staff,stick",
+          // "[glitches],dagger,dash,glitches,icerod,ladder_to_swamp,orb,staff,sword",
+          // "[glitches],dagger,dash,glitches,icerod,ladders_in_overworld_town,orb,staff,stick",
+          // "[glitches],dagger,dash,glitches,icerod,ladders_in_overworld_town,orb,staff,sword",
+          // "[glitches],dagger,dash,glitches,icerod,ladders_in_well,orb,staff,stick",
+          // "[glitches],dagger,dash,glitches,icerod,ladders_in_well,orb,staff,sword",
+          // "[glitches],dagger,dash,glitches,icerod,ladders_near_dark_tomb,orb,staff,stick",
+          // "[glitches],dagger,dash,glitches,icerod,ladders_near_dark_tomb,orb,staff,sword",
+          // "[glitches],dagger,dash,glitches,icerod,ladders_near_patrol_cave,orb,staff,stick",
+          // "[glitches],dagger,dash,glitches,icerod,ladders_near_patrol_cave,orb,staff,sword",
+          // "[glitches],dagger,dash,glitches,icerod,ladders_near_weathervane,orb,staff,stick",
+          // "[glitches],dagger,dash,glitches,icerod,ladders_near_weathervane,orb,staff,sword",
+          // "dash,glitches,ladder_to_quarry,ladders_near_patrol_cave,orb,staff,stick",
+          // "dash,glitches,ladder_to_quarry,ladders_near_patrol_cave,orb,sword",
+          // "dash,glitches,ladders_near_dark_tomb,ladders_near_patrol_cave,orb,stick",
+          // "dash,glitches,ladders_near_dark_tomb,ladders_near_patrol_cave,orb,sword",
+          // "dash,glitches,ladders_near_overworld_checkpoint,orb,stick",
+          // "dash,glitches,ladders_near_overworld_checkpoint,orb,sword",
+          // "glitches,ladder_near_temple_rafters,ladder_to_quarry,stick",
+          // "glitches,ladder_near_temple_rafters,ladder_to_quarry,sword",
+          // "glitches,ladder_near_temple_rafters,ladder_to_swamp,stick",
+          // "glitches,ladder_near_temple_rafters,ladder_to_swamp,sword",
+          // "glitches,ladder_near_temple_rafters,ladders_in_overworld_town,stick",
+          // "glitches,ladder_near_temple_rafters,ladders_in_overworld_town,sword",
+          // "glitches,ladder_near_temple_rafters,ladders_in_well,stick",
+          // "glitches,ladder_near_temple_rafters,ladders_in_well,sword",
+          // "glitches,ladder_near_temple_rafters,ladders_near_dark_tomb,stick",
+          // "glitches,ladder_near_temple_rafters,ladders_near_dark_tomb,sword",
+          // "glitches,ladder_near_temple_rafters,ladders_near_overworld_checkpoint,stick",
+          // "glitches,ladder_near_temple_rafters,ladders_near_overworld_checkpoint,sword",
+          // "glitches,ladder_near_temple_rafters,ladders_near_patrol_cave,stick",
+          // "glitches,ladder_near_temple_rafters,ladders_near_patrol_cave,sword",
+          // "glitches,ladder_near_temple_rafters,ladders_near_weathervane,stick",
+          // "glitches,ladder_near_temple_rafters,ladders_near_weathervane,sword",
+          "@Temple Rafters Exit",
+          // "@Overworld to West Garden Upper,[glitches],dagger,dash,glitches,icerod,ladders_to_west_bell,orb,staff,stick",
+          // "@Overworld to West Garden Upper,[glitches],dagger,dash,glitches,icerod,ladders_to_west_bell,orb,staff,sword",
+          // "@Overworld to West Garden Upper,glitches,ladder_near_temple_rafters,ladders_to_west_bell,stick",
+          // "@Overworld to West Garden Upper,glitches,ladder_near_temple_rafters,ladders_to_west_bell,sword",
           "@Sealed Temple"
         ]
       },
       {
+        "name": "Overworld Interiors Entrances",
+        "visibility_rules": "Entrance_visibility",
+        "children":[
+          {
+            "name": "Secret Gathering Place Exit",
+            "access_rules": [
+              "Secret Gathering Place Exit"
+            ],
+            "map_locations": [
+              {
+                "map": "overworld_interiors",
+                "x": 864,
+                "y": 323,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Secret Gathering Place Exit"
+              }
+            ]
+          },
+          {
+            "name": "Windmill Exit",
+            "access_rules": [
+              "Windmill Exit",
+              "{@Windmill}"
+            ],
+            "map_locations": [
+              {
+                "map": "overworld_interiors",
+                "x": 893,
+                "y": 697,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Windmill Exit"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Windmill Shop",
+            "access_rules": [
+              "Windmill Shop",
+              "{@Windmill}"
+            ],
+            "map_locations": [
+              {
+                "map": "overworld_interiors",
+                "x": 728,
+                "y": 599,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Windmill Shop"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Old House Door Exit",
+            "access_rules": [
+              "Old House Door Exit",
+              "{@Old House Front}"
+            ],
+            "map_locations": [
+              {
+                "map": "overworld_interiors",
+                "x": 1210,
+                "y": 857,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Old House Door Exit"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Old House to Glyph Tower",
+            "access_rules": [
+              "Old House to Glyph Tower",
+              "{@Old House Front}"
+            ],
+            "map_locations": [
+              {
+                "map": "overworld_interiors",
+                "x": 1410,
+                "y": 730,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Old House to Glyph Tower"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Old House Waterfall Exit",
+            "access_rules": [
+              "Old House Waterfall Exit",
+              "{@Old House Back}"
+            ],
+            "map_locations": [
+              {
+                "map": "overworld_interiors",
+                "x": 989,
+                "y": 624,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Old House Waterfall Exit"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+
+          {
+            "name": "Glyph Tower Exit",
+            "access_rules": "Glyph Tower Exit",
+            "map_locations": [
+              {
+                "map": "overworld_interiors",
+                "x": 288,
+                "y": 1211,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Glyph Tower Exit"
+              }
+            ]
+          },
+          {
+            "name": "Changing Room Exit",
+            "access_rules": "Changing Room Exit",
+            "map_locations": [
+              {
+                "map": "overworld_interiors",
+                "x": 916,
+                "y": 924,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Changing Room Exit"
+              }
+            ]
+          },
+          {
+            "name": "Fountain HC Room Exit",
+            "access_rules": "Fountain HC Room Exit",
+            "map_locations": [
+              {
+                "map": "overworld_interiors",
+                "x": 757,
+                "y": 841,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Fountain HC Room Exit"
+              }
+            ]
+          },
+          {
+            "name": "Cube Cave Exit",
+            "access_rules": "Cube Cave Exit",
+            "map_locations": [
+              {
+                "map": "overworld_interiors",
+                "x": 1153,
+                "y": 905,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Cube Cave Exit"
+              }
+            ]
+          },
+          {
+            "name": "Guard Patrol Cave Exit",
+            "access_rules": "Guard Patrol Cave Exit",
+            "map_locations": [
+              {
+                "map": "overworld_interiors",
+                "x": 1788,
+                "y": 336,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Guard Patrol Cave Exit"
+              }
+            ]
+          },
+          {
+            "name": "Ruined Shop Exit",
+            "access_rules": "Ruined Shop Exit",
+            "map_locations": [
+              {
+                "map": "overworld_interiors",
+                "x": 606,
+                "y": 832,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Ruined Shop Exit"
+              }
+            ]
+          },
+
+          {
+            "name": "Furnace Exit towards Well",
+            "access_rules": [
+              "Furnace Exit towards Well",
+              "{@Furnace Fuse}",
+              "{@Furnace Ladder Area,glitches,stick}",
+              "{@Furnace Ladder Area,glitches,sword}"
+            ],
+            "map_locations": [
+              {
+                "map": "overworld_interiors",
+                "x": 173,
+                "y": 270,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Furnace Exit towards Well"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Furnace Exit to Dark Tomb",
+            "access_rules": [
+              "Furnace Exit to Dark Tomb",
+              "{@Furnace Walking Path}"
+            ],
+            "map_locations": [
+              {
+                "map": "overworld_interiors",
+                "x": 451,
+                "y": 417,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Furnace Exit to Dark Tomb"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Furnace Exit towards West Garden",
+            "access_rules": [
+              "Furnace Exit towards West Garden",
+              "{@Furnace Walking Path}"
+            ],
+            "map_locations": [
+              {
+                "map": "overworld_interiors",
+                "x": 136,
+                "y": 602,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Furnace Exit towards West Garden"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Furnace Exit to Beach",
+            "access_rules": [
+              "Furnace Exit to Beach",
+              "{@Furnace Ladder Area}"
+            ],
+            "map_locations": [
+              {
+                "map": "overworld_interiors",
+                "x": 473,
+                "y": 603,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Furnace Exit to Beach"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Furnace Exit under Windmill",
+            "access_rules": [
+              "Furnace Exit under Windmill",
+              "{@Furnace Ladder Area}"
+            ],
+            "map_locations": [
+              {
+                "map": "overworld_interiors",
+                "x": 433,
+                "y": 272,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Furnace Exit under Windmill"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+
+          {
+            "name": "Stick House Exit",
+            "access_rules": "Stick House Exit",
+            "map_locations": [
+              {
+                "map": "overworld_interiors",
+                "x": 1242,
+                "y": 1027,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Stick House Exit"
+              }
+            ]
+          },
+          {
+            "name": "Ruined Passage Not-Door Exit",
+            "access_rules": [
+              "Ruined Passage Not-Door Exit",
+              "{@Ruined Passage}"
+            ],
+            "map_locations": [
+              {
+                "map": "overworld_interiors",
+                "x": 1666,
+                "y": 993,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Ruined Passage Not-Door Exit"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Ruined Passage Door Exit",
+            "access_rules": [
+              "Ruined Passage Door Exit",
+              "{@Ruined Passage}"
+            ],
+            "map_locations": [
+              {
+                "map": "overworld_interiors",
+                "x": 1442,
+                "y": 1061,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Ruined Passage Door Exit"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Southeast HC Room Exit",
+            "access_rules": "Southeast HC Room Exit",
+            "map_locations": [
+              {
+                "map": "overworld_interiors",
+                "x": 1885,
+                "y": 1064,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Southeast HC Room Exit"
+              }
+            ]
+          },
+          {
+            "name": "Caustic Light Cave Exit",
+            "access_rules": "Caustic Light Cave Exit",
+            "map_locations": [
+              {
+                "map": "overworld_interiors",
+                "x": 1885,
+                "y": 1163,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Caustic Light Cave Exit"
+              }
+            ]
+          },
+          {
+            "name": "Maze Cave Exit",
+            "access_rules": "Maze Cave Exit",
+            "map_locations": [
+              {
+                "map": "overworld_interiors",
+                "x": 1328,
+                "y": 1128,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Maze Cave Exit"
+              }
+            ]
+          },
+          {
+            "name": "Hourglass Cave Exit",
+            "access_rules": "Hourglass Cave Exit",
+            "map_locations": [
+              {
+                "map": "overworld_interiors",
+                "x": 755,
+                "y": 1113,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Hourglass Cave Exit"
+              }
+            ]
+          },
+          {
+            "name": "Special Shop Exit",
+            "access_rules": "Special Shop Exit",
+            "map_locations": [
+              {
+                "map": "overworld_interiors",
+                "x": 1851,
+                "y": 684,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Special Shop Exit"
+              }
+            ]
+          },
+          {
+            "name": "Temple Rafters Exit",
+            "access_rules": [
+              "Temple Rafters Exit",
+              "{@Sealed Temple Rafters}"
+            ],
+            "map_locations": [
+              {
+                "map": "overworld_interiors",
+                "x": 1211,
+                "y": 272,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Temple Rafters Exit"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Temple Door Exit",
+            "access_rules": [
+              "Temple Door Exit",
+              "{@Sealed Temple}"
+            ],
+            "map_locations": [
+              {
+                "map": "overworld_interiors",
+                "x": 1331,
+                "y": 387,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Temple Door Exit"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Purgatory Top Exit",
+            "access_rules": [
+              "Purgatory Top Exit",
+              "{@Purgatory}"
+            ],
+            "map_locations": [
+              {
+                "map": "overworld_interiors",
+                "x": 1124,
+                "y": 1162,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Purgatory Top Exit"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Purgatory Bottom Exit",
+            "access_rules": [
+              "Purgatory Bottom Exit",
+              "{@Purgatory}"
+            ],
+            "map_locations": [
+              {
+                "map": "overworld_interiors",
+                "x": 1121,
+                "y": 1458,
+                "size": 22
+              }
+            ],
+            "sections": [
+              {
+                "name": "Traversed",
+                "hosted_item": "Purgatory Bottom Exit"
+              },
+              {
+                "name": "Done",
+                "item_count": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
         "name": "Forest Belltower Upper",
-        "access_rules": [
-          "@Forest Belltower to Guard Captain Room"
-        ],
+        "access_rules": "@Forest Belltower to Guard Captain Room",
         "children": [
           {
             "name": "East Bell",

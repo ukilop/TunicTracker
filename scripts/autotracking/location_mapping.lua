@@ -78,10 +78,10 @@ LOCATION_MAPPING = {
     [509342564] = {"@Full World/Overworld/Coins in the Well/10 Coins"},
     [509342565] = {"@Full World/Overworld/Coins in the Well/15 Coins"},
 
-    [509342508] = {"@Full World/Inside the Old House/Normal Chest"},
-    [509342587] = {"@Full World/Inside the Old House/Holy Cross Chest"},
-    [509342509] = {"@Full World/Inside the Old House/Shield Pickup"},
-    [509342580] = {"@Full World/Inside the Old House/Holy Cross Door Page"},
+    [509342508] = {"@Full World/Inside the Old House/Normal Chest/Chest"},
+    [509342587] = {"@Full World/Inside the Old House/Holy Cross Chest/Chest"},
+    [509342509] = {"@Full World/Inside the Old House/Shield Pickup/Item"},
+    [509342580] = {"@Full World/Inside the Old House/Holy Cross Door Page/Item"},
     [509342544] = {"@Full World/Fountain/[Southwest] Fountain Page"},
     [509342572] = {"@Full World/Fountain/[Southwest] Fountain Holy Cross"},
     
@@ -173,8 +173,8 @@ LOCATION_MAPPING = {
     [509342480] = {"@Full World/Frog's Domain/Slorm Room/Tobias was Trapped Here Once..."},
     [509342489] = {"@Full World/Frog's Domain/Magic Orb Pickup/Frult Meeting"},
 		
-    [509342678] = {"@Full World/West Furnace/Chest"},
-    [509342506] = {"@Full World/West Furnace/Lantern Pickup"},
+    [509342678] = {"@Full World/Furnace Walking Path/West Furnace/Chest"},
+    [509342506] = {"@Full World/Furnace Fuse/West Furnace/Lantern Pickup"},
     [509342561] = {"@Full World/Inside Hourglass Cave/Hourglass Chest"},
     [509342590] = {"@Full World/Inside Hourglass Cave/Holy Cross Chest"},
     [509342458] = {"@Full World/The Hero's Sword/Forest Grave Path - Sword Pickup"},
