@@ -247,8 +247,8 @@ LOCATION_MAPPING = {
     [509342471] = {"@Full World/Fortress Grave Path/Vault Hero's Grave/Fortress Grave Path - Chest Right of Grave"},
     [509342472] = {"@Full World/Fortress Grave Path/Vault Hero's Grave/Fortress Grave Path - Obscured Chest Left of Grave"},
 
-    [509342500] = {"@Full World/Mountain/Lower Mountain/Lower Mountain - Page Before Door"},
-    [509342594] = {"@Full World/Mountain/Top of the Mountain - Page At The Peak"},
+    [509342500] = {"@Full World/Mountain/Lower Mountain/Page Before Door"},
+    [509342594] = {"@Full World/Mountain/Top of the Mountain/Page At The Peak"},
 
     [509342596] = {"@Full World/Quarry Back/[Back Entrance] Bushes Holy Cross/Use the Holy Cross"},
     [509342597] = {"@Full World/Quarry Back/[Back Entrance] Chest/Peaceful Chest"},

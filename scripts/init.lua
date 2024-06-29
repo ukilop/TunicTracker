@@ -7,10 +7,13 @@ print(Tracker.ActiveVariantUID)
 
 if not (string.find(Tracker.ActiveVariantUID, "var_itemsonly")) then
   if PopVersion then
-    --Tracker:AddMaps("maps/maps_pop.json")
-    Tracker:AddMaps("maps/maps_pop_er.json")
-    Tracker:AddLocations("locations/locations_pop_er.json")
-    -- Tracker:AddLocations("locations/locations_pop.json")
+    if true then  --TODO --detect if entrance rando
+      Tracker:AddMaps("maps/maps_pop_er.json")
+      Tracker:AddLocations("locations/locations_pop_er.json")
+    else
+      Tracker:AddMaps("maps/maps_pop.json")
+      Tracker:AddLocations("locations/locations_pop.json")
+    end
   else
     Tracker:AddMaps("maps/maps.json")
     Tracker:AddLocations("locations/locations.json")
