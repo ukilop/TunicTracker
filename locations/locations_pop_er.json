@@ -536,7 +536,7 @@
                 "map": "overworld",
                 "x": 1242,
                 "y": 1027,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -561,7 +561,7 @@
                 "map": "overworld",
                 "x": 897,
                 "y": 535,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -586,7 +586,7 @@
                 "map": "overworld",
                 "x": 1089,
                 "y": 440,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -624,7 +624,7 @@
                 "map": "overworld",
                 "x": 427,
                 "y": 419,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -649,7 +649,7 @@
                 "map": "overworld",
                 "x": 1077,
                 "y": 687,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -674,7 +674,7 @@
                 "map": "overworld",
                 "x": 1253,
                 "y": 485,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -699,7 +699,7 @@
                 "map": "overworld",
                 "x": 429,
                 "y": 528,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -724,7 +724,7 @@
                 "map": "overworld",
                 "x": 514,
                 "y": 612,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -749,7 +749,7 @@
                 "map": "overworld",
                 "x": 315,
                 "y": 755,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -774,7 +774,7 @@
                 "map": "overworld",
                 "x": 424,
                 "y": 943,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -799,7 +799,7 @@
                 "map": "overworld",
                 "x": 1884,
                 "y": 1162,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -824,7 +824,7 @@
                 "map": "overworld",
                 "x": 1897,
                 "y": 1408,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -849,7 +849,7 @@
                 "map": "overworld",
                 "x": 1868,
                 "y": 1423,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -874,7 +874,7 @@
                 "map": "overworld",
                 "x": 1648,
                 "y": 980,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -899,7 +899,7 @@
                 "map": "overworld",
                 "x": 1465,
                 "y": 973,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -930,7 +930,7 @@
                 "map": "overworld",
                 "x": 756,
                 "y": 1371,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -959,7 +959,7 @@
                 "map": "overworld",
                 "x": 712,
                 "y": 1372,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -984,7 +984,7 @@
                 "map": "overworld",
                 "x": 1854,
                 "y": 686,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -1009,7 +1009,7 @@
                 "map": "overworld",
                 "x": 1329,
                 "y": 1126,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -1034,7 +1034,7 @@
                 "map": "overworld",
                 "x": 13,
                 "y": 687,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -1076,7 +1076,7 @@
                 "map": "overworld",
                 "x": 13,
                 "y": 799,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -1108,7 +1108,7 @@
                 "map": "overworld",
                 "x": 13,
                 "y": 1039,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -1133,7 +1133,7 @@
                 "map": "overworld",
                 "x": 1331,
                 "y": 389,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -1198,7 +1198,7 @@
                 "map": "overworld",
                 "x": 1210,
                 "y": 270,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -1223,7 +1223,7 @@
                 "map": "overworld",
                 "x": 596,
                 "y": 834,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -1264,7 +1264,7 @@
                 "map": "overworld",
                 "x": 754,
                 "y": 1115,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -1289,7 +1289,7 @@
                 "map": "overworld",
                 "x": 754,
                 "y": 1115,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -1314,7 +1314,7 @@
                 "map": "overworld",
                 "x": 915,
                 "y": 896,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -1339,7 +1339,7 @@
                 "map": "overworld",
                 "x": 1153,
                 "y": 905,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -1366,7 +1366,7 @@
                 "map": "overworld",
                 "x": 1332,
                 "y": 170,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -1407,7 +1407,7 @@
                 "map": "overworld",
                 "x": 1973,
                 "y": 534,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -1432,7 +1432,7 @@
                 "map": "overworld",
                 "x": 756,
                 "y": 841,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -1457,7 +1457,7 @@
                 "map": "overworld",
                 "x": 1884,
                 "y": 1066,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -1494,7 +1494,7 @@
                 "map": "overworld",
                 "x": 423,
                 "y": 247,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -1519,7 +1519,7 @@
                 "map": "overworld",
                 "x": 667,
                 "y": 327,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -1544,7 +1544,7 @@
                 "map": "overworld",
                 "x": 1957,
                 "y": 781,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -1569,7 +1569,7 @@
                 "map": "overworld",
                 "x": 844,
                 "y": 716,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -1594,7 +1594,7 @@
                 "map": "overworld",
                 "x": 1332,
                 "y": 1240,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -1619,7 +1619,7 @@
                 "map": "overworld",
                 "x": 862,
                 "y": 322,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -3511,7 +3511,7 @@
                 "map": "overworld_interiors",
                 "x": 864,
                 "y": 323,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -3532,7 +3532,7 @@
                 "map": "overworld_interiors",
                 "x": 893,
                 "y": 697,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -3557,7 +3557,7 @@
                 "map": "overworld_interiors",
                 "x": 728,
                 "y": 599,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -3582,7 +3582,7 @@
                 "map": "overworld_interiors",
                 "x": 1210,
                 "y": 857,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -3607,7 +3607,7 @@
                 "map": "overworld_interiors",
                 "x": 1410,
                 "y": 730,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -3632,7 +3632,7 @@
                 "map": "overworld_interiors",
                 "x": 989,
                 "y": 624,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -3655,7 +3655,7 @@
                 "map": "overworld_interiors",
                 "x": 288,
                 "y": 1211,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -3673,7 +3673,7 @@
                 "map": "overworld_interiors",
                 "x": 916,
                 "y": 924,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -3691,7 +3691,7 @@
                 "map": "overworld_interiors",
                 "x": 757,
                 "y": 841,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -3709,7 +3709,7 @@
                 "map": "overworld_interiors",
                 "x": 1153,
                 "y": 905,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -3727,7 +3727,7 @@
                 "map": "overworld_interiors",
                 "x": 1788,
                 "y": 336,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -3745,7 +3745,7 @@
                 "map": "overworld_interiors",
                 "x": 606,
                 "y": 832,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -3769,7 +3769,7 @@
                 "map": "overworld_interiors",
                 "x": 173,
                 "y": 270,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -3794,7 +3794,7 @@
                 "map": "overworld_interiors",
                 "x": 451,
                 "y": 417,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -3819,7 +3819,7 @@
                 "map": "overworld_interiors",
                 "x": 136,
                 "y": 602,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -3844,7 +3844,7 @@
                 "map": "overworld_interiors",
                 "x": 473,
                 "y": 603,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -3869,7 +3869,7 @@
                 "map": "overworld_interiors",
                 "x": 433,
                 "y": 272,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -3892,7 +3892,7 @@
                 "map": "overworld_interiors",
                 "x": 1242,
                 "y": 1027,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -3913,7 +3913,7 @@
                 "map": "overworld_interiors",
                 "x": 1666,
                 "y": 993,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -3938,7 +3938,7 @@
                 "map": "overworld_interiors",
                 "x": 1442,
                 "y": 1061,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -3960,7 +3960,7 @@
                 "map": "overworld_interiors",
                 "x": 1885,
                 "y": 1064,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -3978,7 +3978,7 @@
                 "map": "overworld_interiors",
                 "x": 1885,
                 "y": 1163,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -3996,7 +3996,7 @@
                 "map": "overworld_interiors",
                 "x": 1328,
                 "y": 1128,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -4014,7 +4014,7 @@
                 "map": "overworld_interiors",
                 "x": 755,
                 "y": 1113,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -4032,7 +4032,7 @@
                 "map": "overworld_interiors",
                 "x": 1851,
                 "y": 684,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -4053,7 +4053,7 @@
                 "map": "overworld_interiors",
                 "x": 1211,
                 "y": 272,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -4078,7 +4078,7 @@
                 "map": "overworld_interiors",
                 "x": 1331,
                 "y": 387,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -4103,7 +4103,7 @@
                 "map": "overworld_interiors",
                 "x": 1124,
                 "y": 1162,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -4128,7 +4128,7 @@
                 "map": "overworld_interiors",
                 "x": 1121,
                 "y": 1458,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -4915,7 +4915,7 @@
                 "map": "east_forest",
                 "x": 884,
                 "y": 978,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -4940,7 +4940,7 @@
                 "map": "east_forest",
                 "x": 1193,
                 "y": 978,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -4965,7 +4965,7 @@
                 "map": "east_forest",
                 "x": 1260,
                 "y": 864,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -4990,7 +4990,7 @@
                 "map": "east_forest",
                 "x": 1109,
                 "y": 909,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -5015,7 +5015,7 @@
                 "map": "east_forest",
                 "x": 1437,
                 "y": 1143,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -5040,7 +5040,7 @@
                 "map": "east_forest",
                 "x": 1560,
                 "y": 1245,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -5065,7 +5065,7 @@
                 "map": "east_forest",
                 "x": 1519,
                 "y": 1069,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -5090,7 +5090,7 @@
                 "map": "east_forest",
                 "x": 1656,
                 "y": 1054,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -5115,7 +5115,7 @@
                 "map": "east_forest",
                 "x": 1656,
                 "y": 1009,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -5140,7 +5140,7 @@
                 "map": "east_forest",
                 "x": 931,
                 "y": 319,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -5165,7 +5165,7 @@
                 "map": "east_forest",
                 "x": 1111,
                 "y": 465,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -5190,7 +5190,7 @@
                 "map": "east_forest",
                 "x": 1249,
                 "y": 259,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -5217,7 +5217,7 @@
                 "map": "east_forest",
                 "x": 1115,
                 "y": 47,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -5242,7 +5242,7 @@
                 "map": "east_forest",
                 "x": 1741,
                 "y": 957,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -5267,7 +5267,7 @@
                 "map": "east_forest",
                 "x": 1739,
                 "y": 1005,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -5292,7 +5292,7 @@
                 "map": "east_forest",
                 "x": 2273,
                 "y": 720,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -5317,7 +5317,7 @@
                 "map": "east_forest",
                 "x": 1656,
                 "y": 650,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -5342,7 +5342,7 @@
                 "map": "east_forest",
                 "x": 1351,
                 "y": 290,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -5367,7 +5367,7 @@
                 "map": "east_forest",
                 "x": 2216,
                 "y": 362,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -5392,7 +5392,7 @@
                 "map": "east_forest",
                 "x": 1901,
                 "y": 160,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -5417,7 +5417,7 @@
                 "map": "east_forest",
                 "x": 299,
                 "y": 472,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -5442,7 +5442,7 @@
                 "map": "east_forest",
                 "x": 761,
                 "y": 660,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -5467,7 +5467,7 @@
                 "map": "east_forest",
                 "x": 244,
                 "y": 574,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -5489,7 +5489,7 @@
                 "map": "east_forest",
                 "x": 853,
                 "y": 451,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -6095,7 +6095,7 @@
                 "map": "well",
                 "x": 840,
                 "y": 1380,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -6120,7 +6120,7 @@
                 "map": "well",
                 "x": 362,
                 "y": 1202,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -6145,7 +6145,7 @@
                 "map": "well",
                 "x": 90,
                 "y": 1249,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -6170,7 +6170,7 @@
                 "map": "well",
                 "x": 893,
                 "y": 1209,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -6195,7 +6195,7 @@
                 "map": "well",
                 "x": 1244,
                 "y": 616,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -6220,7 +6220,7 @@
                 "map": "dark_tomb",
                 "x": 1623,
                 "y": 739,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -6245,7 +6245,7 @@
                 "map": "dark_tomb",
                 "x": 1001,
                 "y": 832,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -6270,7 +6270,7 @@
                 "map": "dark_tomb",
                 "x": 1511,
                 "y": 781,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -6873,7 +6873,7 @@
                 "map": "west_gardens",
                 "x": 1374,
                 "y": 134,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -6898,7 +6898,7 @@
                 "map": "west_gardens",
                 "x": 873,
                 "y": 578,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -6923,7 +6923,7 @@
                 "map": "west_gardens",
                 "x": 1374,
                 "y": 51,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -6948,7 +6948,7 @@
                 "map": "west_gardens",
                 "x": 623,
                 "y": 39,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -6975,7 +6975,7 @@
                 "map": "west_gardens",
                 "x": 1374,
                 "y": 442,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -7000,7 +7000,7 @@
                 "map": "west_gardens",
                 "x": 1082,
                 "y": 147,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -7025,7 +7025,7 @@
                 "map": "west_gardens",
                 "x": 862,
                 "y": 759,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -7047,7 +7047,7 @@
                 "map": "west_gardens",
                 "x": 1078,
                 "y": 764,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -7503,7 +7503,7 @@
                 "map": "ruined_atoll",
                 "x": 788,
                 "y": 0,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -7529,7 +7529,7 @@
                 "map": "ruined_atoll",
                 "x": 726,
                 "y": 0,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -7554,7 +7554,7 @@
                 "map": "ruined_atoll",
                 "x": 1035,
                 "y": 259,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -7579,7 +7579,7 @@
                 "map": "ruined_atoll",
                 "x": 788,
                 "y": 59,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -7604,7 +7604,7 @@
                 "map": "ruined_atoll",
                 "x": 788,
                 "y": 622,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -7629,7 +7629,7 @@
                 "map": "ruined_atoll",
                 "x": 1450,
                 "y": 262,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -7657,7 +7657,7 @@
                 "map": "ruined_atoll",
                 "x": 1450,
                 "y": 319,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -7984,7 +7984,7 @@
                 "map": "frogs_domain",
                 "x": 248,
                 "y": 1,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -8009,7 +8009,7 @@
                 "map": "frogs_domain",
                 "x": 65,
                 "y": 321,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -8034,7 +8034,7 @@
                 "map": "frogs_domain",
                 "x": 576,
                 "y": 738,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -8059,7 +8059,7 @@
                 "map": "frogs_domain",
                 "x": 640,
                 "y": 222,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -8083,7 +8083,7 @@
                 "map": "frogs_domain",
                 "x": 1042,
                 "y": 616,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -8104,7 +8104,7 @@
                 "map": "frogs_domain",
                 "x": 1546,
                 "y": 310,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -8136,7 +8136,7 @@
                 "map": "library",
                 "x": 1313,
                 "y": 1355,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -8168,7 +8168,7 @@
                 "map": "library",
                 "x": 1627,
                 "y": 1255,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -8239,7 +8239,7 @@
                 "map": "library",
                 "x": 665,
                 "y": 1078,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -8270,7 +8270,7 @@
                 "map": "library",
                 "x": 1225,
                 "y": 1153,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -8301,7 +8301,7 @@
                 "map": "library",
                 "x": 456,
                 "y": 947,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -8332,7 +8332,7 @@
                 "map": "library",
                 "x": 459,
                 "y": 800,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -8363,7 +8363,7 @@
                 "map": "library",
                 "x": 287,
                 "y": 766,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -8560,7 +8560,7 @@
                 "map": "library",
                 "x": 1078,
                 "y": 705,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -8591,7 +8591,7 @@
                 "map": "library",
                 "x": 672,
                 "y": 297,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -8622,7 +8622,7 @@
                 "map": "library",
                 "x": 805,
                 "y": 262,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -8650,7 +8650,7 @@
                 "map": "library",
                 "x": 1375,
                 "y": 77,
-                "size": 22
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -9337,7 +9337,7 @@
                 "map": "eastern_vault",
                 "x": 924,
                 "y": 673,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -9368,7 +9368,7 @@
                 "map": "eastern_vault",
                 "x": 924,
                 "y": 633,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -9399,7 +9399,7 @@
                 "map": "eastern_vault",
                 "x": 601,
                 "y": 554,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -9430,7 +9430,7 @@
                 "map": "eastern_vault",
                 "x": 1042,
                 "y": 519,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -9455,7 +9455,7 @@
                 "map": "eastern_vault",
                 "x": 260,
                 "y": 729,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -9480,7 +9480,7 @@
                 "map": "eastern_vault",
                 "x": 548,
                 "y": 1201,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -9510,7 +9510,7 @@
                 "map": "eastern_vault",
                 "x": 327,
                 "y": 1102,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -9535,7 +9535,7 @@
                 "map": "eastern_vault",
                 "x": 326,
                 "y": 671,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -9560,7 +9560,7 @@
                 "map": "earth",
                 "x": 681,
                 "y": 21,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -9585,7 +9585,7 @@
                 "map": "earth",
                 "x": 704,
                 "y": 712,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -9610,7 +9610,7 @@
                 "map": "eastern_vault",
                 "x": 604,
                 "y": 432,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -9635,7 +9635,7 @@
                 "map": "eastern_vault",
                 "x": 187,
                 "y": 152,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -9661,7 +9661,7 @@
                 "map": "eastern_vault",
                 "x": 597,
                 "y": 97,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -9686,7 +9686,7 @@
                 "map": "eastern_vault",
                 "x": 390,
                 "y": 307,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -9711,7 +9711,7 @@
                 "map": "eastern_vault",
                 "x": 836,
                 "y": 265,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -9736,7 +9736,7 @@
                 "map": "eastern_vault",
                 "x": 836,
                 "y": 407,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -9761,7 +9761,7 @@
                 "map": "eastern_vault",
                 "x": 866,
                 "y": 407,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -9786,7 +9786,7 @@
                 "map": "eastern_vault",
                 "x": 866,
                 "y": 265,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -9811,7 +9811,7 @@
                 "map": "eastern_vault",
                 "x": 1053,
                 "y": 425,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -9836,7 +9836,7 @@
                 "map": "eastern_vault",
                 "x": 1657,
                 "y": 641,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -9861,7 +9861,7 @@
                 "map": "eastern_vault",
                 "x": 1027,
                 "y": 673,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -9883,7 +9883,7 @@
                 "map": "eastern_vault",
                 "x": 1027,
                 "y": 632,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -9904,7 +9904,7 @@
                 "map": "eastern_vault",
                 "x": 1589,
                 "y": 552,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -9926,7 +9926,7 @@
                 "map": "eastern_vault",
                 "x": 1658,
                 "y": 261,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -9947,7 +9947,7 @@
                 "map": "eastern_vault",
                 "x": 1456,
                 "y": 1116,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -9972,7 +9972,7 @@
                 "map": "eastern_vault",
                 "x": 1308,
                 "y": 1026,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -10061,7 +10061,7 @@
                     "map": "quarry",
                     "x": 107,
                     "y": 457,
-                    "size": 25
+                    "shape": "diamond", "size": 35
                   }
                 ],
                 "sections": [
@@ -10086,7 +10086,7 @@
                     "map": "quarry",
                     "x": 307,
                     "y": 577,
-                    "size": 25
+                    "shape": "diamond", "size": 35
                   }
                 ],
                 "sections": [
@@ -10111,7 +10111,7 @@
                     "map": "quarry",
                     "x": 166,
                     "y": 731,
-                    "size": 25
+                    "shape": "diamond", "size": 35
                   }
                 ],
                 "sections": [
@@ -10133,7 +10133,7 @@
                     "map": "quarry",
                     "x": 587,
                     "y": 588,
-                    "size": 25
+                    "shape": "diamond", "size": 35
                   }
                 ],
                 "sections": [
@@ -10871,7 +10871,7 @@
                 "map": "quarry",
                 "x": 1789,
                 "y": 1207,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -10896,7 +10896,7 @@
                 "map": "quarry",
                 "x": 1515,
                 "y": 1175,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -10921,7 +10921,7 @@
                 "map": "quarry",
                 "x": 884,
                 "y": 228,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -10943,7 +10943,7 @@
                 "map": "quarry",
                 "x": 727,
                 "y": 96,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -10964,7 +10964,7 @@
                 "map": "quarry",
                 "x": 1532,
                 "y": 1309,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -10989,7 +10989,7 @@
                 "map": "quarry",
                 "x": 809,
                 "y": 19,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -11014,7 +11014,7 @@
                 "map": "quarry",
                 "x": 1548,
                 "y": 975,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -11039,7 +11039,7 @@
                 "map": "quarry",
                 "x": 2207,
                 "y": 887,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -11064,7 +11064,7 @@
                 "map": "quarry",
                 "x": 1752,
                 "y": 884,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -11095,7 +11095,7 @@
                 "map": "quarry",
                 "x": 1570,
                 "y": 191,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -11120,7 +11120,7 @@
                 "map": "quarry",
                 "x": 2096,
                 "y": 446,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -11145,7 +11145,7 @@
                 "map": "quarry",
                 "x": 1675,
                 "y": 215,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -11485,7 +11485,7 @@
                 "map": "ziggurat",
                 "x": 1639,
                 "y": 1379,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -11510,7 +11510,7 @@
                 "map": "ziggurat",
                 "x": 2084,
                 "y": 981,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -11535,7 +11535,7 @@
                 "map": "ziggurat",
                 "x": 2198,
                 "y": 1006,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -11560,7 +11560,7 @@
                 "map": "ziggurat",
                 "x": 1257,
                 "y": 124,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -11585,7 +11585,7 @@
                 "map": "ziggurat",
                 "x": 1727,
                 "y": 405,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -11609,7 +11609,7 @@
                 "map": "ziggurat",
                 "x": 120,
                 "y": 23,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -11630,7 +11630,7 @@
                 "map": "ziggurat",
                 "x": 181,
                 "y": 778,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -11651,7 +11651,7 @@
                 "map": "ziggurat",
                 "x": 1790,
                 "y": 710,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -11675,7 +11675,7 @@
                 "map": "ziggurat",
                 "x": 2247,
                 "y": 363,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -11696,7 +11696,7 @@
                 "map": "ziggurat",
                 "x": 2377,
                 "y": 730,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -11721,7 +11721,7 @@
                 "map": "ziggurat",
                 "x": 177,
                 "y": 899,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -12292,7 +12292,7 @@
                 "map": "graveyard",
                 "x": 825,
                 "y": 333,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -12318,7 +12318,7 @@
                 "map": "graveyard",
                 "x": 824,
                 "y": 55,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -12345,7 +12345,7 @@
                 "map": "graveyard",
                 "x": 785,
                 "y": 18,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -12372,7 +12372,7 @@
                 "map": "graveyard",
                 "x": 817,
                 "y": 110,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -12397,7 +12397,7 @@
                 "map": "graveyard",
                 "x": 505,
                 "y": 514,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -12424,7 +12424,7 @@
                 "map": "graveyard",
                 "x": 53,
                 "y": 320,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -12451,7 +12451,7 @@
                 "map": "graveyard",
                 "x": 86,
                 "y": 288,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -12961,7 +12961,7 @@
                 "map": "far_shore",
                 "x": 616,
                 "y": 927,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -12986,7 +12986,7 @@
                 "map": "far_shore",
                 "x": 1151,
                 "y": 1134,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -13011,7 +13011,7 @@
                 "map": "far_shore",
                 "x": 1028,
                 "y": 925,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -13036,7 +13036,7 @@
                 "map": "far_shore",
                 "x": 821,
                 "y": 703,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -13061,7 +13061,7 @@
                 "map": "far_shore",
                 "x": 821,
                 "y": 927,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -13086,7 +13086,7 @@
                 "map": "far_shore",
                 "x": 720,
                 "y": 1058,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -13111,7 +13111,7 @@
                 "map": "far_shore",
                 "x": 717,
                 "y": 796,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -13136,7 +13136,7 @@
                 "map": "far_shore",
                 "x": 925,
                 "y": 796,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -13161,7 +13161,7 @@
                 "map": "far_shore",
                 "x": 925,
                 "y": 1058,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -13186,7 +13186,7 @@
                 "map": "far_shore",
                 "x": 825,
                 "y": 1355,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -13208,7 +13208,7 @@
                 "map": "far_shore",
                 "x": 385,
                 "y": 1228,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -13403,7 +13403,7 @@
                 "map": "far_shore",
                 "x": 1431,
                 "y": 495,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -13421,7 +13421,7 @@
                 "map": "far_shore",
                 "x": 1172,
                 "y": 495,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -13439,7 +13439,7 @@
                 "map": "far_shore",
                 "x": 1045,
                 "y": 270,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -13457,7 +13457,7 @@
                 "map": "far_shore",
                 "x": 1170,
                 "y": 51,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -13475,7 +13475,7 @@
                 "map": "far_shore",
                 "x": 1433,
                 "y": 51,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
@@ -13493,7 +13493,7 @@
                 "map": "far_shore",
                 "x": 1563,
                 "y": 273,
-                "size": 25
+                "shape": "diamond", "size": 35
               }
             ],
             "sections": [
