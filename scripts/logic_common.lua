@@ -24,13 +24,14 @@ function updateLayout()
             layoutString = layoutString .. "_ladders"
         end
 
+        if Tracker:FindObjectForCode("fuse_shuffle").Active then
+            layoutString = layoutString .. "_fuses"
+        end
+        
         if Tracker:FindObjectForCode("show_hints").Active then
             layoutString = layoutString .. "_hints"
         end
 
-        if Tracker:FindObjectForCode("fuse_shuffle").Active then
-            layoutString = layoutString .. "_fuses"
-        end
 
         Tracker:AddLayouts(layoutString .. ".json")
     end
