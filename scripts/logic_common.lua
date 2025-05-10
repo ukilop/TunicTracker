@@ -17,7 +17,10 @@ ScriptHost:AddWatchForCode("useApLayout", "progswordSetting", apLayoutChange)
 function updateLayout()
     local ladders = Tracker:FindObjectForCode("ladder_shuffle_off")
     local layoutString = "layouts/trackerpop"
-    if (string.find(Tracker.ActiveVariantUID, "standard") or string.find(Tracker.ActiveVariantUID, "var_itemsonly") or string.find(Tracker.ActiveVariantUID, "var_minimal")) then
+    if (string.find(Tracker.ActiveVariantUID, "standard") 
+        or string.find(Tracker.ActiveVariantUID, "var_itemsonly") 
+        or string.find(Tracker.ActiveVariantUID, "var_minimal")) then
+            
         if ladders.CurrentStage ~= 0 then
             layoutString = layoutString .. "_ladders"
         end

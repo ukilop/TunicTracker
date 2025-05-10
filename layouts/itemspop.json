@@ -65,6 +65,27 @@
       }
     ]
   },
+	"fuses": {
+    "type": "array",
+    "orientation": "horizontal",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "margin": "0,0,0,0",
+        "item_margin": "2,2",
+        "item_size": "40",
+        "rows": [
+          ["Swamp_Fuse_1", "Swamp_Fuse_2", "Swamp_Fuse_3","Cathedral_Elevator_Fuse"],
+          ["Atoll_Northwest_Fuse", "Atoll_Northeast_Fuse", "Atoll_Southeast_Fuse","Atoll_Southwest_Fuse"],
+          ["Fortress_Exterior_Fuse_1", "Fortress_Exterior_Fuse_2", "Beneath_the_Vault_Fuse","Fortress_Candles_Fuse"],
+          ["Fortress_Courtyard_Upper_Fuse", "Fortress_Courtyard_Fuse", "Fortress_Door_Left_Fuse","Fortress_Door_Right_Fuse"],
+          ["Quarry_Fuse_1", "Quarry_Fuse_2", "Ziggurat_Miniboss_Fuse","Ziggurat_Teleporter_Fuse"],
+          ["West_Furnace_Fuse", "West_Garden_Fuse", "Library_Lab_Fuse"]
+        ]
+      }
+    ]
+  },
 	"hints": {
 		"type":"array",
         "orientation": "horizontal",
