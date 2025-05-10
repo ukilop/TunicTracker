@@ -1,32 +1,32 @@
 {
-    "shared_item_grid": {
-        "type":"array",
-        "orientation": "horizontal",
-        "content": [
-            {
-                "type": "itemgrid",
-                "h_alignment": "center",
+	"shared_item_grid": {
+		"type": "array",
+		"orientation": "horizontal",
+		"content": [
+			{
+				"type": "itemgrid",
+				"h_alignment": "center",
 				"margin": "-1,0,-5,0",
-                "item_margin": "1,2",
+				"item_margin": "1,2",
 				"item_size": 40,
-                "rows": [
+				"rows": [
 					["healshard", "heal", "red", "green", "blue", "oldkey", "key"],
-                    ["shield", "light", "dash", "vaultkey", "slot", "manual", "soul"],
+					["shield", "light", "dash", "vaultkey", "slot", "manual", "soul"],
 					["dynamite", "firebomb", "icebomb", "lure", "effigy", "wishes", "mask"],
 					["stick", "sword", "dagger", "icerod", "staff", "orb", "gun", "hourglass"],
 					["attrelic", "defrelic", "potionrelic", "hprelic", "sprelic", "mprelic","hexquest"],
 					["pray","cross","dath","goldenpower","justawell","ding", "dong"],
 					["captain", "gknight", "engine", "librarian", "scavboss", "gauntlet", "heir"]
-                ]
-            }
+				]
+			}
 		]
-    },
+	},
 	"other": {
-		"type":"array",
-        "orientation": "horizontal",
-        "content": [
+		"type": "array",
+		"orientation": "horizontal",
+		"content": [
 			{
-			"type": "itemgrid",
+				"type": "itemgrid",
 				"h_alignment": "center",
 				"margin": "-2,0,-2,0",
 				"item_margin": "1,2",
@@ -124,14 +124,14 @@
 			}
 		]
 	},
-    "tracker_capture_item": {
-        "type": "container",
-        "content": {
-            "type": "itemgrid",
-            "h_alignment": "center",
-            "item_margin": "1,2",
-            "rows": [
-                ["healshard", "heal", "red", "green", "blue", "oldkey", "key"],
+	"tracker_capture_item": {
+		"type": "container",
+		"content": {
+			"type": "itemgrid",
+			"h_alignment": "center",
+			"item_margin": "1,2",
+			"rows": [
+				["healshard", "heal", "red", "green", "blue", "oldkey", "key"],
 				["shield", "light", "dash", "vaultkey", "slot", "manual", "soul"],
 				["dynamite", "firebomb", "icebomb", "lure", "effigy", "wishes", "mask"],
 				["stick", "sword", "dagger", "staff", "orb", "gun", "hourglass"],
@@ -144,88 +144,94 @@
 				["pals", "weasel", "spring", "powerup"],
 				["work", "phonomath", "dusty", "friend"],
 				["pray","cross","icerod","silver"]
-            ]
-        }
-    },
+			]
+		}
+	},
 	"settings": {
-        "type":"array",
-        "orientation": "vertical",
-        "content": [
-            {
+		"type": "array",
+		"orientation": "vertical",
+		"content": [
+			{
 				"type": "group",
 				"header": "Glitch Mode",
 				"header_background": "#3e4b57",
 				"content": [
-				  {
-					"type": "item",
-					"item_margin": "-5,-1,-5,-5",
-					"item": "mode"
-				  }
+					{
+						"type": "item",
+						"item_margin": "-5,-1,-5,-5",
+						"item": "mode"
+					}
 				]
-			  },
-			  {
+			},
+			{
 				"type": "group",
 				"header": "Classic/Hexagon Quest",
 				"header_background": "#3e4b57",
 				"content": [
-				  {
-					"type": "item",
-					"item_margin": "-5,-1,-5,-5",
-					"item": "hexagonquest"
-				  }
+					{
+						"type": "item",
+						"item_margin": "-5,-1,-5,-5",
+						"item": "hexagonquest"
+					}
 				]
-			  },
-			  {
+			},
+			{
 				"type": "group",
 				"header": "Sword Setting",
 				"header_background": "#3e4b57",
 				"content": [
-				  {
-					"type": "item",
-					"item_margin": "-5,-1,-5,-5",
-					"item": "progswordSetting"
-				  }
+					{
+						"type": "item",
+						"item_margin": "-5,-1,-5,-5",
+						"item": "progswordSetting"
+					}
 				]
-			  },
-			  {
+			},
+			{
 				"type": "group",
 				"header": "Ladder Shuffle",
 				"header_background": "#3e4b57",
 				"content": [
-				  {
-					"type": "item",
-					"item_margin": "-5,-1,-5,-5",
-					"item": "ladder_shuffle_off"
-				  }
+					{
+						"type": "item",
+						"item_margin": "-5,-1,-5,-5",
+						"item": "ladder_shuffle_off"
+					}
 				]
-			  },
+			},
 			{
 				"type": "group",
 				"header": "Pack Settings",
 				"header_background": "#3e4b57",
 				"content": [
-				  {
-					"type": "array",
-					"orientation": "horizontal",
-					"content": [
-					  {
-						"type": "item",
-						"max_width": 80,
-						"item_margin": "5,5,5,5",
-						"item": "auto_tab"
-					  },
-					  {
-						"type": "item",
-						"max_width": 80,
-						"item_margin": "5,5,5,5",
-						"item": "show_hints"
-					  }
-					]
-				  }
+					{
+						"type": "array",
+						"orientation": "horizontal",
+						"content": [
+							{
+								"type": "item",
+								"max_width": 80,
+								"item_margin": "5,5,5,5",
+								"item": "auto_tab"
+							},
+							{
+								"type": "item",
+								"max_width": 80,
+								"item_margin": "5,5,5,5",
+								"item": "show_hints"
+							},
+							{
+								"type": "item",
+								"max_width": 80,
+								"item_margin": "5,5,5,5",
+								"item": "fuse_shuffle"
+							}
+						]
+					}
 				]
-			  }
+			}
 		]
-    },
+	},
 	"tricks_toggle": {
 		"type": "array",
 		"orientation": "vertical",

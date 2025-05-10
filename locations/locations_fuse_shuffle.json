@@ -1,0 +1,499 @@
+[
+  {
+    "name": "All Fuses",
+    "chest_unopened_img": "images/fuse.png",
+    "chest_opened_img": "images/bone.png",
+    "visibility_rules": "fuse_shuffle",
+    "access_rules": "fuse_shuffle,pray",
+    "children": [
+      {
+        "name": "Swamp Fuse 1",
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1888,
+            "y": 1287
+          },
+          {
+            "map": "fullmap",
+            "x": 3564,
+            "y": 3034
+          }
+        ],
+        "sections": [
+          {
+            "name": "Swamp Fuse 1",
+            "access_rules": "dash",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Swamp Fuse 2",
+        "map_locations": [
+          {
+            "map": "graveyard",
+            "x": 826,
+            "y": 618
+          },
+          {
+            "map": "fullmap",
+            "x": 4312,
+            "y": 3478
+          }
+        ],
+        "sections": [
+          {
+            "name": "Swamp Fuse 2",
+            "access_rules": "@Swamp Mid,Swamp Fuse 1"
+          }
+        ]
+      },
+      {
+        "name": "Swamp Fuse 3",
+        "map_locations": [
+          {
+            "map": "graveyard",
+            "x": 826,
+            "y": 192
+          },
+          {
+            "map": "fullmap",
+            "x": 4312,
+            "y": 3054
+          }
+        ],
+        "sections": [
+          {
+            "name": "Swamp Fuse 3",
+            "access_rules": "@Swamp Mid,Swamp Fuse 1,Swamp Fuse 2"
+          }
+        ]
+      },
+      {
+        "name": "Cathedral Elevator Fuse",
+        "map_locations": [
+          {
+            "map": "cathedral",
+            "x": 294,
+            "y": 93
+          },
+          {
+            "map": "fullmap",
+            "x": 4725,
+            "y": 2867
+          }
+        ],
+        "sections": [
+          {
+            "name": "Cathedral Elevator Fuse",
+            "access_rules": "@Cathedral"
+          }
+        ]
+      },
+      {
+        "name": "Atoll Northwest Fuse",
+        "map_locations": [
+          {
+            "map": "ruined_atoll",
+            "x": 267,
+            "y": 206
+          },
+          {
+            "map": "fullmap",
+            "x": 1910,
+            "y": 3316
+          }
+        ],
+        "sections": [
+          {
+            "name": "Atoll Northwest Fuse",
+            "access_rules": "@Ruined Atoll"
+          }
+        ]
+      },
+      {
+        "name": "Atoll Northeast Fuse",
+        "map_locations": [
+          {
+            "map": "ruined_atoll",
+            "x": 1293,
+            "y": 180
+          },
+          {
+            "map": "fullmap",
+            "x": 2936,
+            "y": 3287
+          }
+        ],
+        "sections": [
+          {
+            "name": "Atoll Northeast Fuse",
+            "access_rules": "@Ruined Atoll"
+          }
+        ]
+      },
+      {
+        "name": "Atoll Southeast Fuse",
+        "map_locations": [
+          {
+            "map": "ruined_atoll",
+            "x": 1294,
+            "y": 898
+          },
+          {
+            "map": "fullmap",
+            "x": 2936,
+            "y": 4003
+          }
+        ],
+        "sections": [
+          {
+            "name": "Atoll Southeast Fuse",
+            "access_rules": "@Ruined Atoll Ladder Tops"
+          }
+        ]
+      },
+      {
+        "name": "Atoll Southwest Fuse",
+        "map_locations": [
+          {
+            "map": "ruined_atoll",
+            "x": 270,
+            "y": 893
+          },
+          {
+            "map": "fullmap",
+            "x": 1920,
+            "y": 4002
+          }
+        ],
+        "sections": [
+          {
+            "name": "Atoll Southwest Fuse",
+            "access_rules": "@Ruined Atoll"
+          }
+        ]
+      },
+      {
+        "name": "Fortress Exterior Fuse 1",
+        "map_locations": [
+          {
+            "map": "eastern_vault",
+            "x": 602,
+            "y": 1084
+          },
+          {
+            "map": "fullmap",
+            "x": 4188,
+            "y": 2269
+          }
+        ],
+        "sections": [
+          {
+            "name": "Fortress Exterior Fuse 1",
+            "access_rules": "@Fortress Exterior from Overworld"
+          }
+        ]
+      },
+      {
+        "name": "Fortress Exterior Fuse 2",
+        "map_locations": [
+          {
+            "map": "eastern_vault",
+            "x": 302,
+            "y": 811
+          },
+          {
+            "map": "fullmap",
+            "x": 3894,
+            "y": 1984
+          }
+        ],
+        "sections": [
+          {
+            "name": "Fortress Exterior Fuse 2",
+            "access_rules": [
+              "@Fortress Exterior from Overworld,Fortress Exterior Fuse 1",
+              "@Fortress Exterior near cave,Fortress Exterior Fuse 1"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Beneath the Vault Fuse",
+        "map_locations": [
+          {
+            "map": "earth",
+            "x": 706,
+            "y": 173
+          },
+          {
+            "map": "fullmap",
+            "x": 5090,
+            "y": 2165
+          }
+        ],
+        "sections": [
+          {
+            "name": "Beneath the Vault Fuse",
+            "access_rules": [
+              "@Beneath the Vault Back,Fortress Exterior Fuse 1,Fortress Exterior Fuse 2"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fortress Candles Fuse",
+        "map_locations": [
+          {
+            "map": "eastern_vault",
+            "x": 128,
+            "y": 356
+          },
+          {
+            "map": "fullmap",
+            "x": 3717,
+            "y": 1536
+          }
+        ],
+        "sections": [
+          {
+            "name": "Fortress Candles Fuse",
+            "access_rules": "@Eastern Vault Fortress,Fortress Exterior Fuse 1,Fortress Exterior Fuse 2,Beneath the Vault Fuse"
+          }
+        ]
+      },
+      {
+        "name": "Fortress Courtyard Upper Fuse",
+        "map_locations": [
+          {
+            "map": "eastern_vault",
+            "x": 764,
+            "y": 758
+          },
+          {
+            "map": "fullmap",
+            "x": 4348,
+            "y": 1938
+          }
+        ],
+        "sections": [
+          {
+            "name": "Fortress Courtyard Upper Fuse",
+            "access_rules": "@Fortress Courtyard Upper,Fortress Exterior Fuse 1"
+          }
+        ]
+      },
+      {
+        "name": "Fortress Courtyard Fuse",
+        "map_locations": [
+          {
+            "map": "eastern_vault",
+            "x": 602,
+            "y": 688
+          },
+          {
+            "map": "fullmap",
+            "x": 4178,
+            "y": 1867
+          }
+        ],
+        "sections": [
+          {
+            "name": "Fortress Courtyard Fuse",
+            "access_rules": "@Fortress Courtyard,Fortress Exterior Fuse 1,Fortress Courtyard Upper Fuse"
+          }
+        ]
+      },
+      {
+        "name": "Fortress Door Left Fuse",
+        "map_locations": [
+          {
+            "map": "eastern_vault",
+            "x": 538,
+            "y": 142
+          },
+          {
+            "map": "fullmap",
+            "x": 4122,
+            "y": 1321
+          }
+        ],
+        "sections": [
+          {
+            "name": "Fortress Door Left Fuse",
+            "access_rules": "@Eastern Vault Fortress,Fortress Exterior Fuse 1,Fortress Exterior Fuse 2,Beneath the Vault Fuse,Fortress Candles Fuse"
+          }
+        ]
+      },
+      {
+        "name": "Fortress Door Right Fuse",
+        "map_locations": [
+          {
+            "map": "eastern_vault",
+            "x": 660,
+            "y": 142
+          },
+          {
+            "map": "fullmap",
+            "x": 4243,
+            "y": 1321
+          }
+        ],
+        "sections": [
+          {
+            "name": "Fortress Door Right Fuse",
+            "access_rules": "@Eastern Vault Fortress,Fortress Exterior Fuse 1,Fortress Courtyard Upper Fuse,Fortress Courtyard Fuse"
+          }
+        ]
+      },
+      {
+        "name": "Quarry Fuse 1",
+        "map_locations": [
+          {
+            "map": "quarry",
+            "x": 660,
+            "y": 142
+          },
+          {
+            "map": "fullmap",
+            "x": 1856,
+            "y": 1993
+          }
+        ],
+        "sections": [
+          {
+            "name": "Quarry Fuse 1",
+            "access_rules": "@Quarry Connector"
+          }
+        ]
+      },
+      {
+        "name": "Quarry Fuse 2",
+        "map_locations": [
+          {
+            "map": "quarry",
+            "x": 1283,
+            "y": 1209
+          },
+          {
+            "map": "fullmap",
+            "x": 1908,
+            "y": 2233
+          }
+        ],
+        "sections": [
+          {
+            "name": "Quarry Fuse 2",
+            "access_rules": "@Quarry Entry,Quarry Fuse 1"
+          }
+        ]
+      },
+      {
+        "name": "Ziggurat Miniboss Fuse",
+        "map_locations": [
+          {
+            "map": "ziggurat",
+            "x": 1106,
+            "y": 1369
+          },
+          {
+            "map": "fullmap",
+            "x": 480,
+            "y": 1396
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ziggurat Miniboss Fuse",
+            "access_rules": "@Rooted Ziggurat Lower Front"
+          }
+        ]
+      },
+      {
+        "name": "Ziggurat Teleporter Fuse",
+        "map_locations": [
+          {
+            "map": "ziggurat",
+            "x": 1497,
+            "y": 1484
+          },
+          {
+            "map": "fullmap",
+            "x": 626,
+            "y": 830
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ziggurat Teleporter Fuse",
+            "access_rules": "@Rooted Ziggurat Lower Back"
+          }
+        ]
+      },
+      {
+        "name": "West Furnace Fuse",
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 357,
+            "y": 715
+          }
+        ],
+        "sections": [
+          {
+            "name": "West Furnace Fuse",
+            "access_rules": "@Furnace Fuse"
+          }
+        ]
+      },
+      {
+        "name": "West Garden Fuse",
+        "map_locations": [
+          {
+            "map": "west_gardens",
+            "x": 718,
+            "y": 752
+          },
+          {
+            "map": "fullmap",
+            "x": 958,
+            "y": 3170
+          }
+        ],
+        "sections": [
+          {
+            "name": "West Garden Fuse",
+            "access_rules": [
+              "@West Garden,dash"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Library Lab Fuse",
+        "map_locations": [
+          {
+            "map": "library",
+            "x": 314,
+            "y": 300
+          },
+          {
+            "map": "fullmap",
+            "x": 1518,
+            "y": 3348
+          }
+        ],
+        "sections": [
+          {
+            "name": "Library Lab Fuse",
+            "access_rules": [
+              "@Library Lab,$has_ladder|ladders_in_library"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
