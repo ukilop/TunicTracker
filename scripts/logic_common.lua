@@ -1,7 +1,8 @@
 -- LAYOUT SWITCHING
 function apLayoutChange()
     local progSword = Tracker:FindObjectForCode("progswordSetting")
-    if (string.find(Tracker.ActiveVariantUID, "standard") or string.find(Tracker.ActiveVariantUID, "var_itemsonly") or string.find(Tracker.ActiveVariantUID, "var_minimal")) then
+    if (string.find(Tracker.ActiveVariantUID, "standard") or string.find(Tracker.ActiveVariantUID, "var_itemsonly") or
+        string.find(Tracker.ActiveVariantUID, "var_minimal")) then
         if progSword.CurrentStage == 1 then
             Tracker:AddLayouts("layouts/itemspop_progsword.json")
             Tracker:AddLayouts("layouts/broadcastpop_progsword.json")
@@ -17,10 +18,8 @@ ScriptHost:AddWatchForCode("useApLayout", "progswordSetting", apLayoutChange)
 function updateLayout()
     local ladders = Tracker:FindObjectForCode("ladder_shuffle_off")
     local layoutString = "layouts/trackerpop"
-    if (string.find(Tracker.ActiveVariantUID, "standard") 
-        or string.find(Tracker.ActiveVariantUID, "var_itemsonly") 
-        or string.find(Tracker.ActiveVariantUID, "var_minimal")) then
-            
+    if (string.find(Tracker.ActiveVariantUID, "standard") or string.find(Tracker.ActiveVariantUID, "var_itemsonly") or
+        string.find(Tracker.ActiveVariantUID, "var_minimal")) then
         if ladders.CurrentStage ~= 0 then
             layoutString = layoutString .. "_ladders"
         end
@@ -29,9 +28,12 @@ function updateLayout()
             layoutString = layoutString .. "_hints"
         end
 
+        if Tracker:FindObjectForCode("fuse_shuffle").Active then
+            layoutString = layoutString .. "_fuses"
+        end
+
         Tracker:AddLayouts(layoutString .. ".json")
     end
-
 end
 
 function has_ladder(ladderName)
@@ -65,6 +67,6 @@ function is_hexquest_on()
     return Tracker:FindObjectForCode("hexagonquest").CurrentStage == 1
 end
 
-
 ScriptHost:AddWatchForCode("ladderLayout", "ladder_shuffle_off", updateLayout)
 ScriptHost:AddWatchForCode("hintsLayout", "show_hints", updateLayout)
+ScriptHost:AddWatchForCode("fuseLayout", "fuse_shuffle", updateLayout)

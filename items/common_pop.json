@@ -1672,9 +1672,7 @@
 		]
 	},
 
-
-  //FUSES
-
+	//FUSES
 	{
 		"name": "Swamp Fuse 1",
 		"type": "toggle",
@@ -1739,49 +1737,49 @@
 		"codes": "Cathedral_Elevator_Fuse"
 	},
 	{
-		"name":	"West Garden Fuse",
+		"name": "West Garden Fuse",
 		"type": "toggle",
 		"loop": true,
 		"img": "images/fuse.png",
 		"codes": "West_Garden_Fuse"
 	},
 	{
-		"name":	"West Furnace Fuse",
+		"name": "West Furnace Fuse",
 		"type": "toggle",
 		"loop": true,
 		"img": "images/fuse.png",
 		"codes": "West_Furnace_Fuse"
 	},
 	{
-		"name":	"Library Lab Fuse",
+		"name": "Library Lab Fuse",
 		"type": "toggle",
 		"loop": true,
 		"img": "images/fuse.png",
 		"codes": "Library_Lab_Fuse"
 	},
 	{
-		"name":	"Fortress Exterior Fuse 1",
+		"name": "Fortress Exterior Fuse 1",
 		"type": "toggle",
 		"loop": true,
 		"img": "images/fuse.png",
 		"codes": "Fortress_Exterior_Fuse_1"
 	},
 	{
-		"name":	"Fortress Exterior Fuse 2",
+		"name": "Fortress Exterior Fuse 2",
 		"type": "toggle",
 		"loop": true,
 		"img": "images/fuse.png",
 		"codes": "Fortress_Exterior_Fuse_2"
 	},
 	{
-		"name":	"Beneath the Vault Fuse",
+		"name": "Beneath the Vault Fuse",
 		"type": "toggle",
 		"loop": true,
 		"img": "images/fuse.png",
 		"codes": "Beneath_the_Vault_Fuse"
 	},
 	{
-		"name":	"Fortress Candles Fuse",
+		"name": "Fortress Candles Fuse",
 		"type": "toggle",
 		"loop": true,
 		"img": "images/fuse.png",
@@ -1792,10 +1790,10 @@
 		"type": "toggle",
 		"loop": true,
 		"img": "images/fuse.png",
-		"codes": 	"Fortress_Door_Left_Fuse"
+		"codes": "Fortress_Door_Left_Fuse"
 	},
 	{
-		"name":"Fortress Courtyard Upper Fuse",
+		"name": "Fortress Courtyard Upper Fuse",
 		"type": "toggle",
 		"loop": true,
 		"img": "images/fuse.png",

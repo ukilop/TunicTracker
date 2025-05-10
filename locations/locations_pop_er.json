@@ -1124,7 +1124,7 @@
           "bigsword",
           "dash",
           "orb",
-	  "gun",
+          "gun",
           "@Overworld Quarry Entry,$has_ladder|ladder_to_quarry",
           "@LS Elev 3,[ladder_storage_med],vis_ladder_storage_med"
         ],
@@ -3089,7 +3089,7 @@
         "access_rules": [
           "@Dark Tomb Dark Exit,[$has_lantern]",
           "@Dark Tomb Upper,$has_ladder|ladder_in_dark_tomb",
-	        "@Dark Tomb Upper,[ice_grapple_hard],vis_ice_grapple_hard,dagger,orb"
+          "@Dark Tomb Upper,[ice_grapple_hard],vis_ice_grapple_hard,dagger,orb"
         ],
         "children": [
           {
@@ -5154,7 +5154,7 @@
           {
             "name": "Library Lab Page 1",
             "map_locations": [
-							{
+              {
                 "map": "fullmap",
                 "x": 1405,
                 "y": 3470
@@ -5177,7 +5177,7 @@
           {
             "name": "Library Lab Page 2",
             "map_locations": [
-							{
+              {
                 "map": "fullmap",
                 "x": 1390,
                 "y": 3550
@@ -5200,7 +5200,7 @@
           {
             "name": "Library Lab Page 3",
             "map_locations": [
-							{
+              {
                 "map": "fullmap",
                 "x": 1665,
                 "y": 3520
@@ -5221,9 +5221,9 @@
             ]
           },
           {
-            "name": "Library Lab by Fuse", 
+            "name": "Library Lab by Fuse",
             "map_locations": [
-							{
+              {
                 "map": "fullmap",
                 "x": 1425,
                 "y": 3350
@@ -5246,7 +5246,7 @@
           {
             "name": "Library Lab Chest by Shrine 1",
             "map_locations": [
-							{
+              {
                 "map": "fullmap",
                 "x": 1585,
                 "y": 3320
@@ -5269,7 +5269,7 @@
           {
             "name": "Library Lab Chest by Shrine 2",
             "map_locations": [
-							{
+              {
                 "map": "fullmap",
                 "x": 1630,
                 "y": 3320
@@ -5292,7 +5292,7 @@
           {
             "name": "Library Lab Chest by Shrine 3",
             "map_locations": [
-							{
+              {
                 "map": "fullmap",
                 "x": 1665,
                 "y": 3350
@@ -5396,7 +5396,6 @@
               },
               {
                 "map": "east_forest",
-
                 "x": 306,
                 "y": 474,
                 "size": 35
@@ -6423,7 +6422,7 @@
               }
             ]
           },
-	  {
+          {
             "name": "[Central] Near Shortcut Ladder",
             "map_locations": [
               {
@@ -6446,7 +6445,7 @@
               }
             ]
           },
-					{
+          {
             "name": "[Central] Obscured Below Entry Walkway",
             "map_locations": [
               {

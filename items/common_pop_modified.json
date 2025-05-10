@@ -22,5 +22,12 @@
     "loop": true,
     "type": "toggle",
     "img": "images/huh.png"
+  },
+  {
+    "name": "Fuse Shuffle",
+    "codes": "fuse_shuffle",
+    "loop": true,
+    "type": "toggle",
+    "img": "images/fuse.png"
   }
 ]

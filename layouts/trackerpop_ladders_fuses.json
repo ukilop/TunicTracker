@@ -53,7 +53,7 @@
               "dock": "left",
               "content": {
                 "type": "layout",
-                "key": "Fuses"
+                "key": "fuses"
               }
             }
           ]

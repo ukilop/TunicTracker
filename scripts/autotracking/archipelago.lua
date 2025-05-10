@@ -70,7 +70,250 @@ end
 
 function onClear(slot_data)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
+        print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data))) --print EVERYTHING
+        --[[
+            example slot_data
+
+            {
+                ["sword_progression"] = 0,
+                ["Sword Upgrade"] = {
+                    [1] = Coins in the Well - 10 Coins,
+                    [2] = 2,
+                    [3] = Coins in the Well - 15 Coins,
+                    [4] = 2,
+                    [5] = Coins in the Well - 3 Coins,
+                    [6] = 2,
+                    [7] = Coins in the Well - 6 Coins,
+                    [8] = 2,
+                },
+                ["Old House Key"] = {
+                    [1] = Monastery - Crate 5,
+                    [2] = 2,
+                },
+                ["keys_behind_bosses"] = 0,
+                ["ice_grappling"] = 0,
+                ["combat_logic"] = 2,
+                ["fool_traps"] = 1,
+                ["Entrance Rando"] = {
+                    ["Furnace, Overworld Redux_gyro_west"] = RelicVoid, Monastery_teleporter_relic plinth,
+                    ["Crypt Redux, Sewer_Boss_"] = East Forest Redux, East Forest Redux Laddercave_lower,
+                    ["Quarry Redux, Shop_"] = Sword Access, East Forest Redux_lower,
+                    ["Overworld Redux, PatrolCave_"] = Transit, Quarry Redux_teleporter_quarry teleporter,
+                    ["Atoll Redux, Transit_teleporter_atoll"] = Archipelagos Redux, RelicVoid_teleporter_relic plinth,
+                    ["Fortress Courtyard, Fortress Basement_"] = Swamp Redux 2, Cathedral Redux_main,
+                    ["Overworld Redux, Swamp Redux 2_conduit"] = Atoll Redux, Library Exterior_,
+                    ["Fortress Main, Shop_"] = Cathedral Redux, Cathedral Arena_,
+                    ["Atoll Redux, Overworld Redux_lower"] = ziggurat2020_2, ziggurat2020_3_,
+                    ["Overworld Redux, Overworld Cave_"] = Forest Boss Room, East Forest Redux Laddercave_,
+                    ["Fortress Courtyard, Fortress Main_Big Door"] = Fortress Courtyard, Fortress Reliquary_Upper,
+                    ["Crypt Redux, Furnace_"] = Fortress East, Fortress Main_lower,
+                    ["Overworld Redux, Darkwoods Tunnel_"] = Fortress Reliquary, Fortress Courtyard_Upper,
+                    ["East Forest Redux Laddercave, East Forest Redux_upper"] = Library Rotunda, Library Lab_,
+                    ["Overworld Redux, Swamp Redux 2_wall"] = ziggurat2020_3, ziggurat2020_1_zig2_skip,
+                    ["Transit, Overworld Redux_teleporter_town"] = Sewer_Boss, Crypt Redux_,
+                    ["Fortress Main, Fortress East_upper"] = Sword Cave, Overworld Redux_,
+                    ["Archipelagos Redux, Overworld Redux_lower"] = Library Arena, Library Lab_,
+                    ["Fortress Courtyard, Fortress East_"] = ShopSpecial, Overworld Redux_,
+                    ["ziggurat2020_3, ziggurat2020_FTRoom_"] = Archipelagos Redux, Overworld Redux_lowest,
+                    ["Fortress Courtyard, Forest Belltower_"] = RelicVoid, Archipelagos Redux_teleporter_relic plinth,
+                    ["ziggurat2020_1, ziggurat2020_2_"] = Overworld Redux, Waterfall_,
+                    ["ziggurat2020_0, ziggurat2020_1_"] = frog cave main, Frog Stairs_Exit,
+                    ["Cathedral Arena, Shop_"] = Changing Room, Overworld Redux_,
+                    ["Atoll Redux, Frog Stairs_eye"] = Waterfall, Overworld Redux_,
+                    ["Fortress East, Fortress Main_upper"] = Quarry Redux, Monastery_back,
+                    ["Cathedral Redux, Swamp Redux 2_main"] = Purgatory, Purgatory_top,
+                    ["Windmill, Overworld Redux_"] = Transit, Atoll Redux_teleporter_atoll,
+                    ["Overworld Redux, Transit_teleporter_town"] = ziggurat2020_2, ziggurat2020_1_,
+                    ["Overworld Redux, Fortress Courtyard_"] = CubeRoom, Overworld Redux_,
+                    ["Fortress Reliquary, Dusty_"] = Forest Belltower, Forest Boss Room_,
+                    ["Swamp Redux 2, Overworld Redux_conduit"] = Library Exterior, Library Hall_,
+                    ["Transit, Library Lab_teleporter_library teleporter"] = RelicVoid, Sword Access_teleporter_relic plinth,
+                    ["East Forest Redux, Sword Access_upper"] = Transit, East Forest Redux_teleporter_forest teleporter,
+                    ["Overworld Redux, Town_FiligreeRoom_"] = Mountain, Overworld Redux_,
+                    ["Forest Belltower, East Forest Redux_"] = Transit, Archipelagos Redux_teleporter_archipelagos_teleporter,
+                    ["Sword Access, East Forest Redux_upper"] = Frog Stairs, Atoll Redux_mouth,
+                    ["East Forest Redux, Transit_teleporter_forest teleporter"] = Crypt Redux, Overworld Redux_,
+                    ["East Forest Redux Interior, East Forest Redux_lower"] = Archipelagos Redux, Transit_teleporter_archipelagos_teleporter,
+                    ["Fortress Courtyard, Fortress Reliquary_Lower"] = East Forest Redux, East Forest Redux Interior_upper,
+                    ["Swamp Redux 2, Shop_"] = Overworld Redux, Archipelagos Redux_lower,
+                    ["Overworld Redux, EastFiligreeCache_"] = Fortress Courtyard, Shop_,
+                    ["Swamp Redux 2, RelicVoid_teleporter_relic plinth"] = Overworld Redux, Temple_main,
+                    ["Overworld Redux, Ruins Passage_east"] = Swamp Redux 2, Cathedral Redux_secret,
+                    ["Overworld Redux, CubeRoom_"] = Darkwoods Tunnel, Overworld Redux_,
+                    ["Sewer, Overworld Redux_entrance"] = RelicVoid, Library Hall_teleporter_relic plinth,
+                    ["Overworld Redux, Windmill_"] = Shop, Previous Region_,
+                    ["East Forest Redux Laddercave, East Forest Redux_lower"] = Fortress Reliquary, RelicVoid_teleporter_relic plinth,
+                    ["Transit, ziggurat2020_FTRoom_teleporter_ziggurat teleporter"] = Town Basement, Overworld Redux_beach,
+                    ["Atoll Redux, Frog Stairs_mouth"] = Transit, Fortress Arena_teleporter_spidertank,
+                    ["Sewer, Overworld Redux_west_aqueduct"] = Forest Boss Room, Forest Belltower_,
+                    ["Overworld Redux, Ruined Shop_"] = East Forest Redux Interior, East Forest Redux_upper,
+                    ["Quarry Redux, ziggurat2020_0_"] = Fortress Main, Fortress Courtyard_Big Door,
+                    ["Fortress Courtyard, Overworld Redux_"] = ziggurat2020_3, ziggurat2020_2_,
+                    ["Quarry Redux, Transit_teleporter_quarry teleporter"] = Maze Room, Overworld Redux_,
+                    ["Overworld Redux, Overworld Interiors_house"] = Overworld Interiors, Overworld Redux_under_checkpoint,
+                    ["Monastery, Quarry Redux_back"] = Swamp Redux 2, Cathedral Arena_,
+                    ["Forest Belltower, Fortress Courtyard_"] = Fortress East, Fortress Courtyard_,
+                    ["Quarry Redux, Mountain_"] = Temple, Overworld Redux_main,
+                    ["Atoll Redux, Overworld Redux_upper"] = Quarry Redux, Darkwoods Tunnel_,
+                    ["Library Lab, Library Rotunda_"] = archipelagos_house, Archipelagos Redux_,
+                    ["Archipelagos Redux, Shop_"] = frog cave main, Frog Stairs_Entrance,
+                    ["Transit, Spirit Arena_teleporter_spirit arena"] = Darkwoods Tunnel, Quarry Redux_,
+                    ["Swamp Redux 2, Overworld Redux_wall"] = Sewer_Boss, Sewer_,
+                    ["Overworld Redux, Atoll Redux_lower"] = Fortress Reliquary, Fortress Courtyard_Lower,
+                    ["East Forest Redux, East Forest Redux Laddercave_upper"] = g_elements, Overworld Interiors_,
+                    ["Overworld Redux, Ruins Passage_west"] = East Forest Redux, East Forest Redux Interior_lower,
+                    ["Overworld Redux, Overworld Interiors_under_checkpoint"] = RelicVoid, Fortress Reliquary_teleporter_relic plinth,
+                    ["Frog Stairs, frog cave main_Exit"] = Purgatory, Purgatory_bottom,
+                    ["Library Hall, Library Rotunda_"] = Furnace, Overworld Redux_gyro_upper_north,
+                    ["Overworld Redux, Temple_rafters"] = Overworld Interiors, g_elements_,
+                    ["Overworld Redux, Sword Cave_"] = Monastery, RelicVoid_teleporter_relic plinth,
+                    ["Overworld Redux, Sewer_entrance"] = Spirit Arena, Transit_teleporter_spirit arena,
+                    ["Overworld Redux, Archipelagos Redux_lowest"] = Ruins Passage, Overworld Redux_west,
+                    ["Overworld Redux, ShopSpecial_"] = Overworld Redux, Furnace_gyro_upper_north,
+                    ["Furnace, Overworld Redux_gyro_lower"] = Library Lab, Library Arena_,
+                    ["Overworld Redux, Transit_teleporter_starting island"] = ziggurat2020_FTRoom, ziggurat2020_3_,
+                    ["Mountain, Mountaintop_"] = Overworld Cave, Overworld Redux_,
+                    ["East Forest Redux, East Forest Redux Laddercave_gate"] = ziggurat2020_FTRoom, Transit_teleporter_ziggurat teleporter,
+                    ["Overworld Redux, Crypt Redux_"] = Library Hall, RelicVoid_teleporter_relic plinth,
+                    ["Overworld Interiors, Overworld Redux_house"] = Archipelagos Redux, Overworld Redux_upper,
+                    ["Library Exterior, Atoll Redux_"] = ziggurat2020_1, ziggurat2020_0_,
+                    ["Overworld Redux, Town Basement_beach"] = Ruins Passage, Overworld Redux_east,
+                    ["Furnace, Crypt Redux_"] = Cathedral Arena, Cathedral Redux_,
+                    ["Overworld Redux, Furnace_gyro_upper_east"] = Ruined Shop, Overworld Redux_,
+                    ["Overworld Redux, Maze Room_"] = Windmill, Shop_,
+                    ["Archipelagos Redux, archipelagos_house_"] = EastFiligreeCache, Overworld Redux_,
+                    ["Mountain, Quarry Redux_"] = Dusty, Fortress Reliquary_,
+                    ["Overworld Redux, Atoll Redux_upper"] = Transit, Overworld Redux_teleporter_starting island,
+                    ["Library Hall, Library Exterior_"] = Sewer, Sewer_Boss_,
+                    ["Overworld Redux, Mountain_"] = Forest Belltower, Overworld Redux_,
+                    ["Fortress Basement, Fortress Main_"] = East Forest Redux Laddercave, Forest Boss Room_,
+                    ["Overworld Redux, Furnace_gyro_lower"] = ziggurat2020_0, Quarry Redux_,
+                    ["Furnace, Overworld Redux_gyro_upper_east"] = Fortress Basement, Fortress Courtyard_,
+                    ["Fortress Arena, Fortress Main_"] = Library Lab, Transit_teleporter_library teleporter,
+                    ["Frog Stairs, Atoll Redux_eye"] = Mountaintop, Mountain_,
+                    ["East Forest Redux, Sword Access_lower"] = Town_FiligreeRoom, Overworld Redux_,
+                    ["Overworld Redux, Furnace_gyro_west"] = Fortress Arena, Transit_teleporter_spidertank,
+                    ["Cathedral Arena, Swamp Redux 2_"] = PatrolCave, Overworld Redux_,
+                    ["Overworld Redux, Forest Belltower_"] = RelicVoid, Swamp Redux 2_teleporter_relic plinth,
+                    ["Frog Stairs, frog cave main_Entrance"] = East Forest Redux Laddercave, East Forest Redux_gate,
+                    ["Fortress Main, Fortress Basement_"] = Cathedral Redux, Swamp Redux 2_secret,
+                    ["Atoll Redux, Shop_"] = Sword Access, RelicVoid_teleporter_relic plinth,
+                    ["Fortress Main, Fortress East_lower"] = Monastery, Quarry Redux_front,
+                    ["East Forest Redux, Forest Belltower_"] = Temple, Overworld Redux_rafters,
+                    ["Quarry Redux, Monastery_front"] = Library Rotunda, Library Hall_,
+                    ["Overworld Redux, Sewer_west_aqueduct"] = Fortress Main, Fortress Arena_,
+                    ["Overworld Redux, Changing Room_"] = Overworld Redux, Archipelagos Redux_upper,
+                },
+                ["Hexagon Quest Goal"] = 10,
+                ["Hexagon Quest Prayer"] = 2,
+                ["Hourglass"] = {
+                    [1] = Overworld - [East] Pot near Slimes 3,
+                    [2] = 1,
+                },
+                ["entrance_rando"] = 1,
+                ["laurels_zips"] = 1,
+                ["disable_local_spoiler"] = 0,
+                ["Hero Relic - POTION"] = {
+                    [1] = Beneath the Well - [Second Room] Underwater Chest,
+                    [2] = 2,
+                },
+                ["Hero Relic - ATT"] = {
+                    [1] = Overworld - [Southwest] West Beach Guarded By Turret,
+                    [2] = 2,
+                },
+                ["Gold Questagon"] = {
+                    [1] = Forest Belltower - Pot after Guard Captain 2,
+                    [2] = 2,
+                    [3] = Maze Cave - Maze Room Holy Cross,
+                    [4] = 1,
+                    [5] = Purgatory - Pot 25,
+                    [6] = 2,
+                },
+                ["Magic Dagger"] = {
+                    [1] = Beneath the Well - [Back Corridor] Left Secret,
+                    [2] = 1,
+                },
+                ["Hero Relic - MP"] = {
+                    [1] = Dark Tomb - Spike Maze Upper Walkway,
+                    [2] = 2,
+                },
+                ["hexagon_quest_ability_type"] = 0,
+                ["grass_randomizer"] = 0,
+                ["start_with_sword"] = 0,
+                ["Hexagon Quest Icebolt"] = 5,
+                ["Hexagon Quest Holy Cross"] = 7,
+                ["Magic Wand"] = {
+                    [1] = Swamp - [South Graveyard] 4 Orange Skulls,
+                    [2] = 1,
+                },
+                ["Hero Relic - SP"] = {
+                    [1] = Eastern Vault Fortress - [West Wing] Pot by Checkpoint 2,
+                    [2] = 1,
+                },
+                ["seed"] = 1083613470,
+                ["Sword"] = {
+                    [1] = Purgatory - Pot 9,
+                    [2] = 1,
+                    [3] = Quarry - [Lowlands] Upper Walkway,
+                    [4] = 1,
+                    [5] = Beneath the Well - [Third Room] Barrel by West Turret 1,
+                    [6] = 2,
+                },
+                ["Magic Orb"] = {
+                    [1] = Overworld - [Northwest] Page By Well,
+                    [2] = 1,
+                },
+                ["maskless"] = 0,
+                ["lanternless"] = 0,
+                ["Gun"] = {
+                    [1] = Fortress Courtyard - Upper Fire Pot,
+                    [2] = 2,
+                },
+                ["ladder_storage_without_items"] = 0,
+                ["Stick"] = {
+                    [1] = Monastery - Monastery Chest,
+                    [2] = 1,
+                },
+                ["ladder_storage"] = 0,
+                ["Hero's Laurels"] = {
+                    [1] = Secret Gathering Place - 20 Fairy Reward,
+                    [2] = 2,
+                },
+                ["Lantern"] = {
+                    [1] = Ruined Shop - Chest 3,
+                    [2] = 1,
+                },
+                ["Hero Relic - DEF"] = {
+                    [1] = Frog's Domain - Escape Chest,
+                    [2] = 2,
+                },
+                ["breakable_shuffle"] = 1,
+                ["ability_shuffling"] = 1,
+                ["shuffle_ladders"] = 1,
+                ["Dath Stone"] = {
+                    [1] = Quarry - [West] Lower Area Isolated Chest,
+                    [2] = 2,
+                },
+                ["hexagon_quest"] = 1,
+                ["Fortress Vault Key"] = {
+                    [1] = Quarry - [West] Crate by Shooting Range 1,
+                    [2] = 2,
+                },
+                ["Scavenger Mask"] = {
+                    [1] = Beneath the Well - [Third Room] Barrel after Back Corridor 5,
+                    [2] = 1,
+                },
+                ["Shield"] = {
+                    [1] = Beneath the Well - [Entryway] Chest,
+                    [2] = 2,
+                },
+                ["Hero Relic - HP"] = {
+                    [1] = Quarry - [West] Explosive Pot above Shooting Range,
+                    [2] = 1,
+                },
+            }
+
+        ]]
     end
     SLOT_DATA = slot_data
     CUR_INDEX = -1
@@ -163,6 +406,9 @@ function onClear(slot_data)
     set_option("ice_grapple_off", slot_data.ice_grappling, true)
     set_option("ladder_storage_off", slot_data.ladder_storage, true)
     set_option("storage_no_items", slot_data.ladder_storage_without_items, false)
+
+    set_option("fuse_shuffle", slot_data.shuffle_fuses, false)
+    --set_option("bell_shuffle", slot_data.shuffle_bells, false)
 
     set_option("vis_ice_grapple_off", math.max(slot_data.ice_grappling, Tracker:FindObjectForCode("vis_ice_grapple_off").CurrentStage), true)
     set_option("vis_ladder_storage_off", math.max(slot_data.ladder_storage, Tracker:FindObjectForCode("vis_ladder_storage_off").CurrentStage), true)
@@ -296,7 +542,6 @@ end
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
---Archipelago:AddSetReplyHandler("Current Map", onChangedRegion) -- OLD OLD OLD
 Archipelago:AddSetReplyHandler("set reply handler", onSetReply)
 -- Archipelago:AddScoutHandler("scout handler", onScout)
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)
