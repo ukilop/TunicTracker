@@ -306,43 +306,8 @@ LOCATION_MAPPING = {
     [509342700] = {"@Full World/Magic Dagger House/[Southeast Lowlands] Ice Dagger Pickup/Ice Dagger Cave"},
     [509342701] = {"@Full World/Hero Relic - West Garden/Hero's Grave/Effigy Relic"},
 
-    --[[bombwalls    [locations not implemented yet]
-    [509350698] = {"Overworld - [Central] Break Bombable Wall"},
-    [509350699] = {"Overworld - [Southwest] Break Cube Cave Bombable Wall"},
-    [509350700] = {"Overworld - [Southwest] Break Bombable Wall near Fountain"},
-    [509350701] = {"Ruined Atoll - [Northwest] Break Bombable Wall"},
-    [509350702] = {"East Forest - Break Bombable Wall"},
-    [509350703] = {"Eastern Vault Fortress - [East Wing] Break Bombable Wall"},
-    [509350704] = {"Quarry - [West] Break Upper Area Bombable Wall"},
-    [509350705] = {"Quarry - [East] Break Bombable Wall"},
-    --]]
-
-    --fuses [2nd string is unused]
-    [509352400] = {"@Swamp Fuse 1", "Overworld - [Southeast] Activate Fuse"},
-    [509352401] = {"@Swamp Fuse 2", "Swamp - [Central] Activate Fuse"},
-    [509352402] = {"@Swamp Fuse 3", "Swamp - [Outside Cathedral] Activate Fuse"},
-    [509352403] = {"@Swamp Fuse 1", "Cathedral - Activate Fuse"},
-    [509352404] = {"@West Furnace Fuse", "West Furnace - Activate Fuse"},
-    [509352405] = {"@West Garden Fuse", "West Garden - [South Highlands] Activate Fuse"},
-    [509352406] = {"@Atoll Northwest Fuse", "Ruined Atoll - [Northwest] Activate Fuse"},
-    [509352407] = {"@Atoll Northeast Fuse", "Ruined Atoll - [Northeast] Activate Fuse"},
-    [509352408] = {"@Atoll Southeast Fuse", "Ruined Atoll - [Southeast] Activate Fuse"},
-    [509352409] = {"@Atoll Southwest Fuse", "Ruined Atoll - [Southwest] Activate Fuse"},
-    [509352410] = {"@Library Lab Fuse", "Library Lab - Activate Fuse"},
-    [509352411] = {"@Fortress Exterior Fuse 1", "Fortress Courtyard - [From Overworld] Activate Fuse"},
-    [509352412] = {"@SFortress Exterior Fuse 2", "Fortress Courtyard - [Near Cave] Activate Fuse"},
-    [509352413] = {"@Fortress Courtyard Upper Fuse", "Fortress Courtyard - [Upper] Activate Fuse"},
-    [509352414] = {"@Fortress Courtyard Fuse", "Fortress Courtyard - [Central] Activate Fuse"},
-    [509352415] = {"@Beneath the Vault Fuse", "Beneath the Fortress - Activate Fuse"},
-    [509352416] = {"@Fortress Candles Fuse", "Eastern Vault Fortress - [Candle Room] Activate Fuse"},
-    [509352417] = {"@Fortress Door Left Fuse", "Eastern Vault Fortress - [Left of Door] Activate Fuse"},
-    [509352418] = {"@Fortress Door Right Fuse", "Eastern Vault Fortress - [Right of Door] Activate Fuse"},
-    [509352419] = {"@Quarry Fuse 1", "Quarry Entryway - Activate Fuse"},
-    [509352420] = {"@Quarry Fuse 2", "Quarry - Activate Fuse"},
-    [509352421] = {"@Ziggurat Miniboss Fuse", "Rooted Ziggurat Lower - [Miniboss] Activate Fuse"},
-    [509352422] = {"@Ziggurat Teleporter Fuse", "Rooted Ziggurat Lower - [Before Boss] Activate Fuse"},
-
-    --[[ other breakables  [locations not implemented yet]
+    --[[Breakables    [locations not implemented yet]
+    
     [509350400] = {"Overworld - [Northwest] Sign by Quarry Gate"},
     [509350401] = {"Overworld - [Central] Sign South of Checkpoint"},
     [509350402] = {"Overworld - [Central] Sign by Ruined Passage"},
@@ -643,6 +608,43 @@ LOCATION_MAPPING = {
     [509350695] = {"Purgatory - Pot 31"},
     [509350696] = {"Purgatory - Pot 32"},
     [509350697] = {"Purgatory - Pot 33"},
+    [509350698] = {"Overworld - [Central] Break Bombable Wall"},
+    [509350699] = {"Overworld - [Southwest] Break Cube Cave Bombable Wall"},
+    [509350700] = {"Overworld - [Southwest] Break Bombable Wall near Fountain"},
+    [509350701] = {"Ruined Atoll - [Northwest] Break Bombable Wall"},
+    [509350702] = {"East Forest - Break Bombable Wall"},
+    [509350703] = {"Eastern Vault Fortress - [East Wing] Break Bombable Wall"},
+    [509350704] = {"Quarry - [West] Break Upper Area Bombable Wall"},
+    [509350705] = {"Quarry - [East] Break Bombable Wall"},
 --]]
+
+    --fuses [2nd string is unused]
+    [509352400] = {"@Swamp Fuse 1", "Overworld - [Southeast] Activate Fuse"},
+    [509352401] = {"@Swamp Fuse 2", "Swamp - [Central] Activate Fuse"},
+    [509352402] = {"@Swamp Fuse 3", "Swamp - [Outside Cathedral] Activate Fuse"},
+    [509352403] = {"@Cathedral Elevator Fuse", "Cathedral - Activate Fuse"},
+    [509352404] = {"@West Furnace Fuse", "West Furnace - Activate Fuse"},
+    [509352405] = {"@West Garden Fuse", "West Garden - [South Highlands] Activate Fuse"},
+    [509352406] = {"@Atoll Northwest Fuse", "Ruined Atoll - [Northwest] Activate Fuse"},
+    [509352407] = {"@Atoll Northeast Fuse", "Ruined Atoll - [Northeast] Activate Fuse"},
+    [509352408] = {"@Atoll Southeast Fuse", "Ruined Atoll - [Southeast] Activate Fuse"},
+    [509352409] = {"@Atoll Southwest Fuse", "Ruined Atoll - [Southwest] Activate Fuse"},
+    [509352410] = {"@Library Lab Fuse", "Library Lab - Activate Fuse"},
+    [509352411] = {"@Fortress Exterior Fuse 1", "Fortress Courtyard - [From Overworld] Activate Fuse"},
+    [509352412] = {"@Fortress Exterior Fuse 2", "Fortress Courtyard - [Near Cave] Activate Fuse"},
+    [509352413] = {"@Fortress Courtyard Upper Fuse", "Fortress Courtyard - [Upper] Activate Fuse"},
+    [509352414] = {"@Fortress Courtyard Fuse", "Fortress Courtyard - [Central] Activate Fuse"},
+    [509352415] = {"@Beneath the Vault Fuse", "Beneath the Fortress - Activate Fuse"},
+    [509352416] = {"@Fortress Candles Fuse", "Eastern Vault Fortress - [Candle Room] Activate Fuse"},
+    [509352417] = {"@Fortress Door Left Fuse", "Eastern Vault Fortress - [Left of Door] Activate Fuse"},
+    [509352418] = {"@Fortress Door Right Fuse", "Eastern Vault Fortress - [Right of Door] Activate Fuse"},
+    [509352419] = {"@Quarry Fuse 1", "Quarry Entryway - Activate Fuse"},
+    [509352420] = {"@Quarry Fuse 2", "Quarry - Activate Fuse"},
+    [509352421] = {"@Ziggurat Miniboss Fuse", "Rooted Ziggurat Lower - [Miniboss] Activate Fuse"},
+    [509352422] = {"@Ziggurat Teleporter Fuse", "Rooted Ziggurat Lower - [Before Boss] Activate Fuse"},
+
+    [509353400] = {"Forest Belltower - Ring the East Bell"},
+    [509353401] = {"Overworld - [West] Ring the West Bell"},
+    
 
 }

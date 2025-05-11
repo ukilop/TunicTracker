@@ -1677,168 +1677,168 @@
 		"name": "Swamp Fuse 1",
 		"type": "toggle",
 		"loop": true,
-		"img": "images/fuse.png",
+		"img": "images/fuses/Swamp Fuse 1.png",
 		"codes": "Swamp Fuse 1"
 	},
 	{
 		"name": "Swamp Fuse 2",
 		"type": "toggle",
 		"loop": true,
-		"img": "images/fuse.png",
+		"img": "images/fuses/Swamp Fuse 2.png",
 		"codes": "Swamp Fuse 2"
 	},
 	{
 		"name": "Swamp Fuse 3",
 		"type": "toggle",
 		"loop": true,
-		"img": "images/fuse.png",
+		"img": "images/fuses/Swamp Fuse 3.png",
 		"codes": "Swamp Fuse 3"
 	},
 	{
 		"name": "Cathedral Elevator Fuse",
 		"type": "toggle",
 		"loop": true,
-		"img": "images/fuse.png",
+		"img": "images/fuses/Cathedral Elevator Fuse.png",
 		"codes": "Cathedral Elevator Fuse"
 	},
 	{
 		"name": "Atoll Northwest Fuse",
 		"type": "toggle",
 		"loop": true,
-		"img": "images/fuse.png",
+		"img": "images/fuses/Atoll Northwest Fuse.png",
 		"codes": "Atoll Northwest Fuse"
 	},
 	{
 		"name": "Atoll Northeast Fuse",
 		"type": "toggle",
 		"loop": true,
-		"img": "images/fuses/Atoll_Northeast_Fuse.png",
+		"img": "images/fuses/Atoll Northeast Fuse.png",
 		"codes": "Atoll Northeast Fuse"
 	},
 	{
 		"name": "Atoll Southeast Fuse",
 		"type": "toggle",
 		"loop": true,
-		"img": "images/fuse.png",
+		"img": "images/fuses/Atoll Southeast Fuse.png",
 		"codes": "Atoll Southeast Fuse"
 	},
 	{
 		"name": "Atoll Southwest Fuse",
 		"type": "toggle",
 		"loop": true,
-		"img": "images/fuse.png",
+		"img": "images/fuses/Atoll Southwest Fuse.png",
 		"codes": "Atoll Southwest Fuse"
 	},
 	{
 		"name": "Cathedral Elevator Fuse",
 		"type": "toggle",
 		"loop": true,
-		"img": "images/fuse.png",
+		"img": "images/fuses/Cathedral Elevator Fuse.png",
 		"codes": "Cathedral Elevator Fuse"
 	},
 	{
 		"name": "West Garden Fuse",
 		"type": "toggle",
 		"loop": true,
-		"img": "images/fuse.png",
+		"img": "images/fuses/West Garden Fuse.png",
 		"codes": "West Garden Fuse"
 	},
 	{
 		"name": "West Furnace Fuse",
 		"type": "toggle",
 		"loop": true,
-		"img": "images/fuse.png",
+		"img": "images/fuses/West Furnace Fuse.png",
 		"codes": "West Furnace Fuse"
 	},
 	{
 		"name": "Library Lab Fuse",
 		"type": "toggle",
 		"loop": true,
-		"img": "images/fuse.png",
+		"img": "images/fuses/Library Lab Fuse.png",
 		"codes": "Library Lab Fuse"
 	},
 	{
 		"name": "Fortress Exterior Fuse 1",
 		"type": "toggle",
 		"loop": true,
-		"img": "images/fuse.png",
+		"img": "images/fuses/Fortress Exterior Fuse 1.png",
 		"codes": "Fortress Exterior Fuse 1"
 	},
 	{
 		"name": "Fortress Exterior Fuse 2",
 		"type": "toggle",
 		"loop": true,
-		"img": "images/fuse.png",
+		"img": "images/fuses/Fortress Exterior Fuse 2.png",
 		"codes": "Fortress Exterior Fuse 2"
 	},
 	{
 		"name": "Beneath the Vault Fuse",
 		"type": "toggle",
 		"loop": true,
-		"img": "images/fuse.png",
+		"img": "images/fuses/Beneath the Vault Fuse.png",
 		"codes": "Beneath the Vault Fuse"
 	},
 	{
 		"name": "Fortress Candles Fuse",
 		"type": "toggle",
 		"loop": true,
-		"img": "images/fuse.png",
+		"img": "images/fuses/Fortress Candles Fuse.png",
 		"codes": "Fortress Candles Fuse"
 	},
 	{
 		"name": "Fortress Door Left Fuse",
 		"type": "toggle",
 		"loop": true,
-		"img": "images/fuse.png",
+		"img": "images/fuses/Fortress Door Left Fuse.png",
 		"codes": "Fortress Door Left Fuse"
 	},
 	{
 		"name": "Fortress Courtyard Upper Fuse",
 		"type": "toggle",
 		"loop": true,
-		"img": "images/fuse.png",
+		"img": "images/fuses/Fortress Courtyard Upper Fuse.png",
 		"codes": "Fortress Courtyard Upper Fuse"
 	},
 	{
 		"name": "Fortress Courtyard Fuse",
 		"type": "toggle",
 		"loop": true,
-		"img": "images/fuse.png",
+		"img": "images/fuses/Fortress Courtyard Fuse.png",
 		"codes": "Fortress Courtyard Fuse"
 	},
 	{
 		"name": "Fortress Door Right Fuse",
 		"type": "toggle",
 		"loop": true,
-		"img": "images/fuse.png",
+		"img": "images/fuses/Fortress Door Right Fuse.png",
 		"codes": "Fortress Door Right Fuse"
 	},
 	{
 		"name": "Quarry Fuse 1",
 		"type": "toggle",
 		"loop": true,
-		"img": "images/fuse.png",
+		"img": "images/fuses/Quarry Fuse 1.png",
 		"codes": "Quarry Fuse 1"
 	},
 	{
 		"name": "Quarry Fuse 2",
 		"type": "toggle",
 		"loop": true,
-		"img": "images/fuse.png",
+		"img": "images/fuses/Quarry Fuse 2.png",
 		"codes": "Quarry Fuse 2"
 	},
 	{
 		"name": "Ziggurat Miniboss Fuse",
 		"type": "toggle",
 		"loop": true,
-		"img": "images/fuse.png",
+		"img": "images/fuses/Ziggurat Miniboss Fuse.png",
 		"codes": "Ziggurat Miniboss Fuse"
 	},
 	{
 		"name": "Ziggurat Teleporter Fuse",
 		"type": "toggle",
 		"loop": true,
-		"img": "images/fuse.png",
+		"img": "images/fuses/Ziggurat Teleporter Fuse.png",
 		"codes": "Ziggurat Teleporter Fuse"
 	}
 ]

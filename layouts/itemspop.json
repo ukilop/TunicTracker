@@ -76,12 +76,12 @@
         "item_margin": "2,2",
         "item_size": "40",
         "rows": [
-          ["Swamp Fuse 1", "Swamp Fuse 2", "Swamp Fuse 3","Cathedral Elevator Fuse"],
-          ["Atoll Northwest Fuse", "Atoll Northeast Fuse", "Atoll Southeast Fuse","Atoll Southwest Fuse"],
-          ["Fortress Exterior Fuse 1", "Fortress Exterior Fuse 2", "Beneath the Vault Fuse","Fortress Candles Fuse"],
-          ["Fortress Courtyard Upper Fuse", "Fortress Courtyard Fuse", "Fortress Door Left Fuse","Fortress Door Right Fuse"],
-          ["Quarry Fuse 1", "Quarry Fuse 2", "Ziggurat Miniboss Fuse","Ziggurat Teleporter Fuse"],
-          ["West Furnace Fuse", "West Garden Fuse", "Library Lab Fuse"]
+          [ "Ziggurat Miniboss Fuse","Ziggurat Teleporter Fuse","Fortress Candles Fuse", "Fortress Door Left Fuse"],
+          ["Quarry Fuse 2", "Quarry Fuse 1", "Beneath the Vault Fuse","Fortress Door Right Fuse"],
+          ["West Garden Fuse", "West Furnace Fuse", "Fortress Exterior Fuse 2","Fortress Courtyard Fuse"],
+          ["Atoll Northwest Fuse","Atoll Northeast Fuse", "Fortress Exterior Fuse 1","Fortress Courtyard Upper Fuse"],
+          ["Atoll Southwest Fuse","Atoll Southeast Fuse", "Library Lab Fuse","Cathedral Elevator Fuse"],
+          ["Swamp Fuse 1", "Swamp Fuse 2", "Swamp Fuse 3"]
         ]
       }
     ]
