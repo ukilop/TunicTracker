@@ -1,48 +1,48 @@
 {
-	"shared_item_grid": {
-		"type": "array",
-		"orientation": "horizontal",
-		"content": [
-			{
-				"type": "itemgrid",
-				"h_alignment": "center",
-				"margin": "-1,0,-5,0",
-				"item_margin": "1,2",
-				"item_size": 40,
-				"rows": [
-					["healshard", "heal", "red", "green", "blue", "oldkey", "key"],
-					["shield", "light", "dash", "vaultkey", "slot", "manual", "soul"],
-					["dynamite", "firebomb", "icebomb", "lure", "effigy", "wishes", "mask"],
-					["stick", "sword", "dagger", "icerod", "staff", "orb", "gun", "hourglass"],
-					["attrelic", "defrelic", "potionrelic", "hprelic", "sprelic", "mprelic","hexquest"],
-					["pray","cross","dath","goldenpower","justawell","ding", "dong"],
-					["captain", "gknight", "engine", "librarian", "scavboss", "gauntlet", "heir"]
-				]
-			}
-		]
-	},
-	"other": {
-		"type": "array",
-		"orientation": "horizontal",
-		"content": [
-			{
-				"type": "itemgrid",
-				"h_alignment": "center",
-				"margin": "-2,0,-2,0",
-				"item_margin": "1,2",
-				"item_size": 40,
-				"rows": [
-					["anklet", "gem", "blueperil", "bone"],
-					["bracer", "strap", "firesword", "ash"],
-					["loud", "cup", "mecho", "bell"],
-					["orangeperil", "perfume", "mask", "tincture"],
-					["mayor", "tunic", "geometry", "vintage"],
-					["pals", "weasel", "spring", "powerup"],
-					["work", "phonomath", "dusty", "friend"]
-				]			
-			}
-		]
-	},
+  "shared_item_grid": {
+    "type": "array",
+    "orientation": "horizontal",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "margin": "-1,0,-5,0",
+        "item_margin": "1,2",
+        "item_size": 40,
+        "rows": [
+          ["healshard", "heal", "red", "green", "blue", "oldkey", "key"],
+          ["shield", "light", "dash", "vaultkey", "slot", "manual", "soul"],
+          ["dynamite", "firebomb", "icebomb", "lure", "effigy", "wishes", "mask"],
+          ["stick", "sword", "dagger", "icerod", "staff", "orb", "gun", "hourglass"],
+          ["attrelic", "defrelic", "potionrelic", "hprelic", "sprelic", "mprelic","hexquest"],
+          ["pray","cross","dath","goldenpower","justawell","ding", "dong"],
+          ["captain", "gknight", "engine", "librarian", "scavboss", "gauntlet", "heir"]
+        ]
+      }
+    ]
+  },
+  "other": {
+    "type": "array",
+    "orientation": "horizontal",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "margin": "-2,0,-2,0",
+        "item_margin": "1,2",
+        "item_size": 40,
+        "rows": [
+          ["anklet", "gem", "blueperil", "bone"],
+          ["bracer", "strap", "firesword", "ash"],
+          ["loud", "cup", "mecho", "bell"],
+          ["orangeperil", "perfume", "mask", "tincture"],
+          ["mayor", "tunic", "geometry", "vintage"],
+          ["pals", "weasel", "spring", "powerup"],
+          ["work", "phonomath", "dusty", "friend"]
+        ]      
+      }
+    ]
+  },
   "ladders": {
     "type": "array",
     "orientation": "horizontal",
@@ -65,7 +65,7 @@
       }
     ]
   },
-	"fuses": {
+  "fuses": {
     "type": "array",
     "orientation": "horizontal",
     "content": [
@@ -76,278 +76,278 @@
         "item_margin": "2,2",
         "item_size": "40",
         "rows": [
-          [ "Ziggurat Miniboss Fuse","Ziggurat Teleporter Fuse","Fortress Candles Fuse", "Fortress Door Left Fuse"],
-          ["Quarry Fuse 2", "Quarry Fuse 1", "Beneath the Vault Fuse","Fortress Door Right Fuse"],
+          [ "Atoll Northwest Fuse","Atoll Northeast Fuse","Fortress Candles Fuse", "Fortress Door Left Fuse"],
+          ["Atoll Southwest Fuse","Atoll Southeast Fuse", "Beneath the Vault Fuse","Fortress Door Right Fuse"],
           ["West Garden Fuse", "West Furnace Fuse", "Fortress Exterior Fuse 2","Fortress Courtyard Fuse"],
-          ["Atoll Northwest Fuse","Atoll Northeast Fuse", "Fortress Exterior Fuse 1","Fortress Courtyard Upper Fuse"],
-          ["Atoll Southwest Fuse","Atoll Southeast Fuse", "Library Lab Fuse","Cathedral Elevator Fuse"],
+          ["Quarry Fuse 2", "Quarry Fuse 1", "Fortress Exterior Fuse 1","Fortress Courtyard Upper Fuse"],
+          ["Ziggurat Miniboss Fuse","Ziggurat Teleporter Fuse", "Library Lab Fuse","Cathedral Elevator Fuse"],
           ["Swamp Fuse 1", "Swamp Fuse 2", "Swamp Fuse 3"]
         ]
       }
     ]
   },
-	"hints": {
-		"type":"array",
+  "hints": {
+    "type":"array",
         "orientation": "horizontal",
         "content": [
-			{
-			"type": "itemgrid",
-				"h_alignment": "center",
-				"margin": "0,0,-3,0",
-				"item_margin": "0,7",
-				"item_size": 63,
-				"rows": [
-					["mailbox", "arrow", "mailhint"],
-					["gravehexGL", "isin", "gravehintGL"],
-					["gravehexMQ", "isin", "gravehintMQ"],
-					["gravehexSW", "isin", "gravehintSW"]
-				]			
-			}
-		]
-	},
-	"hints2": {
-		"type":"array",
+      {
+      "type": "itemgrid",
+        "h_alignment": "center",
+        "margin": "0,0,-3,0",
+        "item_margin": "0,7",
+        "item_size": 63,
+        "rows": [
+          ["mailbox", "arrow", "mailhint"],
+          ["gravehexGL", "isin", "gravehintGL"],
+          ["gravehexMQ", "isin", "gravehintMQ"],
+          ["gravehexSW", "isin", "gravehintSW"]
+        ]      
+      }
+    ]
+  },
+  "hints2": {
+    "type":"array",
         "orientation": "horizontal",
         "content": [
-			{
-			"type": "itemgrid",
-				"h_alignment": "center",
-				"margin": "0,0,0,0",
-				"item_margin": "0,7",
-				"item_size": 63,
-				"rows": [
-					["dash", "isin", "laurelshint"],
-					["graveitemEF", "isin", "gravehintEF"],
-					["graveitemWG", "isin", "gravehintWG"],
-					["graveitemFF", "isin", "gravehintFF"]
-				]			
-			}
-		]
-	},
-	"tracker_capture_item": {
-		"type": "container",
-		"content": {
-			"type": "itemgrid",
-			"h_alignment": "center",
-			"item_margin": "1,2",
-			"rows": [
-				["healshard", "heal", "red", "green", "blue", "oldkey", "key"],
-				["shield", "light", "dash", "vaultkey", "slot", "manual", "soul"],
-				["dynamite", "firebomb", "icebomb", "lure", "effigy", "wishes", "mask"],
-				["stick", "sword", "dagger", "staff", "orb", "gun", "hourglass"],
-				["fangs", "idols", "powder", "flowers", "leaves", "shrooms","hexquest"],
-				["anklet", "gem", "blueperil", "bone"],
-				["bracer", "strap", "firesword", "ash"],
-				["loud", "cup", "mecho", "bell"],
-				["orangeperil", "perfume", "mask", "tincture"],
-				["mayor", "tunic", "geometry", "vintage"],
-				["pals", "weasel", "spring", "powerup"],
-				["work", "phonomath", "dusty", "friend"],
-				["pray","cross","icerod","silver"]
-			]
-		}
-	},
-	"settings": {
-		"type": "array",
-		"orientation": "vertical",
-		"content": [
-			{
-				"type": "group",
-				"header": "Glitch Mode",
-				"header_background": "#3e4b57",
-				"content": [
-					{
-						"type": "item",
-						"item_margin": "-5,-1,-5,-5",
-						"item": "mode"
-					}
-				]
-			},
-			{
-				"type": "group",
-				"header": "Classic/Hexagon Quest",
-				"header_background": "#3e4b57",
-				"content": [
-					{
-						"type": "item",
-						"item_margin": "-5,-1,-5,-5",
-						"item": "hexagonquest"
-					}
-				]
-			},
-			{
-				"type": "group",
-				"header": "Sword Setting",
-				"header_background": "#3e4b57",
-				"content": [
-					{
-						"type": "item",
-						"item_margin": "-5,-1,-5,-5",
-						"item": "progswordSetting"
-					}
-				]
-			},
-			{
-				"type": "group",
-				"header": "Ladder Shuffle",
-				"header_background": "#3e4b57",
-				"content": [
-					{
-						"type": "item",
-						"item_margin": "-5,-1,-5,-5",
-						"item": "ladder_shuffle_off"
-					}
-				]
-			},
-			{
-				"type": "group",
-				"header": "Pack Settings",
-				"header_background": "#3e4b57",
-				"content": [
-					{
-						"type": "array",
-						"orientation": "horizontal",
-						"content": [
-							{
-								"type": "item",
-								"max_width": 80,
-								"item_margin": "5,5,5,5",
-								"item": "auto_tab"
-							},
-							{
-								"type": "item",
-								"max_width": 80,
-								"item_margin": "5,5,5,5",
-								"item": "show_hints"
-							},
-							{
-								"type": "item",
-								"max_width": 80,
-								"item_margin": "5,5,5,5",
-								"item": "fuse_shuffle"
-							}
-						]
-					}
-				]
-			}
-		]
-	},
-	"tricks_toggle": {
-		"type": "array",
-		"orientation": "vertical",
-		"item_size": "20",
-		"content": [
-			{
-				"type": "group",
-				"header": "Maskless",
-				"header_background": "#3e4b57",
-				"content": [
-					{
-						"type": "item",
-						"item_margin": "-5,-1,-5,-5",
-						"item": "maskless",
-						"max_width": 350
-					}
-				]
-			},
-			{
-				"type": "group",
-				"header": "Lanternless",
-				"header_background": "#3e4b57",
-				"content": [
-					{
-						"type": "item",
-						"item_margin": "-5,-1,-5,-5",
-						"item": "lanternless",
-						"max_width": 350
-					}
-				]
-			},
-			{
-				"type": "group",
-				"header": "Laurels Zips",
-				"header_background": "#3e4b57",
-				"content": [
-					{
-						"type": "item",
-						"item_margin": "-5,-1,-5,-5",
-						"item": "laurels_zips",
-						"max_width": 350
-					}
-				]
-			},
-			{
-				"type": "group",
-				"header": "Ice Grappling",
-				"header_background": "#3e4b57",
-				"content": [
-					{
-						"type": "item",
-						"item_margin": "-5,-1,-5,-5",
-						"item": "ice_grapple_off",
-						"max_width": 350
-					}
-				]
-			},
-			{
-				"type": "group",
-				"header": "Ladder Storage",
-				"header_background": "#3e4b57",
-				"content": [
-					{
-						"type": "item",
-						"item_margin": "-5,-1,-5,-5",
-						"item": "ladder_storage_off",
-						"max_width": 350
-					}
-				]
-			},
-			{
-				"type": "group",
-				"header": "Ladder Storage without Items",
-				"header_background": "#3e4b57",
-				"content": [
-					{
-						"type": "item",
-						"item_margin": "-5,-1,-5,-5",
-						"item": "storage_no_items",
-						"max_width": 350
-					}
-				]
-			}
-		]
-	},
-	"tricks_visibility_toggle": {
-		"type": "array",
-		"orientation": "vertical",
-		"item_size": "20",
-		"content": [
-			{
-				"type": "group",
-				"header": "Ice Grappling Visibility",
-				"header_background": "#3e4b57",
-				"content": [
-					{
-						"type": "item",
-						"item_margin": "-5,-1,-5,-5",
-						"item": "vis_ice_grapple_off",
-						"max_width": 350
-					}
-				]
-			},
-			{
-				"type": "group",
-				"header": "Ladder Storage Visibility",
-				"header_background": "#3e4b57",
-				"content": [
-					{
-						"type": "item",
-						"item_margin": "-5,-1,-5,-5",
-						"item": "vis_ladder_storage_off",
-						"max_width": 350
-					}
-				]
-			}
-		]
-	}
+      {
+      "type": "itemgrid",
+        "h_alignment": "center",
+        "margin": "0,0,0,0",
+        "item_margin": "0,7",
+        "item_size": 63,
+        "rows": [
+          ["dash", "isin", "laurelshint"],
+          ["graveitemEF", "isin", "gravehintEF"],
+          ["graveitemWG", "isin", "gravehintWG"],
+          ["graveitemFF", "isin", "gravehintFF"]
+        ]      
+      }
+    ]
+  },
+  "tracker_capture_item": {
+    "type": "container",
+    "content": {
+      "type": "itemgrid",
+      "h_alignment": "center",
+      "item_margin": "1,2",
+      "rows": [
+        ["healshard", "heal", "red", "green", "blue", "oldkey", "key"],
+        ["shield", "light", "dash", "vaultkey", "slot", "manual", "soul"],
+        ["dynamite", "firebomb", "icebomb", "lure", "effigy", "wishes", "mask"],
+        ["stick", "sword", "dagger", "staff", "orb", "gun", "hourglass"],
+        ["fangs", "idols", "powder", "flowers", "leaves", "shrooms","hexquest"],
+        ["anklet", "gem", "blueperil", "bone"],
+        ["bracer", "strap", "firesword", "ash"],
+        ["loud", "cup", "mecho", "bell"],
+        ["orangeperil", "perfume", "mask", "tincture"],
+        ["mayor", "tunic", "geometry", "vintage"],
+        ["pals", "weasel", "spring", "powerup"],
+        ["work", "phonomath", "dusty", "friend"],
+        ["pray","cross","icerod","silver"]
+      ]
+    }
+  },
+  "settings": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "group",
+        "header": "Glitch Mode",
+        "header_background": "#3e4b57",
+        "content": [
+          {
+            "type": "item",
+            "item_margin": "-5,-1,-5,-5",
+            "item": "mode"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "header": "Classic/Hexagon Quest",
+        "header_background": "#3e4b57",
+        "content": [
+          {
+            "type": "item",
+            "item_margin": "-5,-1,-5,-5",
+            "item": "hexagonquest"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "header": "Sword Setting",
+        "header_background": "#3e4b57",
+        "content": [
+          {
+            "type": "item",
+            "item_margin": "-5,-1,-5,-5",
+            "item": "progswordSetting"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "header": "Ladder Shuffle",
+        "header_background": "#3e4b57",
+        "content": [
+          {
+            "type": "item",
+            "item_margin": "-5,-1,-5,-5",
+            "item": "ladder_shuffle_off"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "header": "Pack Settings",
+        "header_background": "#3e4b57",
+        "content": [
+          {
+            "type": "array",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "item",
+                "max_width": 80,
+                "item_margin": "5,5,5,5",
+                "item": "auto_tab"
+              },
+              {
+                "type": "item",
+                "max_width": 80,
+                "item_margin": "5,5,5,5",
+                "item": "show_hints"
+              },
+              {
+                "type": "item",
+                "max_width": 80,
+                "item_margin": "5,5,5,5",
+                "item": "fuse_shuffle"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "tricks_toggle": {
+    "type": "array",
+    "orientation": "vertical",
+    "item_size": "20",
+    "content": [
+      {
+        "type": "group",
+        "header": "Maskless",
+        "header_background": "#3e4b57",
+        "content": [
+          {
+            "type": "item",
+            "item_margin": "-5,-1,-5,-5",
+            "item": "maskless",
+            "max_width": 350
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "header": "Lanternless",
+        "header_background": "#3e4b57",
+        "content": [
+          {
+            "type": "item",
+            "item_margin": "-5,-1,-5,-5",
+            "item": "lanternless",
+            "max_width": 350
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "header": "Laurels Zips",
+        "header_background": "#3e4b57",
+        "content": [
+          {
+            "type": "item",
+            "item_margin": "-5,-1,-5,-5",
+            "item": "laurels_zips",
+            "max_width": 350
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "header": "Ice Grappling",
+        "header_background": "#3e4b57",
+        "content": [
+          {
+            "type": "item",
+            "item_margin": "-5,-1,-5,-5",
+            "item": "ice_grapple_off",
+            "max_width": 350
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "header": "Ladder Storage",
+        "header_background": "#3e4b57",
+        "content": [
+          {
+            "type": "item",
+            "item_margin": "-5,-1,-5,-5",
+            "item": "ladder_storage_off",
+            "max_width": 350
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "header": "Ladder Storage without Items",
+        "header_background": "#3e4b57",
+        "content": [
+          {
+            "type": "item",
+            "item_margin": "-5,-1,-5,-5",
+            "item": "storage_no_items",
+            "max_width": 350
+          }
+        ]
+      }
+    ]
+  },
+  "tricks_visibility_toggle": {
+    "type": "array",
+    "orientation": "vertical",
+    "item_size": "20",
+    "content": [
+      {
+        "type": "group",
+        "header": "Ice Grappling Visibility",
+        "header_background": "#3e4b57",
+        "content": [
+          {
+            "type": "item",
+            "item_margin": "-5,-1,-5,-5",
+            "item": "vis_ice_grapple_off",
+            "max_width": 350
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "header": "Ladder Storage Visibility",
+        "header_background": "#3e4b57",
+        "content": [
+          {
+            "type": "item",
+            "item_margin": "-5,-1,-5,-5",
+            "item": "vis_ladder_storage_off",
+            "max_width": 350
+          }
+        ]
+      }
+    ]
+  }
 }

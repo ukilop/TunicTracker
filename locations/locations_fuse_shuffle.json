@@ -23,8 +23,7 @@
         "sections": [
           {
             "name": "Swamp Fuse 1",
-            "access_rules": "dash",
-            "item_count": 1
+            "access_rules": "dash"
           }
         ]
       },

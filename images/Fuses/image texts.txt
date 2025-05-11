@@ -1,0 +1,28 @@
+SWMP 1		Swamp Fuse 1	
+SWMP 2		Swamp Fuse 2	
+SWMP 3		Swamp Fuse 3	
+CATH		Cathedral Elevator Fuse	
+			
+ATOL NW		Atoll Northwest Fuse	
+ATOL NE		Atoll Northeast Fuse	
+ATOL SE		Atoll Southeast Fuse	
+ATOL SW		Atoll Southwest Fuse	
+			
+FORT EX 1		Fortress Exterior Fuse 1	
+FORT EX 2		Fortress Exterior Fuse 2	
+BTV   Beneath the Vault Fuse	
+FORT CAND		Fortress Candles Fuse	
+			
+FORT C1 	Fortress Courtyard Upper Fuse
+FORT C2 	Fortress Courtyard Fuse
+vault L		Fortress Door Left Fuse	
+vault R		Fortress Door Right Fuse	
+			
+QRRY 1		Quarry Fuse 1	
+QRRY 2		Quarry Fuse 2	
+ZIG MINI		Ziggurat Miniboss Fuse	
+ZIG TELE		Ziggurat Teleporter Fuse	
+			
+FURN		West Furnace Fuse	
+WGAR	GARD	West Garden Fuse	
+LIB		Library Lab Fuse	
