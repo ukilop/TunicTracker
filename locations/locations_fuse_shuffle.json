@@ -22,7 +22,7 @@
         ],
         "sections": [
           {
-            "name": "Swamp Fuse 1",
+            "name": "Activate Fuse",
             "access_rules": "dash"
           }
         ]
@@ -43,8 +43,10 @@
         ],
         "sections": [
           {
-            "name": "Swamp Fuse 2",
-            "access_rules": "@Swamp Mid,Swamp Fuse 1"
+            "name": "Activate Fuse",
+            "access_rules": [
+              "@Swamp Mid,Swamp Fuse 1"
+            ]
           }
         ]
       },
@@ -64,8 +66,10 @@
         ],
         "sections": [
           {
-            "name": "Swamp Fuse 3",
-            "access_rules": "@Swamp Mid,Swamp Fuse 1,Swamp Fuse 2"
+            "name": "Activate Fuse",
+            "access_rules": [
+              "@Swamp Mid,Swamp Fuse 1,Swamp Fuse 2"
+            ]
           }
         ]
       },
@@ -85,7 +89,7 @@
         ],
         "sections": [
           {
-            "name": "Cathedral Elevator Fuse",
+            "name": "Activate Fuse",
             "access_rules": "@Cathedral"
           }
         ]
@@ -106,7 +110,7 @@
         ],
         "sections": [
           {
-            "name": "Atoll Northwest Fuse",
+            "name": "Activate Fuse",
             "access_rules": "@Ruined Atoll"
           }
         ]
@@ -127,7 +131,7 @@
         ],
         "sections": [
           {
-            "name": "Atoll Northeast Fuse",
+            "name": "Activate Fuse",
             "access_rules": "@Ruined Atoll"
           }
         ]
@@ -148,7 +152,7 @@
         ],
         "sections": [
           {
-            "name": "Atoll Southeast Fuse",
+            "name": "Activate Fuse",
             "access_rules": "@Ruined Atoll Ladder Tops"
           }
         ]
@@ -169,7 +173,7 @@
         ],
         "sections": [
           {
-            "name": "Atoll Southwest Fuse",
+            "name": "Activate Fuse",
             "access_rules": "@Ruined Atoll"
           }
         ]
@@ -190,7 +194,7 @@
         ],
         "sections": [
           {
-            "name": "Fortress Exterior Fuse 1",
+            "name": "Activate Fuse",
             "access_rules": "@Fortress Exterior from Overworld"
           }
         ]
@@ -211,7 +215,7 @@
         ],
         "sections": [
           {
-            "name": "Fortress Exterior Fuse 2",
+            "name": "Activate Fuse",
             "access_rules": [
               "@Fortress Exterior from Overworld,Fortress Exterior Fuse 1",
               "@Fortress Exterior near cave,Fortress Exterior Fuse 1"
@@ -235,7 +239,7 @@
         ],
         "sections": [
           {
-            "name": "Beneath the Vault Fuse",
+            "name": "Activate Fuse",
             "access_rules": [
               "@Beneath the Vault Back,Fortress Exterior Fuse 1,Fortress Exterior Fuse 2"
             ]
@@ -258,8 +262,10 @@
         ],
         "sections": [
           {
-            "name": "Fortress Candles Fuse",
-            "access_rules": "@Eastern Vault Fortress,Fortress Exterior Fuse 1,Fortress Exterior Fuse 2,Beneath the Vault Fuse"
+            "name": "Activate Fuse",
+            "access_rules": [
+              "@Eastern Vault Fortress,Fortress Exterior Fuse 1,Fortress Exterior Fuse 2,Beneath the Vault Fuse"
+            ]
           }
         ]
       },
@@ -279,8 +285,10 @@
         ],
         "sections": [
           {
-            "name": "Fortress Courtyard Upper Fuse",
-            "access_rules": "@Fortress Courtyard Upper,Fortress Exterior Fuse 1"
+            "name": "Activate Fuse",
+            "access_rules": [
+              "@Fortress Courtyard Upper,Fortress Exterior Fuse 1"
+            ]
           }
         ]
       },
@@ -300,8 +308,10 @@
         ],
         "sections": [
           {
-            "name": "Fortress Courtyard Fuse",
-            "access_rules": "@Fortress Courtyard,Fortress Exterior Fuse 1,Fortress Courtyard Upper Fuse"
+            "name": "Activate Fuse",
+            "access_rules": [
+              "@Fortress Courtyard,Fortress Exterior Fuse 1,Fortress Courtyard Upper Fuse"
+            ]
           }
         ]
       },
@@ -321,8 +331,10 @@
         ],
         "sections": [
           {
-            "name": "Fortress Door Left Fuse",
-            "access_rules": "@Eastern Vault Fortress,Fortress Exterior Fuse 1,Fortress Exterior Fuse 2,Beneath the Vault Fuse,Fortress Candles Fuse"
+            "name": "Activate Fuse",
+            "access_rules": [
+              "@Eastern Vault Fortress,Fortress Exterior Fuse 1,Fortress Exterior Fuse 2,Beneath the Vault Fuse,Fortress Candles Fuse"
+            ]
           }
         ]
       },
@@ -342,8 +354,10 @@
         ],
         "sections": [
           {
-            "name": "Fortress Door Right Fuse",
-            "access_rules": "@Eastern Vault Fortress,Fortress Exterior Fuse 1,Fortress Courtyard Upper Fuse,Fortress Courtyard Fuse"
+            "name": "Activate Fuse",
+            "access_rules": [
+              "@Eastern Vault Fortress,Fortress Exterior Fuse 1,Fortress Courtyard Upper Fuse,Fortress Courtyard Fuse"
+            ]
           }
         ]
       },
@@ -363,7 +377,7 @@
         ],
         "sections": [
           {
-            "name": "Quarry Fuse 1",
+            "name": "Activate Fuse",
             "access_rules": "@Quarry Connector"
           }
         ]
@@ -385,7 +399,9 @@
         "sections": [
           {
             "name": "Quarry Fuse 2",
-            "access_rules": "@Quarry Entry,Quarry Fuse 1"
+            "access_rules": [
+              "@Quarry Entry,Quarry Fuse 1"
+            ]
           }
         ]
       },
@@ -405,7 +421,7 @@
         ],
         "sections": [
           {
-            "name": "Ziggurat Miniboss Fuse",
+            "name": "Activate Fuse",
             "access_rules": "@Rooted Ziggurat Lower Front"
           }
         ]
@@ -426,7 +442,7 @@
         ],
         "sections": [
           {
-            "name": "Ziggurat Teleporter Fuse",
+            "name": "Activate Fuse",
             "access_rules": "@Rooted Ziggurat Lower Back"
           }
         ]
@@ -442,7 +458,7 @@
         ],
         "sections": [
           {
-            "name": "West Furnace Fuse",
+            "name": "Activate Fuse",
             "access_rules": "@Furnace Fuse"
           }
         ]
@@ -463,7 +479,7 @@
         ],
         "sections": [
           {
-            "name": "West Garden Fuse",
+            "name": "Activate Fuse",
             "access_rules": [
               "@West Garden,dash"
             ]
@@ -486,7 +502,7 @@
         ],
         "sections": [
           {
-            "name": "Library Lab Fuse",
+            "name": "Activate Fuse",
             "access_rules": [
               "@Library Lab,$has_ladder|ladders_in_library"
             ]
